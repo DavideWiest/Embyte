@@ -5,16 +5,16 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 using Embyte.Data.Models;
 
 
-public class TestDbContext : DbContext
+public class EmbyteDbContext : DbContext
 {
-    public DbSet<TestUser> TestUsers { get; set; }
+    public DbSet<WebsiteUsage> WebsiteUsages { get; set; } = default!;
 
-    public TestDbContext(string ConnectionString) : base(ConnectionString)
+    public EmbyteDbContext(string ConnectionString) : base(ConnectionString)
     {
         
     }
 
-    public TestDbContext() : base(GetConnectionString())
+    public EmbyteDbContext() : base(GetConnectionString())
     {
         
     }
@@ -39,7 +39,7 @@ public class TestDbContext : DbContext
         modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         base.OnModelCreating(modelBuilder);
 
-        modelBuilder.Entity<TestUser>().ToTable("TestUser");
+        modelBuilder.Entity<WebsiteUsage>().ToTable("WebsiteUsage");
 
         // seed content here
         new DbInitializer(modelBuilder).Seed();

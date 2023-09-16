@@ -15,7 +15,7 @@
             </MudItem>
             <MudItem>
                 @foreach (var linkPair in c.SubfooterData.Links) {
-                    <MudLink Href=@linkPair.Url Class="p-3">@linkPair.Name</MudLink>
+                    <MudLink Href=@linkPair.Url Class="p-3 text-sm" Color="@Color.Tertiary">@linkPair.Name</MudLink>
                 }
             </MudItem>
         </MudGrid>

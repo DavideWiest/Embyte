@@ -1,6 +1,7 @@
 @namespace Embyte.Shared.Layout
 
 @using Embyte.Data.Storage
+@using MudBlazor
 
 @inject FundamentalStorage c
 @inject Constants constants
@@ -11,16 +12,11 @@
         <div class="grid justify-items-center" style="grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));">
             @foreach (var categoryPair in c.FooterData.Links)
             {
-                <div class="m-4 mx-2 md:m-6">
-                    <h4 class="text-b600 m-2 mb-4 text-center">
-                        @categoryPair.Key
-                    </h4>
-                    @foreach (var linkPair in categoryPair.Value) {
-                        <div class="m-2 text-center">
-                            <a href="@linkPair.Url" class="hover:underline text-gray-300 hover:text-focusColor">@linkPair.Name</a>
-                        </div>
-                    }
-                </div>
+                @foreach (var linkPair in categoryPair.Value) {
+                    <div class="m-2 text-center">
+                        <a href="@linkPair.Url" class="hover:underline text-gray-300 hover:text-focusColor">@linkPair.Name</a>
+                    </div>
+                }
             }
         </div>
     </div>

@@ -18,9 +18,9 @@ public class FundamentalStorage
 
         public IReadOnlyList<Link> Links { get; } = new List<Link>
         {
-            new Link("navbar link 1", "/navbar1"),
-            new Link("navbar link 2", "/navbar2"),
-            new Link("navbar link 3", "#navbar3")
+            new Link("Github Repository", "https://github.com/DavideWiest/Embyte"),
+            new Link("Creator", "https://github.com/DavideWiest"),
+            new Link("Contact", "mailto:davide.wiest2@gmail.com")
         };
 
         public string SpecialAnnouncement { get; } = "A special announcement";
@@ -43,36 +43,12 @@ public class FundamentalStorage
 
         public IReadOnlyDictionary<string, IReadOnlyList<Link>> Links { get; } = new Dictionary<string, IReadOnlyList<Link>>
         {
-            ["Category One"] = new List<Link>
+            ["Footerlinks"] = new List<Link>
             {
-                new Link("footer link 1", "/footer1"),
-                new Link("footer link 2", "/footer2"),
-                new Link("footer link 3", "#footer3")
+                new Link("Github Repository", "https://github.com/DavideWiest/Embyte"),
+                new Link("Creator", "https://github.com/DavideWiest"),
+                new Link("Contact", "mailto:davide.wiest2@gmail.com")
             },
-            ["Category Two"] = new List<Link>
-            {
-                new Link("footer link 1", "/footer1"),
-                new Link("footer link 2", "/footer2"),
-                new Link("footer link 3", "#footer3")
-            },
-            ["Category three"] = new List<Link>
-            {
-                new Link("footer link 1", "/footer1"),
-                new Link("footer link 2", "/footer2"),
-                new Link("footer link 3", "#footer3")
-            },
-            ["Category four"] = new List<Link>
-            {
-                new Link("footer link 1", "/footer1"),
-                new Link("footer link 2", "/footer2"),
-                new Link("footer link 3", "#footer3")
-            },
-            ["Category five"] = new List<Link>
-            {
-                new Link("footer link 1", "/footer1"),
-                new Link("footer link 2", "/footer2"),
-                new Link("footer link 3", "#footer3")
-            }
         };
     }
 

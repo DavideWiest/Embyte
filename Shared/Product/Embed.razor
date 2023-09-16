@@ -1,5 +1,52 @@
-﻿<h3>Embed</h3>
+﻿@namespace Embyte.Shared.Product
+
+@using MudBlazor
+@using Embyte.Shared
+@using Embyte.Modules.Product
+@using Embyte.Data.Storage
+@using Embyte.Data.Product
+@inject Constants constants
+@inject MainStorage mainstorage
+
+<div>
+    <MudCard>
+        <MudCardHeader>
+            <CardHeaderAvatar>
+                <MudAvatar>
+                    <MudImage Src="@info.FavIconUrl" Alt="@("Favicon of " + @info.Title)"></MudImage>
+                </MudAvatar>
+            </CardHeaderAvatar>
+            <CardHeaderContent>
+                <MudText Typo="Typo.body1">Istra Croatia</MudText>
+                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
+            </CardHeaderContent>
+        </MudCardHeader>
+        <MudCardMedia Image="@info.ImageUrl" Height="250" />
+        <MudCardContent>
+            <MudText Typo="Typo.body2">@info.Description</MudText>
+        </MudCardContent>
+        <MudCardActions>
+            <a href="@info.Url">
+                <MudIconButton Icon="@Icons.Material.Rounded.OpenInNew" Color="Color.Primary" />
+            </a>
+        </MudCardActions>
+    </MudCard>
+</div>
 
 @code {
+    [Parameter]
+    public string Url { get; set; } = EmbyteStorage.DefaultUrl;
 
+    private WebsiteInfo info = default!;
+    private WebsiteInfoStatus status = default!;
+
+    protected override void OnInitialized()
+    {
+        ShowNewInfos();
+    }
+
+    public void ShowNewInfos()
+    {
+        (info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
+    }
 }

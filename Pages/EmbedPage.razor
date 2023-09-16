@@ -1,0 +1,29 @@
+﻿@namespace Embyte.Pages
+
+@page "/embed/{Url}"
+@using MudBlazor
+@using Embyte.Shared.Product
+@using Embyte.Modules
+@using Embyte.Data.Storage
+@inject Constants constants
+@inject MainStorage mainstorage
+
+<Embed Url="@Url" />
+
+<MudTextField Label="Url" @bind-Value="@Url" />
+
+<MudButton @OnClick="Rerender">Rerender</MudButton>
+
+@code {
+    private string Url = EmbyteStorage.DefaultUrl;
+
+    protected override void OnInitialized()
+    {
+
+    }
+
+    private void Rerender()
+    {
+        
+    }
+}

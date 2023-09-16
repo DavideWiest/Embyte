@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Modules.Db.TestDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Modules.Db.EmbyteDbContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
         }
 
-        protected override void Seed(Modules.Db.TestDbContext context)
+        protected override void Seed(Modules.Db.EmbyteDbContext context)
         {
             //  This method will be called after migrating to the latest version.
 
