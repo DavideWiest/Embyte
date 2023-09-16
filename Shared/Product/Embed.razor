@@ -5,48 +5,137 @@
 @using Embyte.Modules.Product
 @using Embyte.Data.Storage
 @using Embyte.Data.Product
+@using Embyte.Modules.Db
+@using Embyte.Modules.Logging
 @inject Constants constants
 @inject MainStorage mainstorage
+@inject WebsiteUsageManager usageManager
 
-<div>
-    <MudCard>
-        <MudCardHeader>
-            <CardHeaderAvatar>
-                <MudAvatar>
-                    <MudImage Src="@info.FavIconUrl" Alt="@("Favicon of " + @info.Title)"></MudImage>
-                </MudAvatar>
-            </CardHeaderAvatar>
-            <CardHeaderContent>
-                <MudText Typo="Typo.body1">Istra Croatia</MudText>
-                <MudText Typo="Typo.body2">Peninsula in Europe</MudText>
-            </CardHeaderContent>
-        </MudCardHeader>
-        <MudCardMedia Image="@info.ImageUrl" Height="250" />
-        <MudCardContent>
-            <MudText Typo="Typo.body2">@info.Description</MudText>
-        </MudCardContent>
-        <MudCardActions>
-            <a href="@info.Url">
-                <MudIconButton Icon="@Icons.Material.Rounded.OpenInNew" Color="Color.Primary" />
-            </a>
-        </MudCardActions>
-    </MudCard>
+<div class="flex justify-center">
+    <MudCard Class="max-w-3xl max-h-2xl rounded-xl shadow-xl flex bg-neutral-900 overflow-hidden">
+        <div class="h-full" style="@("background: " + info.ThemeColor + "; width: 10px !important; overflow: hidden; white-space: nowrap;")">
+
+        </div>
+        <div class="p-3" style="width: calc(100%-10px);">
+            @if (!displayLoading)
+            {
+                @if (!string.IsNullOrEmpty(info.FavIconUrl)) {
+                <MudCardHeader>
+                        <CardHeaderAvatar>
+                            <MudAvatar>
+                                <MudImage Src="@info.FavIconUrl" Alt="@("Favicon of " + @info.Title)"></MudImage>
+                            </MudAvatar>
+                        </CardHeaderAvatar>
+                    <CardHeaderContent>
+                        <a href="@info.Url" target="_blank">
+                        <MudText Typo="Typo.h6" Class="text-blue-500 text-b600">@info.Title</MudText>
+                        </a>
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName • @info.SiteType</MudText>
+                    </CardHeaderContent>
+                    </MudCardHeader>
+                } else
+                {
+                    <MudCardHeader>
+                        <CardHeaderContent>
+                            <MudText Typo="Typo.body1">@info.Title</MudText>
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName • @info.SiteType</MudText>
+                        </CardHeaderContent>
+                    </MudCardHeader>
+                }
+                @if (!string.IsNullOrEmpty(info.ImageUrl))
+                {
+                    <MudCardMedia Image="@info.ImageUrl" Class="rounded-lg" />
+                }
+                <div class="max-h-36 md:max-h-28" style="overflow-y: auto;">
+                    @if (!string.IsNullOrEmpty(info.Description))
+                    {
+                        <div class="p-2 py-3">
+                            <MudText Typo="Typo.body2">@info.Description</MudText>
+                        </div>
+                    }
+                    <div>
+                        @foreach (var keyword in info.Keywords)
+                        {
+                            <p class="inline-block p-1.5 text-sm px-2 m-1 bg-black rounded-lg text-gray-500">
+                                @keyword
+                            </p>
+                        }
+                    </div>
+                </div>
+            } else
+            {
+                <div class="flex justify-center items-center">
+                    <MudProgressCircular Color="Color.Primary" Indeterminate="true" />
+                </div>
+            }
+        </div>
+    </MudCard> 
 </div>
 
+@if (ShowTimespans)
+{
+    <div class="mt-4">
+        <p class="text-sm" style="color: rgb(112 118 134)">
+            Request: @(status.requestDurationMS)ms • Parsing: @(status.parsingDurationMS)ms • Status: @(status.statusType)
+        </p>
+    </div>
+}
+
+
 @code {
+    private string _url = EmbyteStorage.DefaultUrl;
+
     [Parameter]
-    public string Url { get; set; } = EmbyteStorage.DefaultUrl;
+    public string Url { get { return _url; } set { _url = value; RerenderEmbed(); } }
+    private string prevUrl { get; set; } = EmbyteStorage.DefaultUrl;
 
     private WebsiteInfo info = default!;
-    private WebsiteInfoStatus status = default!;
+    public WebsiteInfoStatus status = default!;
+
+    private bool displayLoading = true;
+
+    [Parameter]
+    public bool ShowTimespans { get; set; } = false;
 
     protected override void OnInitialized()
     {
-        ShowNewInfos();
+        // RerenderEmbed();
     }
 
-    public void ShowNewInfos()
+    public void RerenderEmbed()
     {
+        displayLoading = true;
+        Log.Debug("RerenderEmbed called");
         (info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
+        info.validateData();
+
+        if (!WebsiteInfoExtractor.IsImage(info.ImageUrl))
+            info.ImageUrl = string.Empty;
+
+        if (!WebsiteInfoExtractor.IsImage(info.FavIconUrl))
+            info.ImageUrl = string.Empty;
+
+        Log.Debug(status.ToString());
+
+        Log.Debug("{info}", info.Title);
+        Log.Debug("{status}", status.statusType);
+
+        if (Url != prevUrl)
+        {
+            Url = trimDoubleHttpses(Url);
+            usageManager.SaveRequest(Url);
+        }
+        prevUrl = Url;
+
+        displayLoading = false;
+    }   
+
+    private string trimDoubleHttpses(string url)
+    {
+        while (url.StartsWith("https://https://"))
+        {
+            url = url.Substring(8);
+        }
+        return url;
     }
 }

@@ -1,0 +1,2296 @@
+2023-09-16 22:35:43.813 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-16 22:35:43.849 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-16 22:35:43.851 +02:00 [DBG] Number of entries in WebsiteUsage 51
+2023-09-16 22:35:44.479 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:45.736 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 962
+Parsing Duration (ms): 8
+
+2023-09-16 22:35:45.736 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:45.738 +02:00 [DBG] "success"
+2023-09-16 22:35:45.817 +02:00 [INF] Request Ip=::1 Url=/ Time=1628.131
+2023-09-16 22:35:45.842 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:45.845 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.470
+2023-09-16 22:35:45.845 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=006.464
+2023-09-16 22:35:45.845 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=006.466
+2023-09-16 22:35:46.075 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=006.138
+2023-09-16 22:35:46.156 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=009.637
+2023-09-16 22:35:46.229 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:46.688 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 261
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:46.688 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:46.688 +02:00 [DBG] "success"
+2023-09-16 22:35:47.810 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1700
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:47.811 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:47.811 +02:00 [DBG] "success"
+2023-09-16 22:35:47.814 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=1995.268
+2023-09-16 22:35:47.820 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:47.826 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.451
+2023-09-16 22:35:47.829 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.179
+2023-09-16 22:35:47.829 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.125
+2023-09-16 22:35:48.009 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.189
+2023-09-16 22:35:48.061 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 74
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:48.061 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:48.061 +02:00 [DBG] "success"
+2023-09-16 22:35:48.064 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=248.820
+2023-09-16 22:35:48.068 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:48.119 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.514
+2023-09-16 22:35:48.153 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:48.257 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:48.257 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:48.257 +02:00 [DBG] "success"
+2023-09-16 22:35:48.260 +02:00 [INF] Request Ip=::1 Url=/ Time=194.890
+2023-09-16 22:35:48.876 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 511
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:48.876 +02:00 [DBG] DavideWiest - Overview
+2023-09-16 22:35:48.876 +02:00 [DBG] "success"
+2023-09-16 22:35:51.568 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=010.241
+2023-09-16 22:35:51.572 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=5413.140
+2023-09-16 22:35:55.168 +02:00 [DBG] UrlFront: https://github.com/Davide
+2023-09-16 22:35:55.168 +02:00 [DBG] Url request: https://https://github.com/Davide
+2023-09-16 22:35:55.168 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:57.462 +02:00 [ERR] WebException occured when requesting url https://https://github.com/Davide, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:35:57.470 +02:00 [DBG] Status Type: requestFailed
+Response Status Code: OK
+Web Status: NameResolutionFailure
+Message: Der angegebene Host ist unbekannt. (https:443)
+Exception: Der angegebene Host ist unbekannt. (https:443)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-09-16 22:35:57.470 +02:00 [DBG] Unknown
+2023-09-16 22:35:57.470 +02:00 [DBG] "requestFailed"
+2023-09-16 22:35:57.470 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:58.154 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 500
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:58.154 +02:00 [DBG] davide - Overview
+2023-09-16 22:35:58.154 +02:00 [DBG] "success"
+2023-09-16 22:35:58.154 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:58.382 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:58.382 +02:00 [DBG] davide - Overview
+2023-09-16 22:35:58.382 +02:00 [DBG] "success"
+2023-09-16 22:35:58.382 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:58.627 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:58.627 +02:00 [DBG] davide - Overview
+2023-09-16 22:35:58.627 +02:00 [DBG] "success"
+2023-09-16 22:35:58.627 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:58.888 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:58.888 +02:00 [DBG] davide - Overview
+2023-09-16 22:35:58.888 +02:00 [DBG] "success"
+2023-09-16 22:35:58.888 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:35:59.556 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 485
+Parsing Duration (ms): 1
+
+2023-09-16 22:35:59.556 +02:00 [DBG] davide - Overview
+2023-09-16 22:35:59.556 +02:00 [DBG] "success"
+2023-09-16 22:35:59.556 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:00.217 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 464
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:00.217 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:00.217 +02:00 [DBG] "success"
+2023-09-16 22:36:00.217 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:00.471 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:00.471 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:00.471 +02:00 [DBG] "success"
+2023-09-16 22:36:00.471 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:00.728 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 53
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:00.728 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:00.728 +02:00 [DBG] "success"
+2023-09-16 22:36:00.728 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:00.999 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:00.999 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:00.999 +02:00 [DBG] "success"
+2023-09-16 22:36:00.999 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:01.246 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:01.246 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:01.246 +02:00 [DBG] "success"
+2023-09-16 22:36:01.246 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:01.525 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:01.525 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:01.525 +02:00 [DBG] "success"
+2023-09-16 22:36:01.525 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:01.791 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:01.791 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:01.791 +02:00 [DBG] "success"
+2023-09-16 22:36:01.791 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:02.058 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:02.058 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:02.058 +02:00 [DBG] "success"
+2023-09-16 22:36:02.059 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:02.365 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:02.365 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:02.365 +02:00 [DBG] "success"
+2023-09-16 22:36:02.365 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:02.607 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:02.607 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:02.607 +02:00 [DBG] "success"
+2023-09-16 22:36:02.607 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:02.881 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:02.881 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:02.881 +02:00 [DBG] "success"
+2023-09-16 22:36:02.881 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:03.139 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:03.140 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:03.140 +02:00 [DBG] "success"
+2023-09-16 22:36:03.140 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:03.384 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:03.384 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:03.384 +02:00 [DBG] "success"
+2023-09-16 22:36:03.384 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:03.639 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:03.639 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:03.639 +02:00 [DBG] "success"
+2023-09-16 22:36:03.639 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:03.904 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:03.904 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:03.904 +02:00 [DBG] "success"
+2023-09-16 22:36:03.904 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:04.169 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:04.169 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:04.169 +02:00 [DBG] "success"
+2023-09-16 22:36:04.169 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:04.426 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:04.426 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:04.426 +02:00 [DBG] "success"
+2023-09-16 22:36:04.426 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:04.734 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:04.734 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:04.734 +02:00 [DBG] "success"
+2023-09-16 22:36:04.734 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:05.021 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:05.021 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:05.021 +02:00 [DBG] "success"
+2023-09-16 22:36:05.021 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:05.283 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:05.283 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:05.283 +02:00 [DBG] "success"
+2023-09-16 22:36:05.283 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:05.536 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:05.536 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:05.536 +02:00 [DBG] "success"
+2023-09-16 22:36:05.536 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:05.785 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:05.785 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:05.785 +02:00 [DBG] "success"
+2023-09-16 22:36:05.785 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:06.031 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:06.031 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:06.031 +02:00 [DBG] "success"
+2023-09-16 22:36:06.031 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:06.708 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 446
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:06.708 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:06.708 +02:00 [DBG] "success"
+2023-09-16 22:36:06.708 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:06.991 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:06.991 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:06.991 +02:00 [DBG] "success"
+2023-09-16 22:36:06.991 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:07.271 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:07.271 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:07.271 +02:00 [DBG] "success"
+2023-09-16 22:36:07.271 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:07.517 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:07.517 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:07.517 +02:00 [DBG] "success"
+2023-09-16 22:36:07.517 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:07.778 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 53
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:07.778 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:07.778 +02:00 [DBG] "success"
+2023-09-16 22:36:07.778 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:08.044 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:08.044 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:08.044 +02:00 [DBG] "success"
+2023-09-16 22:36:08.044 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:08.288 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:08.288 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:08.288 +02:00 [DBG] "success"
+2023-09-16 22:36:08.288 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:08.530 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:08.530 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:08.530 +02:00 [DBG] "success"
+2023-09-16 22:36:08.530 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:08.795 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:08.795 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:08.795 +02:00 [DBG] "success"
+2023-09-16 22:36:08.795 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:09.049 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:09.049 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:09.049 +02:00 [DBG] "success"
+2023-09-16 22:36:09.049 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:09.339 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:09.339 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:09.339 +02:00 [DBG] "success"
+2023-09-16 22:36:09.339 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:09.611 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:09.611 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:09.611 +02:00 [DBG] "success"
+2023-09-16 22:36:09.611 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:09.879 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:09.879 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:09.879 +02:00 [DBG] "success"
+2023-09-16 22:36:09.879 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:10.112 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 53
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:10.112 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:10.112 +02:00 [DBG] "success"
+2023-09-16 22:36:10.112 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:10.346 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:10.346 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:10.346 +02:00 [DBG] "success"
+2023-09-16 22:36:10.346 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:10.559 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:10.559 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:10.559 +02:00 [DBG] "success"
+2023-09-16 22:36:10.559 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:10.790 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:10.790 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:10.790 +02:00 [DBG] "success"
+2023-09-16 22:36:10.790 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:11.025 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:11.025 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:11.025 +02:00 [DBG] "success"
+2023-09-16 22:36:11.025 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:11.243 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:11.243 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:11.243 +02:00 [DBG] "success"
+2023-09-16 22:36:11.244 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:11.469 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:11.469 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:11.469 +02:00 [DBG] "success"
+2023-09-16 22:36:11.469 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:11.756 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:11.756 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:11.756 +02:00 [DBG] "success"
+2023-09-16 22:36:11.756 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:12.031 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:12.031 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:12.031 +02:00 [DBG] "success"
+2023-09-16 22:36:12.031 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:12.285 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:12.285 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:12.285 +02:00 [DBG] "success"
+2023-09-16 22:36:12.285 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:12.543 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:12.543 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:12.543 +02:00 [DBG] "success"
+2023-09-16 22:36:12.543 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:12.799 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:12.799 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:12.799 +02:00 [DBG] "success"
+2023-09-16 22:36:12.799 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:13.056 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:13.056 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:13.056 +02:00 [DBG] "success"
+2023-09-16 22:36:13.056 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:13.308 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:13.309 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:13.309 +02:00 [DBG] "success"
+2023-09-16 22:36:13.309 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:13.541 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:13.541 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:13.541 +02:00 [DBG] "success"
+2023-09-16 22:36:13.541 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:13.815 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 68
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:13.815 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:13.815 +02:00 [DBG] "success"
+2023-09-16 22:36:13.815 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:14.053 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:14.053 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:14.053 +02:00 [DBG] "success"
+2023-09-16 22:36:14.053 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:14.315 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:14.315 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:14.315 +02:00 [DBG] "success"
+2023-09-16 22:36:14.315 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:14.587 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:14.587 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:14.587 +02:00 [DBG] "success"
+2023-09-16 22:36:14.587 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:14.874 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:14.874 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:14.874 +02:00 [DBG] "success"
+2023-09-16 22:36:14.874 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:15.100 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:15.100 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:15.100 +02:00 [DBG] "success"
+2023-09-16 22:36:15.100 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:15.351 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:15.351 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:15.351 +02:00 [DBG] "success"
+2023-09-16 22:36:15.351 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:15.602 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:15.603 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:15.603 +02:00 [DBG] "success"
+2023-09-16 22:36:15.603 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:15.856 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:15.856 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:15.856 +02:00 [DBG] "success"
+2023-09-16 22:36:15.856 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:16.130 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:16.130 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:16.130 +02:00 [DBG] "success"
+2023-09-16 22:36:16.130 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:16.373 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:16.373 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:16.373 +02:00 [DBG] "success"
+2023-09-16 22:36:16.373 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:16.610 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:16.611 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:16.611 +02:00 [DBG] "success"
+2023-09-16 22:36:16.611 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:16.842 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:16.842 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:16.842 +02:00 [DBG] "success"
+2023-09-16 22:36:16.842 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:17.069 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:17.069 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:17.069 +02:00 [DBG] "success"
+2023-09-16 22:36:17.069 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:17.329 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:17.329 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:17.329 +02:00 [DBG] "success"
+2023-09-16 22:36:17.329 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:17.590 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:17.590 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:17.590 +02:00 [DBG] "success"
+2023-09-16 22:36:17.590 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:17.922 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 101
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:17.922 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:17.922 +02:00 [DBG] "success"
+2023-09-16 22:36:17.922 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:18.242 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 112
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:18.242 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:18.242 +02:00 [DBG] "success"
+2023-09-16 22:36:18.242 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:18.511 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:18.511 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:18.511 +02:00 [DBG] "success"
+2023-09-16 22:36:18.511 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:18.765 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:18.765 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:18.765 +02:00 [DBG] "success"
+2023-09-16 22:36:18.765 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:19.038 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 57
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:19.038 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:19.038 +02:00 [DBG] "success"
+2023-09-16 22:36:19.038 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:19.305 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:19.305 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:19.305 +02:00 [DBG] "success"
+2023-09-16 22:36:19.305 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:19.520 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:19.521 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:19.521 +02:00 [DBG] "success"
+2023-09-16 22:36:19.521 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:19.743 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:19.743 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:19.743 +02:00 [DBG] "success"
+2023-09-16 22:36:19.743 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:19.965 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:19.965 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:19.965 +02:00 [DBG] "success"
+2023-09-16 22:36:19.965 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:20.196 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:20.196 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:20.196 +02:00 [DBG] "success"
+2023-09-16 22:36:20.196 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:20.455 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:20.455 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:20.455 +02:00 [DBG] "success"
+2023-09-16 22:36:20.455 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:20.683 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:20.683 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:20.683 +02:00 [DBG] "success"
+2023-09-16 22:36:20.683 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:20.963 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:20.963 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:20.963 +02:00 [DBG] "success"
+2023-09-16 22:36:20.963 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:21.208 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:21.208 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:21.208 +02:00 [DBG] "success"
+2023-09-16 22:36:21.208 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:21.456 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:21.456 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:21.456 +02:00 [DBG] "success"
+2023-09-16 22:36:21.456 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:21.710 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:21.710 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:21.710 +02:00 [DBG] "success"
+2023-09-16 22:36:21.710 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:21.946 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:21.946 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:21.946 +02:00 [DBG] "success"
+2023-09-16 22:36:21.946 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:22.209 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:22.209 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:22.209 +02:00 [DBG] "success"
+2023-09-16 22:36:22.209 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:22.457 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:22.457 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:22.457 +02:00 [DBG] "success"
+2023-09-16 22:36:22.457 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:22.695 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:22.695 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:22.695 +02:00 [DBG] "success"
+2023-09-16 22:36:22.695 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:22.964 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:22.964 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:22.964 +02:00 [DBG] "success"
+2023-09-16 22:36:22.964 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:23.183 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:23.183 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:23.183 +02:00 [DBG] "success"
+2023-09-16 22:36:23.183 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:23.451 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:23.451 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:23.451 +02:00 [DBG] "success"
+2023-09-16 22:36:23.451 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:23.708 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:23.709 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:23.709 +02:00 [DBG] "success"
+2023-09-16 22:36:23.709 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:23.960 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:23.960 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:23.960 +02:00 [DBG] "success"
+2023-09-16 22:36:23.960 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:24.168 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:24.168 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:24.168 +02:00 [DBG] "success"
+2023-09-16 22:36:24.168 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:24.406 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:24.406 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:24.406 +02:00 [DBG] "success"
+2023-09-16 22:36:24.406 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:24.639 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:24.639 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:24.639 +02:00 [DBG] "success"
+2023-09-16 22:36:24.639 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:24.886 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:24.886 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:24.886 +02:00 [DBG] "success"
+2023-09-16 22:36:24.886 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:25.142 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:25.142 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:25.142 +02:00 [DBG] "success"
+2023-09-16 22:36:25.142 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:25.396 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:25.396 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:25.396 +02:00 [DBG] "success"
+2023-09-16 22:36:25.396 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:25.674 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:25.674 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:25.674 +02:00 [DBG] "success"
+2023-09-16 22:36:25.674 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:25.926 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:25.926 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:25.926 +02:00 [DBG] "success"
+2023-09-16 22:36:25.926 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:26.182 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:26.182 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:26.182 +02:00 [DBG] "success"
+2023-09-16 22:36:26.182 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:26.423 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:26.423 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:26.423 +02:00 [DBG] "success"
+2023-09-16 22:36:26.424 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:26.695 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:26.695 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:26.695 +02:00 [DBG] "success"
+2023-09-16 22:36:26.695 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:26.959 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:26.959 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:26.959 +02:00 [DBG] "success"
+2023-09-16 22:36:26.959 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:27.194 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:27.194 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:27.194 +02:00 [DBG] "success"
+2023-09-16 22:36:27.194 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:27.436 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:27.436 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:27.436 +02:00 [DBG] "success"
+2023-09-16 22:36:27.436 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:27.687 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:27.687 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:27.687 +02:00 [DBG] "success"
+2023-09-16 22:36:27.687 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:27.955 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:27.955 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:27.955 +02:00 [DBG] "success"
+2023-09-16 22:36:27.955 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:28.224 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:28.224 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:28.224 +02:00 [DBG] "success"
+2023-09-16 22:36:28.224 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:28.494 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 76
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:28.494 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:28.494 +02:00 [DBG] "success"
+2023-09-16 22:36:28.494 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:28.725 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:28.725 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:28.725 +02:00 [DBG] "success"
+2023-09-16 22:36:28.725 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:28.961 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:28.961 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:28.961 +02:00 [DBG] "success"
+2023-09-16 22:36:28.961 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:29.220 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:29.220 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:29.220 +02:00 [DBG] "success"
+2023-09-16 22:36:29.220 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:29.466 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:29.466 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:29.466 +02:00 [DBG] "success"
+2023-09-16 22:36:29.466 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:29.725 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:29.725 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:29.725 +02:00 [DBG] "success"
+2023-09-16 22:36:29.725 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:30.004 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:30.004 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:30.004 +02:00 [DBG] "success"
+2023-09-16 22:36:30.004 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:30.246 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:30.247 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:30.247 +02:00 [DBG] "success"
+2023-09-16 22:36:30.247 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:30.506 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:30.506 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:30.506 +02:00 [DBG] "success"
+2023-09-16 22:36:30.506 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:30.751 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:30.751 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:30.751 +02:00 [DBG] "success"
+2023-09-16 22:36:30.751 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:31.044 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:31.044 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:31.044 +02:00 [DBG] "success"
+2023-09-16 22:36:31.045 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:31.329 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:31.330 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:31.330 +02:00 [DBG] "success"
+2023-09-16 22:36:31.330 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:31.594 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:31.594 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:31.594 +02:00 [DBG] "success"
+2023-09-16 22:36:31.594 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:31.870 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:31.870 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:31.870 +02:00 [DBG] "success"
+2023-09-16 22:36:31.870 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:32.112 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:32.112 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:32.112 +02:00 [DBG] "success"
+2023-09-16 22:36:32.112 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:32.365 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:32.365 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:32.365 +02:00 [DBG] "success"
+2023-09-16 22:36:32.365 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:32.626 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:32.626 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:32.626 +02:00 [DBG] "success"
+2023-09-16 22:36:32.626 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:32.890 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:32.890 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:32.890 +02:00 [DBG] "success"
+2023-09-16 22:36:32.890 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:33.142 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:33.142 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:33.142 +02:00 [DBG] "success"
+2023-09-16 22:36:33.142 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:33.400 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:33.400 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:33.400 +02:00 [DBG] "success"
+2023-09-16 22:36:33.400 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:33.657 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:33.657 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:33.657 +02:00 [DBG] "success"
+2023-09-16 22:36:33.657 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:33.889 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:33.890 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:33.890 +02:00 [DBG] "success"
+2023-09-16 22:36:33.890 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:34.155 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:34.155 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:34.155 +02:00 [DBG] "success"
+2023-09-16 22:36:34.155 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:34.410 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:34.410 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:34.410 +02:00 [DBG] "success"
+2023-09-16 22:36:34.410 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:34.661 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:34.661 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:34.661 +02:00 [DBG] "success"
+2023-09-16 22:36:34.661 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:34.895 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:34.895 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:34.895 +02:00 [DBG] "success"
+2023-09-16 22:36:34.895 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:35.155 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:35.155 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:35.155 +02:00 [DBG] "success"
+2023-09-16 22:36:35.155 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:35.416 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:35.416 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:35.416 +02:00 [DBG] "success"
+2023-09-16 22:36:35.416 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:35.652 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:35.653 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:35.653 +02:00 [DBG] "success"
+2023-09-16 22:36:35.653 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:35.904 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:35.904 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:35.904 +02:00 [DBG] "success"
+2023-09-16 22:36:35.904 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:36.160 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:36.160 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:36.160 +02:00 [DBG] "success"
+2023-09-16 22:36:36.160 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:36.416 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:36.416 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:36.416 +02:00 [DBG] "success"
+2023-09-16 22:36:36.416 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:36.656 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:36.656 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:36.656 +02:00 [DBG] "success"
+2023-09-16 22:36:36.656 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:36.904 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:36.904 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:36.904 +02:00 [DBG] "success"
+2023-09-16 22:36:36.904 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:37.180 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:37.180 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:37.180 +02:00 [DBG] "success"
+2023-09-16 22:36:37.180 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:37.442 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:37.442 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:37.442 +02:00 [DBG] "success"
+2023-09-16 22:36:37.442 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:37.698 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:37.699 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:37.699 +02:00 [DBG] "success"
+2023-09-16 22:36:37.699 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:37.936 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:37.936 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:37.936 +02:00 [DBG] "success"
+2023-09-16 22:36:37.937 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:38.186 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:38.186 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:38.186 +02:00 [DBG] "success"
+2023-09-16 22:36:38.186 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:38.430 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:38.430 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:38.430 +02:00 [DBG] "success"
+2023-09-16 22:36:38.430 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:38.699 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:38.699 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:38.699 +02:00 [DBG] "success"
+2023-09-16 22:36:38.699 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:38.976 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:38.976 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:38.976 +02:00 [DBG] "success"
+2023-09-16 22:36:38.976 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:39.214 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:39.214 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:39.214 +02:00 [DBG] "success"
+2023-09-16 22:36:39.214 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:39.459 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:39.459 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:39.459 +02:00 [DBG] "success"
+2023-09-16 22:36:39.459 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:39.694 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:39.694 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:39.694 +02:00 [DBG] "success"
+2023-09-16 22:36:39.694 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:39.939 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:39.939 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:39.939 +02:00 [DBG] "success"
+2023-09-16 22:36:39.939 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:40.158 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:40.158 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:40.158 +02:00 [DBG] "success"
+2023-09-16 22:36:40.158 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:40.421 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:40.421 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:40.421 +02:00 [DBG] "success"
+2023-09-16 22:36:40.421 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:41.106 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 487
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:41.106 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:41.106 +02:00 [DBG] "success"
+2023-09-16 22:36:41.106 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:41.351 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:41.351 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:41.351 +02:00 [DBG] "success"
+2023-09-16 22:36:41.352 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:41.624 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:41.625 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:41.625 +02:00 [DBG] "success"
+2023-09-16 22:36:41.625 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:41.890 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:41.890 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:41.890 +02:00 [DBG] "success"
+2023-09-16 22:36:41.890 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:42.150 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:42.150 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:42.150 +02:00 [DBG] "success"
+2023-09-16 22:36:42.150 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:42.385 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:42.385 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:42.385 +02:00 [DBG] "success"
+2023-09-16 22:36:42.385 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:42.620 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:42.620 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:42.620 +02:00 [DBG] "success"
+2023-09-16 22:36:42.620 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:42.906 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:42.906 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:42.906 +02:00 [DBG] "success"
+2023-09-16 22:36:42.906 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:43.168 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:43.168 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:43.168 +02:00 [DBG] "success"
+2023-09-16 22:36:43.168 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:43.421 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:43.421 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:43.421 +02:00 [DBG] "success"
+2023-09-16 22:36:43.421 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:43.717 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 72
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:43.717 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:43.717 +02:00 [DBG] "success"
+2023-09-16 22:36:43.717 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:43.969 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:43.969 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:43.969 +02:00 [DBG] "success"
+2023-09-16 22:36:43.969 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:44.271 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 104
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:44.271 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:44.271 +02:00 [DBG] "success"
+2023-09-16 22:36:44.271 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:44.516 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:44.516 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:44.516 +02:00 [DBG] "success"
+2023-09-16 22:36:44.516 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:45.120 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 403
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:45.120 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:45.120 +02:00 [DBG] "success"
+2023-09-16 22:36:45.120 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:45.346 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:45.346 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:45.346 +02:00 [DBG] "success"
+2023-09-16 22:36:45.346 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:45.577 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:45.577 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:45.577 +02:00 [DBG] "success"
+2023-09-16 22:36:45.577 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:45.846 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:45.846 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:45.846 +02:00 [DBG] "success"
+2023-09-16 22:36:45.846 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:46.089 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:46.089 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:46.089 +02:00 [DBG] "success"
+2023-09-16 22:36:46.089 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:46.363 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:46.363 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:46.363 +02:00 [DBG] "success"
+2023-09-16 22:36:46.363 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:46.615 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:46.615 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:46.615 +02:00 [DBG] "success"
+2023-09-16 22:36:46.615 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:46.855 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:46.855 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:46.855 +02:00 [DBG] "success"
+2023-09-16 22:36:46.855 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:47.120 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:47.120 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:47.120 +02:00 [DBG] "success"
+2023-09-16 22:36:47.120 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:47.355 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:47.355 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:47.355 +02:00 [DBG] "success"
+2023-09-16 22:36:47.355 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:47.607 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:47.607 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:47.607 +02:00 [DBG] "success"
+2023-09-16 22:36:47.607 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:47.846 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:47.846 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:47.846 +02:00 [DBG] "success"
+2023-09-16 22:36:47.846 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:48.113 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:48.113 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:48.113 +02:00 [DBG] "success"
+2023-09-16 22:36:48.113 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:48.398 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:48.398 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:48.398 +02:00 [DBG] "success"
+2023-09-16 22:36:48.398 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:48.623 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 33
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:48.623 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:48.623 +02:00 [DBG] "success"
+2023-09-16 22:36:48.623 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:48.869 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:48.869 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:48.869 +02:00 [DBG] "success"
+2023-09-16 22:36:48.869 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:49.124 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:49.124 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:49.124 +02:00 [DBG] "success"
+2023-09-16 22:36:49.124 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:49.389 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:49.389 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:49.389 +02:00 [DBG] "success"
+2023-09-16 22:36:49.389 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:49.631 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:49.631 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:49.631 +02:00 [DBG] "success"
+2023-09-16 22:36:49.631 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:49.882 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:49.882 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:49.882 +02:00 [DBG] "success"
+2023-09-16 22:36:49.882 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:50.101 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:50.102 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:50.102 +02:00 [DBG] "success"
+2023-09-16 22:36:50.102 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:50.341 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:50.341 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:50.341 +02:00 [DBG] "success"
+2023-09-16 22:36:50.341 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:50.593 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:50.593 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:50.593 +02:00 [DBG] "success"
+2023-09-16 22:36:50.593 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:50.851 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:50.851 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:50.851 +02:00 [DBG] "success"
+2023-09-16 22:36:50.851 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:51.098 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:51.098 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:51.098 +02:00 [DBG] "success"
+2023-09-16 22:36:51.098 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:51.361 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:51.361 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:51.361 +02:00 [DBG] "success"
+2023-09-16 22:36:51.361 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:51.604 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:51.604 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:51.604 +02:00 [DBG] "success"
+2023-09-16 22:36:51.604 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:51.855 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:51.855 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:51.855 +02:00 [DBG] "success"
+2023-09-16 22:36:51.855 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:52.087 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:52.087 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:52.087 +02:00 [DBG] "success"
+2023-09-16 22:36:52.087 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:52.346 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:52.346 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:52.346 +02:00 [DBG] "success"
+2023-09-16 22:36:52.346 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:52.583 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:52.583 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:52.583 +02:00 [DBG] "success"
+2023-09-16 22:36:52.583 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:52.834 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:52.834 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:52.834 +02:00 [DBG] "success"
+2023-09-16 22:36:52.834 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:53.055 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:53.055 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:53.055 +02:00 [DBG] "success"
+2023-09-16 22:36:53.055 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:53.331 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:53.331 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:53.331 +02:00 [DBG] "success"
+2023-09-16 22:36:53.331 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:53.603 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:53.603 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:53.603 +02:00 [DBG] "success"
+2023-09-16 22:36:53.603 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:53.856 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:53.856 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:53.856 +02:00 [DBG] "success"
+2023-09-16 22:36:53.856 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:54.098 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:54.098 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:54.098 +02:00 [DBG] "success"
+2023-09-16 22:36:54.098 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:54.340 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:54.340 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:54.340 +02:00 [DBG] "success"
+2023-09-16 22:36:54.340 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:54.585 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:54.585 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:54.585 +02:00 [DBG] "success"
+2023-09-16 22:36:54.585 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:54.864 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-16 22:36:54.864 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:54.864 +02:00 [DBG] "success"
+2023-09-16 22:36:54.864 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:55.094 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:55.094 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:55.094 +02:00 [DBG] "success"
+2023-09-16 22:36:55.094 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:55.342 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:55.342 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:55.342 +02:00 [DBG] "success"
+2023-09-16 22:36:55.342 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:55.577 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:55.577 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:55.577 +02:00 [DBG] "success"
+2023-09-16 22:36:55.577 +02:00 [DBG] RerenderEmbed called
+2023-09-16 22:36:55.805 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-16 22:36:55.805 +02:00 [DBG] davide - Overview
+2023-09-16 22:36:55.805 +02:00 [DBG] "success"
+2023-09-16 22:36:55.805 +02:00 [DBG] RerenderEmbed called

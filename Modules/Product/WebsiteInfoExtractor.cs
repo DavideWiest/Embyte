@@ -8,6 +8,7 @@ using MudBlazor;
 using static System.Net.WebRequestMethods;
 using System.Net;
 using System;
+using Embyte.Modules.Logging;
 
 public class WebsiteInfoExtractor
 {
@@ -31,7 +32,7 @@ public class WebsiteInfoExtractor
             var document = webGet.Load(url);
             status.responseStatusCode = webGet.StatusCode;
 
-            TimeSpan requestDuration = startRequestTime - DateTime.Now;
+            TimeSpan requestDuration = DateTime.Now - startRequestTime;
             status.requestDurationMS = (int)Math.Round(requestDuration.TotalMilliseconds, MidpointRounding.AwayFromZero);
 
             if (status.responseStatusCode == HttpStatusCode.OK)
@@ -40,25 +41,28 @@ public class WebsiteInfoExtractor
 
                 (metaInfo, status) = PareMetaData(metaInfo, status, document);
 
-                TimeSpan parsingDuration = startRequestTime - DateTime.Now;
+                TimeSpan parsingDuration = DateTime.Now - startParsingTime;
                 status.parsingDurationMS = (int)Math.Round(parsingDuration.TotalMilliseconds, MidpointRounding.AwayFromZero);
             }
             else
             {
-                status.errorType = WebsiteInfoError.requestFailed;
+                Log.Debug("Request to {url} failed with status code {statuscode}", url, webGet.StatusCode);
+                status.statusType = WebsiteInfoStatusType.requestFailed;
                 status.message = "Request failed with status code: " + webGet.StatusCode;
             }
         }
         catch (WebException ex)
         {
+            Log.Error("WebException occured when requesting url {url}, status : {errmsg} \n Traceback: \n {traceback}", url, ex.Status, ex.Message, ex.ToString());
             status.webStatus = ex.Status;
-            status.errorType = WebsiteInfoError.internalError; 
+            status.statusType = WebsiteInfoStatusType.requestFailed; 
             status.message = ex.Message;
             status.exception = ex;
         }
         catch (Exception ex)
         {
-            status.errorType = WebsiteInfoError.internalError;
+            Log.Error("Exception occured when requesting url {url}: {errmsg} \n Traceback: \n {traceback}", url, ex.Message, ex.ToString());
+            status.statusType = WebsiteInfoStatusType.internalError;
             status.message = ex.Message;
             status.exception = ex;
         }
@@ -76,15 +80,16 @@ public class WebsiteInfoExtractor
             metaInfo.SiteType = findMetatagContent("type", null, metaTags, ref count) ?? findMetatagContent(null, "og:type", metaTags, ref count) ?? string.Empty;
             metaInfo.Locale = findMetatagContent("locale", null, metaTags, ref count) ?? findMetatagContent(null, "og:locale", metaTags, ref count) ?? string.Empty;
             metaInfo.Description = findMetatagContent("description", null, metaTags, ref count) ?? findMetatagContent(null, "og:description", metaTags, ref count) ?? findMetatagContent("twitter:description", null, metaTags, ref count) ?? string.Empty;
-            metaInfo.Keywords = findMetatagContent("keywords", null, metaTags, ref count) ?? findMetatagContent("news_keywords", null, metaTags, ref count) ?? string.Empty;
+            metaInfo.Keywords = (findMetatagContent("keywords", null, metaTags, ref count) ?? findMetatagContent("news_keywords", null, metaTags, ref count) ?? string.Empty).Split(",").Select(item => item.Trim()).Where(item => !string.IsNullOrEmpty(item)).ToArray();
             metaInfo.FavIconUrl = getFavicon(document) ?? string.Empty;
             metaInfo.ImageUrl = findMetatagContent("image", null, metaTags, ref count) ?? findMetatagContent(null, "og:image", metaTags, ref count) ?? findMetatagContent("twitter:image", null, metaTags, ref count) ?? string.Empty;
+            metaInfo.ThemeColor = findMetatagContent("theme-color", null, metaTags, ref count) ?? string.Empty;
 
             metaInfo.HasData = count > 0;
 
             if (!metaInfo.HasData)
             {
-                status.errorType = WebsiteInfoError.noTagsFound;
+                status.statusType = WebsiteInfoStatusType.noTagsFound;
                 status.message = "No tags were found in the website's response.";
             }
         }
@@ -95,9 +100,9 @@ public class WebsiteInfoExtractor
     {
         foreach (var element in metaTags)
         {
-            if (wantedElementName != null && element.Attributes["name"].Value.IsNullOrEmpty() ||
-                wantedElementProperty != null && element.Attributes["property"].Value.IsNullOrEmpty() ||
-                !contentCanBeNull && element.Attributes["content"].Value.IsNullOrEmpty()
+            if (wantedElementName != null && NullableValueIsNull(element.Attributes["name"]) ||
+                wantedElementProperty != null && NullableValueIsNull(element.Attributes["property"]) ||
+                !contentCanBeNull && NullableValueIsNull(element.Attributes["content"])
                 )
             {
                 continue;
@@ -107,10 +112,17 @@ public class WebsiteInfoExtractor
                 (wantedElementProperty == null || element.Attributes["property"].Value.ToLower() == wantedElementProperty))
             {
                 count++;
-                return element.Attributes["content"].Value;
+                return WebUtility.HtmlDecode(element.Attributes["content"].Value);
             }
         }
         return null;
+    }
+
+    private static bool NullableValueIsNull(HtmlAttribute nullableVar)
+    {
+        if (nullableVar == null)
+            return true;
+        return nullableVar.Value.IsNullOrEmpty();
     }
 
     private static string? getFavicon(HtmlDocument document)
@@ -118,8 +130,29 @@ public class WebsiteInfoExtractor
         var faviconNode = document.DocumentNode.SelectSingleNode("//link[@rel='icon' or @rel='shortcut icon']/@href");
         if (faviconNode != null)
         {
-            return faviconNode.GetAttributeValue("href", null);
+            return WebUtility.HtmlDecode(faviconNode.GetAttributeValue("href", null));
         }
         return null;
+    }
+
+    public static bool IsImage(string imageUrl)
+    {
+        try
+        {
+            // Create a web request with a HEAD method
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(imageUrl);
+            request.Method = "GET";
+
+            // Get the response
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+
+            // Check if the response status code indicates success
+            return response.StatusCode == HttpStatusCode.OK;
+        }
+        catch (Exception)
+        {
+            // An exception occurred, so it's not an image
+            return false;
+        }
     }
 }

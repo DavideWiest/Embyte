@@ -19,7 +19,6 @@ public class WebsiteUsage
 
     public WebsiteUsage()
     {
-        RequestCount = 0;
+        RequestCount = 1;
     }
-
 }

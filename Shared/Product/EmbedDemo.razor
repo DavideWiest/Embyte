@@ -1,0 +1,39 @@
+﻿@using MudBlazor
+@using Embyte.Shared
+@using Embyte.Modules
+@using Embyte.Data.Storage
+@using Embyte.Modules.Logging
+@using System.Text.RegularExpressions;
+
+<div id="embedDemo"></div>
+<Embed Url="@Url" ShowTimespans="true"/>
+<div class="h-5"></div>
+<MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="Rerender" OnBlur="Rerender" />
+
+@code {
+    [Parameter]
+    public string Url { get; set; } = EmbyteStorage.DefaultUrl;
+    private string UrlFront { get; set; } = EmbyteStorage.DefaultUrl;
+
+    private void Rerender()
+    {
+        Log.Debug("UrlFront: {url}", UrlFront);
+
+        if (!UrlFront.StartsWith("https://") || !UrlFront.StartsWith("http://"))
+        {
+            UrlFront = "https://" + UrlFront;
+        }
+
+        if (correctPattern(UrlFront))
+        {
+            Log.Debug("Url request: {url}", UrlFront);
+            Url = UrlFront;
+        }
+    }
+
+    private bool correctPattern(string url)
+    {
+        string pattern = @"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)";
+        return Regex.IsMatch(url, pattern, RegexOptions.IgnoreCase);
+    }
+}

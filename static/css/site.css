@@ -19,23 +19,23 @@ a:hover {
 }
 
 .text-b500 {
-    font-weight: 500;
+    font-weight: 500 !important;
 }
 
 .text-b600 {
-    font-weight: 600;
+    font-weight: 600 !important;
 }
 
 .text-b700 {
-    font-weight: 700;
+    font-weight: 700 !important;
 }
 
 .text-b800 {
-    font-weight: 800;
+    font-weight: 800 !important;
 }
 
 .text-b900 {
-    font-weight: 900;
+    font-weight: 900 !important;
 }
 
 ::selection {
@@ -68,4 +68,13 @@ a:hover {
 
 :focus {
     outline: none;
+}
+
+/* Custom CSS to hide scrollbars */
+.hide-scrollbar::-webkit-scrollbar {
+    width: 0.4rem; /* Adjust the scrollbar width as needed */
+}
+
+.hide-scrollbar::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb (drag handle) */
 }

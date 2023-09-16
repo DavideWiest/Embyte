@@ -1,0 +1,88 @@
+﻿@namespace Embyte.Shared.Product
+
+@using MudBlazor
+@using Embyte.Shared
+@using Embyte.Modules
+@using Embyte.Data.Storage
+@using Embyte.Modules.Db
+@using Embyte.Data.Models
+@inject WebsiteUsageManager wum
+
+<h1 class="text-2xl md:text-4xl text-b600 m-3 mb-1 text-center">
+    Most popular embeds
+</h1>
+<p class="mb-3 text-center">
+    Sorted by total requests
+</p>
+
+<div class="md:flex md:flex-col md:items-center">
+    <div class="max-w-32">
+        @foreach (var (usage, index) in websiteUsages.Select((usage, index) => (usage, index)))
+        {
+            <div class="md:flex">
+                <div class="flex">
+                <p class="code text-gray-500 px-2 w-12 text-right">@(index + 1).</p>
+                <div class="w-48 md:w-64 overflow-x-hidden whitespace-nowrap">
+                    <MudButton OnClick="_ => Url = usage.Url" Style="text-transform: none; padding: 0;"><p class="code px-2">@usage.Url</p></MudButton>
+                </div>
+                </div>
+                <div class="flex">
+                    <p class="px-2 w-16 text-right">@usage.RequestCount</p>
+                    <div class="flex items-center">
+                        <div style="width: @(getPixelWidth(usage.RequestCount))px; height: 4px;" class="bg-purple-500 rounded-xl"></div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+    @if (websiteUsages.Count % itemsPerPage == 0)
+    {
+        <MudButton OnClick="LoadMoreItems" Color="Color.Primary" Variant="Variant.Filled" Class="m-5 rounded-xl px-6">Load More</MudButton>
+    }
+</div>
+
+
+
+@code {
+    [Parameter]
+    public string Url { get; set; } = EmbyteStorage.DefaultUrl;
+    private List<WebsiteUsage> websiteUsages = new();
+    private int currentPage = 1; // Current page number
+    private int itemsPerPage = 50; // Items to load per page
+    private int availableSpacePx = 120;
+
+    private async Task LoadMoreItems()
+    {
+        // Increment the current page
+        currentPage++;
+
+        // Load the next batch of items
+        var newItems = await LoadItems(currentPage, itemsPerPage);
+
+        // Append the new items to the existing list
+        websiteUsages.AddRange(newItems);
+    }
+
+    private async Task<List<WebsiteUsage>> LoadItems(int page, int limit)
+    {
+        // Calculate the offset based on the page number
+        int offset = (page - 1) * limit;
+
+        // Retrieve items from the manager
+        return await wum.ReadEntriesAsync(limit, offset);
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load the initial set of items
+        var newItems = await LoadItems(currentPage, itemsPerPage);
+
+        // Append the new items to the existing list
+        websiteUsages.AddRange(newItems);
+    }
+
+    private int getPixelWidth(int requestCount)
+    {
+        return (int)Math.Round((double)(availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
+    }
+}

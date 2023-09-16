@@ -1,0 +1,149 @@
+2023-09-16 18:11:11.674 +02:00 [ERR] Unable to execute SaveRequest for the url null: System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 48
+2023-09-16 18:11:12.042 +02:00 [ERR] Unable to execute SaveRequest for the url null: System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 48
+2023-09-16 18:11:12.354 +02:00 [ERR] Unable to execute SaveRequest for the url null: System.Data.Entity.Validation.DbEntityValidationException: Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 48
+2023-09-16 18:20:11.178 +02:00 [ERR] Exception occured when requesting url https://github.com/DavideWiest: Object reference not set to an instance of an object.
+2023-09-16 18:20:11.240 +02:00 [ERR] Exception occured when requesting url https://github.com/DavideWiest: Object reference not set to an instance of an object.
+2023-09-16 18:21:38.513 +02:00 [ERR] Exception occured when requesting url https://github.com/DavideWiest: Object reference not set to an instance of an object. 
+ Traceback: 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Embyte.Modules.Product.WebsiteInfoExtractor.findMetatagContent(String wantedElementName, String wantedElementProperty, HtmlNodeCollection metaTags, Int32& count, Boolean contentCanBeNull)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.PareMetaData(WebsiteInfo metaInfo, WebsiteInfoStatus status, HtmlDocument document)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-16 18:21:39.210 +02:00 [ERR] Exception occured when requesting url https://github.com/DavideWiest: Object reference not set to an instance of an object. 
+ Traceback: 
+ System.NullReferenceException: Object reference not set to an instance of an object.
+   at Embyte.Modules.Product.WebsiteInfoExtractor.findMetatagContent(String wantedElementName, String wantedElementProperty, HtmlNodeCollection metaTags, Int32& count, Boolean contentCanBeNull)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.PareMetaData(WebsiteInfo metaInfo, WebsiteInfoStatus status, HtmlDocument document)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-16 19:07:57.132 +02:00 [ERR] WebException occured when requesting url https://ama, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (ama:443)
+2023-09-16 19:13:12.715 +02:00 [ERR] WebException occured when requesting url https://github, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (github:443)
+2023-09-16 19:14:19.730 +02:00 [ERR] WebException occured when requesting url https://githavideWiest, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githavidewiest:443)
+2023-09-16 19:18:32.859 +02:00 [ERR] WebException occured when requesting url https://gith, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (gith:443)
+2023-09-16 19:20:43.916 +02:00 [ERR] WebException occured when requesting url https://githu, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githu:443)
+2023-09-16 19:22:11.360 +02:00 [ERR] WebException occured when requesting url https://githu, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githu:443)
+2023-09-16 19:22:13.646 +02:00 [ERR] WebException occured when requesting url https://githu, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githu:443)
+2023-09-16 19:54:01.201 +02:00 [ERR] WebException occured when requesting url https://davidewiest.co, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (davidewiest.co:443)
+2023-09-16 19:54:02.711 +02:00 [ERR] Exception occured when requesting url https://: Invalid URI: The hostname could not be parsed. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-16 19:54:21.708 +02:00 [ERR] Exception occured when requesting url https://: Invalid URI: The hostname could not be parsed. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The hostname could not be parsed.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-16 19:58:15.549 +02:00 [ERR] WebException occured when requesting url https://hp, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (hp:443)
+2023-09-16 19:58:40.180 +02:00 [ERR] WebException occured when requesting url https://twitter.com, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 19:59:10.726 +02:00 [ERR] WebException occured when requesting url https://twitter.com, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 19:59:15.732 +02:00 [ERR] WebException occured when requesting url https://twitter.com, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 20:00:00.559 +02:00 [ERR] WebException occured when requesting url https://twitter.com, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 20:00:05.575 +02:00 [ERR] WebException occured when requesting url https://twitter.com, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 20:17:43.984 +02:00 [ERR] WebException occured when requesting url https://githuaaa, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githuaaa:443)
+2023-09-16 20:22:52.128 +02:00 [ERR] WebException occured when requesting url https://g.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (g.c:443)
+2023-09-16 20:23:48.537 +02:00 [ERR] WebException occured when requesting url https://g.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (g.c:443)
+2023-09-16 20:23:48.541 +02:00 [ERR] WebException occured when requesting url https://g.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (g.c:443)
+2023-09-16 20:23:56.053 +02:00 [ERR] WebException occured when requesting url https://githc.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githc.c:443)
+2023-09-16 20:24:32.242 +02:00 [ERR] WebException occured when requesting url https://githc.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githc.c:443)
+2023-09-16 20:24:32.245 +02:00 [ERR] WebException occured when requesting url https://githc.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githc.c:443)
+2023-09-16 20:24:39.233 +02:00 [ERR] WebException occured when requesting url https://githu.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (githu.c:443)
+2023-09-16 21:00:23.532 +02:00 [ERR] WebException occured when requesting url https://amazon.co, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-16 21:25:40.068 +02:00 [ERR] WebException occured when requesting url https://https://tagesschau.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 21:49:59.480 +02:00 [ERR] WebException occured when requesting url https://myballs.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (myballs.c:443)
+2023-09-16 21:50:02.765 +02:00 [ERR] WebException occured when requesting url https://myballs.com, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (myballs.com:443)
+2023-09-16 21:50:05.060 +02:00 [ERR] WebException occured when requesting url https://https://myballs.com, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 21:50:07.344 +02:00 [ERR] WebException occured when requesting url https://https://https://myballs.com, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:31:59.848 +02:00 [ERR] WebException occured when requesting url https://https://github.com/DavideWiest, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:31:59.857 +02:00 [ERR] Exception occured when requesting url /https://github.com/DavideWiest: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-16 22:34:57.395 +02:00 [ERR] WebException occured when requesting url https://https://github.com/DavideWiest, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:34:59.989 +02:00 [ERR] WebException occured when requesting url https://https://https://github.com/DavideWiest, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:35:03.611 +02:00 [ERR] WebException occured when requesting url https://https://github.com/, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 22:35:57.462 +02:00 [ERR] WebException occured when requesting url https://https://github.com/Davide, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)

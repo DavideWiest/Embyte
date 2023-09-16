@@ -1,11 +1,11 @@
 
 # Embyte
 
-
+Free open-source minimalistic embed creator. You can use the embeds in iFrames.
 
 ## Motivation
 
-
+I liked the web-embeds from discord and other social media. I thought it'd be good to implement a general solution. Personally, I'll use the iFrames in my obsidian vault.
 
 ## Open an Issue
 

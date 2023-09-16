@@ -5,14 +5,12 @@
 @using Embyte.Shared.Product
 @using Embyte.Modules
 @using Embyte.Data.Storage
+@using System.Net;
 @inject Constants constants
 @inject MainStorage mainstorage
 
-<Embed Url="@Url" />
+<Embed Url="@(WebUtility.UrlDecode(Url))" />
 
-<MudTextField Label="Url" @bind-Value="@Url" />
-
-<MudButton @OnClick="Rerender">Rerender</MudButton>
 
 @code {
     private string Url = EmbyteStorage.DefaultUrl;
@@ -20,10 +18,5 @@
     protected override void OnInitialized()
     {
 
-    }
-
-    private void Rerender()
-    {
-        
     }
 }

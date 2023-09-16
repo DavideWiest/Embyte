@@ -4,22 +4,23 @@
 @using MudBlazor
 @using Embyte.Shared.Layout
 @using Embyte.Shared.BaseUI.Buttons
-
 @using Embyte.Data.Storage
+@using Embyte.Shared.Product
 @inject Constants constants
 
 <PageTitle>Embyte</PageTitle>
 
-<HeroSection title="Embyte" description="Description lorem ipsum dolor sit amet consectetur adipisici"
-             imageLoc="/static/img/sample.png" actionText="Visit Github Repo" actionLink="https://github.com/DavideWiest/Embyte">
+<HeroSection title="Embyte" description="Always-free open-source minimalistic embed creator. You can use the embeds in iFrames."
+             actionText="Visit Repository" actionLink="https://github.com/DavideWiest/Embyte">
+    <EmbedDemo Url="@Url" />
 </HeroSection>
 
-
+<UsageView Url="@Url"/>
 
 @code {
+    public string Url = EmbyteStorage.DefaultUrl;
     protected override void OnInitialized()
     {
-
 
     }
 }
