@@ -1,7 +1,7 @@
 @namespace Embyte.Shared.BaseUI.Buttons
 
 
-<a href='@(!disabled ? link : "")'>
+<a href='@(!disabled ? link : "")' target="@Target">
     <PrimaryBtn t=@t disabled=@disabled />
 </a>
 
@@ -12,4 +12,6 @@
     public string t { get; set; } = "Continue";
     [Parameter]
     public bool disabled { get; set; } = false;
+    [Parameter]
+    public string Target { get; set; } = "_blank";
 }

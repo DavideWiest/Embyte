@@ -147,3 +147,36 @@
 2023-09-16 22:35:57.462 +02:00 [ERR] WebException occured when requesting url https://https://github.com/Davide, status : "NameResolutionFailure" 
  Traceback: 
  Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:05:25.604 +02:00 [ERR] WebException occured when requesting url https://https://github.com, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:07:41.161 +02:00 [ERR] WebException occured when requesting url https://https://github.co, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:08:55.262 +02:00 [ERR] WebException occured when requesting url https://https://github.co, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:09.791 +02:00 [ERR] WebException occured when requesting url https://https://https://github.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:13.242 +02:00 [ERR] WebException occured when requesting url https://https://https://https://github.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:16.014 +02:00 [ERR] WebException occured when requesting url https://https://https://https://https://github.d, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:21.673 +02:00 [ERR] WebException occured when requesting url https://https://amazon.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:27.715 +02:00 [ERR] WebException occured when requesting url https://https://https://amazon.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:09:38.425 +02:00 [ERR] WebException occured when requesting url https://https://https://https://amazon.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:10:04.901 +02:00 [ERR] WebException occured when requesting url https://https://https://https://https://amazon.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
+2023-09-16 23:10:08.991 +02:00 [ERR] WebException occured when requesting url https://https://https://https://https://amazon.de, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (https:443)
