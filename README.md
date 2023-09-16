@@ -31,13 +31,10 @@ To get started with Embyte and begin creating your own stylish embeds, check out
 Join us in improving and expanding Embyte by contributing to our open-source project. Visit our GitHub repository at [https://github.com/DavideWiest/embyte](https://github.com/DavideWiest/embyte) to get involved.
 
 Any feedback or bug-reporting is appreciated. Thank you!
-[Open an issue](https://github.com/DavideWiest/Embyte/issues)
-[Give us feedback](https://forms.gle/zYeA61AgoGPKT4d26)
-[Email the developer](mailto:davide.wiest2@gmail.com)
+- [Open an issue](https://github.com/DavideWiest/Embyte/issues)
+- [Email the developer](mailto:davide.wiest2@gmail.com)
 
-#### Feedback
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfbQ6XVucDvyrTY30GPcPlBxUJ4F6mdCryq0dz3z4qpniKVuw/viewform?embedded=true" width="640" height="1419" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+#### [Give us feedback](https://forms.gle/zYeA61AgoGPKT4d26)
 
 ## License
 
