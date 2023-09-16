@@ -1,0 +1,19 @@
+﻿@namespace Embyte.Shared.Sections
+
+@using MudBlazor
+@using Embyte.Shared.Sections
+@using Embyte.Shared.Testing
+@using Embyte.Shared.Identity
+
+<TestDbView />
+<MudBlazorSwitchTest/>
+
+@for (int i = 1; i < 4; i++)
+{
+    <PlaceholderBase title=@($"item {i}") />
+}
+
+@for (int i = 6; i < 8; i++)
+{
+    <PlaceholderImage />
+}

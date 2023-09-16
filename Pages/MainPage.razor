@@ -1,0 +1,31 @@
+@page "/"
+@namespace Embyte.Pages
+
+@using MudBlazor
+@using Embyte.Shared.Layout
+@using Embyte.Shared.Identity
+@using Embyte.Shared.Testing
+@using Embyte.Shared.BaseUI.Buttons
+@using Embyte.Shared.Sections
+
+@using Embyte.Data.Storage
+@inject Constants constants
+
+<PageTitle>Embyte</PageTitle>
+
+<HeroSection title="Embyte" description="Description lorem ipsum dolor sit amet consectetur adipisici"
+             imageLoc="/static/img/sample.png" actionText="Visit Github Repo" actionLink="https://github.com/DavideWiest/Embyte">
+</HeroSection>
+
+
+<TestingSection />
+
+
+@code {
+    protected override void OnInitialized()
+    {
+
+
+    }
+}
+
