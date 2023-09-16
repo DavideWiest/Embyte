@@ -34,7 +34,7 @@ Any feedback or bug-reporting is appreciated. Thank you!
 - [Open an issue](https://github.com/DavideWiest/Embyte/issues)
 - [Email the developer](mailto:davide.wiest2@gmail.com)
 
-#### [Give us feedback](https://forms.gle/zYeA61AgoGPKT4d26)
+#### [Complete a short feedback form](https://forms.gle/zYeA61AgoGPKT4d26)
 
 ## License
 
