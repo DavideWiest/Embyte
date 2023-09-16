@@ -11,6 +11,8 @@ I liked the web-embeds from discord and other social media. I thought it'd be go
 
 [Open an issue](https://github.com/DavideWiest/Embyte/issues)
 
+Any feedback or bug-reporting is appreciated.
+
 ## Conventions
 
 - `tw...` Attributes refer to usage in or with tailwind-classes

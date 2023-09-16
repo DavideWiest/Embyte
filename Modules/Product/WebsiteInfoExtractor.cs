@@ -79,6 +79,7 @@ public class WebsiteInfoExtractor
             metaInfo.SiteName = findMetatagContent("pagename", null, metaTags, ref count) ?? findMetatagContent(null, "og:site_name", metaTags, ref count) ?? string.Empty;
             metaInfo.SiteType = findMetatagContent("type", null, metaTags, ref count) ?? findMetatagContent(null, "og:type", metaTags, ref count) ?? string.Empty;
             metaInfo.Locale = findMetatagContent("locale", null, metaTags, ref count) ?? findMetatagContent(null, "og:locale", metaTags, ref count) ?? string.Empty;
+            metaInfo.PersonName = findMetatagContent("author", null, metaTags, ref count) ?? findMetatagContent(null, "og:article:author", metaTags, ref count) ?? findMetatagContent(null, "profile:username", metaTags, ref count) ?? string.Empty;
             metaInfo.Description = findMetatagContent("description", null, metaTags, ref count) ?? findMetatagContent(null, "og:description", metaTags, ref count) ?? findMetatagContent("twitter:description", null, metaTags, ref count) ?? string.Empty;
             metaInfo.Keywords = (findMetatagContent("keywords", null, metaTags, ref count) ?? findMetatagContent("news_keywords", null, metaTags, ref count) ?? string.Empty).Split(",").Select(item => item.Trim()).Where(item => !string.IsNullOrEmpty(item)).ToArray();
             metaInfo.FavIconUrl = getFavicon(document) ?? string.Empty;

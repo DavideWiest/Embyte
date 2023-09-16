@@ -12,33 +12,21 @@ public class WebsiteInfo
     public bool HasData { get; set; } = false;
     public string Url { get; set; } = string.Empty;
     public string Title { get; set; } = "Unknown";
-    public string SiteName { get; set; } = "Unknown";
-    public string SiteType { get; set; } = "Website";
+    public string SiteName { get; set; } = string.Empty;
+    public string SiteType { get; set; } = string.Empty;
     public string Locale { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public string[] Keywords { get; set; } = {};
     public string ImageUrl { get; set; } = string.Empty;
     public string FavIconUrl { get; set; } = string.Empty;
     public string ThemeColor { get; set; } = "#295c8f";
+    public string PersonName { get; set; } = string.Empty;
 
 
     public WebsiteInfo(string url)
     {
         Url = url;
         HasData = false;
-    }
-
-    public WebsiteInfo(string url, string title, string siteType, string locale, string description, string[] keywords, string imageUrl, string favIconUrl, string siteName)
-    {
-        Url = url;
-        Title = title;
-        SiteType = siteType;
-        Locale = locale;
-        Description = description;
-        Keywords = keywords;
-        ImageUrl = imageUrl;
-        FavIconUrl = favIconUrl;
-        SiteName = siteName;
     }
 
     public void validateData()
@@ -49,8 +37,6 @@ public class WebsiteInfo
             Title = host;
         if (SiteName.IsNullOrEmpty())
             SiteName = host;
-        if (SiteType.IsNullOrEmpty())
-            SiteType = "Website";
         if (ThemeColor.IsNullOrEmpty())
             ThemeColor = "#295c8f";
         if (ImageUrl.StartsWith("/"))

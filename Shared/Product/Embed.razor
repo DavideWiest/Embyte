@@ -30,7 +30,7 @@
                         <a href="@info.Url" target="_blank">
                         <MudText Typo="Typo.h6" Class="text-blue-500 text-b600">@info.Title</MudText>
                         </a>
-                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName • @info.SiteType</MudText>
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@(string.IsNullOrEmpty(info.SiteName) ? "" : "• " + info.SiteName) @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)</MudText>
                     </CardHeaderContent>
                     </MudCardHeader>
                 } else
@@ -38,7 +38,7 @@
                     <MudCardHeader>
                         <CardHeaderContent>
                             <MudText Typo="Typo.body1">@info.Title</MudText>
-                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName • @info.SiteType</MudText>
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@(string.IsNullOrEmpty(info.SiteName) ? "" : "• " + info.SiteName) @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)</MudText>
                         </CardHeaderContent>
                     </MudCardHeader>
                 }
