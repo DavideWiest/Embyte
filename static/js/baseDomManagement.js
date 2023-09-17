@@ -78,6 +78,21 @@ function BlazorScrollToId(id) {
     }
 }
 
+window.getWindowDimensions = function () {
+    return {
+        width: window.innerWidth,
+        height: window.innerHeight
+    };
+}; 
+
+
+
+
+
+
+
+
+
 window.onbeforeunload = function (e) {
     localStorage.setItem('scrollpos', window.scrollY);
     localStorage.setItem('fromPage', window.location.href);

@@ -7,6 +7,7 @@
 @using Embyte.Modules.Db
 @using Embyte.Data.Models
 @inject WebsiteUsageManager wum
+@inject IJSRuntime JsRuntime
 
 <h1 class="text-2xl md:text-4xl text-b600 m-3 mb-1 text-center">
     Most popular embeds
@@ -84,5 +85,19 @@
     private int getPixelWidth(int requestCount)
     {
         return (int)Math.Round((double)(availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
+    }
+
+    private async Task GetWindowWidth()
+    {
+        var dimension = await JsRuntime.InvokeAsync<WindowDimension>("getWindowDimensions");
+        var height = dimension.Height;
+        var width = dimension.Width;
+        return width;
+    }
+
+    public class WindowDimension
+    {
+        public int Width { get; set; }
+        public int Height { get; set; }
     }
 }
