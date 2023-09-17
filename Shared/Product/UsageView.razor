@@ -51,7 +51,7 @@
     private List<WebsiteUsage> websiteUsages = new();
     private int currentPage = 1; // Current page number
     private int itemsPerPage = 50; // Items to load per page
-    private int availableSpacePx = 120;
+    private int availableSpacePx = 400;
 
     private async Task LoadMoreItems()
     {
@@ -84,16 +84,10 @@
         websiteUsages.AddRange(newItems);
     }
 
-    protected async Task OnAfterRenderAsync()
-    {
-        var width = await GetWindowWidth();
-        Log.Debug("Window width {width}", width);
-        availableSpacePx = Math.Max(width / 2, 120);
-    }
-
     private int getPixelWidth(int requestCount)
     {
-        return (int)Math.Round((double)(availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
+        var l = (int)Math.Round((double)((double)availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
+        return l;
     }
 
     private async Task<int> GetWindowWidth()
