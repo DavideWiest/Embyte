@@ -16,7 +16,9 @@
                     <h1 class="text-2xl md:text-4xl text-b600 m-3">IFrame builder</h1>
                 </div>
                 <div class="m-6 mx-3">
-                    <MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="buildIFrame" OnBlur="buildIFrame" />
+                    <MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="Rerender" OnBlur="Rerender" />
+                    <MudSlider @bind-Value="@Width" Variant="Variant.Filled" Min="10" Max="750" Step="10">Width</MudSlider>
+                    <MudSlider @bind-Value="@Height" Variant="Variant.Filled" Min="10" Max="750" Step="10">Height</MudSlider>
                 </div>
                 <div>
                     <div class="p-4 m-4 border border-gray-500 rounded-lg bg-gray-800 inline-block relative">
@@ -27,7 +29,7 @@
                         </div>
                         <div class="relative mr-4">
                             <code>
-                                <p class="code max-w-lg">
+                                <p class="code max-w-lg" style="width: min(30rem, 80vh); overflow-wrap: break-word;">
                                     @IFrameString
                                 </p>
                             </code>
@@ -38,7 +40,7 @@
         </div>
         <div class="w-full md:h-full bg-cover bg-contain bg-no-repeat bg-center md:m-3 rounded-3xl flex justify-center items-center">
             <div class="overflow-hidden rounded-lg">
-                <iframe src="/embed/@(WebUtility.UrlEncode(Url))" title="@EmbedTitle" name="@EmbedTitle" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");"></iframe>
+                <iframe src="/embed/?url=@(WebUtility.UrlEncode(Url))" title="@EmbedTitle" name="@EmbedTitle" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes"></iframe>
             </div>
         </div>
     </div>
@@ -46,13 +48,15 @@
 
 
 @code {
-    private int Width = 400;
-    private int Height = 200;
+    private int _width = 550;
+    private int _height = 400;
+    private int Width { get { return _width; } set { _width = value; buildIFrame(); }}
+    private int Height { get { return _height; } set { _height = value; buildIFrame(); }}
     private string WidthUnit = "px";
     private string HeightUnit = "px";
     private string Url { get; set; } = EmbyteStorage.DefaultUrl2;
     private string UrlFront { get; set; } = EmbyteStorage.DefaultUrl2;
-    private string IFrameString = string.Empty;
+    private string IFrameString { get; set; } = string.Empty;
     private string EmbedTitle = "Embed Title";
 
     protected override void OnInitialized()
@@ -62,12 +66,12 @@
 
     private async Task CopyIFrame()
     {
-        await JsRuntime.InvokeVoidAsync("copyToClipBoard", IFrameString);
+        await JsRuntime.InvokeVoidAsync("copyIFrame", IFrameString);
     }
 
     private void buildIFrame()
     {
-        IFrameString = $"<iframe src=\"/embed/{WebUtility.UrlEncode(Url)}\" title =\"{EmbedTitle}\" name=\"{EmbedTitle}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\"></iframe>";
+        IFrameString = $"<iframe src=\"/embed/?url={WebUtility.UrlEncode(Url)}\" name=\"{EmbedTitle}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
 
     private void Rerender()
@@ -78,8 +82,10 @@
 
         if (WebHelper.CorrectUrlPattern(UrlFront))
         {
+            buildIFrame();
             Log.Debug("Url request: {url}", UrlFront);
             Url = UrlFront;
         }
     }
+
 }

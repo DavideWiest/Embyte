@@ -28,3 +28,353 @@
    at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
    at HtmlAgilityPack.HtmlWeb.Load(String url)
    at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:01:39.336 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:06:24.071 +02:00 [ERR] Exception occured when requesting url amazn: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:27:08.473 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:27:08.683 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:27:46.117 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:27:46.840 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:27:49.252 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:28:04.079 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:28:10.256 +02:00 [ERR] Exception occured when requesting url aazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:32:53.112 +02:00 [ERR] Exception occured when requesting url aazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:37:36.974 +02:00 [ERR] Exception occured when requesting url aazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:37:36.990 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ ---> System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData() in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Data\Product\WebsiteInfo.cs:line 34
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Shared\Product\Embed.razor:line 111
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Shared\Product\Embed.razor:line 89
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:37:37.270 +02:00 [ERR] Exception occured when requesting url aazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 16:37:37.272 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ ---> System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData() in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Data\Product\WebsiteInfo.cs:line 34
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Shared\Product\Embed.razor:line 111
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Shared\Product\Embed.razor:line 89
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:42:08.801 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ ---> System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:42:08.802 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Invalid URI: The format of the URI could not be determined.
+ ---> System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:18.796 +02:00 [ERR] Exception occured when requesting url null: Value cannot be null. (Parameter 'uriString') 
+ Traceback: 
+ System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:49:18.811 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:19.021 +02:00 [ERR] Exception occured when requesting url null: Value cannot be null. (Parameter 'uriString') 
+ Traceback: 
+ System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:49:19.023 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:26.334 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:26.335 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:27.899 +02:00 [ERR] Exception occured when requesting url null: Value cannot be null. (Parameter 'uriString') 
+ Traceback: 
+ System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:49:27.900 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:28.022 +02:00 [ERR] Exception occured when requesting url null: Value cannot be null. (Parameter 'uriString') 
+ Traceback: 
+ System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 16:49:28.024 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:34.320 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:49:34.320 +02:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Value cannot be null. (Parameter 'uriString')
+ ---> System.ArgumentNullException: Value cannot be null. (Parameter 'uriString')
+   at System.ArgumentNullException.Throw(String paramName)
+   at System.Uri..ctor(String uriString)
+   at Embyte.Data.Product.WebsiteInfo.validateData()
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-09-17 16:55:49.961 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:55:51.852 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:55:54.966 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:01.479 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:01.479 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:01.484 +02:00 [ERR] WebException occured when requesting url https://www.w3schools.com/html/default.asp, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:16.132 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:21.357 +02:00 [ERR] WebException occured when requesting url https://www.w3schools.com/html/default.asp, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:21.451 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:21.531 +02:00 [ERR] WebException occured when requesting url https://github.com/DavideWiest, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:26.467 +02:00 [ERR] WebException occured when requesting url https://www.w3schools.com/html/default.asp, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:26.562 +02:00 [ERR] WebException occured when requesting url https://www.w3schools.com/html/default.asp, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:31.669 +02:00 [ERR] WebException occured when requesting url https://www.w3schools.com/html/default.asp, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-17 16:56:37.581 +02:00 [ERR] WebException occured when requesting url https://ebay.de, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.

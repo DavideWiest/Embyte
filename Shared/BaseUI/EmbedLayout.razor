@@ -1,0 +1,22 @@
+﻿@inherits LayoutComponentBase
+
+@using Embyte.Modules.Logging
+
+ <ErrorBoundary>
+    <ChildContent>
+        @Body
+    </ChildContent>
+    <ErrorContent Context="ex">
+        @{
+            OnError(@ex);
+        } @*calls custom handler*@
+
+          <p>Invalid Url: @ex.Message</p> @**@
+    </ErrorContent>
+ </ErrorBoundary>
+
+@code {
+    private void OnError(Exception ex) {
+        Log.Error("Error message: {errmsg}\n Traceback: {traceback}", ex.Message, ex.ToString());
+    }
+}

@@ -1,19 +1,20 @@
 ﻿@namespace Embyte.Pages
 
-@page "/embed/{TargetUrl}"
+@page "/embed/"
 @using MudBlazor
 @using Embyte.Shared.Product
 @using Embyte.Modules
 @using Embyte.Data.Storage
 @using System.Net
 @using Embyte.Shared.BaseUI
-@layout EmptyLayout
+@layout EmbedLayout
 @inject Constants constants
 @inject MainStorage mainstorage
+@inject NavigationManager NavigationManager
 
 @if (!showError)
 {
-    <Embed Url="@(WebUtility.UrlDecode(TargetUrl))" />
+    <Embed Url="@TargetUrl" />
 } else
 {
     <p>
@@ -24,12 +25,25 @@
 
 @code {
     [Parameter]
-    public string TargetUrl { get; set; } // = EmbyteStorage.DefaultUrl;
+    public string TargetUrl { get; set; } = EmbyteStorage.DefaultUrl;
     private bool showError = false;
+
+    private Dictionary<string, string> queryParameters = new Dictionary<string, string>();
 
     protected override void OnInitialized()
     {
+        // Get the current URL
+        var uri = new Uri(NavigationManager.Uri);
 
+        // Extract query parameters
+        var queryParams = System.Web.HttpUtility.ParseQueryString(uri.Query);
+
+        foreach (string key in queryParams)
+        {
+            queryParameters.Add(key, queryParams[key]);
+        }
+
+        TargetUrl = queryParameters["url"];
     }
 
     private string GetDecodedSanitizedUrl()
