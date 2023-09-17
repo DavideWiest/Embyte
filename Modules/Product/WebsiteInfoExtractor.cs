@@ -9,6 +9,14 @@ using static System.Net.WebRequestMethods;
 using System.Net;
 using System;
 using Embyte.Modules.Logging;
+using Azure.Core;
+using Humanizer;
+using Microsoft.AspNetCore.Mvc;
+using static MudBlazor.CategoryTypes;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Numerics;
+using System.Net.Http;
 
 public class WebsiteInfoExtractor
 {
@@ -140,15 +148,16 @@ public class WebsiteInfoExtractor
     {
         try
         {
-            // Create a web request with a HEAD method
-            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(imageUrl);
-            request.Method = "GET";
+            using (HttpClient httpClient = new HttpClient())
+            {
+                // Send a GET request to the image URL
+                var task = Task.Run(() => httpClient.GetAsync(imageUrl));
+                task.Wait();
+                HttpResponseMessage response = task.Result;
 
-            // Get the response
-            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
-
-            // Check if the response status code indicates success
-            return response.StatusCode == HttpStatusCode.OK;
+                // Check if the response status code indicates success
+                return response.StatusCode == HttpStatusCode.OK;
+            }
         }
         catch (Exception)
         {
@@ -156,4 +165,5 @@ public class WebsiteInfoExtractor
             return false;
         }
     }
+
 }

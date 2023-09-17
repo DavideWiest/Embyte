@@ -6083,3 +6083,34 @@ Parsing Duration (ms): 1
 2023-09-16 23:12:27.092 +02:00 [DBG] DavideWiest - Overview
 2023-09-16 23:12:27.092 +02:00 [DBG] "success"
 2023-09-16 23:12:27.092 +02:00 [DBG] rerender finished
+2023-09-16 23:14:35.060 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-16 23:14:35.060 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-16 23:14:52.501 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-16 23:14:52.501 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-16 23:14:56.271 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-16 23:14:56.271 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-16 23:15:28.773 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-16 23:15:28.773 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-16 23:15:45.563 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-16 23:15:45.563 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-16 23:15:50.712 +02:00 [DBG] UrlFront: https://github.com/
+2023-09-16 23:15:50.712 +02:00 [DBG] Url request: https://github.com/
+2023-09-16 23:15:50.712 +02:00 [DBG] RerenderEmbed called
+2023-09-16 23:15:51.140 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 245
+Parsing Duration (ms): 1
+
+2023-09-16 23:15:51.140 +02:00 [DBG] GitHub: Let’s build from here
+2023-09-16 23:15:51.140 +02:00 [DBG] "success"
+2023-09-16 23:15:51.143 +02:00 [DBG] rerender finished
+2023-09-16 23:15:51.143 +02:00 [DBG] UrlFront: https://github.com/
+2023-09-16 23:15:51.143 +02:00 [DBG] Url request: https://github.com/
+2023-09-16 23:37:18.310 +02:00 [DBG] UrlFront: https://github.com/
+2023-09-16 23:37:18.310 +02:00 [DBG] Url request: https://github.com/
+2023-09-16 23:37:19.934 +02:00 [DBG] UrlFront: https://github.com/
+2023-09-16 23:37:19.934 +02:00 [DBG] Url request: https://github.com/
+2023-09-16 23:37:34.649 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.978
+2023-09-16 23:37:34.721 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1554876.222

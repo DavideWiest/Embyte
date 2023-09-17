@@ -1,0 +1,96 @@
+2023-09-17 13:09:26.945 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 13:09:26.979 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 13:09:27.003 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 13:09:28.566 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:09:30.279 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1132
+Parsing Duration (ms): 113
+
+2023-09-17 13:09:30.280 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:09:30.282 +02:00 [DBG] "success"
+2023-09-17 13:09:30.285 +02:00 [DBG] rerender finished
+2023-09-17 13:09:30.473 +02:00 [INF] Request Ip=::1 Url=/ Time=2403.021
+2023-09-17 13:09:30.500 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=008.176
+2023-09-17 13:09:30.500 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=008.149
+2023-09-17 13:09:30.500 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=007.905
+2023-09-17 13:09:30.501 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=009.504
+2023-09-17 13:09:30.583 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.351
+2023-09-17 13:09:30.640 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.323
+2023-09-17 13:09:30.773 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.258
+2023-09-17 13:09:31.105 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.699
+2023-09-17 13:09:31.135 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:09:31.286 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=070.035
+2023-09-17 13:09:31.385 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 84
+Parsing Duration (ms): 2
+
+2023-09-17 13:09:31.385 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:09:31.385 +02:00 [DBG] "success"
+2023-09-17 13:09:31.385 +02:00 [DBG] rerender finished
+2023-09-17 13:09:31.392 +02:00 [INF] Request Ip=::1 Url=/ Time=286.995
+2023-09-17 13:09:31.499 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:09:32.618 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 921
+Parsing Duration (ms): 1
+
+2023-09-17 13:09:32.618 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:09:32.618 +02:00 [DBG] "success"
+2023-09-17 13:09:32.618 +02:00 [DBG] rerender finished
+2023-09-17 13:13:29.610 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 13:13:29.649 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 13:13:29.651 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 13:13:30.168 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:13:31.379 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 904
+Parsing Duration (ms): 8
+
+2023-09-17 13:13:31.379 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:13:31.381 +02:00 [DBG] "success"
+2023-09-17 13:13:31.383 +02:00 [DBG] rerender finished
+2023-09-17 13:13:31.452 +02:00 [INF] Request Ip=::1 Url=/ Time=1517.853
+2023-09-17 13:13:31.475 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=016.822
+2023-09-17 13:13:31.477 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=006.077
+2023-09-17 13:13:31.477 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=006.469
+2023-09-17 13:13:31.477 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=006.490
+2023-09-17 13:13:31.477 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.444
+2023-09-17 13:13:31.628 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.389
+2023-09-17 13:13:31.654 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:13:31.665 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.141
+2023-09-17 13:13:31.737 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:13:31.929 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 74
+Parsing Duration (ms): 1
+
+2023-09-17 13:13:31.929 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:13:31.930 +02:00 [DBG] "success"
+2023-09-17 13:13:31.930 +02:00 [DBG] rerender finished
+2023-09-17 13:13:31.946 +02:00 [INF] Request Ip=::1 Url=/ Time=307.803
+2023-09-17 13:13:31.951 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.132
+2023-09-17 13:13:31.951 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.364
+2023-09-17 13:13:31.951 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.363
+2023-09-17 13:13:31.965 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.210
+2023-09-17 13:13:32.033 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 80
+Parsing Duration (ms): 1
+
+2023-09-17 13:13:32.033 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:13:32.033 +02:00 [DBG] "success"
+2023-09-17 13:13:32.033 +02:00 [DBG] rerender finished
