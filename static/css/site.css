@@ -40,12 +40,12 @@ a:hover {
 
 ::selection {
     color: rgb(255, 255, 255);
-    background: #063e5f !important;
+    background: #673ab760 !important;
 }
 
 ::-moz-selection {
     color: rgb(20, 20, 20);
-    background: #FFD747 !important;
+    background: #673ab760 !important;
 }
 
 ::-webkit-scrollbar {
@@ -53,17 +53,17 @@ a:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: rgba(180, 180, 180, 0.3);
-    border-left: 1px solid rgb(182, 182, 182);
+    background: rgba(100, 100, 100, 0.3);
+    border-left: 1px solid rgb(60, 60, 60);
     backdrop-filter: blur(20px);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: rgb(182, 182, 182);
+    background: rgb(80, 80, 80);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: rgb(117, 117, 117);
+    background: rgb(70, 70, 70);
 }
 
 :focus {

@@ -94,3 +94,4156 @@ Parsing Duration (ms): 1
 2023-09-17 13:13:32.033 +02:00 [DBG] DavideWiest - Overview
 2023-09-17 13:13:32.033 +02:00 [DBG] "success"
 2023-09-17 13:13:32.033 +02:00 [DBG] rerender finished
+2023-09-17 13:14:06.585 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:14:07.565 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 774
+Parsing Duration (ms): 1
+
+2023-09-17 13:14:07.565 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:14:07.565 +02:00 [DBG] "success"
+2023-09-17 13:14:07.565 +02:00 [DBG] rerender finished
+2023-09-17 13:14:07.569 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:14:07.828 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-17 13:14:07.828 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:14:07.828 +02:00 [DBG] "success"
+2023-09-17 13:14:07.828 +02:00 [DBG] rerender finished
+2023-09-17 13:17:06.510 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:17:07.461 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 757
+Parsing Duration (ms): 1
+
+2023-09-17 13:17:07.462 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:17:07.462 +02:00 [DBG] "success"
+2023-09-17 13:17:07.462 +02:00 [DBG] rerender finished
+2023-09-17 13:17:07.463 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:17:07.741 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 74
+Parsing Duration (ms): 1
+
+2023-09-17 13:17:07.741 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:17:07.741 +02:00 [DBG] "success"
+2023-09-17 13:17:07.741 +02:00 [DBG] rerender finished
+2023-09-17 13:19:00.226 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:19:01.393 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 940
+Parsing Duration (ms): 1
+
+2023-09-17 13:19:01.393 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:19:01.393 +02:00 [DBG] "success"
+2023-09-17 13:19:01.393 +02:00 [DBG] rerender finished
+2023-09-17 13:19:01.395 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:19:01.682 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 63
+Parsing Duration (ms): 1
+
+2023-09-17 13:19:01.682 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:19:01.682 +02:00 [DBG] "success"
+2023-09-17 13:19:01.682 +02:00 [DBG] rerender finished
+2023-09-17 13:19:07.543 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:19:07.804 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 66
+Parsing Duration (ms): 1
+
+2023-09-17 13:19:07.804 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:19:07.805 +02:00 [DBG] "success"
+2023-09-17 13:19:07.805 +02:00 [DBG] rerender finished
+2023-09-17 13:19:07.807 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:19:08.700 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 668
+Parsing Duration (ms): 1
+
+2023-09-17 13:19:08.700 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:19:08.700 +02:00 [DBG] "success"
+2023-09-17 13:19:08.700 +02:00 [DBG] rerender finished
+2023-09-17 13:24:16.779 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:24:17.989 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 983
+Parsing Duration (ms): 1
+
+2023-09-17 13:24:17.989 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:24:17.989 +02:00 [DBG] "success"
+2023-09-17 13:24:17.990 +02:00 [DBG] rerender finished
+2023-09-17 13:24:17.992 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:24:18.840 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 657
+Parsing Duration (ms): 1
+
+2023-09-17 13:24:18.840 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:24:18.840 +02:00 [DBG] "success"
+2023-09-17 13:24:18.840 +02:00 [DBG] rerender finished
+2023-09-17 13:25:52.519 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:25:53.731 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 983
+Parsing Duration (ms): 1
+
+2023-09-17 13:25:53.731 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:25:53.731 +02:00 [DBG] "success"
+2023-09-17 13:25:53.731 +02:00 [DBG] rerender finished
+2023-09-17 13:25:53.734 +02:00 [DBG] RerenderEmbed called
+2023-09-17 13:25:54.018 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 13:25:54.018 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 13:25:54.018 +02:00 [DBG] "success"
+2023-09-17 13:25:54.018 +02:00 [DBG] rerender finished
+2023-09-17 14:06:24.730 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:06:24.765 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:06:24.767 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:06:25.836 +02:00 [INF] Request Ip=::1 Url=/favicon.ico Time=002.130
+2023-09-17 14:07:19.113 +02:00 [INF] Request Ip=::1 Url=/favicon.ico Time=001.286
+2023-09-17 14:07:35.308 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:07:35.341 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:07:35.343 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:07:35.995 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:07:37.300 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 947
+Parsing Duration (ms): 8
+
+2023-09-17 14:07:37.300 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 14:07:37.302 +02:00 [DBG] "success"
+2023-09-17 14:07:37.304 +02:00 [DBG] rerender finished
+2023-09-17 14:07:37.362 +02:00 [INF] Request Ip=::1 Url=/ Time=1561.754
+2023-09-17 14:07:37.386 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.669
+2023-09-17 14:07:37.386 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.220
+2023-09-17 14:07:37.386 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=004.220
+2023-09-17 14:07:37.427 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.502
+2023-09-17 14:07:37.427 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.721
+2023-09-17 14:07:37.582 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.503
+2023-09-17 14:07:37.599 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:07:37.648 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=009.974
+2023-09-17 14:07:37.730 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:07:37.863 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 75
+Parsing Duration (ms): 2
+
+2023-09-17 14:07:37.863 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 14:07:37.863 +02:00 [DBG] "success"
+2023-09-17 14:07:37.863 +02:00 [DBG] rerender finished
+2023-09-17 14:07:37.865 +02:00 [INF] Request Ip=::1 Url=/ Time=280.461
+2023-09-17 14:07:37.999 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 67
+Parsing Duration (ms): 1
+
+2023-09-17 14:07:37.999 +02:00 [DBG] DavideWiest - Overview
+2023-09-17 14:07:37.999 +02:00 [DBG] "success"
+2023-09-17 14:07:37.999 +02:00 [DBG] rerender finished
+2023-09-17 14:07:42.018 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.300
+2023-09-17 14:08:38.419 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=010.525
+2023-09-17 14:10:28.040 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 14:10:28.041 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 14:11:55.656 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:11:55.656 +02:00 [DBG] rerender finished
+2023-09-17 14:11:55.657 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:11:55.658 +02:00 [DBG] rerender finished
+2023-09-17 14:12:46.564 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=308910.423
+2023-09-17 14:14:31.575 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:14:31.608 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:14:31.611 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:14:32.277 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:14:32.278 +02:00 [DBG] rerender finished
+2023-09-17 14:14:32.355 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:14:32.355 +02:00 [DBG] rerender finished
+2023-09-17 14:14:54.816 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:14:54.817 +02:00 [DBG] rerender finished
+2023-09-17 14:15:25.949 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:15:25.988 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:15:25.990 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:15:26.807 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:15:26.807 +02:00 [DBG] rerender finished
+2023-09-17 14:15:30.092 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:15:30.092 +02:00 [DBG] rerender finished
+2023-09-17 14:17:15.713 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:17.112 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 927
+Parsing Duration (ms): 7
+
+2023-09-17 14:17:17.112 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:17.114 +02:00 [DBG] rerender finished
+2023-09-17 14:17:17.141 +02:00 [INF] Request Ip=::1 Url=/ Time=1441.456
+2023-09-17 14:17:17.152 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.066
+2023-09-17 14:17:17.154 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.304
+2023-09-17 14:17:17.154 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.954
+2023-09-17 14:17:17.360 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.931
+2023-09-17 14:17:17.369 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:17.445 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=009.074
+2023-09-17 14:17:17.519 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:18.307 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 733
+Parsing Duration (ms): 1
+
+2023-09-17 14:17:18.307 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:18.307 +02:00 [DBG] rerender finished
+2023-09-17 14:17:18.310 +02:00 [INF] Request Ip=::1 Url=/ Time=944.484
+2023-09-17 14:17:18.480 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 755
+Parsing Duration (ms): 1
+
+2023-09-17 14:17:18.480 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:18.480 +02:00 [DBG] rerender finished
+2023-09-17 14:17:21.815 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 14:17:21.815 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 14:17:49.193 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=31733.418
+2023-09-17 14:17:56.076 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:57.034 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 748
+Parsing Duration (ms): 1
+
+2023-09-17 14:17:57.034 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:57.034 +02:00 [DBG] rerender finished
+2023-09-17 14:17:57.038 +02:00 [INF] Request Ip=::1 Url=/ Time=964.911
+2023-09-17 14:17:57.050 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=008.218
+2023-09-17 14:17:57.051 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=002.532
+2023-09-17 14:17:57.054 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.597
+2023-09-17 14:17:57.077 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=024.074
+2023-09-17 14:17:57.087 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=009.273
+2023-09-17 14:17:57.093 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=040.965
+2023-09-17 14:17:57.129 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=037.547
+2023-09-17 14:17:57.133 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.397
+2023-09-17 14:17:57.273 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.172
+2023-09-17 14:17:57.285 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:57.318 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.508
+2023-09-17 14:17:57.328 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:17:58.101 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 564
+Parsing Duration (ms): 1
+
+2023-09-17 14:17:58.101 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:58.101 +02:00 [DBG] rerender finished
+2023-09-17 14:17:58.248 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 811
+Parsing Duration (ms): 1
+
+2023-09-17 14:17:58.248 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:17:58.248 +02:00 [DBG] rerender finished
+2023-09-17 14:17:58.251 +02:00 [INF] Request Ip=::1 Url=/ Time=969.217
+2023-09-17 14:17:58.269 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=014.140
+2023-09-17 14:17:59.003 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1681.859
+2023-09-17 14:18:15.130 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.294
+2023-09-17 14:21:09.812 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:21:09.846 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:21:09.848 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:21:10.393 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:21:11.656 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 960
+Parsing Duration (ms): 8
+
+2023-09-17 14:21:11.656 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:21:11.755 +02:00 [DBG] rerender finished
+2023-09-17 14:21:11.813 +02:00 [INF] Request Ip=::1 Url=/ Time=1664.545
+2023-09-17 14:21:11.837 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=017.447
+2023-09-17 14:21:11.839 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=005.059
+2023-09-17 14:21:11.839 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.058
+2023-09-17 14:21:11.839 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.058
+2023-09-17 14:21:11.845 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.561
+2023-09-17 14:21:12.011 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.273
+2023-09-17 14:21:12.027 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:21:12.065 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=006.240
+2023-09-17 14:21:12.144 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:21:12.832 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 587
+Parsing Duration (ms): 1
+
+2023-09-17 14:21:12.832 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:21:12.837 +02:00 [DBG] rerender finished
+2023-09-17 14:21:12.841 +02:00 [INF] Request Ip=::1 Url=/ Time=828.875
+2023-09-17 14:21:12.933 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 590
+Parsing Duration (ms): 1
+
+2023-09-17 14:21:12.933 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:21:12.935 +02:00 [DBG] rerender finished
+2023-09-17 14:21:17.253 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.306
+2023-09-17 14:22:15.682 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:22:16.445 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 552
+Parsing Duration (ms): 1
+
+2023-09-17 14:22:16.446 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:22:16.446 +02:00 [DBG] rerender finished
+2023-09-17 14:22:16.449 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:22:16.741 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 90
+Parsing Duration (ms): 1
+
+2023-09-17 14:22:16.741 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:22:16.741 +02:00 [DBG] rerender finished
+2023-09-17 14:22:22.486 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:22:22.758 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 14:22:22.758 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:22:22.761 +02:00 [DBG] rerender finished
+2023-09-17 14:22:22.766 +02:00 [INF] Request Ip=::1 Url=/ Time=290.198
+2023-09-17 14:22:22.776 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=005.178
+2023-09-17 14:22:22.780 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=70702.113
+2023-09-17 14:22:22.783 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.231
+2023-09-17 14:22:22.788 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.248
+2023-09-17 14:22:22.788 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.248
+2023-09-17 14:22:23.005 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.939
+2023-09-17 14:22:23.014 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:22:23.063 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.428
+2023-09-17 14:22:23.098 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:22:23.850 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 539
+Parsing Duration (ms): 0
+
+2023-09-17 14:22:23.850 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 597
+Parsing Duration (ms): 1
+
+2023-09-17 14:22:23.850 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:22:23.850 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:22:23.853 +02:00 [DBG] rerender finished
+2023-09-17 14:22:23.855 +02:00 [INF] Request Ip=::1 Url=/ Time=844.155
+2023-09-17 14:22:23.856 +02:00 [DBG] rerender finished
+2023-09-17 14:22:35.884 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.277
+2023-09-17 14:23:36.470 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:23:37.626 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 947
+Parsing Duration (ms): 1
+
+2023-09-17 14:23:37.626 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:23:37.626 +02:00 [DBG] rerender finished
+2023-09-17 14:23:37.628 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:23:38.420 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 582
+Parsing Duration (ms): 1
+
+2023-09-17 14:23:38.420 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:23:38.420 +02:00 [DBG] rerender finished
+2023-09-17 14:23:38.471 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:23:38.734 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 69
+Parsing Duration (ms): 1
+
+2023-09-17 14:23:38.735 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:23:38.735 +02:00 [DBG] rerender finished
+2023-09-17 14:23:38.737 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:23:39.684 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 750
+Parsing Duration (ms): 1
+
+2023-09-17 14:23:39.685 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:23:39.685 +02:00 [DBG] rerender finished
+2023-09-17 14:25:36.163 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:37.317 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 894
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:37.317 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:37.317 +02:00 [DBG] rerender finished
+2023-09-17 14:25:37.319 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:38.140 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 620
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:38.140 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:38.140 +02:00 [DBG] rerender finished
+2023-09-17 14:25:45.298 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:45.602 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 101
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:45.602 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:45.605 +02:00 [DBG] rerender finished
+2023-09-17 14:25:45.608 +02:00 [INF] Request Ip=::1 Url=/ Time=318.883
+2023-09-17 14:25:45.614 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=202527.926
+2023-09-17 14:25:45.615 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.546
+2023-09-17 14:25:45.623 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=004.013
+2023-09-17 14:25:45.628 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=003.359
+2023-09-17 14:25:45.628 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.240
+2023-09-17 14:25:45.628 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=003.362
+2023-09-17 14:25:45.635 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.568
+2023-09-17 14:25:45.639 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.502
+2023-09-17 14:25:45.642 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.497
+2023-09-17 14:25:45.921 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.043
+2023-09-17 14:25:45.929 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:45.964 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.225
+2023-09-17 14:25:45.976 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:46.190 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 57
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:46.190 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:46.192 +02:00 [DBG] rerender finished
+2023-09-17 14:25:46.194 +02:00 [INF] Request Ip=::1 Url=/ Time=268.090
+2023-09-17 14:25:46.208 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.583
+2023-09-17 14:25:46.729 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 533
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:46.729 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:46.781 +02:00 [DBG] rerender finished
+2023-09-17 14:25:56.663 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:57.480 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 627
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:57.481 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:57.483 +02:00 [DBG] rerender finished
+2023-09-17 14:25:57.485 +02:00 [INF] Request Ip=::1 Url=/ Time=825.041
+2023-09-17 14:25:57.490 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=11522.664
+2023-09-17 14:25:57.491 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.257
+2023-09-17 14:25:57.498 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.186
+2023-09-17 14:25:57.499 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.242
+2023-09-17 14:25:57.499 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.299
+2023-09-17 14:25:57.619 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.148
+2023-09-17 14:25:57.631 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:57.670 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.135
+2023-09-17 14:25:57.677 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:25:58.445 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 663
+Parsing Duration (ms): 1
+
+2023-09-17 14:25:58.445 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:58.447 +02:00 [DBG] rerender finished
+2023-09-17 14:25:58.462 +02:00 [INF] Request Ip=::1 Url=/ Time=833.615
+2023-09-17 14:25:58.519 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 644
+Parsing Duration (ms): 0
+
+2023-09-17 14:25:58.519 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:25:58.521 +02:00 [DBG] rerender finished
+2023-09-17 14:26:00.573 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2901.019
+2023-09-17 14:26:08.645 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:26:08.681 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:26:08.683 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:26:09.451 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:10.541 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 794
+Parsing Duration (ms): 8
+
+2023-09-17 14:26:10.541 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:10.631 +02:00 [DBG] rerender finished
+2023-09-17 14:26:10.698 +02:00 [INF] Request Ip=::1 Url=/ Time=1509.841
+2023-09-17 14:26:10.716 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.832
+2023-09-17 14:26:10.716 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=002.124
+2023-09-17 14:26:10.719 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.513
+2023-09-17 14:26:10.911 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:10.976 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.528
+2023-09-17 14:26:11.052 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.478
+2023-09-17 14:26:11.136 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:11.200 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 74
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:11.200 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:11.203 +02:00 [DBG] rerender finished
+2023-09-17 14:26:11.207 +02:00 [INF] Request Ip=::1 Url=/ Time=313.430
+2023-09-17 14:26:11.398 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 93
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:11.398 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:11.401 +02:00 [DBG] rerender finished
+2023-09-17 14:26:14.392 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 14:26:14.392 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 14:26:26.617 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.334
+2023-09-17 14:26:42.479 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:43.241 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 557
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:43.241 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:43.241 +02:00 [DBG] rerender finished
+2023-09-17 14:26:43.243 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:44.223 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 794
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:44.223 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:44.223 +02:00 [DBG] rerender finished
+2023-09-17 14:26:51.988 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:52.236 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:52.236 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:52.236 +02:00 [DBG] rerender finished
+2023-09-17 14:26:52.239 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:26:52.515 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 53
+Parsing Duration (ms): 1
+
+2023-09-17 14:26:52.515 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:26:52.515 +02:00 [DBG] rerender finished
+2023-09-17 14:27:10.537 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:27:11.310 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 565
+Parsing Duration (ms): 1
+
+2023-09-17 14:27:11.310 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:27:11.310 +02:00 [DBG] rerender finished
+2023-09-17 14:27:11.313 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:27:12.115 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 578
+Parsing Duration (ms): 1
+
+2023-09-17 14:27:12.115 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:27:12.115 +02:00 [DBG] rerender finished
+2023-09-17 14:28:10.611 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:28:11.464 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 628
+Parsing Duration (ms): 1
+
+2023-09-17 14:28:11.464 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:28:11.464 +02:00 [DBG] rerender finished
+2023-09-17 14:28:11.467 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:28:11.732 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 54
+Parsing Duration (ms): 1
+
+2023-09-17 14:28:11.732 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:28:11.732 +02:00 [DBG] rerender finished
+2023-09-17 14:29:01.700 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:02.561 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 611
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:02.561 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:02.561 +02:00 [DBG] rerender finished
+2023-09-17 14:29:02.566 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:03.445 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 636
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:03.445 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:03.445 +02:00 [DBG] rerender finished
+2023-09-17 14:29:37.962 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:38.662 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 493
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:38.662 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:38.662 +02:00 [DBG] rerender finished
+2023-09-17 14:29:38.673 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:39.492 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 608
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:39.492 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:39.492 +02:00 [DBG] rerender finished
+2023-09-17 14:29:54.028 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:54.273 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:54.273 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:54.273 +02:00 [DBG] rerender finished
+2023-09-17 14:29:54.276 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:29:54.540 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-17 14:29:54.541 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:29:54.541 +02:00 [DBG] rerender finished
+2023-09-17 14:30:46.539 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:30:47.485 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 734
+Parsing Duration (ms): 1
+
+2023-09-17 14:30:47.485 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:30:47.485 +02:00 [DBG] rerender finished
+2023-09-17 14:30:47.489 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:30:48.307 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 609
+Parsing Duration (ms): 1
+
+2023-09-17 14:30:48.307 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:30:48.307 +02:00 [DBG] rerender finished
+2023-09-17 14:30:51.079 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=007.894
+2023-09-17 14:30:51.089 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=264470.701
+2023-09-17 14:30:52.152 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:30:53.045 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 669
+Parsing Duration (ms): 1
+
+2023-09-17 14:30:53.045 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:30:53.049 +02:00 [DBG] rerender finished
+2023-09-17 14:30:53.054 +02:00 [INF] Request Ip=::1 Url=/ Time=916.287
+2023-09-17 14:30:53.063 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=282008.306
+2023-09-17 14:30:53.066 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=007.188
+2023-09-17 14:30:53.070 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.366
+2023-09-17 14:30:53.075 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.401
+2023-09-17 14:30:53.075 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.239
+2023-09-17 14:30:53.081 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.329
+2023-09-17 14:30:53.249 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:30:53.282 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.397
+2023-09-17 14:30:53.335 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.200
+2023-09-17 14:30:53.368 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:30:53.880 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 295
+Parsing Duration (ms): 1
+
+2023-09-17 14:30:53.881 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:30:53.883 +02:00 [DBG] rerender finished
+2023-09-17 14:30:54.040 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 600
+Parsing Duration (ms): 1
+
+2023-09-17 14:30:54.041 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:30:54.043 +02:00 [DBG] rerender finished
+2023-09-17 14:30:54.045 +02:00 [INF] Request Ip=::1 Url=/ Time=799.662
+2023-09-17 14:31:27.983 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:28.801 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 594
+Parsing Duration (ms): 0
+
+2023-09-17 14:31:28.801 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:28.801 +02:00 [DBG] rerender finished
+2023-09-17 14:31:28.805 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:29.649 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 612
+Parsing Duration (ms): 1
+
+2023-09-17 14:31:29.649 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:29.649 +02:00 [DBG] rerender finished
+2023-09-17 14:31:36.739 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:37.002 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-17 14:31:37.002 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:37.002 +02:00 [DBG] rerender finished
+2023-09-17 14:31:37.005 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:37.253 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 14:31:37.253 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:37.253 +02:00 [DBG] rerender finished
+2023-09-17 14:31:52.832 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:53.705 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 664
+Parsing Duration (ms): 1
+
+2023-09-17 14:31:53.705 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:53.705 +02:00 [DBG] rerender finished
+2023-09-17 14:31:53.708 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:31:53.976 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 14:31:53.976 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:31:53.976 +02:00 [DBG] rerender finished
+2023-09-17 14:32:11.323 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:11.833 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:12.192 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 640
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:12.192 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:12.192 +02:00 [DBG] rerender finished
+2023-09-17 14:32:12.196 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:12.280 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 265
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:12.280 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:12.282 +02:00 [DBG] rerender finished
+2023-09-17 14:32:12.287 +02:00 [INF] Request Ip=::1 Url=/ Time=470.163
+2023-09-17 14:32:12.291 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=78934.347
+2023-09-17 14:32:12.302 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=004.056
+2023-09-17 14:32:12.302 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=001.030
+2023-09-17 14:32:12.306 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=004.584
+2023-09-17 14:32:12.306 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.841
+2023-09-17 14:32:12.312 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.849
+2023-09-17 14:32:12.316 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.612
+2023-09-17 14:32:12.320 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.435
+2023-09-17 14:32:12.470 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 62
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:12.470 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:12.470 +02:00 [DBG] rerender finished
+2023-09-17 14:32:12.473 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=181.757
+2023-09-17 14:32:12.522 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.244
+2023-09-17 14:32:12.535 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:12.573 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=002.042
+2023-09-17 14:32:12.582 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:12.815 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 77
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:12.815 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:12.816 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:12.816 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:12.818 +02:00 [DBG] rerender finished
+2023-09-17 14:32:12.820 +02:00 [INF] Request Ip=::1 Url=/ Time=288.974
+2023-09-17 14:32:12.821 +02:00 [DBG] rerender finished
+2023-09-17 14:32:12.838 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.923
+2023-09-17 14:32:53.269 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:54.019 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 527
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:54.019 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:54.019 +02:00 [DBG] rerender finished
+2023-09-17 14:32:54.022 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:32:54.849 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 561
+Parsing Duration (ms): 1
+
+2023-09-17 14:32:54.849 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:32:54.849 +02:00 [DBG] rerender finished
+2023-09-17 14:34:26.710 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:27.745 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 745
+Parsing Duration (ms): 1
+
+2023-09-17 14:34:27.745 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:27.745 +02:00 [DBG] rerender finished
+2023-09-17 14:34:27.748 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:28.028 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 77
+Parsing Duration (ms): 1
+
+2023-09-17 14:34:28.028 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:28.028 +02:00 [DBG] rerender finished
+2023-09-17 14:34:39.191 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:39.996 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 583
+Parsing Duration (ms): 1
+
+2023-09-17 14:34:39.996 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:39.996 +02:00 [DBG] rerender finished
+2023-09-17 14:34:39.999 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:40.277 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 63
+Parsing Duration (ms): 1
+
+2023-09-17 14:34:40.277 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:40.277 +02:00 [DBG] rerender finished
+2023-09-17 14:34:47.333 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:47.586 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 0
+
+2023-09-17 14:34:47.586 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:47.587 +02:00 [DBG] rerender finished
+2023-09-17 14:34:47.589 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:34:48.586 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 781
+Parsing Duration (ms): 1
+
+2023-09-17 14:34:48.586 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:34:48.586 +02:00 [DBG] rerender finished
+2023-09-17 14:35:12.530 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:13.343 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 601
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:13.343 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:13.343 +02:00 [DBG] rerender finished
+2023-09-17 14:35:13.346 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:14.269 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 714
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:14.269 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:14.269 +02:00 [DBG] rerender finished
+2023-09-17 14:35:16.379 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:17.201 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 635
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:17.201 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:17.205 +02:00 [DBG] rerender finished
+2023-09-17 14:35:17.209 +02:00 [INF] Request Ip=::1 Url=/ Time=838.180
+2023-09-17 14:35:17.214 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=184638.584
+2023-09-17 14:35:17.214 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.149
+2023-09-17 14:35:17.223 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.401
+2023-09-17 14:35:17.228 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.105
+2023-09-17 14:35:17.229 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.242
+2023-09-17 14:35:17.398 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:17.441 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.343
+2023-09-17 14:35:17.487 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.194
+2023-09-17 14:35:17.515 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:17.666 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:17.666 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:17.668 +02:00 [DBG] rerender finished
+2023-09-17 14:35:17.671 +02:00 [INF] Request Ip=::1 Url=/ Time=275.052
+2023-09-17 14:35:17.780 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:17.780 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:17.782 +02:00 [DBG] rerender finished
+2023-09-17 14:35:24.897 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:25.141 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:25.141 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:25.141 +02:00 [DBG] rerender finished
+2023-09-17 14:35:25.144 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:25.414 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:25.414 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:25.414 +02:00 [DBG] rerender finished
+2023-09-17 14:35:25.474 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:25.722 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 0
+
+2023-09-17 14:35:25.722 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:25.722 +02:00 [DBG] rerender finished
+2023-09-17 14:35:25.723 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:25.978 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:25.978 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:25.978 +02:00 [DBG] rerender finished
+2023-09-17 14:35:28.966 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:29.236 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 56
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:29.236 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:29.236 +02:00 [DBG] rerender finished
+2023-09-17 14:35:29.239 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:29.480 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:29.480 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:29.480 +02:00 [DBG] rerender finished
+2023-09-17 14:35:37.580 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:37.845 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:37.845 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:37.845 +02:00 [DBG] rerender finished
+2023-09-17 14:35:37.847 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:38.091 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:38.091 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:38.091 +02:00 [DBG] rerender finished
+2023-09-17 14:35:58.318 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:59.148 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 615
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:59.148 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:59.148 +02:00 [DBG] rerender finished
+2023-09-17 14:35:59.151 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:35:59.405 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 14:35:59.405 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:35:59.405 +02:00 [DBG] rerender finished
+2023-09-17 14:36:03.467 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:36:04.239 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 576
+Parsing Duration (ms): 0
+
+2023-09-17 14:36:04.239 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:36:04.239 +02:00 [DBG] rerender finished
+2023-09-17 14:36:04.242 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:36:04.482 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 55
+Parsing Duration (ms): 1
+
+2023-09-17 14:36:04.482 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:36:04.483 +02:00 [DBG] rerender finished
+2023-09-17 14:36:23.417 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:36:24.469 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 859
+Parsing Duration (ms): 0
+
+2023-09-17 14:36:24.469 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:36:24.469 +02:00 [DBG] rerender finished
+2023-09-17 14:36:24.472 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:36:25.211 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 534
+Parsing Duration (ms): 1
+
+2023-09-17 14:36:25.211 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:36:25.211 +02:00 [DBG] rerender finished
+2023-09-17 14:37:21.219 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:37:22.048 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 613
+Parsing Duration (ms): 1
+
+2023-09-17 14:37:22.048 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:37:22.048 +02:00 [DBG] rerender finished
+2023-09-17 14:37:22.050 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:37:22.772 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 511
+Parsing Duration (ms): 1
+
+2023-09-17 14:37:22.772 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:37:22.772 +02:00 [DBG] rerender finished
+2023-09-17 14:38:57.451 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:38:58.454 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 778
+Parsing Duration (ms): 1
+
+2023-09-17 14:38:58.454 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:38:58.454 +02:00 [DBG] rerender finished
+2023-09-17 14:38:58.457 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:38:58.744 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 1
+
+2023-09-17 14:38:58.744 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:38:58.744 +02:00 [DBG] rerender finished
+2023-09-17 14:39:06.678 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.393
+2023-09-17 14:39:52.235 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:39:52.993 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 543
+Parsing Duration (ms): 1
+
+2023-09-17 14:39:52.993 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:39:52.993 +02:00 [DBG] rerender finished
+2023-09-17 14:39:52.996 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:39:53.770 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 524
+Parsing Duration (ms): 1
+
+2023-09-17 14:39:53.770 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:39:53.770 +02:00 [DBG] rerender finished
+2023-09-17 14:39:55.196 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:39:55.409 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-17 14:39:55.409 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:39:55.412 +02:00 [DBG] rerender finished
+2023-09-17 14:39:55.415 +02:00 [INF] Request Ip=::1 Url=/ Time=233.298
+2023-09-17 14:39:55.420 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=277912.046
+2023-09-17 14:39:55.420 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.334
+2023-09-17 14:39:55.427 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=001.472
+2023-09-17 14:39:55.431 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.702
+2023-09-17 14:39:55.431 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.498
+2023-09-17 14:39:55.431 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.458
+2023-09-17 14:39:55.436 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.604
+2023-09-17 14:39:55.442 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.400
+2023-09-17 14:39:55.445 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.346
+2023-09-17 14:39:55.736 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:39:55.765 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.191
+2023-09-17 14:39:55.847 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.241
+2023-09-17 14:39:55.865 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:39:56.361 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 289
+Parsing Duration (ms): 0
+
+2023-09-17 14:39:56.361 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:39:56.363 +02:00 [DBG] rerender finished
+2023-09-17 14:39:56.652 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 708
+Parsing Duration (ms): 1
+
+2023-09-17 14:39:56.652 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:39:56.654 +02:00 [DBG] rerender finished
+2023-09-17 14:39:56.656 +02:00 [INF] Request Ip=::1 Url=/ Time=923.539
+2023-09-17 14:39:56.663 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.561
+2023-09-17 14:41:12.910 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:13.979 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 864
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:13.979 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:13.979 +02:00 [DBG] rerender finished
+2023-09-17 14:41:13.982 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:14.811 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 615
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:14.811 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:14.811 +02:00 [DBG] rerender finished
+2023-09-17 14:41:24.557 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:24.865 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 63
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:24.865 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:24.865 +02:00 [DBG] rerender finished
+2023-09-17 14:41:24.868 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:25.138 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:25.138 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:25.138 +02:00 [DBG] rerender finished
+2023-09-17 14:41:30.056 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:30.297 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:30.297 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:30.297 +02:00 [DBG] rerender finished
+2023-09-17 14:41:30.299 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:30.597 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:30.597 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:30.597 +02:00 [DBG] rerender finished
+2023-09-17 14:41:52.610 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:53.333 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 524
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:53.333 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:53.336 +02:00 [DBG] rerender finished
+2023-09-17 14:41:53.339 +02:00 [INF] Request Ip=::1 Url=/ Time=737.215
+2023-09-17 14:41:53.344 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=117490.644
+2023-09-17 14:41:53.344 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.924
+2023-09-17 14:41:53.352 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.253
+2023-09-17 14:41:53.357 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.117
+2023-09-17 14:41:53.358 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.139
+2023-09-17 14:41:53.503 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.964
+2023-09-17 14:41:53.511 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:53.548 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.143
+2023-09-17 14:41:53.573 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:41:53.757 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 1
+
+2023-09-17 14:41:53.757 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:53.759 +02:00 [DBG] rerender finished
+2023-09-17 14:41:53.761 +02:00 [INF] Request Ip=::1 Url=/ Time=251.934
+2023-09-17 14:41:53.827 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 0
+
+2023-09-17 14:41:53.827 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:41:53.828 +02:00 [DBG] rerender finished
+2023-09-17 14:42:15.748 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=22197.968
+2023-09-17 14:43:54.883 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:43:55.948 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 871
+Parsing Duration (ms): 1
+
+2023-09-17 14:43:55.948 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:43:55.952 +02:00 [DBG] rerender finished
+2023-09-17 14:43:55.955 +02:00 [INF] Request Ip=::1 Url=/ Time=1081.164
+2023-09-17 14:43:55.959 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.396
+2023-09-17 14:43:55.972 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.602
+2023-09-17 14:43:55.976 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.125
+2023-09-17 14:43:55.979 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.334
+2023-09-17 14:43:56.140 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.106
+2023-09-17 14:43:56.149 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:43:56.193 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.136
+2023-09-17 14:43:56.221 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:43:56.458 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 69
+Parsing Duration (ms): 1
+
+2023-09-17 14:43:56.458 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:43:56.482 +02:00 [DBG] rerender finished
+2023-09-17 14:43:56.485 +02:00 [INF] Request Ip=::1 Url=/ Time=337.885
+2023-09-17 14:43:56.497 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 69
+Parsing Duration (ms): 1
+
+2023-09-17 14:43:56.497 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:43:56.517 +02:00 [DBG] rerender finished
+2023-09-17 14:44:28.291 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:29.171 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 597
+Parsing Duration (ms): 1
+
+2023-09-17 14:44:29.172 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:29.172 +02:00 [DBG] rerender finished
+2023-09-17 14:44:29.174 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:30.148 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 755
+Parsing Duration (ms): 1
+
+2023-09-17 14:44:30.148 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:30.148 +02:00 [DBG] rerender finished
+2023-09-17 14:44:40.974 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:41.210 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-17 14:44:41.210 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:41.210 +02:00 [DBG] rerender finished
+2023-09-17 14:44:41.213 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:41.465 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 14:44:41.465 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:41.465 +02:00 [DBG] rerender finished
+2023-09-17 14:44:45.592 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:45.846 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-17 14:44:45.846 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:45.846 +02:00 [DBG] rerender finished
+2023-09-17 14:44:45.848 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:44:46.115 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 0
+
+2023-09-17 14:44:46.115 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:44:46.115 +02:00 [DBG] rerender finished
+2023-09-17 14:44:58.175 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=61962.081
+2023-09-17 14:45:10.453 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:11.221 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 540
+Parsing Duration (ms): 1
+
+2023-09-17 14:45:11.221 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:11.225 +02:00 [DBG] rerender finished
+2023-09-17 14:45:11.264 +02:00 [INF] Request Ip=::1 Url=/ Time=822.127
+2023-09-17 14:45:11.269 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.323
+2023-09-17 14:45:11.279 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.673
+2023-09-17 14:45:11.285 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.112
+2023-09-17 14:45:11.285 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.217
+2023-09-17 14:45:11.290 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.168
+2023-09-17 14:45:11.462 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:11.514 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.740
+2023-09-17 14:45:11.572 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.192
+2023-09-17 14:45:11.581 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:11.711 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 53
+Parsing Duration (ms): 2
+
+2023-09-17 14:45:11.711 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:11.713 +02:00 [DBG] rerender finished
+2023-09-17 14:45:11.715 +02:00 [INF] Request Ip=::1 Url=/ Time=254.732
+2023-09-17 14:45:12.422 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 636
+Parsing Duration (ms): 1
+
+2023-09-17 14:45:12.422 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:12.424 +02:00 [DBG] rerender finished
+2023-09-17 14:45:38.788 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:39.631 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 617
+Parsing Duration (ms): 0
+
+2023-09-17 14:45:39.631 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:39.631 +02:00 [DBG] rerender finished
+2023-09-17 14:45:39.633 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:40.353 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 502
+Parsing Duration (ms): 1
+
+2023-09-17 14:45:40.353 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:40.353 +02:00 [DBG] rerender finished
+2023-09-17 14:45:48.771 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:49.036 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 1
+
+2023-09-17 14:45:49.036 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:49.036 +02:00 [DBG] rerender finished
+2023-09-17 14:45:49.038 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:45:49.298 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 54
+Parsing Duration (ms): 1
+
+2023-09-17 14:45:49.298 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:45:49.298 +02:00 [DBG] rerender finished
+2023-09-17 14:46:49.284 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:46:49.321 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:46:49.324 +02:00 [DBG] Number of entries in WebsiteUsage 58
+2023-09-17 14:46:49.910 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:46:51.067 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 879
+Parsing Duration (ms): 8
+
+2023-09-17 14:46:51.067 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:46:51.155 +02:00 [DBG] rerender finished
+2023-09-17 14:46:51.238 +02:00 [INF] Request Ip=::1 Url=/ Time=1598.392
+2023-09-17 14:46:51.266 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=018.036
+2023-09-17 14:46:51.269 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.953
+2023-09-17 14:46:51.269 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=004.954
+2023-09-17 14:46:51.269 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.660
+2023-09-17 14:46:51.436 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.906
+2023-09-17 14:46:51.453 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:46:51.491 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=008.603
+2023-09-17 14:46:51.625 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:46:52.335 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 687
+Parsing Duration (ms): 1
+
+2023-09-17 14:46:52.335 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:46:52.341 +02:00 [DBG] rerender finished
+2023-09-17 14:46:52.344 +02:00 [INF] Request Ip=::1 Url=/ Time=905.465
+2023-09-17 14:46:52.610 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 798
+Parsing Duration (ms): 1
+
+2023-09-17 14:46:52.610 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:46:52.612 +02:00 [DBG] rerender finished
+2023-09-17 14:48:52.181 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:48:53.294 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 891
+Parsing Duration (ms): 1
+
+2023-09-17 14:48:53.294 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:48:53.294 +02:00 [DBG] rerender finished
+2023-09-17 14:48:53.297 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:48:54.175 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 650
+Parsing Duration (ms): 1
+
+2023-09-17 14:48:54.175 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:48:54.175 +02:00 [DBG] rerender finished
+2023-09-17 14:49:01.284 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:49:01.617 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 123
+Parsing Duration (ms): 1
+
+2023-09-17 14:49:01.618 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:49:01.618 +02:00 [DBG] rerender finished
+2023-09-17 14:49:01.620 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:49:01.943 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 121
+Parsing Duration (ms): 1
+
+2023-09-17 14:49:01.943 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:49:01.943 +02:00 [DBG] rerender finished
+2023-09-17 14:49:01.979 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:49:02.288 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 110
+Parsing Duration (ms): 1
+
+2023-09-17 14:49:02.288 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:49:02.292 +02:00 [DBG] rerender finished
+2023-09-17 14:49:02.307 +02:00 [INF] Request Ip=::1 Url=/ Time=337.950
+2023-09-17 14:49:02.316 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=005.157
+2023-09-17 14:49:02.320 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=130811.888
+2023-09-17 14:49:02.323 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.483
+2023-09-17 14:49:02.328 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.215
+2023-09-17 14:49:02.328 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.218
+2023-09-17 14:49:02.503 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:49:02.537 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.677
+2023-09-17 14:49:02.592 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.606
+2023-09-17 14:49:02.607 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:49:02.824 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 113
+Parsing Duration (ms): 1
+
+2023-09-17 14:49:02.824 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:49:02.826 +02:00 [DBG] rerender finished
+2023-09-17 14:49:02.828 +02:00 [INF] Request Ip=::1 Url=/ Time=329.343
+2023-09-17 14:49:03.492 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 692
+Parsing Duration (ms): 1
+
+2023-09-17 14:49:03.492 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:49:03.508 +02:00 [DBG] rerender finished
+2023-09-17 14:50:04.023 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:05.048 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 826
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:05.048 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:05.048 +02:00 [DBG] rerender finished
+2023-09-17 14:50:05.051 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:05.943 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 698
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:05.943 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:05.943 +02:00 [DBG] rerender finished
+2023-09-17 14:50:45.540 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:46.420 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:46.471 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 700
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:46.471 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:46.471 +02:00 [DBG] rerender finished
+2023-09-17 14:50:46.473 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:47.236 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 595
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:47.236 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:47.240 +02:00 [DBG] rerender finished
+2023-09-17 14:50:47.244 +02:00 [INF] Request Ip=::1 Url=/ Time=836.381
+2023-09-17 14:50:47.250 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=104654.086
+2023-09-17 14:50:47.259 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.404
+2023-09-17 14:50:47.264 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.382
+2023-09-17 14:50:47.265 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.205
+2023-09-17 14:50:47.270 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.275
+2023-09-17 14:50:47.300 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 638
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:47.300 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:47.300 +02:00 [DBG] rerender finished
+2023-09-17 14:50:47.304 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=055.281
+2023-09-17 14:50:47.438 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:47.488 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.301
+2023-09-17 14:50:47.544 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=001.834
+2023-09-17 14:50:47.555 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:50:47.695 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 64
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:47.695 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:47.697 +02:00 [DBG] rerender finished
+2023-09-17 14:50:47.700 +02:00 [INF] Request Ip=::1 Url=/ Time=265.108
+2023-09-17 14:50:47.796 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-17 14:50:47.797 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:50:47.799 +02:00 [DBG] rerender finished
+2023-09-17 14:51:05.693 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:05.951 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 55
+Parsing Duration (ms): 0
+
+2023-09-17 14:51:05.951 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:05.951 +02:00 [DBG] rerender finished
+2023-09-17 14:51:05.954 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:06.213 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:06.213 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:06.213 +02:00 [DBG] rerender finished
+2023-09-17 14:51:33.228 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:34.107 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 655
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:34.107 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:34.107 +02:00 [DBG] rerender finished
+2023-09-17 14:51:34.110 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:34.383 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:34.383 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:34.384 +02:00 [DBG] rerender finished
+2023-09-17 14:51:43.633 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:43.926 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:43.927 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:43.927 +02:00 [DBG] rerender finished
+2023-09-17 14:51:43.929 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:44.708 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 561
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:44.708 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:44.708 +02:00 [DBG] rerender finished
+2023-09-17 14:51:48.125 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:48.363 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:48.363 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:48.363 +02:00 [DBG] rerender finished
+2023-09-17 14:51:48.365 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:48.634 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:48.634 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:48.634 +02:00 [DBG] rerender finished
+2023-09-17 14:51:51.845 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:52.070 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:52.070 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:52.070 +02:00 [DBG] rerender finished
+2023-09-17 14:51:52.074 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:51:52.329 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 1
+
+2023-09-17 14:51:52.329 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:51:52.329 +02:00 [DBG] rerender finished
+2023-09-17 14:52:03.631 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:52:03.879 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-17 14:52:03.879 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:52:03.879 +02:00 [DBG] rerender finished
+2023-09-17 14:52:03.882 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:52:04.147 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-17 14:52:04.147 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:52:04.147 +02:00 [DBG] rerender finished
+2023-09-17 14:52:38.820 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:52:39.609 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 575
+Parsing Duration (ms): 1
+
+2023-09-17 14:52:39.609 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:52:39.609 +02:00 [DBG] rerender finished
+2023-09-17 14:52:39.612 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:52:40.372 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 532
+Parsing Duration (ms): 1
+
+2023-09-17 14:52:40.372 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:52:40.372 +02:00 [DBG] rerender finished
+2023-09-17 14:53:05.018 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:53:05.796 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 576
+Parsing Duration (ms): 1
+
+2023-09-17 14:53:05.796 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:53:05.796 +02:00 [DBG] rerender finished
+2023-09-17 14:53:05.798 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:53:06.525 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 537
+Parsing Duration (ms): 0
+
+2023-09-17 14:53:06.525 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:53:06.525 +02:00 [DBG] rerender finished
+2023-09-17 14:53:13.826 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:53:14.077 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 0
+
+2023-09-17 14:53:14.077 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:53:14.077 +02:00 [DBG] rerender finished
+2023-09-17 14:53:14.080 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:53:14.327 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 0
+
+2023-09-17 14:53:14.327 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:53:14.327 +02:00 [DBG] rerender finished
+2023-09-17 14:55:14.621 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:15.618 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 779
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:15.618 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:15.618 +02:00 [DBG] rerender finished
+2023-09-17 14:55:15.622 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:15.899 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 71
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:15.899 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:15.899 +02:00 [DBG] rerender finished
+2023-09-17 14:55:21.087 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:22.223 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 932
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:22.224 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:22.224 +02:00 [DBG] rerender finished
+2023-09-17 14:55:22.226 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:22.514 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 78
+Parsing Duration (ms): 0
+
+2023-09-17 14:55:22.514 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:22.514 +02:00 [DBG] rerender finished
+2023-09-17 14:55:27.553 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:28.436 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 666
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:28.436 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:28.436 +02:00 [DBG] rerender finished
+2023-09-17 14:55:28.438 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:28.718 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 75
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:28.719 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:55:28.719 +02:00 [DBG] rerender finished
+2023-09-17 14:55:33.244 +02:00 [DBG] UrlFront: https://aa
+2023-09-17 14:55:35.024 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 14:55:35.024 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 14:55:35.025 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:36.486 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1312
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:36.486 +02:00 [DBG] Title: amazon.com
+2023-09-17 14:55:36.490 +02:00 [DBG] rerender finished
+2023-09-17 14:55:36.494 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 14:55:36.494 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 14:55:46.567 +02:00 [DBG] UrlFront: https://b
+2023-09-17 14:55:49.170 +02:00 [DBG] UrlFront: https://ebay.c
+2023-09-17 14:55:49.170 +02:00 [DBG] Url request: https://ebay.c
+2023-09-17 14:55:49.170 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:49.205 +02:00 [ERR] WebException occured when requesting url https://ebay.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (ebay.c:443)
+2023-09-17 14:55:49.219 +02:00 [DBG] Status Type: requestFailed
+Response Status Code: OK
+Web Status: NameResolutionFailure
+Message: Der angegebene Host ist unbekannt. (ebay.c:443)
+Exception: Der angegebene Host ist unbekannt. (ebay.c:443)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-09-17 14:55:49.219 +02:00 [DBG] Title: Unknown
+2023-09-17 14:55:49.237 +02:00 [DBG] rerender finished
+2023-09-17 14:55:49.833 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-17 14:55:49.833 +02:00 [DBG] Url request: https://ebay.de
+2023-09-17 14:55:49.833 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:55:51.807 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1561
+Parsing Duration (ms): 1
+
+2023-09-17 14:55:51.807 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-17 14:55:51.809 +02:00 [DBG] rerender finished
+2023-09-17 14:55:58.343 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-17 14:55:58.343 +02:00 [DBG] Url request: https://ebay.de
+2023-09-17 14:56:00.576 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-17 14:56:00.576 +02:00 [DBG] Url request: https://ebay.de
+2023-09-17 14:56:27.100 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:56:27.944 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 629
+Parsing Duration (ms): 1
+
+2023-09-17 14:56:27.944 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:56:27.947 +02:00 [DBG] rerender finished
+2023-09-17 14:56:27.950 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:56:28.674 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 529
+Parsing Duration (ms): 1
+
+2023-09-17 14:56:28.674 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:56:28.674 +02:00 [DBG] rerender finished
+2023-09-17 14:56:31.478 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-17 14:56:31.478 +02:00 [DBG] Url request: https://ebay.de
+2023-09-17 14:56:31.478 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:56:32.647 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 827
+Parsing Duration (ms): 1
+
+2023-09-17 14:56:32.647 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-17 14:56:32.649 +02:00 [DBG] rerender finished
+2023-09-17 14:56:33.314 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-17 14:56:33.314 +02:00 [DBG] Url request: https://ebay.de
+2023-09-17 14:57:07.390 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:57:08.248 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 642
+Parsing Duration (ms): 1
+
+2023-09-17 14:57:08.248 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:57:08.251 +02:00 [DBG] rerender finished
+2023-09-17 14:57:08.254 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:57:09.075 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 596
+Parsing Duration (ms): 1
+
+2023-09-17 14:57:09.075 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:57:09.075 +02:00 [DBG] rerender finished
+2023-09-17 14:57:13.473 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 14:57:13.473 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 14:57:13.473 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:57:14.995 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1346
+Parsing Duration (ms): 1
+
+2023-09-17 14:57:14.995 +02:00 [DBG] Title: amazon.com
+2023-09-17 14:57:14.998 +02:00 [DBG] rerender finished
+2023-09-17 14:57:14.999 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 14:57:14.999 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 14:58:07.201 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=439653.787
+2023-09-17 14:58:18.219 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 14:58:18.255 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 14:58:18.258 +02:00 [DBG] Number of entries in WebsiteUsage 60
+2023-09-17 14:58:18.994 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:58:20.250 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=012.632
+2023-09-17 14:58:20.369 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1072
+Parsing Duration (ms): 8
+
+2023-09-17 14:58:20.369 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:58:20.451 +02:00 [DBG] rerender finished
+2023-09-17 14:58:20.520 +02:00 [INF] Request Ip=::1 Url=/ Time=1780.227
+2023-09-17 14:58:20.541 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.648
+2023-09-17 14:58:20.541 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.623
+2023-09-17 14:58:20.541 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=004.925
+2023-09-17 14:58:20.547 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.522
+2023-09-17 14:58:20.759 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:58:20.814 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.684
+2023-09-17 14:58:20.901 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.151
+2023-09-17 14:58:20.976 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:58:21.055 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 92
+Parsing Duration (ms): 1
+
+2023-09-17 14:58:21.055 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:58:21.059 +02:00 [DBG] rerender finished
+2023-09-17 14:58:21.063 +02:00 [INF] Request Ip=::1 Url=/ Time=320.351
+2023-09-17 14:58:21.243 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 14:58:21.243 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 14:58:21.280 +02:00 [DBG] rerender finished
+2023-09-17 14:58:26.164 +02:00 [DBG] UrlFront: https://amazon.de
+2023-09-17 14:58:26.164 +02:00 [DBG] Url request: https://amazon.de
+2023-09-17 14:58:26.164 +02:00 [DBG] RerenderEmbed called
+2023-09-17 14:58:27.450 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1284
+Parsing Duration (ms): 1
+
+2023-09-17 14:58:27.450 +02:00 [DBG] Title: amazon.de
+2023-09-17 14:58:27.452 +02:00 [DBG] rerender finished
+2023-09-17 14:58:27.457 +02:00 [DBG] UrlFront: https://amazon.de
+2023-09-17 14:58:27.457 +02:00 [DBG] Url request: https://amazon.de
+2023-09-17 14:59:01.388 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.257
+2023-09-17 15:00:33.695 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=132791.062
+2023-09-17 15:00:40.348 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:00:40.380 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:00:40.382 +02:00 [DBG] Number of entries in WebsiteUsage 60
+2023-09-17 15:00:41.083 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:42.449 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1037
+Parsing Duration (ms): 8
+
+2023-09-17 15:00:42.449 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:42.495 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=014.802
+2023-09-17 15:00:42.550 +02:00 [DBG] rerender finished
+2023-09-17 15:00:42.624 +02:00 [INF] Request Ip=::1 Url=/ Time=1783.314
+2023-09-17 15:00:42.645 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=003.441
+2023-09-17 15:00:42.645 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.269
+2023-09-17 15:00:42.645 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.071
+2023-09-17 15:00:42.835 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:42.888 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.684
+2023-09-17 15:00:42.965 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.398
+2023-09-17 15:00:43.033 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:43.133 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 80
+Parsing Duration (ms): 2
+
+2023-09-17 15:00:43.133 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:43.137 +02:00 [DBG] rerender finished
+2023-09-17 15:00:43.142 +02:00 [INF] Request Ip=::1 Url=/ Time=321.614
+2023-09-17 15:00:43.313 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 62
+Parsing Duration (ms): 1
+
+2023-09-17 15:00:43.313 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:43.316 +02:00 [DBG] rerender finished
+2023-09-17 15:00:49.633 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:49.912 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-17 15:00:49.912 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:49.916 +02:00 [DBG] rerender finished
+2023-09-17 15:00:49.918 +02:00 [INF] Request Ip=::1 Url=/ Time=290.828
+2023-09-17 15:00:49.927 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=005.077
+2023-09-17 15:00:49.929 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=6960.766
+2023-09-17 15:00:49.933 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=002.580
+2023-09-17 15:00:49.937 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.575
+2023-09-17 15:00:49.937 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=003.558
+2023-09-17 15:00:49.937 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=003.935
+2023-09-17 15:00:49.943 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.277
+2023-09-17 15:00:49.948 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.744
+2023-09-17 15:00:49.951 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.371
+2023-09-17 15:00:50.147 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.195
+2023-09-17 15:00:50.156 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:50.183 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.268
+2023-09-17 15:00:50.193 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:00:50.401 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 15:00:50.402 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:50.404 +02:00 [DBG] rerender finished
+2023-09-17 15:00:50.406 +02:00 [INF] Request Ip=::1 Url=/ Time=251.826
+2023-09-17 15:00:50.410 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.396
+2023-09-17 15:00:50.472 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 15:00:50.473 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:00:50.475 +02:00 [DBG] rerender finished
+2023-09-17 15:01:04.567 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:05.447 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 686
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:05.447 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:05.450 +02:00 [DBG] rerender finished
+2023-09-17 15:01:05.452 +02:00 [INF] Request Ip=::1 Url=/ Time=887.492
+2023-09-17 15:01:05.456 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=15269.912
+2023-09-17 15:01:05.456 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.134
+2023-09-17 15:01:05.462 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.599
+2023-09-17 15:01:05.465 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.453
+2023-09-17 15:01:05.465 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.433
+2023-09-17 15:01:05.466 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=002.252
+2023-09-17 15:01:05.470 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.551
+2023-09-17 15:01:05.476 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.531
+2023-09-17 15:01:05.480 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.380
+2023-09-17 15:01:05.701 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.109
+2023-09-17 15:01:05.711 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:05.744 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.234
+2023-09-17 15:01:05.753 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:05.931 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 67
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:05.931 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:05.933 +02:00 [DBG] rerender finished
+2023-09-17 15:01:05.935 +02:00 [INF] Request Ip=::1 Url=/ Time=226.337
+2023-09-17 15:01:05.941 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.484
+2023-09-17 15:01:05.986 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:05.986 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:05.989 +02:00 [DBG] rerender finished
+2023-09-17 15:01:19.846 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:20.678 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 623
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:20.678 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:20.680 +02:00 [DBG] rerender finished
+2023-09-17 15:01:20.683 +02:00 [INF] Request Ip=::1 Url=/ Time=838.916
+2023-09-17 15:01:20.687 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=14940.503
+2023-09-17 15:01:20.687 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.087
+2023-09-17 15:01:20.694 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.435
+2023-09-17 15:01:20.695 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.151
+2023-09-17 15:01:20.695 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.080
+2023-09-17 15:01:20.696 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.237
+2023-09-17 15:01:20.839 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:20.857 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.076
+2023-09-17 15:01:20.898 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.152
+2023-09-17 15:01:20.906 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:21.094 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:21.094 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:21.096 +02:00 [DBG] rerender finished
+2023-09-17 15:01:21.099 +02:00 [INF] Request Ip=::1 Url=/ Time=261.583
+2023-09-17 15:01:21.102 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:21.108 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.369
+2023-09-17 15:01:21.112 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.380
+2023-09-17 15:01:21.112 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.333
+2023-09-17 15:01:21.114 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.948
+2023-09-17 15:01:21.118 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.356
+2023-09-17 15:01:21.124 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.374
+2023-09-17 15:01:21.128 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.511
+2023-09-17 15:01:21.168 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 56
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:21.169 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:21.170 +02:00 [DBG] rerender finished
+2023-09-17 15:01:21.173 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=272.167
+2023-09-17 15:01:21.331 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.084
+2023-09-17 15:01:21.341 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:21.346 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:21.346 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:21.349 +02:00 [DBG] rerender finished
+2023-09-17 15:01:21.351 +02:00 [INF] Request Ip=::1 Url=/ Time=251.326
+2023-09-17 15:01:21.369 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.112
+2023-09-17 15:01:21.375 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:01:21.573 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-17 15:01:21.573 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:21.575 +02:00 [DBG] rerender finished
+2023-09-17 15:01:21.577 +02:00 [INF] Request Ip=::1 Url=/ Time=238.219
+2023-09-17 15:01:21.582 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.371
+2023-09-17 15:01:21.652 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 92
+Parsing Duration (ms): 1
+
+2023-09-17 15:01:21.653 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:01:21.655 +02:00 [DBG] rerender finished
+2023-09-17 15:01:59.462 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:00.226 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:00.277 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 619
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:00.277 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:00.282 +02:00 [DBG] rerender finished
+2023-09-17 15:02:00.292 +02:00 [INF] Request Ip=::1 Url=/ Time=834.223
+2023-09-17 15:02:00.297 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=38926.005
+2023-09-17 15:02:00.297 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.248
+2023-09-17 15:02:00.304 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.435
+2023-09-17 15:02:00.307 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.257
+2023-09-17 15:02:00.312 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.136
+2023-09-17 15:02:00.313 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.249
+2023-09-17 15:02:00.465 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:00.490 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 64
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:00.490 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:00.490 +02:00 [DBG] rerender finished
+2023-09-17 15:02:00.492 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:00.498 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.227
+2023-09-17 15:02:00.551 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.190
+2023-09-17 15:02:00.561 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:01.295 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 611
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:01.295 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:01.295 +02:00 [DBG] rerender finished
+2023-09-17 15:02:01.320 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 637
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:01.320 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:01.322 +02:00 [DBG] rerender finished
+2023-09-17 15:02:01.330 +02:00 [INF] Request Ip=::1 Url=/ Time=872.678
+2023-09-17 15:02:01.595 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 831
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:01.596 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:01.600 +02:00 [DBG] rerender finished
+2023-09-17 15:02:20.859 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:02:20.899 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:02:20.901 +02:00 [DBG] Number of entries in WebsiteUsage 60
+2023-09-17 15:02:21.558 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:22.701 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 833
+Parsing Duration (ms): 9
+
+2023-09-17 15:02:22.701 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:22.792 +02:00 [DBG] rerender finished
+2023-09-17 15:02:22.871 +02:00 [INF] Request Ip=::1 Url=/ Time=1604.797
+2023-09-17 15:02:22.896 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=017.878
+2023-09-17 15:02:22.897 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=002.058
+2023-09-17 15:02:22.898 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=006.168
+2023-09-17 15:02:22.898 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.197
+2023-09-17 15:02:22.898 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=006.177
+2023-09-17 15:02:23.058 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:23.087 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=007.120
+2023-09-17 15:02:23.124 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=006.881
+2023-09-17 15:02:23.202 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:23.632 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 241
+Parsing Duration (ms): 2
+
+2023-09-17 15:02:23.632 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:23.637 +02:00 [DBG] rerender finished
+2023-09-17 15:02:23.891 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 631
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:23.891 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:23.894 +02:00 [DBG] rerender finished
+2023-09-17 15:02:23.897 +02:00 [INF] Request Ip=::1 Url=/ Time=857.307
+2023-09-17 15:02:29.641 +02:00 [DBG] UrlFront: https://github.com
+2023-09-17 15:02:29.641 +02:00 [DBG] Url request: https://github.com
+2023-09-17 15:02:29.641 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:29.987 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:29.987 +02:00 [DBG] Title: GitHub: Let’s build from here
+2023-09-17 15:02:29.990 +02:00 [DBG] rerender finished
+2023-09-17 15:02:31.060 +02:00 [DBG] UrlFront: https://github.com
+2023-09-17 15:02:31.060 +02:00 [DBG] Url request: https://github.com
+2023-09-17 15:02:35.525 +02:00 [DBG] UrlFront: https://amazon.c
+2023-09-17 15:02:35.525 +02:00 [DBG] Url request: https://amazon.c
+2023-09-17 15:02:35.525 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:35.601 +02:00 [ERR] WebException occured when requesting url https://amazon.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (amazon.c:443)
+2023-09-17 15:02:35.612 +02:00 [DBG] Status Type: requestFailed
+Response Status Code: OK
+Web Status: NameResolutionFailure
+Message: Der angegebene Host ist unbekannt. (amazon.c:443)
+Exception: Der angegebene Host ist unbekannt. (amazon.c:443)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-09-17 15:02:35.612 +02:00 [DBG] Title: Unknown
+2023-09-17 15:02:35.642 +02:00 [DBG] rerender finished
+2023-09-17 15:02:36.078 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 15:02:36.078 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 15:02:36.078 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:37.943 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1704
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:37.943 +02:00 [DBG] Title: amazon.com
+2023-09-17 15:02:37.947 +02:00 [DBG] rerender finished
+2023-09-17 15:02:37.947 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 15:02:37.947 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 15:02:48.624 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:49.426 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 605
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:49.426 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:49.428 +02:00 [DBG] rerender finished
+2023-09-17 15:02:49.431 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:50.274 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 644
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:50.274 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:02:50.274 +02:00 [DBG] rerender finished
+2023-09-17 15:02:52.564 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 15:02:52.564 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 15:02:52.564 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:02:53.451 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 786
+Parsing Duration (ms): 1
+
+2023-09-17 15:02:53.452 +02:00 [DBG] Title: amazon.com
+2023-09-17 15:02:53.454 +02:00 [DBG] rerender finished
+2023-09-17 15:05:34.375 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:05:35.506 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 905
+Parsing Duration (ms): 1
+
+2023-09-17 15:05:35.506 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:05:35.510 +02:00 [DBG] rerender finished
+2023-09-17 15:05:35.514 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:05:36.277 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 547
+Parsing Duration (ms): 1
+
+2023-09-17 15:05:36.277 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:05:36.277 +02:00 [DBG] rerender finished
+2023-09-17 15:05:48.331 +02:00 [DBG] UrlFront: https://amazon.com
+2023-09-17 15:05:48.331 +02:00 [DBG] Url request: https://amazon.com
+2023-09-17 15:05:48.331 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:05:49.829 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1344
+Parsing Duration (ms): 1
+
+2023-09-17 15:05:49.829 +02:00 [DBG] Title: amazon.com
+2023-09-17 15:05:49.832 +02:00 [DBG] rerender finished
+2023-09-17 15:06:48.081 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:06:48.900 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 582
+Parsing Duration (ms): 0
+
+2023-09-17 15:06:48.900 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:06:48.903 +02:00 [DBG] rerender finished
+2023-09-17 15:06:48.906 +02:00 [INF] Request Ip=::1 Url=/ Time=833.879
+2023-09-17 15:06:48.915 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=004.523
+2023-09-17 15:06:48.919 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=001.357
+2023-09-17 15:06:48.919 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=265791.699
+2023-09-17 15:06:48.919 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.251
+2023-09-17 15:06:48.925 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.164
+2023-09-17 15:06:48.926 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.244
+2023-09-17 15:06:49.076 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.071
+2023-09-17 15:06:49.084 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:06:49.114 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.364
+2023-09-17 15:06:49.142 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:06:49.821 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 548
+Parsing Duration (ms): 1
+
+2023-09-17 15:06:49.821 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:06:49.823 +02:00 [DBG] rerender finished
+2023-09-17 15:06:49.825 +02:00 [INF] Request Ip=::1 Url=/ Time=744.015
+2023-09-17 15:06:50.229 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 879
+Parsing Duration (ms): 1
+
+2023-09-17 15:06:50.229 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:06:50.231 +02:00 [DBG] rerender finished
+2023-09-17 15:07:09.645 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:10.512 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 668
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:10.512 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:10.518 +02:00 [DBG] rerender finished
+2023-09-17 15:07:10.521 +02:00 [INF] Request Ip=::1 Url=/ Time=878.598
+2023-09-17 15:07:10.527 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=21394.335
+2023-09-17 15:07:10.528 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.688
+2023-09-17 15:07:10.544 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=005.743
+2023-09-17 15:07:10.549 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=008.011
+2023-09-17 15:07:10.549 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=008.593
+2023-09-17 15:07:10.554 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.309
+2023-09-17 15:07:10.554 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=014.684
+2023-09-17 15:07:10.561 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.715
+2023-09-17 15:07:10.566 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.476
+2023-09-17 15:07:10.775 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.160
+2023-09-17 15:07:10.788 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:10.816 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.183
+2023-09-17 15:07:10.824 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:11.065 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:11.066 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 80
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:11.066 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:11.066 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:11.068 +02:00 [DBG] rerender finished
+2023-09-17 15:07:11.073 +02:00 [DBG] rerender finished
+2023-09-17 15:07:11.076 +02:00 [INF] Request Ip=::1 Url=/ Time=291.171
+2023-09-17 15:07:11.147 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.723
+2023-09-17 15:07:19.009 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:07:19.041 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:07:19.043 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:07:19.576 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:20.174 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 302
+Parsing Duration (ms): 8
+
+2023-09-17 15:07:20.174 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:20.255 +02:00 [DBG] rerender finished
+2023-09-17 15:07:20.325 +02:00 [INF] Request Ip=::1 Url=/ Time=992.142
+2023-09-17 15:07:20.344 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=004.186
+2023-09-17 15:07:20.344 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.188
+2023-09-17 15:07:20.347 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=016.742
+2023-09-17 15:07:20.347 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.979
+2023-09-17 15:07:20.473 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:20.503 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=005.897
+2023-09-17 15:07:20.531 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=006.696
+2023-09-17 15:07:20.599 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:21.077 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 269
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:21.077 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:21.082 +02:00 [DBG] rerender finished
+2023-09-17 15:07:21.372 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 660
+Parsing Duration (ms): 2
+
+2023-09-17 15:07:21.372 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:21.374 +02:00 [DBG] rerender finished
+2023-09-17 15:07:21.378 +02:00 [INF] Request Ip=::1 Url=/ Time=918.456
+2023-09-17 15:07:23.505 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 15:07:23.506 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 15:07:26.279 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 15:07:26.279 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 15:07:41.739 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:42.529 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 571
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:42.529 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:42.529 +02:00 [DBG] rerender finished
+2023-09-17 15:07:42.532 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:43.100 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 71
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:43.101 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:43.101 +02:00 [DBG] rerender finished
+2023-09-17 15:07:45.453 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:46.185 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 518
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:46.185 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:46.188 +02:00 [DBG] rerender finished
+2023-09-17 15:07:46.192 +02:00 [INF] Request Ip=::1 Url=/ Time=750.518
+2023-09-17 15:07:46.202 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=005.664
+2023-09-17 15:07:46.204 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=25670.325
+2023-09-17 15:07:46.206 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=001.768
+2023-09-17 15:07:46.206 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.257
+2023-09-17 15:07:46.206 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.225
+2023-09-17 15:07:46.206 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.227
+2023-09-17 15:07:46.330 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.091
+2023-09-17 15:07:46.339 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:46.369 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.443
+2023-09-17 15:07:46.381 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:46.596 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:46.596 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:46.599 +02:00 [DBG] rerender finished
+2023-09-17 15:07:46.601 +02:00 [INF] Request Ip=::1 Url=/ Time=264.617
+2023-09-17 15:07:46.636 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:46.636 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:46.638 +02:00 [DBG] rerender finished
+2023-09-17 15:07:48.838 +02:00 [DBG] UrlFront: null
+2023-09-17 15:07:48.867 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2495.672
+2023-09-17 15:07:58.751 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:58.987 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:58.987 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:59.007 +02:00 [DBG] rerender finished
+2023-09-17 15:07:59.010 +02:00 [INF] Request Ip=::1 Url=/ Time=267.278
+2023-09-17 15:07:59.014 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.772
+2023-09-17 15:07:59.023 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=001.381
+2023-09-17 15:07:59.023 +02:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/logo.png Time=001.305
+2023-09-17 15:07:59.028 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=008.065
+2023-09-17 15:07:59.030 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=008.330
+2023-09-17 15:07:59.030 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=002.312
+2023-09-17 15:07:59.037 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.568
+2023-09-17 15:07:59.040 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.353
+2023-09-17 15:07:59.237 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.205
+2023-09-17 15:07:59.250 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:59.286 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.546
+2023-09-17 15:07:59.299 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:07:59.494 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 55
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:59.494 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:59.496 +02:00 [DBG] rerender finished
+2023-09-17 15:07:59.499 +02:00 [INF] Request Ip=::1 Url=/ Time=250.899
+2023-09-17 15:07:59.504 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.639
+2023-09-17 15:07:59.526 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 1
+
+2023-09-17 15:07:59.526 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:07:59.530 +02:00 [DBG] rerender finished
+2023-09-17 15:08:01.453 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 15:08:01.454 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 15:08:41.983 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:42.742 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 520
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:42.742 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:42.746 +02:00 [DBG] rerender finished
+2023-09-17 15:08:42.748 +02:00 [INF] Request Ip=::1 Url=/ Time=768.419
+2023-09-17 15:08:42.752 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=43461.805
+2023-09-17 15:08:42.753 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.509
+2023-09-17 15:08:42.760 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.620
+2023-09-17 15:08:42.764 +02:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/logo.png Time=000.348
+2023-09-17 15:08:42.764 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.617
+2023-09-17 15:08:42.765 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.910
+2023-09-17 15:08:42.769 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.706
+2023-09-17 15:08:42.775 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.429
+2023-09-17 15:08:42.779 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.370
+2023-09-17 15:08:42.962 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.129
+2023-09-17 15:08:42.973 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:43.008 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.553
+2023-09-17 15:08:43.020 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:43.218 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 54
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:43.218 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:43.220 +02:00 [DBG] rerender finished
+2023-09-17 15:08:43.223 +02:00 [INF] Request Ip=::1 Url=/ Time=253.435
+2023-09-17 15:08:43.230 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.528
+2023-09-17 15:08:43.281 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:43.281 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:43.283 +02:00 [DBG] rerender finished
+2023-09-17 15:08:45.776 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:46.013 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:46.013 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:46.015 +02:00 [DBG] rerender finished
+2023-09-17 15:08:46.018 +02:00 [INF] Request Ip=::1 Url=/ Time=244.778
+2023-09-17 15:08:46.022 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=3007.948
+2023-09-17 15:08:46.022 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.052
+2023-09-17 15:08:46.030 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.248
+2023-09-17 15:08:46.030 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.298
+2023-09-17 15:08:46.030 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.375
+2023-09-17 15:08:46.161 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.105
+2023-09-17 15:08:46.176 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:46.210 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.170
+2023-09-17 15:08:46.219 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:46.483 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:46.483 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:46.485 +02:00 [DBG] rerender finished
+2023-09-17 15:08:46.488 +02:00 [INF] Request Ip=::1 Url=/ Time=314.748
+2023-09-17 15:08:46.491 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:46.491 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:46.521 +02:00 [DBG] rerender finished
+2023-09-17 15:08:50.783 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:51.622 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 620
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:51.622 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:51.624 +02:00 [DBG] rerender finished
+2023-09-17 15:08:51.627 +02:00 [INF] Request Ip=::1 Url=/ Time=846.784
+2023-09-17 15:08:51.631 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=5417.171
+2023-09-17 15:08:51.632 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.983
+2023-09-17 15:08:51.637 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.440
+2023-09-17 15:08:51.640 +02:00 [INF] Request Ip=127.0.0.1 Url=/static/js/twConfig.js Time=000.738
+2023-09-17 15:08:51.640 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.525
+2023-09-17 15:08:51.641 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.820
+2023-09-17 15:08:51.646 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.389
+2023-09-17 15:08:51.652 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.473
+2023-09-17 15:08:51.655 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.370
+2023-09-17 15:08:51.862 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.119
+2023-09-17 15:08:51.872 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:51.905 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.128
+2023-09-17 15:08:51.913 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:08:52.132 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:52.132 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:52.135 +02:00 [DBG] rerender finished
+2023-09-17 15:08:52.137 +02:00 [INF] Request Ip=::1 Url=/ Time=267.827
+2023-09-17 15:08:52.141 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.485
+2023-09-17 15:08:52.167 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-17 15:08:52.167 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:08:52.170 +02:00 [DBG] rerender finished
+2023-09-17 15:09:01.166 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:09:01.198 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:09:01.210 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:09:01.594 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=010.744
+2023-09-17 15:09:01.746 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:09:02.772 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 329
+Parsing Duration (ms): 8
+
+2023-09-17 15:09:02.772 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:09:02.851 +02:00 [DBG] rerender finished
+2023-09-17 15:09:02.917 +02:00 [INF] Request Ip=::1 Url=/ Time=1424.903
+2023-09-17 15:09:02.928 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1328.251
+2023-09-17 15:09:02.933 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=004.083
+2023-09-17 15:09:02.933 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=004.073
+2023-09-17 15:09:02.933 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.751
+2023-09-17 15:09:02.935 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=012.857
+2023-09-17 15:09:03.047 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=003.625
+2023-09-17 15:09:03.065 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:09:03.086 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.369
+2023-09-17 15:09:03.130 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:09:03.648 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 319
+Parsing Duration (ms): 1
+
+2023-09-17 15:09:03.648 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:09:03.652 +02:00 [DBG] rerender finished
+2023-09-17 15:09:03.816 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 538
+Parsing Duration (ms): 1
+
+2023-09-17 15:09:03.816 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:09:03.818 +02:00 [DBG] rerender finished
+2023-09-17 15:09:03.822 +02:00 [INF] Request Ip=::1 Url=/ Time=769.913
+2023-09-17 15:09:08.464 +02:00 [DBG] UrlFront: https://github.com/DavideWiest
+2023-09-17 15:09:08.464 +02:00 [DBG] Url request: https://github.com/DavideWiest
+2023-09-17 15:09:28.437 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.696
+2023-09-17 15:10:33.110 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:10:34.217 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 906
+Parsing Duration (ms): 1
+
+2023-09-17 15:10:34.217 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:10:34.217 +02:00 [DBG] rerender finished
+2023-09-17 15:10:34.221 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:10:35.177 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 738
+Parsing Duration (ms): 1
+
+2023-09-17 15:10:35.177 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:10:35.177 +02:00 [DBG] rerender finished
+2023-09-17 15:10:53.552 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:10:53.838 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 67
+Parsing Duration (ms): 1
+
+2023-09-17 15:10:53.839 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:10:53.839 +02:00 [DBG] rerender finished
+2023-09-17 15:10:53.842 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:10:54.343 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 242
+Parsing Duration (ms): 1
+
+2023-09-17 15:10:54.343 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:10:54.343 +02:00 [DBG] rerender finished
+2023-09-17 15:11:02.116 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:11:03.016 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 685
+Parsing Duration (ms): 0
+
+2023-09-17 15:11:03.017 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:11:03.017 +02:00 [DBG] rerender finished
+2023-09-17 15:11:03.021 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:11:03.278 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-17 15:11:03.278 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:11:03.278 +02:00 [DBG] rerender finished
+2023-09-17 15:11:03.834 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:11:04.639 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 622
+Parsing Duration (ms): 1
+
+2023-09-17 15:11:04.639 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:11:04.644 +02:00 [DBG] rerender finished
+2023-09-17 15:11:04.648 +02:00 [INF] Request Ip=::1 Url=/ Time=828.802
+2023-09-17 15:11:04.657 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=121569.048
+2023-09-17 15:11:04.659 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=006.260
+2023-09-17 15:11:04.664 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=001.355
+2023-09-17 15:11:04.667 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.244
+2023-09-17 15:11:04.675 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.243
+2023-09-17 15:11:04.676 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.270
+2023-09-17 15:11:04.878 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:11:04.942 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.839
+2023-09-17 15:11:05.071 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.358
+2023-09-17 15:11:05.090 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:11:05.145 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-17 15:11:05.146 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:11:05.177 +02:00 [DBG] rerender finished
+2023-09-17 15:11:05.180 +02:00 [INF] Request Ip=::1 Url=/ Time=305.812
+2023-09-17 15:11:05.334 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 34
+Parsing Duration (ms): 1
+
+2023-09-17 15:11:05.334 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:11:05.351 +02:00 [DBG] rerender finished
+2023-09-17 15:12:21.007 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:12:22.152 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 907
+Parsing Duration (ms): 1
+
+2023-09-17 15:12:22.152 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:12:22.152 +02:00 [DBG] rerender finished
+2023-09-17 15:12:22.155 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:12:22.182 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:12:22.995 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 640
+Parsing Duration (ms): 1
+
+2023-09-17 15:12:22.996 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:12:22.996 +02:00 [DBG] rerender finished
+2023-09-17 15:12:23.564 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1167
+Parsing Duration (ms): 1
+
+2023-09-17 15:12:23.564 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:12:23.569 +02:00 [DBG] rerender finished
+2023-09-17 15:12:23.573 +02:00 [INF] Request Ip=::1 Url=/ Time=1399.448
+2023-09-17 15:12:23.578 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=78501.993
+2023-09-17 15:12:23.578 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.311
+2023-09-17 15:12:23.590 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.100
+2023-09-17 15:12:23.590 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.338
+2023-09-17 15:12:23.590 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.149
+2023-09-17 15:12:23.590 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=002.435
+2023-09-17 15:12:23.802 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:12:23.858 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.288
+2023-09-17 15:12:24.008 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.511
+2023-09-17 15:12:24.041 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:12:24.077 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 78
+Parsing Duration (ms): 1
+
+2023-09-17 15:12:24.077 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:12:24.080 +02:00 [DBG] rerender finished
+2023-09-17 15:12:24.084 +02:00 [INF] Request Ip=::1 Url=/ Time=287.703
+2023-09-17 15:12:24.308 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 70
+Parsing Duration (ms): 1
+
+2023-09-17 15:12:24.308 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:12:24.311 +02:00 [DBG] rerender finished
+2023-09-17 15:13:57.872 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:13:58.628 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:13:58.998 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 893
+Parsing Duration (ms): 1
+
+2023-09-17 15:13:58.999 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:13:58.999 +02:00 [DBG] rerender finished
+2023-09-17 15:13:59.002 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:13:59.303 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 15:13:59.303 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:13:59.303 +02:00 [DBG] rerender finished
+2023-09-17 15:13:59.624 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 778
+Parsing Duration (ms): 1
+
+2023-09-17 15:13:59.624 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:13:59.629 +02:00 [DBG] rerender finished
+2023-09-17 15:13:59.632 +02:00 [INF] Request Ip=::1 Url=/ Time=1011.913
+2023-09-17 15:13:59.639 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=95622.442
+2023-09-17 15:13:59.639 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.360
+2023-09-17 15:13:59.647 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=002.854
+2023-09-17 15:13:59.655 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.751
+2023-09-17 15:13:59.660 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=005.062
+2023-09-17 15:13:59.660 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.533
+2023-09-17 15:13:59.664 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=002.450
+2023-09-17 15:13:59.672 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.778
+2023-09-17 15:13:59.675 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.441
+2023-09-17 15:13:59.946 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:14:00.059 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.483
+2023-09-17 15:14:00.094 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.157
+2023-09-17 15:14:00.105 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:14:00.389 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 68
+Parsing Duration (ms): 1
+
+2023-09-17 15:14:00.389 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:14:00.391 +02:00 [DBG] rerender finished
+2023-09-17 15:14:00.739 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 584
+Parsing Duration (ms): 1
+
+2023-09-17 15:14:00.739 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:14:00.743 +02:00 [DBG] rerender finished
+2023-09-17 15:14:00.746 +02:00 [INF] Request Ip=::1 Url=/ Time=804.077
+2023-09-17 15:14:00.764 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.638
+2023-09-17 15:15:28.986 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:30.034 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 832
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:30.034 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:30.037 +02:00 [DBG] rerender finished
+2023-09-17 15:15:30.039 +02:00 [INF] Request Ip=::1 Url=/ Time=1056.368
+2023-09-17 15:15:30.046 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=89948.478
+2023-09-17 15:15:30.046 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.228
+2023-09-17 15:15:30.054 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.983
+2023-09-17 15:15:30.057 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.504
+2023-09-17 15:15:30.058 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.409
+2023-09-17 15:15:30.059 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=002.233
+2023-09-17 15:15:30.064 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.728
+2023-09-17 15:15:30.071 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.440
+2023-09-17 15:15:30.075 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.316
+2023-09-17 15:15:30.267 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.099
+2023-09-17 15:15:30.277 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:30.306 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.148
+2023-09-17 15:15:30.318 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:30.530 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 75
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:30.530 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:30.532 +02:00 [DBG] rerender finished
+2023-09-17 15:15:30.534 +02:00 [INF] Request Ip=::1 Url=/ Time=259.638
+2023-09-17 15:15:30.539 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.467
+2023-09-17 15:15:30.610 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 83
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:30.610 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:30.612 +02:00 [DBG] rerender finished
+2023-09-17 15:15:36.222 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:37.181 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 741
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:37.181 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:37.195 +02:00 [DBG] rerender finished
+2023-09-17 15:15:37.197 +02:00 [INF] Request Ip=::1 Url=/ Time=977.360
+2023-09-17 15:15:37.202 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=6889.273
+2023-09-17 15:15:37.202 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.089
+2023-09-17 15:15:37.207 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.504
+2023-09-17 15:15:37.209 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=000.462
+2023-09-17 15:15:37.209 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=000.491
+2023-09-17 15:15:37.211 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.809
+2023-09-17 15:15:37.214 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.588
+2023-09-17 15:15:37.223 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.398
+2023-09-17 15:15:37.227 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.326
+2023-09-17 15:15:37.417 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.121
+2023-09-17 15:15:37.427 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:37.454 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.130
+2023-09-17 15:15:37.463 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:37.661 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 65
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:37.661 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:37.662 +02:00 [DBG] rerender finished
+2023-09-17 15:15:37.664 +02:00 [INF] Request Ip=::1 Url=/ Time=239.523
+2023-09-17 15:15:37.669 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.441
+2023-09-17 15:15:37.741 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 56
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:37.741 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:37.743 +02:00 [DBG] rerender finished
+2023-09-17 15:15:54.302 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:15:54.337 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:15:54.339 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:15:54.927 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:55.999 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 787
+Parsing Duration (ms): 9
+
+2023-09-17 15:15:56.000 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:56.094 +02:00 [DBG] rerender finished
+2023-09-17 15:15:56.176 +02:00 [INF] Request Ip=::1 Url=/ Time=1517.621
+2023-09-17 15:15:56.197 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.863
+2023-09-17 15:15:56.197 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=005.870
+2023-09-17 15:15:56.200 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=002.095
+2023-09-17 15:15:56.201 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=018.230
+2023-09-17 15:15:56.343 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:56.365 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.343
+2023-09-17 15:15:56.413 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=010.500
+2023-09-17 15:15:56.506 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:15:56.673 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 92
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:56.673 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:56.676 +02:00 [DBG] rerender finished
+2023-09-17 15:15:56.681 +02:00 [INF] Request Ip=::1 Url=/ Time=357.913
+2023-09-17 15:15:56.785 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 60
+Parsing Duration (ms): 1
+
+2023-09-17 15:15:56.785 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:15:56.789 +02:00 [DBG] rerender finished
+2023-09-17 15:16:24.907 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:25.672 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 564
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:25.672 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:25.672 +02:00 [DBG] rerender finished
+2023-09-17 15:16:25.675 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:26.537 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 641
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:26.537 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:26.537 +02:00 [DBG] rerender finished
+2023-09-17 15:16:42.918 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:43.381 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:43.691 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 578
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:43.691 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:43.691 +02:00 [DBG] rerender finished
+2023-09-17 15:16:43.695 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:44.273 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 633
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:44.273 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:44.275 +02:00 [DBG] rerender finished
+2023-09-17 15:16:44.280 +02:00 [INF] Request Ip=::1 Url=/ Time=909.396
+2023-09-17 15:16:44.293 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=47859.014
+2023-09-17 15:16:44.297 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=003.536
+2023-09-17 15:16:44.299 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=001.018
+2023-09-17 15:16:44.303 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.885
+2023-09-17 15:16:44.303 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=003.476
+2023-09-17 15:16:44.310 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.661
+2023-09-17 15:16:44.314 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.499
+2023-09-17 15:16:44.317 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.435
+2023-09-17 15:16:44.421 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 536
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:44.421 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:44.421 +02:00 [DBG] rerender finished
+2023-09-17 15:16:44.426 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=140.765
+2023-09-17 15:16:44.528 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.345
+2023-09-17 15:16:44.539 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:44.586 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=002.292
+2023-09-17 15:16:44.600 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:16:44.810 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 60
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:44.810 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:44.813 +02:00 [DBG] rerender finished
+2023-09-17 15:16:44.815 +02:00 [INF] Request Ip=::1 Url=/ Time=280.426
+2023-09-17 15:16:44.821 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.632
+2023-09-17 15:16:44.849 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 60
+Parsing Duration (ms): 1
+
+2023-09-17 15:16:44.849 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:16:44.976 +02:00 [DBG] rerender finished
+2023-09-17 15:16:57.586 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=12996.548
+2023-09-17 15:17:27.445 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:17:28.333 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 685
+Parsing Duration (ms): 1
+
+2023-09-17 15:17:28.333 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:17:28.337 +02:00 [DBG] rerender finished
+2023-09-17 15:17:28.340 +02:00 [INF] Request Ip=::1 Url=/ Time=903.769
+2023-09-17 15:17:28.345 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.665
+2023-09-17 15:17:28.356 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.737
+2023-09-17 15:17:28.359 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.317
+2023-09-17 15:17:28.360 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.218
+2023-09-17 15:17:28.492 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.104
+2023-09-17 15:17:28.500 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:17:28.535 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.503
+2023-09-17 15:17:28.561 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:17:28.748 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 1
+
+2023-09-17 15:17:28.748 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:17:28.750 +02:00 [DBG] rerender finished
+2023-09-17 15:17:28.753 +02:00 [INF] Request Ip=::1 Url=/ Time=255.515
+2023-09-17 15:17:29.307 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 535
+Parsing Duration (ms): 1
+
+2023-09-17 15:17:29.307 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:17:29.311 +02:00 [DBG] rerender finished
+2023-09-17 15:18:09.279 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:10.055 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 561
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:10.055 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:10.055 +02:00 [DBG] rerender finished
+2023-09-17 15:18:10.057 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:10.831 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 554
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:10.831 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:10.831 +02:00 [DBG] rerender finished
+2023-09-17 15:18:18.002 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:18.273 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 56
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:18.273 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:18.273 +02:00 [DBG] rerender finished
+2023-09-17 15:18:18.276 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:18.554 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:18.554 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:18.554 +02:00 [DBG] rerender finished
+2023-09-17 15:18:22.232 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:22.481 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:22.481 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:22.481 +02:00 [DBG] rerender finished
+2023-09-17 15:18:22.484 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:22.738 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:22.738 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:22.738 +02:00 [DBG] rerender finished
+2023-09-17 15:18:27.280 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:27.534 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:27.534 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:27.535 +02:00 [DBG] rerender finished
+2023-09-17 15:18:27.537 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:27.790 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 0
+
+2023-09-17 15:18:27.790 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:27.790 +02:00 [DBG] rerender finished
+2023-09-17 15:18:32.860 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:33.107 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:33.107 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:33.107 +02:00 [DBG] rerender finished
+2023-09-17 15:18:33.109 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:33.847 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 516
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:33.847 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:33.847 +02:00 [DBG] rerender finished
+2023-09-17 15:18:50.651 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:50.930 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:50.930 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:50.930 +02:00 [DBG] rerender finished
+2023-09-17 15:18:50.933 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:18:51.182 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 50
+Parsing Duration (ms): 1
+
+2023-09-17 15:18:51.182 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:18:51.182 +02:00 [DBG] rerender finished
+2023-09-17 15:18:55.444 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=000.380
+2023-09-17 15:18:55.444 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.219
+2023-09-17 15:19:15.610 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:16.347 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 514
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:16.348 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:16.348 +02:00 [DBG] rerender finished
+2023-09-17 15:19:16.351 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:16.572 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:17.185 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 639
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:17.185 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:17.185 +02:00 [DBG] rerender finished
+2023-09-17 15:19:17.777 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1001
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:17.777 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:17.781 +02:00 [DBG] rerender finished
+2023-09-17 15:19:17.785 +02:00 [INF] Request Ip=::1 Url=/ Time=1223.198
+2023-09-17 15:19:17.790 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.320
+2023-09-17 15:19:17.790 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=109236.416
+2023-09-17 15:19:17.801 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.542
+2023-09-17 15:19:17.806 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.162
+2023-09-17 15:19:17.807 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.256
+2023-09-17 15:19:18.020 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:18.072 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.465
+2023-09-17 15:19:18.182 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.200
+2023-09-17 15:19:18.224 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:18.310 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 68
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:18.310 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:18.313 +02:00 [DBG] rerender finished
+2023-09-17 15:19:18.316 +02:00 [INF] Request Ip=::1 Url=/ Time=299.721
+2023-09-17 15:19:18.506 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 82
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:18.507 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:18.509 +02:00 [DBG] rerender finished
+2023-09-17 15:19:48.562 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:49.296 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 524
+Parsing Duration (ms): 0
+
+2023-09-17 15:19:49.296 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:49.296 +02:00 [DBG] rerender finished
+2023-09-17 15:19:49.298 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:19:50.150 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 604
+Parsing Duration (ms): 1
+
+2023-09-17 15:19:50.150 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:19:50.150 +02:00 [DBG] rerender finished
+2023-09-17 15:21:14.428 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:15.435 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 787
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:15.435 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:15.435 +02:00 [DBG] rerender finished
+2023-09-17 15:21:15.437 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:16.188 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 549
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:16.188 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:16.188 +02:00 [DBG] rerender finished
+2023-09-17 15:21:16.201 +02:00 [INF] Request Ip=::1 Url=/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.136
+2023-09-17 15:21:16.418 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:17.225 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 620
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:17.225 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:17.225 +02:00 [DBG] rerender finished
+2023-09-17 15:21:17.227 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:17.505 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:17.505 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:17.505 +02:00 [DBG] rerender finished
+2023-09-17 15:21:26.683 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:26.932 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:26.932 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:26.932 +02:00 [DBG] rerender finished
+2023-09-17 15:21:26.935 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:27.180 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:27.180 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:27.180 +02:00 [DBG] rerender finished
+2023-09-17 15:21:27.186 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.060
+2023-09-17 15:21:53.020 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:53.859 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 613
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:53.859 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:53.859 +02:00 [DBG] rerender finished
+2023-09-17 15:21:53.861 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:54.572 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 512
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:54.572 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:54.572 +02:00 [DBG] rerender finished
+2023-09-17 15:21:56.311 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:56.526 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:56.526 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:56.529 +02:00 [DBG] rerender finished
+2023-09-17 15:21:56.533 +02:00 [INF] Request Ip=::1 Url=/ Time=228.797
+2023-09-17 15:21:56.538 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.973
+2023-09-17 15:21:56.538 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=158324.424
+2023-09-17 15:21:56.546 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=001.361
+2023-09-17 15:21:56.546 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.215
+2023-09-17 15:21:56.552 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.200
+2023-09-17 15:21:56.553 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.246
+2023-09-17 15:21:56.611 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.030
+2023-09-17 15:21:56.732 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:56.763 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.049
+2023-09-17 15:21:56.803 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.138
+2023-09-17 15:21:56.838 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:21:56.975 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:56.975 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:56.977 +02:00 [DBG] rerender finished
+2023-09-17 15:21:56.979 +02:00 [INF] Request Ip=::1 Url=/ Time=249.008
+2023-09-17 15:21:57.129 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 67
+Parsing Duration (ms): 1
+
+2023-09-17 15:21:57.129 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:21:57.131 +02:00 [DBG] rerender finished
+2023-09-17 15:21:57.144 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.030
+2023-09-17 15:22:07.240 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.248
+2023-09-17 15:22:22.051 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.027
+2023-09-17 15:22:22.068 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=25260.959
+2023-09-17 15:22:22.071 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.008
+2023-09-17 15:22:23.648 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.027
+2023-09-17 15:23:02.134 +02:00 [INF] Request Ip=::1 Url=/favicon.ico Time=000.037
+2023-09-17 15:24:18.545 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:24:18.584 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:24:18.588 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:24:33.973 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:24:34.008 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:24:34.011 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:24:49.738 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:24:49.776 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:24:49.779 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:25:17.023 +02:00 [INF] Request Ip=127.0.0.1 Url=/favicon.ico Time=000.771
+2023-09-17 15:25:50.140 +02:00 [INF] Request Ip=127.0.0.1 Url=/favicon.ico Time=000.346
+2023-09-17 15:26:47.085 +02:00 [INF] Request Ip=127.0.0.1 Url=/favicon.ico Time=000.092
+2023-09-17 15:27:53.138 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:27:53.170 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:27:53.172 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:27:53.877 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:27:54.977 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 791
+Parsing Duration (ms): 8
+
+2023-09-17 15:27:54.977 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:27:55.062 +02:00 [DBG] rerender finished
+2023-09-17 15:27:55.135 +02:00 [INF] Request Ip=::1 Url=/ Time=1511.802
+2023-09-17 15:27:55.152 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=006.913
+2023-09-17 15:27:55.156 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.468
+2023-09-17 15:27:55.156 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.497
+2023-09-17 15:27:55.156 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.371
+2023-09-17 15:27:55.164 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=001.448
+2023-09-17 15:27:55.210 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.094
+2023-09-17 15:27:55.361 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:27:55.422 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.455
+2023-09-17 15:27:55.474 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.609
+2023-09-17 15:27:55.544 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:27:56.221 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 654
+Parsing Duration (ms): 1
+
+2023-09-17 15:27:56.221 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:27:56.226 +02:00 [DBG] rerender finished
+2023-09-17 15:27:56.230 +02:00 [INF] Request Ip=::1 Url=/ Time=884.954
+2023-09-17 15:27:56.584 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 834
+Parsing Duration (ms): 1
+
+2023-09-17 15:27:56.584 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:27:56.587 +02:00 [DBG] rerender finished
+2023-09-17 15:27:56.602 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.044
+2023-09-17 15:28:01.507 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:28:01.521 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 15:28:01.578 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=010.522
+2023-09-17 15:28:01.580 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=6102.328
+2023-09-17 15:30:11.328 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:30:11.363 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:30:11.365 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:30:28.218 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:30:28.250 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:30:28.354 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:30:28.765 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:30:28.781 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 15:33:36.249 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:33:36.249 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)
+2023-09-17 15:53:24.885 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:53:24.917 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:53:24.920 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:53:25.801 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:27.290 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 879
+Parsing Duration (ms): 8
+
+2023-09-17 15:53:27.290 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:27.376 +02:00 [DBG] rerender finished
+2023-09-17 15:53:27.452 +02:00 [INF] Request Ip=::1 Url=/ Time=1964.545
+2023-09-17 15:53:27.492 +02:00 [INF] Request Ip=::1 Url=/static/css/site.css Time=016.916
+2023-09-17 15:53:27.494 +02:00 [INF] Request Ip=::1 Url=/static/js/twConfig.js Time=027.593
+2023-09-17 15:53:27.496 +02:00 [INF] Request Ip=::1 Url=/static/assets/logo.png Time=029.722
+2023-09-17 15:53:27.652 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=039.107
+2023-09-17 15:53:27.654 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=128.668
+2023-09-17 15:53:27.686 +02:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=012.233
+2023-09-17 15:53:27.701 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=234.567
+2023-09-17 15:53:28.052 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.092
+2023-09-17 15:53:28.057 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.840
+2023-09-17 15:53:28.070 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:28.127 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=008.120
+2023-09-17 15:53:28.311 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:28.433 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 162
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:28.433 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:28.436 +02:00 [DBG] rerender finished
+2023-09-17 15:53:28.440 +02:00 [INF] Request Ip=::1 Url=/ Time=387.822
+2023-09-17 15:53:29.136 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 618
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:29.137 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:29.140 +02:00 [DBG] rerender finished
+2023-09-17 15:53:29.154 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.070
+2023-09-17 15:53:30.787 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:31.072 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 68
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:31.072 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:31.072 +02:00 [DBG] rerender finished
+2023-09-17 15:53:31.075 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:31.327 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:31.327 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:31.327 +02:00 [DBG] rerender finished
+2023-09-17 15:53:36.402 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:36.680 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:36.681 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:36.683 +02:00 [DBG] rerender finished
+2023-09-17 15:53:36.687 +02:00 [INF] Request Ip=::1 Url=/ Time=295.830
+2023-09-17 15:53:36.696 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.857
+2023-09-17 15:53:36.700 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.211
+2023-09-17 15:53:36.701 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.388
+2023-09-17 15:53:36.767 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.055
+2023-09-17 15:53:36.869 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.477
+2023-09-17 15:53:36.878 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:36.951 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=001.124
+2023-09-17 15:53:36.981 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:37.102 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:37.102 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:37.104 +02:00 [DBG] rerender finished
+2023-09-17 15:53:37.106 +02:00 [INF] Request Ip=::1 Url=/ Time=230.511
+2023-09-17 15:53:37.293 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:37.293 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:37.295 +02:00 [DBG] rerender finished
+2023-09-17 15:53:37.306 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.060
+2023-09-17 15:53:39.601 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2631.668
+2023-09-17 15:53:39.645 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=094.633
+2023-09-17 15:53:58.191 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:58.986 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 581
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:58.986 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:59.013 +02:00 [DBG] rerender finished
+2023-09-17 15:53:59.016 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:53:59.780 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 555
+Parsing Duration (ms): 1
+
+2023-09-17 15:53:59.781 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:53:59.781 +02:00 [DBG] rerender finished
+2023-09-17 15:54:28.576 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:54:29.377 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 595
+Parsing Duration (ms): 1
+
+2023-09-17 15:54:29.377 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:54:29.377 +02:00 [DBG] rerender finished
+2023-09-17 15:54:29.379 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:54:29.639 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-17 15:54:29.639 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:54:29.639 +02:00 [DBG] rerender finished
+2023-09-17 15:55:01.160 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:55:02.155 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 787
+Parsing Duration (ms): 1
+
+2023-09-17 15:55:02.155 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:55:02.158 +02:00 [DBG] rerender finished
+2023-09-17 15:55:02.162 +02:00 [INF] Request Ip=::1 Url=/ Time=1009.924
+2023-09-17 15:55:02.170 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.383
+2023-09-17 15:55:02.170 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=94039.232
+2023-09-17 15:55:02.176 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.457
+2023-09-17 15:55:02.181 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.131
+2023-09-17 15:55:02.181 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.225
+2023-09-17 15:55:02.210 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.050
+2023-09-17 15:55:02.303 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.009
+2023-09-17 15:55:02.312 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:55:02.345 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.301
+2023-09-17 15:55:02.370 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:55:03.082 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 544
+Parsing Duration (ms): 1
+
+2023-09-17 15:55:03.082 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:55:03.085 +02:00 [DBG] rerender finished
+2023-09-17 15:55:03.087 +02:00 [INF] Request Ip=::1 Url=/ Time=778.058
+2023-09-17 15:55:03.148 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=057.394
+2023-09-17 15:55:03.192 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 625
+Parsing Duration (ms): 1
+
+2023-09-17 15:55:03.192 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:55:03.194 +02:00 [DBG] rerender finished
+2023-09-17 15:55:03.203 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.025
+2023-09-17 15:55:06.619 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.200
+2023-09-17 15:55:41.973 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.030
+2023-09-17 15:55:41.989 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=39641.482
+2023-09-17 15:55:41.995 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.215
+2023-09-17 15:55:44.301 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.025
+2023-09-17 15:57:08.930 +02:00 [DBG] Existing Tables: __MigrationHistory, WebsiteUsage
+2023-09-17 15:57:08.963 +02:00 [DBG] Table WebsiteUsage exists: True
+2023-09-17 15:57:08.965 +02:00 [DBG] Number of entries in WebsiteUsage 61
+2023-09-17 15:57:09.690 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:57:10.801 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 799
+Parsing Duration (ms): 8
+
+2023-09-17 15:57:10.801 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:57:10.887 +02:00 [DBG] rerender finished
+2023-09-17 15:57:10.963 +02:00 [INF] Request Ip=::1 Url=/ Time=1522.146
+2023-09-17 15:57:10.989 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.922
+2023-09-17 15:57:10.989 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.887
+2023-09-17 15:57:10.989 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=005.849
+2023-09-17 15:57:11.051 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=001.256
+2023-09-17 15:57:11.209 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:57:11.280 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.524
+2023-09-17 15:57:11.349 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=007.529
+2023-09-17 15:57:11.419 +02:00 [DBG] RerenderEmbed called
+2023-09-17 15:57:11.941 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 273
+Parsing Duration (ms): 1
+
+2023-09-17 15:57:11.941 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:57:11.945 +02:00 [DBG] rerender finished
+2023-09-17 15:57:11.957 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.051
+2023-09-17 15:57:12.113 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 713
+Parsing Duration (ms): 2
+
+2023-09-17 15:57:12.113 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 15:57:12.115 +02:00 [DBG] rerender finished
+2023-09-17 15:57:12.119 +02:00 [INF] Request Ip=::1 Url=/ Time=930.091
+2023-09-17 15:57:34.774 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.081
+2023-09-17 15:57:36.095 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.049
+2023-09-17 15:57:37.241 +02:00 [INF] Request Ip=::1 Url=/embed/https:%2F%2Fwww.w3schools.com%2Fhtml%2Fdefault.asp Time=000.061

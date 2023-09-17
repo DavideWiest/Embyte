@@ -3,6 +3,7 @@
 @using MudBlazor
 @using Embyte.Shared
 @using Embyte.Modules
+@using Embyte.Modules.Logging
 @using Embyte.Data.Storage
 @using Embyte.Modules.Db
 @using Embyte.Data.Models
@@ -75,13 +76,19 @@
 
     protected override async Task OnInitializedAsync()
     {
-        availableSpacePx = Math.Min(await GetWindowWidth()/2, 120);
 
         // Load the initial set of items
         var newItems = await LoadItems(currentPage, itemsPerPage);
 
         // Append the new items to the existing list
         websiteUsages.AddRange(newItems);
+    }
+
+    protected async Task OnAfterRenderAsync()
+    {
+        var width = await GetWindowWidth();
+        Log.Debug("Window width {width}", width);
+        availableSpacePx = Math.Max(width / 2, 120);
     }
 
     private int getPixelWidth(int requestCount)

@@ -3,7 +3,6 @@
 @using Embyte.Modules
 @using Embyte.Data.Storage
 @using Embyte.Modules.Logging
-@using System.Text.RegularExpressions;
 
 <div id="embedDemo"></div>
 <Embed Url="@Url" ShowTimespans="true"/>
@@ -19,21 +18,12 @@
     {
         Log.Debug("UrlFront: {url}", UrlFront);
 
-        if (!UrlFront.StartsWith("https://") && !UrlFront.StartsWith("http://"))
-        {
-            UrlFront = "https://" + UrlFront;
-        }
+        UrlFront = WebHelper.AddHttpsIfNotExists(UrlFront);
 
-        if (correctPattern(UrlFront))
+        if (WebHelper.CorrectUrlPattern(UrlFront))
         {
             Log.Debug("Url request: {url}", UrlFront);
             Url = UrlFront;
         }
-    }
-
-    private bool correctPattern(string url)
-    {
-        string pattern = @"https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)";
-        return Regex.IsMatch(url, pattern, RegexOptions.IgnoreCase);
     }
 }

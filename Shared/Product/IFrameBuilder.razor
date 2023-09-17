@@ -1,8 +1,85 @@
-﻿
+﻿@using MudBlazor
+@using Embyte.Shared
+@using Embyte.Modules
+@using Embyte.Data.Storage
+@using Embyte.Modules.Logging
+@using System.Net
+@inject IJSRuntime JsRuntime
+@inject Constants constants
+@inject MainStorage mainstorage
 
+<div id="iframe-builder" class="w-screen flex justify-center mb-10">
+    <div class="max-w-7xl md:grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 mx-8 mb-10">
+        <div class="flex items-center justify-center mb-10 md:mb-0 max-w-xl">
+            <div>
+                <div>
+                    <h1 class="text-2xl md:text-4xl text-b600 m-3">IFrame builder</h1>
+                </div>
+                <div class="m-6 mx-3">
+                    <MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="buildIFrame" OnBlur="buildIFrame" />
+                </div>
+                <div>
+                    <div class="p-4 m-4 border border-gray-500 rounded-lg bg-gray-800 inline-block relative">
+                        <div class="absolute right-0 top-0 w-full h-full flex justify-end p-2">
+                            <MudTooltip Text="Copy iFrame Element" Arrow="true" Placement="Placement.Top" Class="bg-gray-800">
+                                <MudIconButton Icon="@Icons.Material.Filled.ContentCopy" Style="@($"color:{Colors.Blue.Accent2};")" Size="Size.Small" OnClick="CopyIFrame" />
+                            </MudTooltip>
+                        </div>
+                        <div class="relative mr-4">
+                            <code>
+                                <p class="code max-w-lg">
+                                    @IFrameString
+                                </p>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full md:h-full bg-cover bg-contain bg-no-repeat bg-center md:m-3 rounded-3xl flex justify-center items-center">
+            <div class="overflow-hidden rounded-lg">
+                <iframe src="/embed/@(WebUtility.UrlEncode(Url))" title="@EmbedTitle" name="@EmbedTitle" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
 
-<h3>IFrameBuilder</h3>
 
 @code {
+    private int Width = 400;
+    private int Height = 200;
+    private string WidthUnit = "px";
+    private string HeightUnit = "px";
+    private string Url { get; set; } = EmbyteStorage.DefaultUrl2;
+    private string UrlFront { get; set; } = EmbyteStorage.DefaultUrl2;
+    private string IFrameString = string.Empty;
+    private string EmbedTitle = "Embed Title";
 
+    protected override void OnInitialized()
+    {
+        buildIFrame();
+    }
+
+    private async Task CopyIFrame()
+    {
+        await JsRuntime.InvokeVoidAsync("copyToClipBoard", IFrameString);
+    }
+
+    private void buildIFrame()
+    {
+        IFrameString = $"<iframe src=\"/embed/{WebUtility.UrlEncode(Url)}\" title =\"{EmbedTitle}\" name=\"{EmbedTitle}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\"></iframe>";
+    }
+
+    private void Rerender()
+    {
+        Log.Debug("UrlFront: {url}", UrlFront);
+
+        UrlFront = WebHelper.AddHttpsIfNotExists(UrlFront);
+
+        if (WebHelper.CorrectUrlPattern(UrlFront))
+        {
+            Log.Debug("Url request: {url}", UrlFront);
+            Url = UrlFront;
+        }
+    }
 }

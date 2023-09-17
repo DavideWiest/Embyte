@@ -1,22 +1,43 @@
 ﻿@namespace Embyte.Pages
 
-@page "/embed/{Url}"
+@page "/embed/{TargetUrl}"
 @using MudBlazor
 @using Embyte.Shared.Product
 @using Embyte.Modules
 @using Embyte.Data.Storage
-@using System.Net;
+@using System.Net
+@using Embyte.Shared.BaseUI
+@layout EmptyLayout
 @inject Constants constants
 @inject MainStorage mainstorage
 
-<Embed Url="@(WebUtility.UrlDecode(Url))" />
+@if (!showError)
+{
+    <Embed Url="@(WebUtility.UrlDecode(TargetUrl))" />
+} else
+{
+    <p>
+        Invalid Url
+    </p>
+}
 
 
 @code {
-    private string Url = EmbyteStorage.DefaultUrl;
+    [Parameter]
+    public string TargetUrl { get; set; } // = EmbyteStorage.DefaultUrl;
+    private bool showError = false;
 
     protected override void OnInitialized()
     {
 
+    }
+
+    private string GetDecodedSanitizedUrl()
+    {
+        if (!WebHelper.CorrectUrlPattern(TargetUrl))
+        {
+            showError = true;
+        }
+        return TargetUrl;
     }
 }

@@ -1,0 +1,30 @@
+2023-09-17 14:55:49.205 +02:00 [ERR] WebException occured when requesting url https://ebay.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (ebay.c:443)
+2023-09-17 15:02:35.601 +02:00 [ERR] WebException occured when requesting url https://amazon.c, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (amazon.c:443)
+2023-09-17 15:28:01.521 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 15:30:28.781 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Product\WebsiteInfoExtractor.cs:line 40
+2023-09-17 15:33:36.249 +02:00 [ERR] Exception occured when requesting url amazon: Invalid URI: The format of the URI could not be determined. 
+ Traceback: 
+ System.UriFormatException: Invalid URI: The format of the URI could not be determined.
+   at System.Uri.CreateThis(String uri, Boolean dontEscape, UriKind uriKind, UriCreationOptions& creationOptions)
+   at System.Uri..ctor(String uriString)
+   at HtmlAgilityPack.HtmlWeb.Load(String url, String method)
+   at HtmlAgilityPack.HtmlWeb.Load(String url)
+   at Embyte.Modules.Product.WebsiteInfoExtractor.GetMetaDataFromUrl(String url)

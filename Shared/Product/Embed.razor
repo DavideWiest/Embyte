@@ -12,11 +12,11 @@
 @inject WebsiteUsageManager usageManager
 
 <div class="flex justify-center">
-    <MudCard Class="max-w-3xl max-h-2xl rounded-xl shadow-xl flex bg-neutral-900 overflow-hidden">
-        <div class="h-full" style="@("background: " + info.ThemeColor + "; width: 10px !important; overflow: hidden; white-space: nowrap;")">
+    <MudCard Class="relative max-w-3xl max-h-2xl rounded-lg shadow-xl flex bg-neutral-900 overflow-hidden" Style="width: min(100vw, 34rem)">
+        <div class="absolute h-full" style="@("background: " + info.ThemeColor + "; width: 6px !important; overflow: hidden; white-space: nowrap;")">
 
         </div>
-        <div class="p-3" style="width: calc(100%-10px);">
+        <div class="p-3 relative ml-2" style="width: calc(100%-10px);">
             @if (!displayLoading)
             {
                 @if (!string.IsNullOrEmpty(info.FavIconUrl)) {
@@ -46,7 +46,7 @@
                 {
                     <MudCardMedia Image="@info.ImageUrl" Class="rounded-lg" />
                 }
-                <div class="max-h-36 md:max-h-28" style="overflow-y: auto;">
+                <div class="max-h-42 md:max-h-36" style="overflow-y: auto;">
                     @if (!string.IsNullOrEmpty(info.Description))
                     {
                         <div class="p-2 py-3">
@@ -87,7 +87,7 @@
 
     [Parameter]
     public string Url { get { return _url; } set { _url = value; RerenderEmbed(); } }
-    private string prevUrl { get; set; } = EmbyteStorage.DefaultUrl;
+    private string prevUrl { get; set; } = string.Empty;
 
     private WebsiteInfo info = default!;
     public WebsiteInfoStatus status = default!;
@@ -106,6 +106,7 @@
     {
         displayLoading = true;
         Log.Debug("RerenderEmbed called");
+
         (info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
         info.validateData();
 
@@ -117,9 +118,8 @@
 
         Log.Debug(status.ToString());
 
-        Log.Debug("{info}", info.Title);
-        Log.Debug("{status}", status.statusType);
-
+        Log.Debug("Title: {info}", info.Title);
+        
         if (Url != prevUrl)
         {
             usageManager.SaveRequest(trimDoubleHttpses(Url));
