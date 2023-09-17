@@ -40,7 +40,7 @@
         </div>
         <div class="w-full md:h-full bg-cover bg-contain bg-no-repeat bg-center md:m-3 rounded-3xl flex justify-center items-center">
             <div class="overflow-hidden rounded-lg">
-                <iframe src="/embed/?url=@(WebUtility.UrlEncode(Url))" title="@EmbedTitle" name="@EmbedTitle" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes"></iframe>
+                <iframe src="@(EmbyteStorage.domainName)/embed/?url=@(WebUtility.UrlEncode(Url))" title="@EmbedTitle" name="@EmbedTitle" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes"></iframe>
             </div>
         </div>
     </div>
@@ -71,7 +71,7 @@
 
     private void buildIFrame()
     {
-        IFrameString = $"<iframe src=\"/embed/?url={WebUtility.UrlEncode(Url)}\" name=\"{EmbedTitle}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
+        IFrameString = $"<iframe src=\"{EmbyteStorage.domainName}/embed/?url={WebUtility.UrlEncode(Url)}\" name=\"{EmbedTitle}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
 
     private void Rerender()
