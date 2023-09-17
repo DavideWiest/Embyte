@@ -19,11 +19,10 @@
     {
         Log.Debug("UrlFront: {url}", UrlFront);
 
-        // does that multiple times, for some reason
-        //if (!UrlFront.StartsWith("https://") || !UrlFront.StartsWith("http://"))
-        //{
-        //    UrlFront = "https://" + UrlFront;
-        //}
+        if (!UrlFront.StartsWith("https://") && !UrlFront.StartsWith("http://"))
+        {
+            UrlFront = "https://" + UrlFront;
+        }
 
         if (correctPattern(UrlFront))
         {
