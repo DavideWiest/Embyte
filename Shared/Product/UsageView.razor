@@ -75,6 +75,8 @@
 
     protected override async Task OnInitializedAsync()
     {
+        availableSpacePx = Math.Min(await GetWindowWidth()/2, 120);
+
         // Load the initial set of items
         var newItems = await LoadItems(currentPage, itemsPerPage);
 
@@ -87,7 +89,7 @@
         return (int)Math.Round((double)(availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
     }
 
-    private async Task GetWindowWidth()
+    private async Task<int> GetWindowWidth()
     {
         var dimension = await JsRuntime.InvokeAsync<WindowDimension>("getWindowDimensions");
         var height = dimension.Height;
