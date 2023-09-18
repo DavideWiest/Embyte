@@ -5,6 +5,7 @@
 @using Embyte.Shared
 @using Embyte.Modules
 @using Embyte.Data.Storage
+@inject NavigationManager NavManager
 @inject Constants constants
 @inject MainStorage mainstorage
 
@@ -16,6 +17,6 @@
 
     protected override void OnInitialized()
     {
-
+        NavManager.NavigateTo(EmbyteStorage.documentationUrl);
     }
 }
