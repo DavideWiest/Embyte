@@ -67,14 +67,4 @@ public class WebsiteUsageManager
             .Take(limit)
             .ToList();
     }
-
-    public async Task<List<WebsiteUsage>> ReadEntriesAsync(int limit = 100, int offset = 0)
-    {
-        // Use asynchronous methods for database access
-        return (await db.WebsiteUsages.ToListAsync())
-            .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
-            .Skip(offset)
-            .Take(limit)
-            .ToList(); // Use ToListAsync to asynchronously retrieve the data
-    }
 }

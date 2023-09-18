@@ -809,3 +809,406 @@ Parsing Duration (ms): 1
 
 2023-09-18 13:17:21.632 +02:00 [DBG] Title: www.w3schools.com
 2023-09-18 13:17:21.651 +02:00 [DBG] rerender finished
+2023-09-18 13:34:47.576 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1046355.615
+2023-09-18 13:34:47.576 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1047434.942
+2023-09-18 13:34:57.834 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:34:59.353 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1120
+Parsing Duration (ms): 8
+
+2023-09-18 13:34:59.354 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:34:59.367 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:34:59.385 +02:00 [DBG] rerender finished
+2023-09-18 13:34:59.480 +02:00 [INF] Request Ip=::1 Url=/ Time=2483.877
+2023-09-18 13:34:59.504 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=006.468
+2023-09-18 13:34:59.504 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=003.048
+2023-09-18 13:34:59.504 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.469
+2023-09-18 13:34:59.578 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:34:59.706 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:34:59.733 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.922
+2023-09-18 13:34:59.752 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=005.590
+2023-09-18 13:34:59.878 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:00.130 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 261
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:00.130 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:00.229 +02:00 [DBG] rerender finished
+2023-09-18 13:35:00.230 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=668.471
+2023-09-18 13:35:00.236 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.263
+2023-09-18 13:35:00.236 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.189
+2023-09-18 13:35:00.250 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.197
+2023-09-18 13:35:00.319 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.226
+2023-09-18 13:35:00.335 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.258
+2023-09-18 13:35:00.344 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:00.652 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 738
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:00.652 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:00.654 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:35:00.654 +02:00 [DBG] rerender finished
+2023-09-18 13:35:00.657 +02:00 [INF] Request Ip=::1 Url=/ Time=972.569
+2023-09-18 13:35:00.731 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 70
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:00.731 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:00.752 +02:00 [DBG] rerender finished
+2023-09-18 13:35:00.829 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 732
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:00.829 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:00.830 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:35:00.830 +02:00 [DBG] rerender finished
+2023-09-18 13:35:00.846 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:00.846 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=508.521
+2023-09-18 13:35:00.846 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=011.184
+2023-09-18 13:35:01.155 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 62
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:01.155 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:01.165 +02:00 [DBG] rerender finished
+2023-09-18 13:35:01.165 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=321.792
+2023-09-18 13:35:01.178 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.201
+2023-09-18 13:35:01.178 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.158
+2023-09-18 13:35:01.178 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.222
+2023-09-18 13:35:01.246 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.112
+2023-09-18 13:35:01.288 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.170
+2023-09-18 13:35:01.315 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:01.629 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:01.629 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:01.711 +02:00 [DBG] rerender finished
+2023-09-18 13:35:02.549 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:02.814 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 67
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:02.814 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:02.814 +02:00 [DBG] rerender finished
+2023-09-18 13:35:02.819 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:03.093 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 75
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:03.093 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:03.093 +02:00 [DBG] rerender finished
+2023-09-18 13:35:03.098 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:03.403 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:03.404 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:03.404 +02:00 [DBG] rerender finished
+2023-09-18 13:35:03.404 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:03.719 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:03.719 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:35:03.719 +02:00 [DBG] rerender finished
+2023-09-18 13:35:14.160 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.377
+2023-09-18 13:35:14.162 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=001.877
+2023-09-18 13:35:19.786 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-18 13:35:19.789 +02:00 [DBG] Url request: https://ebay.de
+2023-09-18 13:35:19.790 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:21.669 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1501
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:21.669 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:35:21.714 +02:00 [DBG] rerender finished
+2023-09-18 13:35:39.156 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-18 13:35:39.156 +02:00 [DBG] Url request: https://ebay.de
+2023-09-18 13:35:39.165 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:39.551 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-18 13:35:39.551 +02:00 [DBG] Url request: https://ebay.de
+2023-09-18 13:35:40.344 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 860
+Parsing Duration (ms): 0
+
+2023-09-18 13:35:40.345 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:35:40.357 +02:00 [DBG] rerender finished
+2023-09-18 13:35:40.358 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1197.911
+2023-09-18 13:35:40.362 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=39062.923
+2023-09-18 13:35:40.363 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.238
+2023-09-18 13:35:40.366 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.326
+2023-09-18 13:35:40.368 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.358
+2023-09-18 13:35:40.368 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.294
+2023-09-18 13:35:40.435 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.260
+2023-09-18 13:35:40.446 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.207
+2023-09-18 13:35:40.455 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:41.557 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 794
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:41.557 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:35:41.559 +02:00 [DBG] rerender finished
+2023-09-18 13:35:57.470 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:58.351 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 652
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:58.351 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:58.360 +02:00 [DBG] rerender finished
+2023-09-18 13:35:58.363 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:58.613 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:58.613 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:35:58.613 +02:00 [DBG] rerender finished
+2023-09-18 13:35:58.617 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:35:59.749 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 824
+Parsing Duration (ms): 1
+
+2023-09-18 13:35:59.749 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:35:59.750 +02:00 [DBG] rerender finished
+2023-09-18 13:35:59.750 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:36:00.893 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 822
+Parsing Duration (ms): 1
+
+2023-09-18 13:36:00.893 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:36:00.893 +02:00 [DBG] rerender finished
+2023-09-18 13:37:29.479 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.358
+2023-09-18 13:37:29.489 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=135317.051
+2023-09-18 13:37:29.492 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=135332.234
+2023-09-18 13:37:29.497 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.607
+2023-09-18 13:40:20.641 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=320885.634
+2023-09-18 13:40:20.641 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=280196.668
+2023-09-18 13:40:31.603 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:32.495 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=013.210
+2023-09-18 13:40:32.495 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=009.252
+2023-09-18 13:40:32.943 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1033
+Parsing Duration (ms): 8
+
+2023-09-18 13:40:32.944 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:40:33.106 +02:00 [DBG] rerender finished
+2023-09-18 13:40:33.185 +02:00 [INF] Request Ip=::1 Url=/ Time=2414.637
+2023-09-18 13:40:33.202 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.540
+2023-09-18 13:40:33.202 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=005.684
+2023-09-18 13:40:33.202 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.936
+2023-09-18 13:40:33.289 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:33.474 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:33.479 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.172
+2023-09-18 13:40:33.524 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.706
+2023-09-18 13:40:33.597 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:33.842 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 247
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:33.843 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:40:33.875 +02:00 [DBG] rerender finished
+2023-09-18 13:40:33.877 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=610.416
+2023-09-18 13:40:33.885 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.671
+2023-09-18 13:40:33.885 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.311
+2023-09-18 13:40:33.888 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.296
+2023-09-18 13:40:33.978 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.257
+2023-09-18 13:40:34.002 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.398
+2023-09-18 13:40:34.010 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:34.082 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 309
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:34.082 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:40:34.084 +02:00 [DBG] rerender finished
+2023-09-18 13:40:34.099 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:34.286 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 606
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:34.287 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:40:34.289 +02:00 [DBG] rerender finished
+2023-09-18 13:40:34.291 +02:00 [INF] Request Ip=::1 Url=/ Time=887.028
+2023-09-18 13:40:34.422 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 123
+Parsing Duration (ms): 2
+
+2023-09-18 13:40:34.422 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:40:34.422 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 57
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:34.422 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:40:34.451 +02:00 [DBG] rerender finished
+2023-09-18 13:40:34.451 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=354.183
+2023-09-18 13:40:34.451 +02:00 [DBG] rerender finished
+2023-09-18 13:40:34.458 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.231
+2023-09-18 13:40:34.458 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.133
+2023-09-18 13:40:34.458 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.142
+2023-09-18 13:40:34.459 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=454.130
+2023-09-18 13:40:34.537 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.109
+2023-09-18 13:40:34.550 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.151
+2023-09-18 13:40:34.556 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:34.870 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:34.870 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:40:34.873 +02:00 [DBG] rerender finished
+2023-09-18 13:40:45.310 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-18 13:40:45.314 +02:00 [DBG] Url request: https://ebay.de
+2023-09-18 13:40:45.318 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:47.188 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1502
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:47.188 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:40:47.190 +02:00 [DBG] rerender finished
+2023-09-18 13:40:47.191 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1873.077
+2023-09-18 13:40:47.194 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=12642.138
+2023-09-18 13:40:47.195 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.454
+2023-09-18 13:40:47.197 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.277
+2023-09-18 13:40:47.198 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.307
+2023-09-18 13:40:47.205 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.240
+2023-09-18 13:40:47.266 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.093
+2023-09-18 13:40:47.277 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.253
+2023-09-18 13:40:47.284 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:40:48.318 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 781
+Parsing Duration (ms): 1
+
+2023-09-18 13:40:48.318 +02:00 [DBG] Title: Elektronik, Autos, Mode, Sammlerstücke, Möbel und mehr Online-Shopping | eBay
+2023-09-18 13:40:48.320 +02:00 [DBG] rerender finished
+2023-09-18 13:40:56.754 +02:00 [DBG] UrlFront: https://ebay.de
+2023-09-18 13:40:56.754 +02:00 [DBG] Url request: https://ebay.de
+2023-09-18 13:41:01.201 +02:00 [DBG] UrlFront: https://stackoverflow.com
+2023-09-18 13:41:01.201 +02:00 [DBG] Url request: https://stackoverflow.com
+2023-09-18 13:41:01.201 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:41:02.070 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 598
+Parsing Duration (ms): 1
+
+2023-09-18 13:41:02.070 +02:00 [DBG] Title: Stack Overflow - Where Developers Learn, Share, & Build Careers
+2023-09-18 13:41:02.101 +02:00 [DBG] rerender finished
+2023-09-18 13:41:02.102 +02:00 [DBG] UrlFront: https://stackoverflow.com
+2023-09-18 13:41:02.102 +02:00 [DBG] Url request: https://stackoverflow.com
+2023-09-18 13:41:06.479 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=32952.102
+2023-09-18 13:41:06.479 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=19199.145

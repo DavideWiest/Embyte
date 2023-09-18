@@ -53,32 +53,32 @@
     private int itemsPerPage = 50; // Items to load per page
     private int availableSpacePx = 400;
 
-    private async Task LoadMoreItems()
+    private void LoadMoreItems()
     {
         // Increment the current page
         currentPage++;
 
         // Load the next batch of items
-        var newItems = await LoadItems(currentPage, itemsPerPage);
+        var newItems = LoadItems(currentPage, itemsPerPage);
 
         // Append the new items to the existing list
         websiteUsages.AddRange(newItems);
     }
 
-    private async Task<List<WebsiteUsage>> LoadItems(int page, int limit)
+    private List<WebsiteUsage> LoadItems(int page, int limit)
     {
         // Calculate the offset based on the page number
         int offset = (page - 1) * limit;
 
         // Retrieve items from the manager
-        return await wum.ReadEntriesAsync(limit, offset);
+        return wum.ReadEntries(limit, offset);
     }
 
-    protected override async Task OnInitializedAsync()
+    protected override void OnInitialized()
     {
 
         // Load the initial set of items
-        var newItems = await LoadItems(currentPage, itemsPerPage);
+        var newItems = LoadItems(currentPage, itemsPerPage);
 
         // Append the new items to the existing list
         websiteUsages.AddRange(newItems);
