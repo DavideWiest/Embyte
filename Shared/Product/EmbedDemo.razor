@@ -5,7 +5,7 @@
 @using Embyte.Modules.Logging
 
 <div id="embedDemo"></div>
-<Embed Url="@Url" ShowTimespans="true"/>
+<Embed Url="@Url" ShowStatus="true"/>
 <div class="h-5"></div>
 <MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="Rerender" OnBlur="Rerender" />
 

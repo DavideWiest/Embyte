@@ -21,14 +21,14 @@ public class WebsiteUsageManager
     {
         try
         {
-            WebsiteUsage newPerson = new WebsiteUsage { Url=url, RequestCount=1 };
+            WebsiteUsage newPerson = new WebsiteUsage { Url = url, RequestCount = 1 };
             db.WebsiteUsages.Add(newPerson);
             db.SaveChanges();
             return true;
         }
-        catch (Exception e) { 
-            Log.Error("Unable to execute InsertOne for the url {url}: {errMsg}", url, e.Message); 
-            return false; 
+        catch (Exception e) {
+            Log.Error("Unable to execute InsertOne for the url {url}: {errMsg}", url, e.Message);
+            return false;
         }
     }
 
@@ -59,12 +59,18 @@ public class WebsiteUsageManager
         }
     }
 
-    public List<WebsiteUsage> ReadEntries(int limit=100, int offset = 0)
+    public List<WebsiteUsage> ReadEntries(int limit = 100, int offset = 0)
     {
         return db.WebsiteUsages.ToList()
             .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
             .Skip(offset)
             .Take(limit)
             .ToList();
+    }
+
+    public int GetRequestCount(string url)
+    {
+        var requestCount = db.WebsiteUsages.ToList().FirstOrDefault(w => w.Url == url).RequestCount;
+        return requestCount;
     }
 }

@@ -18,7 +18,8 @@ public class FundamentalStorage
 
         public IReadOnlyList<Link> Links { get; } = new List<Link>
         {
-            new Link("Github Repository", "https://github.com/DavideWiest/Embyte"),
+            new Link("Repository", "https://github.com/DavideWiest/Embyte"),
+            new Link("Documentation", "https://github.com/DavideWiest/Embyte/wiki"),
             new Link("Creator", "https://github.com/DavideWiest"),
             new Link("Contact", "mailto:davide.wiest2@gmail.com")
         };

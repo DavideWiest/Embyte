@@ -1,32 +1,34 @@
 ﻿@namespace Embyte.Pages
 
-@page "/embed/"
+@page "/embed-view"
 @using MudBlazor
-@using Embyte.Shared.Product
+@using Embyte.Shared
 @using Embyte.Modules
+@using Embyte.Shared.Product
 @using Embyte.Data.Storage
-@using System.Net
-@using Embyte.Shared.BaseUI
-@layout EmbedLayout
 @inject Constants constants
 @inject MainStorage mainstorage
 @inject NavigationManager NavigationManager
 
-@if (!showError)
-{
-    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount"/>
-} else
-{
-    <p>
-        Invalid Url
-    </p>
-}
+
+<div class="width-screen height-screen flex justify-center items-center">
+    @if (!showError)
+    {
+        <div>
+            <Embed Url="@TargetUrl" ShowStatus="true" ShowRequestCount="true"/>
+        </div>
+    } else
+    {
+        <p>
+            Invalid Url
+        </p>
+    }
+</div>
 
 
 @code {
+    [Parameter]
     public string TargetUrl { get; set; } = EmbyteStorage.DefaultUrl;
-    public bool ShowStatus = false;
-    public bool ShowRequestCount = false;
     private bool showError = false;
 
     private Dictionary<string, string> queryParameters = new Dictionary<string, string>();
@@ -41,19 +43,10 @@
 
         foreach (string key in queryParams)
         {
-            if (queryParams[key] != null)
-                queryParameters.Add(key, queryParams[key] ?? string.Empty);
-
+            queryParameters.Add(key, queryParams[key]);
         }
 
-        if (queryParameters.ContainsKey("url"))
-            TargetUrl = queryParameters["url"];
-
-        if (queryParameters.ContainsKey("show-status"))
-            ShowStatus = queryParameters["show-status"].ToLower() == "true";
-
-        if (queryParameters.ContainsKey("show-requestcount"))
-            ShowRequestCount = queryParameters["show-requestcount"].ToLower() == "true";
+        TargetUrl = queryParameters["url"];
     }
 
     private string GetDecodedSanitizedUrl()

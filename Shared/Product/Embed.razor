@@ -12,6 +12,7 @@
 @inject WebsiteUsageManager usageManager
 
 <div class="flex justify-center">
+<div>
     <MudCard Class="relative max-w-3xl max-h-2xl rounded-lg shadow-xl flex bg-neutral-900 overflow-hidden" Style="width: min(100vw, 34rem)">
         <div class="absolute h-full" style="@("background: " + info.ThemeColor + "; width: 6px !important; overflow: hidden; white-space: nowrap;")">
 
@@ -19,6 +20,7 @@
         <div class="p-3 relative ml-2" style="width: calc(100%-10px);">
             @if (!displayLoading)
             {
+                <a href="@info.Url" target="_blank">
                 @if (!string.IsNullOrEmpty(info.FavIconUrl)) {
                 <MudCardHeader>
                         <CardHeaderAvatar>
@@ -27,10 +29,10 @@
                             </MudAvatar>
                         </CardHeaderAvatar>
                     <CardHeaderContent>
-                        <a href="@info.Url" target="_blank">
+                        
                         <MudText Typo="Typo.h6" Class="text-blue-500 text-b600">@info.Title</MudText>
-                        </a>
-                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)</MudText>
+                        
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @*@(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)*@</MudText>
                     </CardHeaderContent>
                     </MudCardHeader>
                 } else
@@ -38,10 +40,11 @@
                     <MudCardHeader>
                         <CardHeaderContent>
                             <MudText Typo="Typo.body1">@info.Title</MudText>
-                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)</MudText>
+                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @*@(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)*@</MudText>
                         </CardHeaderContent>
                     </MudCardHeader>
                 }
+                </a>
                 @if (!string.IsNullOrEmpty(info.ImageUrl))
                 {
                     <MudCardMedia Image="@info.ImageUrl" Class="rounded-lg" />
@@ -70,17 +73,28 @@
             }
         </div>
     </MudCard> 
-</div>
 
-@if (ShowTimespans)
+@if (ShowStatus || ShowRequestCount)
 {
     <div class="mt-4">
         <p class="text-sm" style="color: rgb(112 118 134)">
-            Request: @(status.requestDurationMS)ms • Parsing: @(status.parsingDurationMS)ms • Status: @(status.statusType)
+            @if (ShowRequestCount) {
+                @($"Request count: {getRequestCount(Url)}") 
+            }
+            @if (ShowRequestCount && ShowStatus)
+            {
+                @(" • ")
+            }
+            @if (ShowStatus)
+            {
+                @($"Request: {status.requestDurationMS}ms • Parsing: {status.parsingDurationMS}ms • Status: @{status.statusType}")
+            }
+            
         </p>
     </div>
 }
-
+    </div>
+</div>
 
 @code {
     private string _url = EmbyteStorage.DefaultUrl;
@@ -95,7 +109,10 @@
     private bool displayLoading = true;
 
     [Parameter]
-    public bool ShowTimespans { get; set; } = false;
+    public bool ShowStatus { get; set; } = false;
+    [Parameter]
+    public bool ShowRequestCount { get; set; } = false;
+
 
     protected override void OnInitialized()
     {
@@ -119,7 +136,7 @@
         Log.Debug(status.ToString());
 
         Log.Debug("Title: {info}", info.Title);
-        
+
         if (Url != prevUrl)
         {
             usageManager.SaveRequest(trimDoubleHttpses(Url));
@@ -138,5 +155,10 @@
             url = url.Substring(8);
         }
         return url;
+    }
+
+    private int getRequestCount(string url)
+    {
+        return usageManager.GetRequestCount(url);
     }
 }

@@ -17,7 +17,7 @@
     Sorted by total requests
 </p>
 
-<div class="md:flex md:flex-col md:items-center">
+<div class="md:flex md:flex-col md:items-center my-12">
     <div class="max-w-32">
         @foreach (var (usage, index) in websiteUsages.Select((usage, index) => (usage, index)))
         {
@@ -25,7 +25,9 @@
                 <div class="flex">
                 <p class="code text-gray-500 px-2 w-12 text-right">@(index + 1).</p>
                 <div class="w-48 md:w-64 overflow-x-hidden whitespace-nowrap">
-                    <MudButton OnClick="_ => Url = usage.Url" Style="text-transform: none; padding: 0;"><p class="code px-2">@usage.Url</p></MudButton>
+                        <a href="@(EmbyteStorage.absoluteEmbedViewEndpoint + "?url=" + usage.Url)" target="_blank">
+                    <MudButton Style="text-transform: none; padding: 0;"><p class="code px-2">@usage.Url</p></MudButton>
+                    </a>
                 </div>
                 </div>
                 <div class="flex">
