@@ -6,7 +6,7 @@ public static class DbHelper
 {
     public static bool CheckTableExists(EmbyteDbContext dbContext, string tableName)
     {
-        var sql = $"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{tableName}'";
+        FormattableString sql = $"SELECT COUNT(*) FROM information_schema.tables WHERE table_name = '{tableName}'";
         var tableCount = dbContext.Database.SqlQuery<int>(sql).FirstOrDefault();
         return tableCount > 0;
     }
@@ -16,7 +16,7 @@ public static class DbHelper
         var existingTables = new List<string>();
 
         var tables = dbContext.Database.SqlQuery<string>(
-            "SELECT table_name FROM information_schema.tables WHERE table_type = 'BASE TABLE';"
+            $"SELECT table_name FROM information_schema.tables WHERE table_type = 'BASE TABLE';"
         );
 
         existingTables.AddRange(tables);

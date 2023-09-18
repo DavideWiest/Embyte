@@ -1,5 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.EntityFrameworkCore;
 
 namespace Embyte.Data.Models;
 
@@ -11,7 +12,6 @@ public class WebsiteUsage
 
     [Required]
     [StringLength(450)]
-    [Index(IsUnique = true)]
     public string Url { get; set; }
 
     [Required]

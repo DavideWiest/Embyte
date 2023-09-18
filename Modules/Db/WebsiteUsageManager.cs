@@ -3,7 +3,7 @@
 namespace Embyte.Modules.Db;
 using Embyte.Modules.Logging;
 using System.Collections.Generic;
-using System.Data.Entity;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -62,7 +62,7 @@ public class WebsiteUsageManager
     public List<WebsiteUsage> ReadEntries(int limit=100, int offset = 0)
     {
         return db.WebsiteUsages
-            .OrderBy(u => u.Id)  // Order by a unique column, e.g., Id
+            .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
             .Skip(offset)
             .Take(limit)
             .ToList();

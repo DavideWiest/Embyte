@@ -9323,3 +9323,47 @@ Parsing Duration (ms): 1
 
 2023-09-17 17:39:51.241 +02:00 [DBG] Title: www.w3schools.com
 2023-09-17 17:39:51.244 +02:00 [DBG] rerender finished
+2023-09-17 17:47:55.120 +02:00 [DBG] RerenderEmbed called
+2023-09-17 17:47:56.287 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 970
+Parsing Duration (ms): 1
+
+2023-09-17 17:47:56.287 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 17:47:56.287 +02:00 [DBG] rerender finished
+2023-09-17 17:47:56.292 +02:00 [DBG] RerenderEmbed called
+2023-09-17 17:47:56.580 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 75
+Parsing Duration (ms): 1
+
+2023-09-17 17:47:56.580 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-17 17:47:56.580 +02:00 [DBG] rerender finished
+2023-09-17 17:47:56.583 +02:00 [DBG] RerenderEmbed called
+2023-09-17 17:47:57.091 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 249
+Parsing Duration (ms): 1
+
+2023-09-17 17:47:57.091 +02:00 [DBG] Title: www.w3schools.com
+2023-09-17 17:47:57.091 +02:00 [DBG] rerender finished
+2023-09-17 17:47:57.092 +02:00 [DBG] RerenderEmbed called
+2023-09-17 17:47:57.442 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 1
+
+2023-09-17 17:47:57.442 +02:00 [DBG] Title: www.w3schools.com
+2023-09-17 17:47:57.442 +02:00 [DBG] rerender finished
+2023-09-17 18:01:38.641 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1307705.826
+2023-09-17 18:01:38.641 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.134
+2023-09-17 18:01:38.644 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1308469.136
+2023-09-17 18:01:38.646 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.867

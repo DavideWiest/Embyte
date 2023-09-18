@@ -1,7 +1,6 @@
 ﻿namespace Embyte.Modules.Db;
 
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration.Conventions;
+using Microsoft.EntityFrameworkCore;
 using Embyte.Data.Models;
 
 
@@ -9,17 +8,12 @@ public class EmbyteDbContext : DbContext
 {
     public DbSet<WebsiteUsage> WebsiteUsages { get; set; } = default!;
 
-    public EmbyteDbContext(string ConnectionString) : base(ConnectionString)
+    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        
+        optionsBuilder.UseNpgsql(GetConnectionString());
     }
 
-    public EmbyteDbContext() : base(GetConnectionString())
-    {
-        
-    }
-
-    public static string GetConnectionString()
+    private static string GetConnectionString()
     {
 #if DEBUG
         return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment")!;
@@ -28,9 +22,8 @@ public class EmbyteDbContext : DbContext
 #endif
     }
 
-    protected override void OnModelCreating(DbModelBuilder modelBuilder)
+    protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         base.OnModelCreating(modelBuilder);
 
         modelBuilder.Entity<WebsiteUsage>().ToTable("WebsiteUsage");

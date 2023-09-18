@@ -1,0 +1,48 @@
+2023-09-18 12:59:00.860 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+ORDER BY w."RequestCount" DESC
+LIMIT @__p_1 OFFSET @__p_0
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method80(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 12:59:02.494 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method80(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 12:59:02.617 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+ORDER BY w."RequestCount" DESC
+LIMIT @__p_1 OFFSET @__p_0
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method80(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40

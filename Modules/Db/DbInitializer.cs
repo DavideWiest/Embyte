@@ -1,14 +1,13 @@
 ﻿
 namespace Embyte.Modules.Db;
 
-using System.Data.Entity;
-using System.Data.Entity.ModelConfiguration;
+using Microsoft.EntityFrameworkCore;
 
 public class DbInitializer
 {
-    private readonly DbModelBuilder modelBuilder;
+    private readonly ModelBuilder modelBuilder;
 
-    public DbInitializer(DbModelBuilder modelBuilder)
+    public DbInitializer(ModelBuilder modelBuilder)
     {
         this.modelBuilder = modelBuilder;
     }

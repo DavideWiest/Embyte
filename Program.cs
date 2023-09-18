@@ -27,14 +27,6 @@ builder.Configuration.AddJsonFile("config/appsettings.Development.json");
 
 // USER
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseSqlServer(connectionString));
-
-builder.Services.AddDatabaseDeveloperPageExceptionFilter();
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<ApplicationDbContext>();
-
-
 
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
@@ -64,8 +56,10 @@ builder.Services.AddControllersWithViews(options =>
 
 #if DEBUG
 string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
+Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
 #else
 string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
+Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
 #endif
 
 
@@ -73,11 +67,11 @@ string ConnectionString  = builder.Configuration["Database:ConnectionStringProdu
 
 #if DEBUG
 string TestingTable = "WebsiteUsage";
-var con = new Embyte.Modules.Db.EmbyteDbContext(ConnectionString);
+var con = new EmbyteDbContext();
 
-Log.Debug($"Existing Tables: {string.Join(", ", DbHelper.GetExistingTables(con))}");
-Log.Debug($"Table {TestingTable} exists: {DbHelper.CheckTableExists(con, TestingTable)}");
-Log.Debug($"Number of entries in {TestingTable} {DbHelper.CheckNumberEntries(con, TestingTable)}");
+//Log.Debug($"Existing Tables: {string.Join(", ", DbHelper.GetExistingTables(con))}");
+//Log.Debug($"Table {TestingTable} exists: {DbHelper.CheckTableExists(con, TestingTable)}");
+//Log.Debug($"Number of entries in {TestingTable} {DbHelper.CheckNumberEntries(con, TestingTable)}");
 #endif
 
 // MODULES
@@ -89,7 +83,7 @@ builder.Services.AddScoped<LoggingMiddleware>();
 
 builder.Services.AddScoped(provider =>
 {
-    return new WebsiteUsageManager(new EmbyteDbContext(ConnectionString));
+    return new WebsiteUsageManager(new EmbyteDbContext());
 });
 
 
