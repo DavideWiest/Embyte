@@ -78,7 +78,6 @@
 
     private void buildIFrame()
     {
-        Console.WriteLine("iframe being re-evaluated");
         //name=\"{EmbedTitle}\"
         IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
