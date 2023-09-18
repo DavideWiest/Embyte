@@ -14,7 +14,7 @@
 
 @if (!showError)
 {
-    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount"/>
+    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion"/>
 } else
 {
     <p>
@@ -27,6 +27,9 @@
     public string TargetUrl { get; set; } = EmbyteStorage.DefaultUrl;
     public bool ShowStatus = false;
     public bool ShowRequestCount = false;
+    public bool ShowImage = true;
+    public bool MinimalVersion = false;
+
     private bool showError = false;
 
     private Dictionary<string, string> queryParameters = new Dictionary<string, string>();
@@ -54,6 +57,12 @@
 
         if (queryParameters.ContainsKey("show-requestcount"))
             ShowRequestCount = queryParameters["show-requestcount"].ToLower() == "true";
+
+        if (queryParameters.ContainsKey("show-image"))
+            ShowImage = queryParameters["show-image"].ToLower() == "true";
+
+        if (queryParameters.ContainsKey("minimalversion"))
+            MinimalVersion = queryParameters["minimalversion"].ToLower() == "true";
     }
 
     private string GetDecodedSanitizedUrl()

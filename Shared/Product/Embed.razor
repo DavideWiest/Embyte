@@ -31,8 +31,13 @@
                     <CardHeaderContent>
                         
                         <MudText Typo="Typo.h6" Class="text-blue-500 text-b600">@info.Title</MudText>
-                        
-                            <MudText Typo="Typo.body2" Class="text-slate-500">@info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) @*@(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)*@</MudText>
+                        @if (!MinimalVersion)
+                        {
+                            <MudText Typo="Typo.body2" Class="text-slate-500">
+                                @info.SiteName @(string.IsNullOrEmpty(info.SiteType) ? "" : "• " + info.SiteType) 
+                                @*@(string.IsNullOrEmpty(info.PersonName) ? "" : "• " + info.PersonName)*@
+                            </MudText>
+                        }
                     </CardHeaderContent>
                     </MudCardHeader>
                 } else
@@ -45,7 +50,7 @@
                     </MudCardHeader>
                 }
                 </a>
-                @if (!string.IsNullOrEmpty(info.ImageUrl))
+                @if (!string.IsNullOrEmpty(info.ImageUrl) && ShowImage)
                 {
                     <MudCardMedia Image="@info.ImageUrl" Class="rounded-lg" />
                 }
@@ -56,14 +61,17 @@
                             <MudText Typo="Typo.body2">@info.Description</MudText>
                         </div>
                     }
-                    <div>
-                        @foreach (var keyword in info.Keywords)
-                        {
-                            <p class="inline-block p-1.5 text-sm px-2 m-1 bg-black rounded-lg text-gray-500">
-                                @keyword
-                            </p>
-                        }
-                    </div>
+                    @if (!MinimalVersion)
+                    {
+                        <div>
+                            @foreach (var keyword in info.Keywords)
+                            {
+                                <p class="inline-block p-1.5 text-sm px-2 m-1 bg-black rounded-lg text-gray-500">
+                                    @keyword
+                                </p>
+                            }
+                        </div>  
+                    }
                 </div>
             } else
             {
@@ -112,6 +120,10 @@
     public bool ShowStatus { get; set; } = false;
     [Parameter]
     public bool ShowRequestCount { get; set; } = false;
+    [Parameter]
+    public bool ShowImage { get; set; } = true;
+    [Parameter]
+    public bool MinimalVersion { get; set; } = false;
 
 
     protected override void OnInitialized()
