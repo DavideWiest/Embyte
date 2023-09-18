@@ -37,7 +37,7 @@ public class WebsiteUsageManager
         try
         {
             // Check if the URL already exists in the database
-            var existingWebsite = db.WebsiteUsages.FirstOrDefault(w => w.Url == url);
+            var existingWebsite = db.WebsiteUsages.ToList().FirstOrDefault(w => w.Url == url);
             if (existingWebsite != null)
             {
                 // If the URL exists, increment the RequestCount
@@ -61,7 +61,7 @@ public class WebsiteUsageManager
 
     public List<WebsiteUsage> ReadEntries(int limit=100, int offset = 0)
     {
-        return db.WebsiteUsages
+        return db.WebsiteUsages.ToList()
             .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
             .Skip(offset)
             .Take(limit)
@@ -71,10 +71,10 @@ public class WebsiteUsageManager
     public async Task<List<WebsiteUsage>> ReadEntriesAsync(int limit = 100, int offset = 0)
     {
         // Use asynchronous methods for database access
-        return await db.WebsiteUsages
+        return (await db.WebsiteUsages.ToListAsync())
             .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
             .Skip(offset)
             .Take(limit)
-            .ToListAsync(); // Use ToListAsync to asynchronously retrieve the data
+            .ToList(); // Use ToListAsync to asynchronously retrieve the data
     }
 }

@@ -121,3 +121,691 @@ LIMIT @__p_1 OFFSET @__p_0
 2023-09-18 12:59:02.662 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=038.217
 2023-09-18 12:59:02.744 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.116
 2023-09-18 12:59:02.756 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.214
+2023-09-18 13:11:32.665 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=751117.562
+2023-09-18 13:11:32.665 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=749931.654
+2023-09-18 13:11:45.048 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=045.516
+2023-09-18 13:11:45.048 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=045.435
+2023-09-18 13:11:52.638 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:11:53.948 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1018
+Parsing Duration (ms): 7
+
+2023-09-18 13:11:53.949 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:11:54.122 +02:00 [DBG] rerender finished
+2023-09-18 13:11:54.177 +02:00 [INF] Request Ip=::1 Url=/ Time=2339.091
+2023-09-18 13:11:54.195 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.723
+2023-09-18 13:11:54.201 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.818
+2023-09-18 13:11:54.201 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.845
+2023-09-18 13:11:54.275 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=014.464
+2023-09-18 13:11:54.376 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.312
+2023-09-18 13:11:54.402 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:11:54.420 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.223
+2023-09-18 13:11:54.421 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.125
+2023-09-18 13:11:54.421 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.180
+2023-09-18 13:11:54.451 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=003.953
+2023-09-18 13:11:54.542 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.410
+2023-09-18 13:11:54.559 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.384
+2023-09-18 13:11:54.666 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:11:54.694 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 78
+Parsing Duration (ms): 1
+
+2023-09-18 13:11:54.695 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:11:54.703 +02:00 [DBG] rerender finished
+2023-09-18 13:11:54.705 +02:00 [INF] Request Ip=::1 Url=/ Time=327.426
+2023-09-18 13:11:54.944 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-18 13:11:54.945 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:11:54.953 +02:00 [DBG] rerender finished
+2023-09-18 13:11:54.962 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.443
+2023-09-18 13:11:54.967 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=404.115
+2023-09-18 13:11:54.967 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=002.506
+2023-09-18 13:11:54.998 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.150
+2023-09-18 13:11:54.998 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.182
+2023-09-18 13:11:54.998 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.192
+2023-09-18 13:11:55.075 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.211
+2023-09-18 13:11:55.087 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.196
+2023-09-18 13:12:08.410 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=13321.172
+2023-09-18 13:12:08.410 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=13864.655
+2023-09-18 13:12:08.415 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.877
+2023-09-18 13:12:08.415 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.922
+2023-09-18 13:12:08.953 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:10.024 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 877
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:10.025 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:10.027 +02:00 [DBG] rerender finished
+2023-09-18 13:12:10.029 +02:00 [INF] Request Ip=::1 Url=/ Time=1079.306
+2023-09-18 13:12:10.116 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=001.873
+2023-09-18 13:12:10.242 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.147
+2023-09-18 13:12:10.253 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:10.419 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.171
+2023-09-18 13:12:10.428 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.173
+2023-09-18 13:12:10.449 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.174
+2023-09-18 13:12:10.458 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:10.610 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 154
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:10.611 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:10.613 +02:00 [DBG] rerender finished
+2023-09-18 13:12:10.614 +02:00 [INF] Request Ip=::1 Url=/ Time=364.363
+2023-09-18 13:12:10.841 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 157
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:10.842 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:10.844 +02:00 [DBG] rerender finished
+2023-09-18 13:12:10.848 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=386.271
+2023-09-18 13:12:10.849 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.527
+2023-09-18 13:12:10.857 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=002.186
+2023-09-18 13:12:10.874 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.232
+2023-09-18 13:12:10.874 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.258
+2023-09-18 13:12:10.874 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.173
+2023-09-18 13:12:10.961 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.094
+2023-09-18 13:12:10.973 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.130
+2023-09-18 13:12:20.262 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:20.801 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 256
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:20.801 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:12:20.805 +02:00 [DBG] rerender finished
+2023-09-18 13:12:20.806 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=547.614
+2023-09-18 13:12:20.810 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=9836.038
+2023-09-18 13:12:20.810 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.543
+2023-09-18 13:12:20.810 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.937
+2023-09-18 13:12:20.811 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=10360.519
+2023-09-18 13:12:20.818 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.185
+2023-09-18 13:12:20.819 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.144
+2023-09-18 13:12:20.828 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.178
+2023-09-18 13:12:20.892 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.068
+2023-09-18 13:12:20.904 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.119
+2023-09-18 13:12:20.910 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:21.210 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 64
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:21.211 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:12:21.213 +02:00 [DBG] rerender finished
+2023-09-18 13:12:23.187 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:23.430 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:23.431 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:23.433 +02:00 [DBG] rerender finished
+2023-09-18 13:12:23.434 +02:00 [INF] Request Ip=::1 Url=/ Time=250.083
+2023-09-18 13:12:23.437 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2531.674
+2023-09-18 13:12:23.438 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.278
+2023-09-18 13:12:23.451 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=001.756
+2023-09-18 13:12:23.538 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.069
+2023-09-18 13:12:23.546 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:23.634 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.071
+2023-09-18 13:12:23.646 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.122
+2023-09-18 13:12:23.647 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.127
+2023-09-18 13:12:23.652 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:23.759 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:23.760 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:23.762 +02:00 [DBG] rerender finished
+2023-09-18 13:12:23.764 +02:00 [INF] Request Ip=::1 Url=/ Time=220.453
+2023-09-18 13:12:23.919 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:23.920 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:23.922 +02:00 [DBG] rerender finished
+2023-09-18 13:12:23.925 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=265.184
+2023-09-18 13:12:23.926 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.389
+2023-09-18 13:12:23.934 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=001.871
+2023-09-18 13:12:23.946 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.214
+2023-09-18 13:12:23.946 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.091
+2023-09-18 13:12:23.947 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.157
+2023-09-18 13:12:24.050 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.104
+2023-09-18 13:12:24.054 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.140
+2023-09-18 13:12:26.585 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:26.839 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:26.840 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:26.842 +02:00 [DBG] rerender finished
+2023-09-18 13:12:26.844 +02:00 [INF] Request Ip=::1 Url=/ Time=262.528
+2023-09-18 13:12:26.854 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.481
+2023-09-18 13:12:26.858 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.162
+2023-09-18 13:12:26.858 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.308
+2023-09-18 13:12:26.915 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=001.613
+2023-09-18 13:12:27.026 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.077
+2023-09-18 13:12:27.035 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:27.076 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.183
+2023-09-18 13:12:27.077 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.108
+2023-09-18 13:12:27.077 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.233
+2023-09-18 13:12:27.105 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.152
+2023-09-18 13:12:27.196 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.067
+2023-09-18 13:12:27.212 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.099
+2023-09-18 13:12:27.215 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:12:27.294 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:27.294 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:27.296 +02:00 [DBG] rerender finished
+2023-09-18 13:12:27.297 +02:00 [INF] Request Ip=::1 Url=/ Time=264.828
+2023-09-18 13:12:27.459 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-18 13:12:27.460 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:12:27.462 +02:00 [DBG] rerender finished
+2023-09-18 13:12:27.466 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=251.829
+2023-09-18 13:12:27.466 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.522
+2023-09-18 13:12:27.474 +02:00 [INF] Request Ip=::1 Url=/embyte.davidewiest.com/embed/ Time=002.211
+2023-09-18 13:12:27.488 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.217
+2023-09-18 13:12:27.488 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.102
+2023-09-18 13:12:27.488 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.140
+2023-09-18 13:12:27.567 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.069
+2023-09-18 13:12:27.577 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.135
+2023-09-18 13:12:29.756 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.803
+2023-09-18 13:12:29.762 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2182.141
+2023-09-18 13:12:29.763 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2564.059
+2023-09-18 13:12:29.765 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.434
+2023-09-18 13:12:36.253 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.310
+2023-09-18 13:12:36.255 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.203
+2023-09-18 13:15:21.891 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=177840.081
+2023-09-18 13:15:21.891 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=178248.217
+2023-09-18 13:15:45.336 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=048.935
+2023-09-18 13:15:45.336 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=049.215
+2023-09-18 13:15:46.163 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:15:47.472 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1036
+Parsing Duration (ms): 8
+
+2023-09-18 13:15:47.472 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:15:47.544 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method99(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:15:47.565 +02:00 [DBG] rerender finished
+2023-09-18 13:15:47.658 +02:00 [INF] Request Ip=::1 Url=/ Time=2309.427
+2023-09-18 13:15:47.676 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.346
+2023-09-18 13:15:47.676 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=003.647
+2023-09-18 13:15:47.676 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.647
+2023-09-18 13:15:47.901 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=023.780
+2023-09-18 13:15:47.912 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.198
+2023-09-18 13:15:47.945 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:15:47.956 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.275
+2023-09-18 13:15:47.956 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.503
+2023-09-18 13:15:47.969 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.316
+2023-09-18 13:15:47.981 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.795
+2023-09-18 13:15:48.093 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.268
+2023-09-18 13:15:48.119 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.357
+2023-09-18 13:15:48.217 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:15:48.224 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 2
+
+2023-09-18 13:15:48.224 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:15:48.228 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method99(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:15:48.229 +02:00 [DBG] rerender finished
+2023-09-18 13:15:48.233 +02:00 [INF] Request Ip=::1 Url=/ Time=311.910
+2023-09-18 13:15:48.586 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 162
+Parsing Duration (ms): 1
+
+2023-09-18 13:15:48.586 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:15:48.587 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Linq.Enumerable.TryGetSingle[TSource](IEnumerable`1 source, Boolean& found)
+   at lambda_method99(Closure, QueryContext)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:15:48.588 +02:00 [DBG] rerender finished
+2023-09-18 13:15:48.596 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.742
+2023-09-18 13:15:48.602 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=479.075
+2023-09-18 13:15:48.602 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=002.770
+2023-09-18 13:15:48.622 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.145
+2023-09-18 13:15:48.622 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.127
+2023-09-18 13:15:48.622 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.301
+2023-09-18 13:15:48.722 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.118
+2023-09-18 13:15:48.735 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.180
+2023-09-18 13:16:18.870 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:19.905 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 837
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:19.905 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:19.910 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:19.910 +02:00 [DBG] rerender finished
+2023-09-18 13:16:19.913 +02:00 [INF] Request Ip=::1 Url=/ Time=1046.519
+2023-09-18 13:16:19.918 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.086
+2023-09-18 13:16:19.918 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.682
+2023-09-18 13:16:19.919 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=31182.349
+2023-09-18 13:16:19.920 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=31936.573
+2023-09-18 13:16:19.928 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.313
+2023-09-18 13:16:19.938 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.450
+2023-09-18 13:16:19.938 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.570
+2023-09-18 13:16:19.972 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=002.471
+2023-09-18 13:16:20.064 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.151
+2023-09-18 13:16:20.076 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:20.100 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.381
+2023-09-18 13:16:20.100 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.149
+2023-09-18 13:16:20.101 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.408
+2023-09-18 13:16:20.129 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.298
+2023-09-18 13:16:20.239 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.126
+2023-09-18 13:16:20.257 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.198
+2023-09-18 13:16:20.262 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:20.335 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:20.335 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:20.336 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:20.336 +02:00 [DBG] rerender finished
+2023-09-18 13:16:20.338 +02:00 [INF] Request Ip=::1 Url=/ Time=264.731
+2023-09-18 13:16:20.344 +02:00 [INF] Request Ip=::1 Url=/static/assets/favicon.png Time=000.350
+2023-09-18 13:16:20.582 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 134
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:20.583 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:20.583 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:20.583 +02:00 [DBG] rerender finished
+2023-09-18 13:16:20.592 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:20.594 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=332.567
+2023-09-18 13:16:20.595 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.182
+2023-09-18 13:16:20.608 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=008.656
+2023-09-18 13:16:20.621 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.220
+2023-09-18 13:16:20.621 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.100
+2023-09-18 13:16:20.621 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.136
+2023-09-18 13:16:20.710 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.036
+2023-09-18 13:16:20.722 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.209
+2023-09-18 13:16:21.587 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 795
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:21.587 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:21.587 +02:00 [DBG] rerender finished
+2023-09-18 13:16:21.589 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:21.861 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 58
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:21.861 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:21.861 +02:00 [DBG] rerender finished
+2023-09-18 13:16:31.785 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:32.285 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 251
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:32.285 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:16:32.339 +02:00 [DBG] rerender finished
+2023-09-18 13:16:32.340 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=560.109
+2023-09-18 13:16:32.344 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=11619.495
+2023-09-18 13:16:32.344 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.737
+2023-09-18 13:16:32.344 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.995
+2023-09-18 13:16:32.344 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=12094.749
+2023-09-18 13:16:32.351 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.246
+2023-09-18 13:16:32.352 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.096
+2023-09-18 13:16:32.355 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.242
+2023-09-18 13:16:32.415 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.076
+2023-09-18 13:16:32.428 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.148
+2023-09-18 13:16:32.436 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:32.765 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 70
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:32.765 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:16:32.768 +02:00 [DBG] rerender finished
+2023-09-18 13:16:34.404 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:34.659 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:34.660 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:34.660 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:34.660 +02:00 [DBG] rerender finished
+2023-09-18 13:16:34.662 +02:00 [INF] Request Ip=::1 Url=/ Time=260.311
+2023-09-18 13:16:34.665 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2232.623
+2023-09-18 13:16:34.665 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.436
+2023-09-18 13:16:34.680 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=001.790
+2023-09-18 13:16:34.766 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.073
+2023-09-18 13:16:34.771 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:34.866 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.135
+2023-09-18 13:16:34.879 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.155
+2023-09-18 13:16:34.882 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.187
+2023-09-18 13:16:34.890 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:16:35.001 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:35.001 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:35.001 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:35.001 +02:00 [DBG] rerender finished
+2023-09-18 13:16:35.003 +02:00 [INF] Request Ip=::1 Url=/ Time=233.235
+2023-09-18 13:16:35.143 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-18 13:16:35.143 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:16:35.143 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:16:35.143 +02:00 [DBG] rerender finished
+2023-09-18 13:16:35.147 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=250.269
+2023-09-18 13:16:35.147 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.518
+2023-09-18 13:16:35.154 +02:00 [INF] Request Ip=::1 Url=/embed//embed/ Time=001.859
+2023-09-18 13:16:35.169 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.091
+2023-09-18 13:16:35.169 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.163
+2023-09-18 13:16:35.169 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.180
+2023-09-18 13:16:35.257 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.083
+2023-09-18 13:16:35.271 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.149
+2023-09-18 13:16:50.369 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.247
+2023-09-18 13:16:50.370 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.170
+2023-09-18 13:17:07.576 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:08.064 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:08.571 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 779
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:08.571 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:08.571 +02:00 [DBG] rerender finished
+2023-09-18 13:17:08.574 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:09.236 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 959
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:09.236 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:09.236 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url)
+2023-09-18 13:17:09.237 +02:00 [DBG] rerender finished
+2023-09-18 13:17:09.241 +02:00 [INF] Request Ip=::1 Url=/ Time=1185.698
+2023-09-18 13:17:09.246 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=33956.451
+2023-09-18 13:17:09.246 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.105
+2023-09-18 13:17:09.247 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=34364.064
+2023-09-18 13:17:09.256 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.473
+2023-09-18 13:17:09.263 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.149
+2023-09-18 13:17:09.263 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.214
+2023-09-18 13:17:09.314 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:09.386 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 648
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:09.386 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:09.386 +02:00 [DBG] rerender finished
+2023-09-18 13:17:09.389 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=144.354
+2023-09-18 13:17:09.463 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:09.535 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.755
+2023-09-18 13:17:13.876 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=002.589
+2023-09-18 13:17:19.127 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:19.821 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 390
+Parsing Duration (ms): 8
+
+2023-09-18 13:17:19.821 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:19.833 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:17:19.855 +02:00 [DBG] rerender finished
+2023-09-18 13:17:19.945 +02:00 [INF] Request Ip=::1 Url=/ Time=1624.642
+2023-09-18 13:17:19.966 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.093
+2023-09-18 13:17:19.966 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.066
+2023-09-18 13:17:19.966 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=005.099
+2023-09-18 13:17:20.040 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:20.124 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=003.708
+2023-09-18 13:17:20.151 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=006.032
+2023-09-18 13:17:20.151 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:20.273 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:20.441 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:20.441 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:20.442 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: System.InvalidOperationException: A second operation was started on this context instance before a previous operation completed. This is usually caused by different threads concurrently using the same instance of DbContext. For more information on how to avoid threading issues with DbContext, see https://go.microsoft.com/fwlink/?linkid=2097913.
+   at Microsoft.EntityFrameworkCore.Infrastructure.Internal.ConcurrencyDetector.EnterCriticalSection()
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:17:20.443 +02:00 [DBG] rerender finished
+2023-09-18 13:17:20.446 +02:00 [INF] Request Ip=::1 Url=/ Time=320.538
+2023-09-18 13:17:20.550 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 85
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:20.550 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-18 13:17:20.551 +02:00 [ERR] Unable to execute SaveRequest for the url https://github.com/DavideWiest: Npgsql.NpgsqlOperationInProgressException (0x80004005): A command is already in progress: SELECT w."Id", w."RequestCount", w."Url"
+FROM "WebsiteUsage" AS w
+   at Npgsql.Internal.NpgsqlConnector.<StartUserAction>g__DoStartUserAction|279_0(ConnectorState newState, NpgsqlCommand command, <>c__DisplayClass279_0&)
+   at Npgsql.Internal.NpgsqlConnector.StartUserAction(ConnectorState newState, NpgsqlCommand command, CancellationToken cancellationToken, Boolean attemptPgCancellation)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior, Boolean async, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Embyte.Modules.Db.WebsiteUsageManager.SaveRequest(String url) in C:\Users\DavWi\OneDrive\Desktop\Projekte\Embyte\Modules\Db\WebsiteUsageManager.cs:line 40
+2023-09-18 13:17:20.551 +02:00 [DBG] rerender finished
+2023-09-18 13:17:20.579 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:21.076 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 216
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:21.076 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:17:21.105 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 824
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:21.106 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:17:21.143 +02:00 [DBG] rerender finished
+2023-09-18 13:17:21.143 +02:00 [DBG] rerender finished
+2023-09-18 13:17:21.144 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1127.100
+2023-09-18 13:17:21.144 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=567.236
+2023-09-18 13:17:21.151 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.549
+2023-09-18 13:17:21.151 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.450
+2023-09-18 13:17:21.153 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.239
+2023-09-18 13:17:21.228 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.219
+2023-09-18 13:17:21.242 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.250
+2023-09-18 13:17:21.249 +02:00 [DBG] RerenderEmbed called
+2023-09-18 13:17:21.632 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 110
+Parsing Duration (ms): 1
+
+2023-09-18 13:17:21.632 +02:00 [DBG] Title: www.w3schools.com
+2023-09-18 13:17:21.651 +02:00 [DBG] rerender finished
