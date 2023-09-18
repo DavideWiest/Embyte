@@ -1,5 +1,7 @@
 # Embyte: Your Open-Source Embed Solution
 
+[![.NET](https://github.com/DavideWiest/Embyte/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/DavideWiest/Embyte/actions/workflows/dotnet-desktop.yml)
+
 Welcome to Embyte, your go-to open-source embed creator for crafting minimalistic embeds that you can seamlessly use in iFrames. This tool is designed to make web embedding a breeze, drawing inspiration from platforms like Discord and other social media channels.
 
 ## Motivation
