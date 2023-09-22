@@ -61,7 +61,7 @@ public class WebsiteUsageManager
 
     public List<WebsiteUsage> ReadEntries(int limit = 100, int offset = 0)
     {
-        return db.WebsiteUsages.ToList()
+        return db.WebsiteUsages
             .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
             .Skip(offset)
             .Take(limit)
@@ -70,7 +70,11 @@ public class WebsiteUsageManager
 
     public int GetRequestCount(string url)
     {
-        var requestCount = db.WebsiteUsages.ToList().FirstOrDefault(w => w.Url == url).RequestCount;
+        var entry = db.WebsiteUsages.FirstOrDefault(w => w.Url == url);
+        int requestCount = 1;
+        if (entry != null) {
+            requestCount = entry.RequestCount;
+        }
         return requestCount;
     }
 }

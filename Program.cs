@@ -66,9 +66,9 @@ Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction",
 // DB TESTING 
 
 #if DEBUG
-string TestingTable = "WebsiteUsage";
 var con = new EmbyteDbContext();
 
+// string TestingTable = "WebsiteUsage";
 //Log.Debug($"Existing Tables: {string.Join(", ", DbHelper.GetExistingTables(con))}");
 //Log.Debug($"Table {TestingTable} exists: {DbHelper.CheckTableExists(con, TestingTable)}");
 //Log.Debug($"Number of entries in {TestingTable} {DbHelper.CheckNumberEntries(con, TestingTable)}");
