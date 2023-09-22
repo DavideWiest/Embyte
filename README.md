@@ -1,4 +1,4 @@
-# Embyte: Your Open-Source Embed Solution
+# [Embyte](https://embyte.davidewiest.com): Your Open-Source Embed Solution
 
 [![.NET](https://github.com/DavideWiest/Embyte/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/DavideWiest/Embyte/actions/workflows/dotnet-desktop.yml)
 
