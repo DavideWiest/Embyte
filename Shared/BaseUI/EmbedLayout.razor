@@ -1,9 +1,12 @@
 ﻿@inherits LayoutComponentBase
 
 @using Embyte.Modules.Logging
+@using Embyte.Shared.BaseUI
+
+<MetaTags />
 
  <ErrorBoundary>
-    <ChildContent>
+    <ChildContent> 
         @Body
     </ChildContent>
     <ErrorContent Context="ex">
