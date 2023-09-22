@@ -24,7 +24,7 @@ public class FundamentalStorage
             new Link("Contact", "mailto:davide.wiest2@gmail.com")
         };
 
-        public string SpecialAnnouncement { get; } = "A special announcement";
+        public string SpecialAnnouncement { get; } = "Sepember 2023 - Embyte launched!";
         public bool SpecialAnnouncementBypass { get; } = false;
     }
 
