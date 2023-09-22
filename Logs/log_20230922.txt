@@ -380,3 +380,2193 @@ Parsing Duration (ms): 0
 2023-09-22 14:31:14.020 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
 2023-09-22 14:31:14.020 +02:00 [DBG] rerender finished
 2023-09-22 14:31:14.022 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:15.758 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:16.634 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 288
+Parsing Duration (ms): 7
+
+2023-09-22 15:04:16.635 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:04:16.713 +02:00 [DBG] rerender finished
+2023-09-22 15:04:16.783 +02:00 [INF] Request Ip=::1 Url=/ Time=2071.829
+2023-09-22 15:04:16.805 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=005.785
+2023-09-22 15:04:16.805 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.785
+2023-09-22 15:04:16.840 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.477
+2023-09-22 15:04:16.853 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.368
+2023-09-22 15:04:16.887 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:17.031 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.196
+2023-09-22 15:04:17.046 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=005.105
+2023-09-22 15:04:17.076 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:17.250 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:17.511 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.272
+2023-09-22 15:04:17.651 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-22 15:04:17.651 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:04:17.655 +02:00 [DBG] rerender finished
+2023-09-22 15:04:17.657 +02:00 [INF] Request Ip=::1 Url=/ Time=608.661
+2023-09-22 15:04:17.909 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 41
+Parsing Duration (ms): 0
+
+2023-09-22 15:04:17.909 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:04:17.911 +02:00 [DBG] rerender finished
+2023-09-22 15:04:17.966 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:18.982 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1801
+Parsing Duration (ms): 1
+
+2023-09-22 15:04:18.982 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:04:18.984 +02:00 [DBG] rerender finished
+2023-09-22 15:04:18.985 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=2121.211
+2023-09-22 15:04:19.020 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 802
+Parsing Duration (ms): 1
+
+2023-09-22 15:04:19.020 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:04:19.022 +02:00 [DBG] rerender finished
+2023-09-22 15:04:19.023 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1058.370
+2023-09-22 15:04:19.030 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.283
+2023-09-22 15:04:19.031 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.132
+2023-09-22 15:04:19.049 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.361
+2023-09-22 15:04:19.094 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.137
+2023-09-22 15:04:19.094 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.237
+2023-09-22 15:04:19.146 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.237
+2023-09-22 15:04:19.158 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.279
+2023-09-22 15:04:19.167 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:04:19.468 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 1
+
+2023-09-22 15:04:19.468 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:04:19.470 +02:00 [DBG] rerender finished
+2023-09-22 15:04:26.938 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.208
+2023-09-22 15:04:26.938 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.366
+2023-09-22 15:10:11.570 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:12.282 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 169
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:12.282 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:12.282 +02:00 [DBG] rerender finished
+2023-09-22 15:10:12.285 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:12.883 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 59
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:12.883 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:12.883 +02:00 [DBG] rerender finished
+2023-09-22 15:10:12.888 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:14.295 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1141
+Parsing Duration (ms): 1
+
+2023-09-22 15:10:14.295 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:14.295 +02:00 [DBG] rerender finished
+2023-09-22 15:10:14.295 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:15.382 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 868
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:15.382 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:15.382 +02:00 [DBG] rerender finished
+2023-09-22 15:10:18.065 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:18.982 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:18.982 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:18.982 +02:00 [DBG] rerender finished
+2023-09-22 15:10:18.985 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:19.621 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:19.621 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:19.621 +02:00 [DBG] rerender finished
+2023-09-22 15:10:19.624 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:19.888 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 74
+Parsing Duration (ms): 1
+
+2023-09-22 15:10:19.888 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:19.888 +02:00 [DBG] rerender finished
+2023-09-22 15:10:19.888 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:20.146 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 58
+Parsing Duration (ms): 1
+
+2023-09-22 15:10:20.146 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:20.146 +02:00 [DBG] rerender finished
+2023-09-22 15:10:21.307 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:21.856 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 33
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:21.856 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:21.856 +02:00 [DBG] rerender finished
+2023-09-22 15:10:21.859 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:22.453 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 0
+
+2023-09-22 15:10:22.453 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:10:22.453 +02:00 [DBG] rerender finished
+2023-09-22 15:10:22.456 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:22.704 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 48
+Parsing Duration (ms): 1
+
+2023-09-22 15:10:22.704 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:22.704 +02:00 [DBG] rerender finished
+2023-09-22 15:10:22.704 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:10:22.948 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-22 15:10:22.948 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:10:22.948 +02:00 [DBG] rerender finished
+2023-09-22 15:18:22.128 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:18:22.831 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 350
+Parsing Duration (ms): 8
+
+2023-09-22 15:18:22.831 +02:00 [DBG] Title: GitHub: Let’s build from here
+2023-09-22 15:18:22.951 +02:00 [DBG] rerender finished
+2023-09-22 15:18:38.902 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=010.463
+2023-09-22 15:18:38.902 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=010.436
+2023-09-22 15:18:49.269 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:18:50.086 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 241
+Parsing Duration (ms): 0
+
+2023-09-22 15:18:50.086 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:18:50.095 +02:00 [DBG] rerender finished
+2023-09-22 15:18:50.099 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:18:51.194 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 548
+Parsing Duration (ms): 0
+
+2023-09-22 15:18:51.194 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:18:51.194 +02:00 [DBG] rerender finished
+2023-09-22 15:18:51.860 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:18:52.830 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 535
+Parsing Duration (ms): 0
+
+2023-09-22 15:18:52.830 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:18:52.832 +02:00 [DBG] rerender finished
+2023-09-22 15:19:11.856 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:12.945 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 552
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:12.945 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:12.945 +02:00 [DBG] rerender finished
+2023-09-22 15:19:12.948 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:14.063 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 573
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:14.063 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:14.063 +02:00 [DBG] rerender finished
+2023-09-22 15:19:14.068 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:15.110 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 502
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:15.110 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:15.110 +02:00 [DBG] rerender finished
+2023-09-22 15:19:15.112 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:16.303 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 638
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:16.303 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:16.303 +02:00 [DBG] rerender finished
+2023-09-22 15:19:30.845 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:31.985 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 529
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:31.985 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:31.985 +02:00 [DBG] rerender finished
+2023-09-22 15:19:31.987 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:33.122 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 509
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:33.122 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:33.122 +02:00 [DBG] rerender finished
+2023-09-22 15:19:33.128 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:34.211 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 540
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:34.211 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:34.211 +02:00 [DBG] rerender finished
+2023-09-22 15:19:34.212 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:35.401 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 654
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:35.401 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:35.401 +02:00 [DBG] rerender finished
+2023-09-22 15:19:44.473 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:45.553 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 492
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:45.553 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:45.553 +02:00 [DBG] rerender finished
+2023-09-22 15:19:45.556 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:46.788 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 640
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:46.788 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:46.788 +02:00 [DBG] rerender finished
+2023-09-22 15:19:46.792 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:47.897 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 570
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:47.897 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:47.897 +02:00 [DBG] rerender finished
+2023-09-22 15:19:47.899 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:49.424 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 920
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:49.424 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:49.424 +02:00 [DBG] rerender finished
+2023-09-22 15:19:53.832 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:54.962 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 539
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:54.962 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:54.962 +02:00 [DBG] rerender finished
+2023-09-22 15:19:54.964 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:56.032 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 532
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:56.032 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:56.032 +02:00 [DBG] rerender finished
+2023-09-22 15:19:56.036 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:57.296 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 528
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:57.296 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:57.296 +02:00 [DBG] rerender finished
+2023-09-22 15:19:57.298 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:19:58.395 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 523
+Parsing Duration (ms): 0
+
+2023-09-22 15:19:58.396 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:19:58.396 +02:00 [DBG] rerender finished
+2023-09-22 15:20:01.840 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:02.987 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 623
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:02.987 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:02.987 +02:00 [DBG] rerender finished
+2023-09-22 15:20:02.990 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:04.161 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 576
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:04.161 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:04.161 +02:00 [DBG] rerender finished
+2023-09-22 15:20:04.167 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:05.223 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 510
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:05.223 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:05.223 +02:00 [DBG] rerender finished
+2023-09-22 15:20:05.225 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:06.884 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 956
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:06.884 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:06.885 +02:00 [DBG] rerender finished
+2023-09-22 15:20:07.862 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=88952.136
+2023-09-22 15:20:07.862 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=88934.329
+2023-09-22 15:20:39.820 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:41.170 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 749
+Parsing Duration (ms): 7
+
+2023-09-22 15:20:41.170 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:41.234 +02:00 [DBG] rerender finished
+2023-09-22 15:20:41.308 +02:00 [INF] Request Ip=::1 Url=/ Time=2603.754
+2023-09-22 15:20:41.339 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.174
+2023-09-22 15:20:41.339 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.269
+2023-09-22 15:20:41.350 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.425
+2023-09-22 15:20:41.372 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.283
+2023-09-22 15:20:41.372 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.276
+2023-09-22 15:20:41.582 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:41.606 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:41.628 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.136
+2023-09-22 15:20:41.901 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=005.370
+2023-09-22 15:20:42.024 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:42.780 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 571
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:42.780 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:42.782 +02:00 [DBG] rerender finished
+2023-09-22 15:20:42.785 +02:00 [INF] Request Ip=::1 Url=/ Time=1234.039
+2023-09-22 15:20:42.874 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1035
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:42.875 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:42.877 +02:00 [DBG] rerender finished
+2023-09-22 15:20:42.878 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1291.121
+2023-09-22 15:20:42.885 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.348
+2023-09-22 15:20:42.885 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.157
+2023-09-22 15:20:42.890 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.111
+2023-09-22 15:20:42.905 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.245
+2023-09-22 15:20:42.989 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.253
+2023-09-22 15:20:43.009 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.421
+2023-09-22 15:20:43.020 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:43.099 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.290
+2023-09-22 15:20:43.268 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 79
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:43.268 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:43.270 +02:00 [DBG] rerender finished
+2023-09-22 15:20:43.674 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 653
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:43.674 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:43.701 +02:00 [DBG] rerender finished
+2023-09-22 15:20:43.720 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:43.721 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=012.910
+2023-09-22 15:20:43.722 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=710.216
+2023-09-22 15:20:44.626 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 721
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:44.626 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:44.658 +02:00 [DBG] rerender finished
+2023-09-22 15:20:44.659 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=940.821
+2023-09-22 15:20:44.666 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.124
+2023-09-22 15:20:44.666 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.127
+2023-09-22 15:20:44.666 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.346
+2023-09-22 15:20:44.670 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.107
+2023-09-22 15:20:44.671 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.280
+2023-09-22 15:20:44.742 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.120
+2023-09-22 15:20:44.753 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.197
+2023-09-22 15:20:44.766 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:45.030 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 52
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:45.030 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:45.035 +02:00 [DBG] rerender finished
+2023-09-22 15:20:55.432 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:56.555 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 550
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:56.555 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:56.555 +02:00 [DBG] rerender finished
+2023-09-22 15:20:56.558 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:57.794 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 664
+Parsing Duration (ms): 0
+
+2023-09-22 15:20:57.794 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:20:57.794 +02:00 [DBG] rerender finished
+2023-09-22 15:20:57.799 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:58.061 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:58.061 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:58.061 +02:00 [DBG] rerender finished
+2023-09-22 15:20:58.062 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:20:58.296 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-22 15:20:58.296 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:20:58.296 +02:00 [DBG] rerender finished
+2023-09-22 15:21:18.152 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:19.359 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 633
+Parsing Duration (ms): 0
+
+2023-09-22 15:21:19.359 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:21:19.359 +02:00 [DBG] rerender finished
+2023-09-22 15:21:19.361 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:21.103 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 654
+Parsing Duration (ms): 0
+
+2023-09-22 15:21:21.103 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:21:21.103 +02:00 [DBG] rerender finished
+2023-09-22 15:21:21.107 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:22.107 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 769
+Parsing Duration (ms): 1
+
+2023-09-22 15:21:22.108 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:21:22.108 +02:00 [DBG] rerender finished
+2023-09-22 15:21:22.108 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:22.342 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 35
+Parsing Duration (ms): 1
+
+2023-09-22 15:21:22.342 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:21:22.342 +02:00 [DBG] rerender finished
+2023-09-22 15:21:22.408 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:23.602 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 639
+Parsing Duration (ms): 0
+
+2023-09-22 15:21:23.602 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:21:23.602 +02:00 [DBG] rerender finished
+2023-09-22 15:21:23.604 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:24.750 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 532
+Parsing Duration (ms): 0
+
+2023-09-22 15:21:24.750 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:21:24.750 +02:00 [DBG] rerender finished
+2023-09-22 15:21:24.752 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:25.009 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 49
+Parsing Duration (ms): 1
+
+2023-09-22 15:21:25.009 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:21:25.009 +02:00 [DBG] rerender finished
+2023-09-22 15:21:25.010 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:26.004 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 785
+Parsing Duration (ms): 1
+
+2023-09-22 15:21:26.004 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:21:26.004 +02:00 [DBG] rerender finished
+2023-09-22 15:21:39.317 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:21:40.472 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 575
+Parsing Duration (ms): 0
+
+2023-09-22 15:21:40.472 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:21:40.475 +02:00 [DBG] rerender finished
+2023-09-22 15:22:29.034 +02:00 [DBG] UrlFront: 
+2023-09-22 15:22:31.780 +02:00 [DBG] UrlFront: 
+2023-09-22 15:22:31.804 +02:00 [DBG] UrlFront: 
+2023-09-22 15:22:40.067 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=118162.138
+2023-09-22 15:22:40.067 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=115304.760
+2023-09-22 15:23:14.637 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:23:16.161 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 863
+Parsing Duration (ms): 7
+
+2023-09-22 15:23:16.161 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:23:16.220 +02:00 [DBG] rerender finished
+2023-09-22 15:23:32.799 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:23:34.152 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 673
+Parsing Duration (ms): 0
+
+2023-09-22 15:23:34.152 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:23:34.152 +02:00 [DBG] rerender finished
+2023-09-22 15:23:34.156 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:23:35.264 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 517
+Parsing Duration (ms): 0
+
+2023-09-22 15:23:35.265 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:23:35.265 +02:00 [DBG] rerender finished
+2023-09-22 15:23:38.422 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:23:39.490 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 510
+Parsing Duration (ms): 0
+
+2023-09-22 15:23:39.490 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:23:39.490 +02:00 [DBG] rerender finished
+2023-09-22 15:23:39.493 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:23:40.856 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 801
+Parsing Duration (ms): 0
+
+2023-09-22 15:23:40.856 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:23:40.856 +02:00 [DBG] rerender finished
+2023-09-22 15:23:41.076 +02:00 [INF] Request Ip=::1 Url=/favicon.ico Time=001.609
+2023-09-22 15:24:06.611 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:06.640 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:06.674 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:24:08.024 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 727
+Parsing Duration (ms): 7
+
+2023-09-22 15:24:08.024 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:24:08.083 +02:00 [DBG] rerender finished
+2023-09-22 15:24:10.647 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:24:10.647 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:24:14.657 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:24:14.657 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:24:18.664 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:24:18.664 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:24:22.676 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:24:22.676 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:24:26.683 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:26.683 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:30.692 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:24:30.693 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:24:34.703 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:24:34.703 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:24:38.709 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:24:38.710 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:24:42.723 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:24:42.723 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:24:46.727 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:46.727 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:24:50.731 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:24:50.732 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:24:54.742 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:24:54.742 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:24:58.754 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:24:58.754 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:25:02.760 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:25:02.760 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:25:06.765 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:06.765 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:10.766 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:25:10.767 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:25:14.775 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:25:14.775 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:25:18.781 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:25:18.782 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:25:22.783 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:25:22.783 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:25:26.788 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:26.788 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:30.791 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:25:30.791 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:25:34.797 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:25:34.797 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:25:38.800 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:25:38.800 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:25:42.807 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:25:42.807 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:25:46.814 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:46.814 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:25:50.822 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:25:50.822 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:25:54.826 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:25:54.826 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:25:58.830 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:25:58.830 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:26:02.836 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:26:02.836 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:26:06.846 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:26:06.846 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:26:10.853 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:26:10.853 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:27:33.953 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:33.984 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:34.020 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:35.272 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 688
+Parsing Duration (ms): 7
+
+2023-09-22 15:27:35.272 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:27:35.343 +02:00 [DBG] rerender finished
+2023-09-22 15:27:35.433 +02:00 [INF] Request Ip=::1 Url=/ Time=2412.937
+2023-09-22 15:27:35.459 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.344
+2023-09-22 15:27:35.460 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.834
+2023-09-22 15:27:35.470 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.341
+2023-09-22 15:27:35.494 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.157
+2023-09-22 15:27:35.494 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.226
+2023-09-22 15:27:35.541 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:35.679 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:35.679 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:35.681 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:35.735 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.570
+2023-09-22 15:27:35.980 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.162
+2023-09-22 15:27:36.095 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:36.096 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:36.096 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:36.745 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 868
+Parsing Duration (ms): 1
+
+2023-09-22 15:27:36.745 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:27:36.749 +02:00 [DBG] rerender finished
+2023-09-22 15:27:36.750 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1228.043
+2023-09-22 15:27:36.758 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.415
+2023-09-22 15:27:36.758 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.133
+2023-09-22 15:27:36.761 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.267
+2023-09-22 15:27:36.855 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.199
+2023-09-22 15:27:36.873 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.239
+2023-09-22 15:27:36.881 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:36.970 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 651
+Parsing Duration (ms): 1
+
+2023-09-22 15:27:36.970 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:27:36.972 +02:00 [DBG] rerender finished
+2023-09-22 15:27:36.974 +02:00 [INF] Request Ip=::1 Url=/ Time=1318.293
+2023-09-22 15:27:37.154 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 87
+Parsing Duration (ms): 1
+
+2023-09-22 15:27:37.155 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:27:37.156 +02:00 [DBG] rerender finished
+2023-09-22 15:27:37.387 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 632
+Parsing Duration (ms): 0
+
+2023-09-22 15:27:37.387 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:27:37.389 +02:00 [DBG] rerender finished
+2023-09-22 15:27:37.406 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=530.444
+2023-09-22 15:27:37.412 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:37.415 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=011.695
+2023-09-22 15:27:37.998 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:27:37.998 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:27:38.372 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 752
+Parsing Duration (ms): 1
+
+2023-09-22 15:27:38.372 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:27:38.375 +02:00 [DBG] rerender finished
+2023-09-22 15:27:38.375 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=965.478
+2023-09-22 15:27:38.382 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.278
+2023-09-22 15:27:38.382 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.076
+2023-09-22 15:27:38.382 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.104
+2023-09-22 15:27:38.459 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.166
+2023-09-22 15:27:38.471 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.196
+2023-09-22 15:27:38.479 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:27:38.741 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-22 15:27:38.741 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:27:38.743 +02:00 [DBG] rerender finished
+2023-09-22 15:27:39.688 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:27:39.688 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:27:40.103 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:27:40.103 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:27:42.003 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:27:42.003 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:27:43.697 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:27:43.697 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:27:44.113 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:27:44.113 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:27:46.012 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:27:46.012 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:27:47.703 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:27:47.703 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:27:48.119 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:27:48.119 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:27:50.015 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:27:50.015 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:27:51.707 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:27:51.707 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:27:52.122 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:27:52.122 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:27:54.020 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:54.020 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:55.712 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:55.713 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:56.128 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:56.128 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:27:58.028 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:27:58.028 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:27:59.721 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:27:59.721 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:28:00.136 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:28:00.136 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:28:02.035 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:28:02.035 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:28:03.540 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=27555.571
+2023-09-22 15:28:03.540 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=25065.480
+2023-09-22 15:28:14.389 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:14.420 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:14.458 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:15.845 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 839
+Parsing Duration (ms): 7
+
+2023-09-22 15:28:15.845 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:28:15.923 +02:00 [DBG] rerender finished
+2023-09-22 15:28:15.989 +02:00 [INF] Request Ip=::1 Url=/ Time=2530.587
+2023-09-22 15:28:16.015 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.914
+2023-09-22 15:28:16.015 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.916
+2023-09-22 15:28:16.015 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.396
+2023-09-22 15:28:16.096 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:16.219 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=005.092
+2023-09-22 15:28:16.221 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=007.488
+2023-09-22 15:28:16.221 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=011.152
+2023-09-22 15:28:16.247 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:16.247 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:16.249 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:16.320 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=003.890
+2023-09-22 15:28:16.610 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:16.611 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:28:16.611 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:17.403 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1033
+Parsing Duration (ms): 1
+
+2023-09-22 15:28:17.403 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:28:17.406 +02:00 [DBG] rerender finished
+2023-09-22 15:28:17.407 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1331.819
+2023-09-22 15:28:17.415 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.468
+2023-09-22 15:28:17.415 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.265
+2023-09-22 15:28:17.417 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.293
+2023-09-22 15:28:17.495 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.184
+2023-09-22 15:28:17.509 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 642
+Parsing Duration (ms): 0
+
+2023-09-22 15:28:17.509 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:28:17.511 +02:00 [DBG] rerender finished
+2023-09-22 15:28:17.513 +02:00 [INF] Request Ip=::1 Url=/ Time=1290.435
+2023-09-22 15:28:17.520 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.272
+2023-09-22 15:28:17.528 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:17.772 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 66
+Parsing Duration (ms): 2
+
+2023-09-22 15:28:17.772 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:28:17.774 +02:00 [DBG] rerender finished
+2023-09-22 15:28:17.874 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 767
+Parsing Duration (ms): 0
+
+2023-09-22 15:28:17.874 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:28:17.875 +02:00 [DBG] rerender finished
+2023-09-22 15:28:17.884 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.572
+2023-09-22 15:28:17.889 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=366.894
+2023-09-22 15:28:17.891 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:18.203 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 103
+Parsing Duration (ms): 1
+
+2023-09-22 15:28:18.203 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:28:18.205 +02:00 [DBG] rerender finished
+2023-09-22 15:28:18.206 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=316.823
+2023-09-22 15:28:18.211 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.114
+2023-09-22 15:28:18.211 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.223
+2023-09-22 15:28:18.212 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.231
+2023-09-22 15:28:18.293 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.123
+2023-09-22 15:28:18.303 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.203
+2023-09-22 15:28:18.308 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:28:18.778 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 281
+Parsing Duration (ms): 1
+
+2023-09-22 15:28:18.778 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:28:18.780 +02:00 [DBG] rerender finished
+2023-09-22 15:28:24.432 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:28:24.432 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:28:26.252 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:28:26.252 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:28:26.620 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:28:26.620 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:28:34.447 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:28:34.447 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:28:36.266 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:28:36.267 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:28:36.634 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:28:36.634 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:28:44.456 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:28:44.456 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:28:46.275 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:28:46.275 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:28:46.643 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:28:46.643 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:28:54.466 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:28:54.466 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:28:56.287 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:28:56.288 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:28:56.654 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:28:56.655 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:28:56.703 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=38397.748
+2023-09-22 15:28:56.703 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=40215.044
+2023-09-22 15:30:00.902 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:00.929 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:00.963 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:02.495 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 806
+Parsing Duration (ms): 8
+
+2023-09-22 15:30:02.495 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:30:02.553 +02:00 [DBG] rerender finished
+2023-09-22 15:30:02.620 +02:00 [INF] Request Ip=::1 Url=/ Time=2663.964
+2023-09-22 15:30:02.651 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.302
+2023-09-22 15:30:02.651 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=002.852
+2023-09-22 15:30:02.651 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.189
+2023-09-22 15:30:02.825 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:02.895 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=006.576
+2023-09-22 15:30:02.923 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:02.923 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:02.925 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:03.024 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=006.042
+2023-09-22 15:30:03.147 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:03.147 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:03.148 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:04.077 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 994
+Parsing Duration (ms): 1
+
+2023-09-22 15:30:04.077 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:30:04.081 +02:00 [DBG] rerender finished
+2023-09-22 15:30:04.082 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1274.457
+2023-09-22 15:30:04.091 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.750
+2023-09-22 15:30:04.092 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.786
+2023-09-22 15:30:04.094 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.314
+2023-09-22 15:30:04.192 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.246
+2023-09-22 15:30:04.214 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.264
+2023-09-22 15:30:04.219 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 690
+Parsing Duration (ms): 1
+
+2023-09-22 15:30:04.220 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:30:04.221 +02:00 [DBG] rerender finished
+2023-09-22 15:30:04.223 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:04.224 +02:00 [INF] Request Ip=::1 Url=/ Time=1330.387
+2023-09-22 15:30:04.557 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 140
+Parsing Duration (ms): 1
+
+2023-09-22 15:30:04.557 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 794
+Parsing Duration (ms): 0
+
+2023-09-22 15:30:04.557 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:30:04.557 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:30:04.559 +02:00 [DBG] rerender finished
+2023-09-22 15:30:04.580 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:04.596 +02:00 [DBG] rerender finished
+2023-09-22 15:30:04.606 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=390.818
+2023-09-22 15:30:04.904 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 105
+Parsing Duration (ms): 1
+
+2023-09-22 15:30:04.904 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:30:04.906 +02:00 [DBG] rerender finished
+2023-09-22 15:30:04.906 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=328.931
+2023-09-22 15:30:04.912 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.321
+2023-09-22 15:30:04.912 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.122
+2023-09-22 15:30:04.913 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.166
+2023-09-22 15:30:04.998 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.114
+2023-09-22 15:30:05.011 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.164
+2023-09-22 15:30:05.021 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:30:05.340 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 105
+Parsing Duration (ms): 1
+
+2023-09-22 15:30:05.340 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:30:05.342 +02:00 [DBG] rerender finished
+2023-09-22 15:30:10.943 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:30:10.943 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:30:12.926 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:30:12.926 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:30:13.149 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:30:13.149 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:30:20.957 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:30:20.957 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:30:22.939 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:30:22.939 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:30:23.163 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:30:23.164 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:30:30.969 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:30:30.969 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:30:32.950 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:30:32.950 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:30:33.174 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:30:33.174 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:30:40.978 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:30:40.978 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:30:42.957 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:30:42.957 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:30:43.181 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:30:43.181 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:30:50.992 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:50.992 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:52.959 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:52.959 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:53.183 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:30:53.183 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:01.005 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:01.005 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:02.970 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:02.971 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:03.194 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:03.194 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:11.016 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:31:11.016 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:31:12.984 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:31:12.984 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:31:13.207 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:31:13.207 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:31:21.020 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:31:21.020 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:31:22.984 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:31:22.984 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:31:23.208 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:31:23.208 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:31:31.025 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:31:31.025 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:31:32.989 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:31:32.989 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:31:33.213 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:31:33.213 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:31:41.036 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:41.036 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:43.003 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:43.003 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:43.226 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:43.226 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:31:51.049 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:51.049 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:53.012 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:53.012 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:53.236 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:31:53.236 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:31:54.650 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=111622.696
+2023-09-22 15:31:54.650 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=109632.713
+2023-09-22 15:32:24.465 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:24.492 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:24.527 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:25.759 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 676
+Parsing Duration (ms): 7
+
+2023-09-22 15:32:25.760 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:32:25.824 +02:00 [DBG] rerender finished
+2023-09-22 15:32:25.905 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2420.393
+2023-09-22 15:32:25.933 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=003.708
+2023-09-22 15:32:25.933 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=007.219
+2023-09-22 15:32:25.933 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=003.838
+2023-09-22 15:32:26.017 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:26.144 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:26.145 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:26.146 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:26.193 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.709
+2023-09-22 15:32:26.423 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=005.711
+2023-09-22 15:32:26.575 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:26.575 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:26.576 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:27.175 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 535
+Parsing Duration (ms): 0
+
+2023-09-22 15:32:27.175 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:32:27.178 +02:00 [DBG] rerender finished
+2023-09-22 15:32:27.181 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=1059.906
+2023-09-22 15:32:27.430 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1126
+Parsing Duration (ms): 1
+
+2023-09-22 15:32:27.430 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:32:27.432 +02:00 [DBG] rerender finished
+2023-09-22 15:32:27.433 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=1434.973
+2023-09-22 15:32:27.440 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.492
+2023-09-22 15:32:27.440 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.564
+2023-09-22 15:32:27.443 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.303
+2023-09-22 15:32:27.525 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.211
+2023-09-22 15:32:27.547 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.294
+2023-09-22 15:32:27.555 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:27.841 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 89
+Parsing Duration (ms): 1
+
+2023-09-22 15:32:27.842 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:32:27.844 +02:00 [DBG] rerender finished
+2023-09-22 15:32:28.371 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 655
+Parsing Duration (ms): 0
+
+2023-09-22 15:32:28.371 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:32:28.415 +02:00 [DBG] rerender finished
+2023-09-22 15:32:28.429 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:28.431 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=010.680
+2023-09-22 15:32:28.432 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=883.060
+2023-09-22 15:32:28.494 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:28.494 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:28.708 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 66
+Parsing Duration (ms): 1
+
+2023-09-22 15:32:28.708 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:32:28.710 +02:00 [DBG] rerender finished
+2023-09-22 15:32:28.710 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=284.052
+2023-09-22 15:32:28.716 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.101
+2023-09-22 15:32:28.716 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.171
+2023-09-22 15:32:28.716 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.225
+2023-09-22 15:32:28.788 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.123
+2023-09-22 15:32:28.797 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.157
+2023-09-22 15:32:28.802 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:32:29.722 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 715
+Parsing Duration (ms): 1
+
+2023-09-22 15:32:29.723 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:32:29.724 +02:00 [DBG] rerender finished
+2023-09-22 15:32:30.149 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:30.149 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:30.580 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:30.580 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:32.505 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:32.505 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:34.164 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:34.164 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:34.594 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:34.594 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:36.510 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:36.510 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:32:38.169 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:38.169 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:32:38.601 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:38.601 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:32:40.516 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:32:40.516 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:32:42.178 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:32:42.178 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:32:42.607 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:32:42.607 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:32:44.525 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:44.526 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:46.183 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:46.183 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:46.615 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:46.615 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:32:48.532 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:48.532 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:50.193 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:50.193 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:50.625 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:32:50.625 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:32:52.538 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:52.538 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:54.200 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:54.200 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:54.632 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:32:54.632 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:32:56.547 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:56.547 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:32:58.208 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:58.209 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:32:58.640 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:32:58.641 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:00.557 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:00.557 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:02.213 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:02.214 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:02.645 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:02.646 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:04.564 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:04.565 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:06.225 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:06.225 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:06.656 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:06.656 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:08.569 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:08.570 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:10.226 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:10.226 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:10.657 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:10.657 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:12.574 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:12.574 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:14.135 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:14.135 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:14.141 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:33:14.229 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:14.229 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:14.513 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 42
+Parsing Duration (ms): 1
+
+2023-09-22 15:33:14.513 +02:00 [DBG] Title: GitHub: Let’s build from here
+2023-09-22 15:33:14.516 +02:00 [DBG] rerender finished
+2023-09-22 15:33:14.659 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:14.659 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:16.575 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:16.575 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:17.154 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:17.154 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:17.154 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:33:18.244 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:18.244 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:20.224 +02:00 [DBG] Status Type: noTagsFound
+Response Status Code: OK
+Web Status: Success
+Message: No tags were found in the website's response.
+Request Duration (ms): 3068
+Parsing Duration (ms): 0
+
+2023-09-22 15:33:20.224 +02:00 [DBG] Title: embyte.davidewiest.com
+2023-09-22 15:33:20.258 +02:00 [DBG] rerender finished
+2023-09-22 15:33:20.259 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:20.259 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:20.589 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:20.589 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:22.250 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:22.250 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:24.260 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:24.260 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:24.594 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:24.594 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:26.255 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:26.255 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:28.267 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:28.267 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:28.602 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:28.602 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:30.263 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:30.263 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:32.274 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:32.274 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:32.610 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:32.610 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:34.268 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:34.268 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:36.278 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:36.278 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:36.614 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:36.615 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:37.545 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:37.545 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:38.272 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:38.272 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:40.284 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:40.284 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:40.619 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:40.619 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:41.090 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:41.090 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:41.090 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:33:41.814 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 456
+Parsing Duration (ms): 0
+
+2023-09-22 15:33:41.814 +02:00 [DBG] Title: wikipedia.com
+2023-09-22 15:33:41.817 +02:00 [DBG] rerender finished
+2023-09-22 15:33:42.275 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:42.275 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:44.288 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:44.289 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:44.486 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:33:44.486 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:33:44.486 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:33:44.624 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:44.625 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:46.284 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:46.285 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:48.630 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:48.631 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:49.510 +02:00 [ERR] WebException occured when requesting url https://twitter.com/naval, status : "Timeout" 
+ Traceback: 
+ The operation has timed out.
+2023-09-22 15:33:49.520 +02:00 [DBG] Status Type: requestFailed
+Response Status Code: OK
+Web Status: Timeout
+Message: The operation has timed out.
+Exception: The operation has timed out.
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-09-22 15:33:49.520 +02:00 [DBG] Title: Unknown
+2023-09-22 15:33:49.522 +02:00 [DBG] rerender finished
+2023-09-22 15:33:49.522 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:49.523 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:33:50.293 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:50.293 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:52.642 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:52.642 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:53.538 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:33:53.538 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:33:54.303 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:54.303 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:56.649 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:56.649 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:33:57.543 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:33:57.543 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:33:58.311 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:33:58.311 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:00.658 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:00.658 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:01.552 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:01.552 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:02.314 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:02.314 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:04.661 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:04.661 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:05.554 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:05.554 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:06.317 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:06.317 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:08.667 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:08.667 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:09.561 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:09.561 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:10.326 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:10.326 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:12.669 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:12.669 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:13.562 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:13.562 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:13.686 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:14.340 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:14.340 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:15.257 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 756
+Parsing Duration (ms): 0
+
+2023-09-22 15:34:15.257 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:34:15.258 +02:00 [DBG] rerender finished
+2023-09-22 15:34:15.262 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:16.400 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 587
+Parsing Duration (ms): 0
+
+2023-09-22 15:34:16.400 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:34:16.400 +02:00 [DBG] rerender finished
+2023-09-22 15:34:16.405 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:16.677 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:16.677 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:17.260 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 624
+Parsing Duration (ms): 1
+
+2023-09-22 15:34:17.260 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:34:17.260 +02:00 [DBG] rerender finished
+2023-09-22 15:34:17.261 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:17.522 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-22 15:34:17.522 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:34:17.522 +02:00 [DBG] rerender finished
+2023-09-22 15:34:17.571 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:17.571 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:18.349 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:18.349 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:20.678 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:20.678 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:21.573 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:21.573 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:22.357 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:22.357 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:24.690 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:24.690 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:25.586 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:25.586 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:26.367 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:26.368 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:28.697 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:28.697 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:29.591 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:29.592 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:30.375 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:30.375 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:32.705 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:32.705 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:33.599 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:33.599 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:34.380 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:34.380 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:36.714 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:36.714 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:37.609 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:37.609 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:38.391 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:38.391 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:39.302 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:39.302 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:39.302 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:40.721 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:40.721 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:42.397 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:42.397 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:42.619 +02:00 [DBG] Status Type: noTagsFound
+Response Status Code: OK
+Web Status: Success
+Message: No tags were found in the website's response.
+Request Duration (ms): 3317
+Parsing Duration (ms): 0
+
+2023-09-22 15:34:42.620 +02:00 [DBG] Title: embyte.davidewiest.com
+2023-09-22 15:34:42.621 +02:00 [DBG] rerender finished
+2023-09-22 15:34:42.622 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:42.623 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:42.623 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:42.623 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:42.623 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:34:42.969 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 100
+Parsing Duration (ms): 0
+
+2023-09-22 15:34:42.969 +02:00 [DBG] Title: wikipedia.com
+2023-09-22 15:34:42.970 +02:00 [DBG] rerender finished
+2023-09-22 15:34:44.728 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:44.728 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:46.403 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:46.403 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:46.627 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:34:46.627 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:34:48.731 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:48.731 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:50.415 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:50.415 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:50.636 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:50.636 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:34:52.746 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:52.746 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:54.421 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:54.421 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:34:54.645 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:34:54.645 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:34:56.752 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:56.752 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:58.429 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:34:58.429 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:34:58.652 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:34:58.652 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:00.757 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:35:00.757 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:35:02.442 +02:00 [DBG] UrlFront: https://twitter.com/naval
+2023-09-22 15:35:02.442 +02:00 [DBG] Url request: https://twitter.com/naval
+2023-09-22 15:35:02.666 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:02.666 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:03.826 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=157396.070
+2023-09-22 15:35:03.826 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=155027.234
+2023-09-22 15:35:23.338 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:23.368 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:23.408 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:24.850 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 820
+Parsing Duration (ms): 7
+
+2023-09-22 15:35:24.850 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:35:24.909 +02:00 [DBG] rerender finished
+2023-09-22 15:35:24.974 +02:00 [INF] Request Ip=::1 Url=/ Time=2577.084
+2023-09-22 15:35:25.001 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=005.951
+2023-09-22 15:35:25.001 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=003.808
+2023-09-22 15:35:25.048 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.478
+2023-09-22 15:35:25.164 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:25.209 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=004.183
+2023-09-22 15:35:25.234 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:25.234 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:25.236 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:25.321 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=005.538
+2023-09-22 15:35:25.443 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:25.443 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:25.443 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:26.353 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 542
+Parsing Duration (ms): 0
+
+2023-09-22 15:35:26.354 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:35:26.357 +02:00 [DBG] rerender finished
+2023-09-22 15:35:26.358 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 944
+Parsing Duration (ms): 1
+
+2023-09-22 15:35:26.358 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:35:26.359 +02:00 [INF] Request Ip=::1 Url=/ Time=1149.924
+2023-09-22 15:35:26.361 +02:00 [DBG] rerender finished
+2023-09-22 15:35:26.362 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1215.401
+2023-09-22 15:35:26.370 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.335
+2023-09-22 15:35:26.371 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.295
+2023-09-22 15:35:26.374 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.244
+2023-09-22 15:35:26.454 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.200
+2023-09-22 15:35:26.474 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.228
+2023-09-22 15:35:26.481 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:26.619 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 651
+Parsing Duration (ms): 0
+
+2023-09-22 15:35:26.619 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:35:26.620 +02:00 [DBG] rerender finished
+2023-09-22 15:35:26.637 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:26.775 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 73
+Parsing Duration (ms): 1
+
+2023-09-22 15:35:26.775 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:35:26.777 +02:00 [DBG] rerender finished
+2023-09-22 15:35:26.784 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=308.552
+2023-09-22 15:35:27.378 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:27.378 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:27.566 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 712
+Parsing Duration (ms): 1
+
+2023-09-22 15:35:27.566 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:35:27.568 +02:00 [DBG] rerender finished
+2023-09-22 15:35:27.569 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=934.014
+2023-09-22 15:35:27.574 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.119
+2023-09-22 15:35:27.575 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.131
+2023-09-22 15:35:27.575 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.270
+2023-09-22 15:35:27.645 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.156
+2023-09-22 15:35:27.658 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.147
+2023-09-22 15:35:27.667 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:35:28.441 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 566
+Parsing Duration (ms): 1
+
+2023-09-22 15:35:28.441 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:35:28.443 +02:00 [DBG] rerender finished
+2023-09-22 15:35:29.239 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:29.239 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:29.447 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:29.447 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:31.380 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:31.381 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:33.251 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:33.251 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:33.459 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:33.459 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:35.386 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:35.386 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:37.252 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:37.252 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:37.460 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:37.460 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:39.394 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:35:39.394 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:35:41.263 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:35:41.263 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:35:41.470 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:35:41.470 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:35:43.402 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:43.402 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:45.271 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:45.271 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:45.478 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:45.478 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:35:47.410 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:47.410 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:49.280 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:49.280 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:49.488 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:35:49.488 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:35:51.420 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:51.420 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:53.291 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:53.291 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:53.499 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:35:53.499 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:35:55.434 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:55.434 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:57.300 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:57.300 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:57.509 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:35:57.509 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:35:59.443 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:35:59.443 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:01.311 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:01.311 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:01.519 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:01.519 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:03.453 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:03.453 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:05.321 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:05.321 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:05.528 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:05.528 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:07.460 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:07.460 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:09.330 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:09.330 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:09.538 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:09.538 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:11.468 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:11.468 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:13.337 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:13.337 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:13.543 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:13.543 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:15.476 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:15.476 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:17.345 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:17.345 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:17.552 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:17.552 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:19.485 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:19.485 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:21.352 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:21.352 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:21.560 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:21.560 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:23.493 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:23.493 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:25.361 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:25.361 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:25.569 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:25.569 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:27.502 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:27.502 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:29.370 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:29.370 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:29.576 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:29.576 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:31.510 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:31.510 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:33.380 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:33.380 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:33.587 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:33.587 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:35.517 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:35.517 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:37.384 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:37.385 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:37.592 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:37.593 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:39.528 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:39.528 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:41.393 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:41.393 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:41.599 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:41.599 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:36:43.532 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:43.533 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:45.402 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:45.402 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:45.609 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:45.609 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:36:47.539 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:47.539 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:49.409 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:49.409 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:49.616 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:36:49.616 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:36:51.550 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:51.551 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:53.415 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:53.415 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:53.622 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:36:53.622 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:36:55.557 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:55.557 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:57.425 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:57.425 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:57.632 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:36:57.632 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:36:59.563 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:36:59.563 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:01.431 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:01.431 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:01.639 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:01.639 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:03.572 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:03.572 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:05.441 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:05.441 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:05.649 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:05.649 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:07.580 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:07.581 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:09.445 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:09.445 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:09.652 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:09.652 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:11.585 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:11.585 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:13.452 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:13.452 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:13.658 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:13.658 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:15.599 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:15.600 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:17.464 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:17.464 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:17.671 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:17.671 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:19.606 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:19.606 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:21.476 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:21.477 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:21.683 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:21.684 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:37:23.617 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:23.617 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:25.484 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:25.484 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:25.691 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:25.691 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:27.622 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:27.622 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:29.491 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:29.491 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:29.699 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:29.699 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:31.629 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:31.629 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:32.906 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=127581.530
+2023-09-22 15:37:32.906 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=125244.258
+2023-09-22 15:37:41.758 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=075.720
+2023-09-22 15:37:41.758 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=075.397
+2023-09-22 15:37:42.817 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:42.821 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:42.858 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:44.538 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 871
+Parsing Duration (ms): 8
+
+2023-09-22 15:37:44.538 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:37:44.601 +02:00 [DBG] rerender finished
+2023-09-22 15:37:44.667 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2812.363
+2023-09-22 15:37:44.685 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=001.176
+2023-09-22 15:37:44.685 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.041
+2023-09-22 15:37:44.687 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.644
+2023-09-22 15:37:44.764 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:44.874 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=006.011
+2023-09-22 15:37:44.898 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:44.899 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:44.900 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:44.961 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=003.694
+2023-09-22 15:37:45.087 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:45.087 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:37:45.087 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:46.097 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 537
+Parsing Duration (ms): 1
+
+2023-09-22 15:37:46.097 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:37:46.100 +02:00 [DBG] rerender finished
+2023-09-22 15:37:46.104 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=1227.121
+2023-09-22 15:37:46.362 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 648
+Parsing Duration (ms): 0
+
+2023-09-22 15:37:46.362 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:37:46.363 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1302
+Parsing Duration (ms): 1
+
+2023-09-22 15:37:46.363 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:37:46.364 +02:00 [DBG] rerender finished
+2023-09-22 15:37:46.366 +02:00 [DBG] rerender finished
+2023-09-22 15:37:46.366 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=1620.912
+2023-09-22 15:37:46.379 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.285
+2023-09-22 15:37:46.417 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:46.689 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 62
+Parsing Duration (ms): 1
+
+2023-09-22 15:37:46.689 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:37:46.691 +02:00 [DBG] rerender finished
+2023-09-22 15:37:46.691 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=275.839
+2023-09-22 15:37:46.701 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.317
+2023-09-22 15:37:46.705 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=007.769
+2023-09-22 15:37:46.733 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=036.640
+2023-09-22 15:37:46.799 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.194
+2023-09-22 15:37:46.811 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.386
+2023-09-22 15:37:46.817 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:37:46.826 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:46.827 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:47.727 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 717
+Parsing Duration (ms): 1
+
+2023-09-22 15:37:47.728 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:37:47.730 +02:00 [DBG] rerender finished
+2023-09-22 15:37:48.400 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=000.726
+2023-09-22 15:37:48.403 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=006.423
+2023-09-22 15:37:48.406 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=3427.739
+2023-09-22 15:37:48.406 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1593.430
+2023-09-22 15:37:48.912 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:48.912 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:49.088 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:37:49.088 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:37:50.830 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:50.830 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:52.920 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:52.920 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:53.095 +02:00 [DBG] UrlFront: https://embyte.davidewiest.com
+2023-09-22 15:37:53.095 +02:00 [DBG] Url request: https://embyte.davidewiest.com
+2023-09-22 15:37:54.836 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:54.836 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:56.925 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:56.925 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:57.100 +02:00 [DBG] UrlFront: https://wikipedia.com
+2023-09-22 15:37:57.100 +02:00 [DBG] Url request: https://wikipedia.com
+2023-09-22 15:37:58.844 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:37:58.844 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:38:00.937 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:38:00.937 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:38:01.066 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:01.067 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:01.067 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:01.113 +02:00 [DBG] UrlFront: https://nav.al
+2023-09-22 15:38:01.113 +02:00 [DBG] Url request: https://nav.al
+2023-09-22 15:38:02.198 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 561
+Parsing Duration (ms): 0
+
+2023-09-22 15:38:02.198 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:38:02.199 +02:00 [DBG] rerender finished
+2023-09-22 15:38:02.201 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=1140.133
+2023-09-22 15:38:02.220 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.446
+2023-09-22 15:38:02.229 +02:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.387
+2023-09-22 15:38:02.232 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.265
+2023-09-22 15:38:02.288 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:02.400 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.120
+2023-09-22 15:38:02.411 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:02.411 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:02.412 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:02.491 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.464
+2023-09-22 15:38:02.522 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:02.522 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:02.523 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:02.558 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-22 15:38:02.558 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:38:02.560 +02:00 [DBG] rerender finished
+2023-09-22 15:38:02.560 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=272.841
+2023-09-22 15:38:02.566 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.190
+2023-09-22 15:38:02.566 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.080
+2023-09-22 15:38:02.719 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.310
+2023-09-22 15:38:02.783 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.102
+2023-09-22 15:38:02.804 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.241
+2023-09-22 15:38:02.810 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:02.849 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:02.849 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:03.071 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-09-22 15:38:03.071 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:38:03.073 +02:00 [DBG] rerender finished
+2023-09-22 15:38:03.570 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 658
+Parsing Duration (ms): 0
+
+2023-09-22 15:38:03.570 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:38:03.572 +02:00 [DBG] rerender finished
+2023-09-22 15:38:03.573 +02:00 [INF] Request Ip=127.0.0.1 Url=/ Time=1164.304
+2023-09-22 15:38:03.918 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 794
+Parsing Duration (ms): 0
+
+2023-09-22 15:38:03.918 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 15:38:03.920 +02:00 [DBG] rerender finished
+2023-09-22 15:38:03.926 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=001.101
+2023-09-22 15:38:03.926 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1119.167
+2023-09-22 15:38:03.935 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:04.197 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-09-22 15:38:04.197 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:38:04.198 +02:00 [DBG] rerender finished
+2023-09-22 15:38:04.199 +02:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=265.387
+2023-09-22 15:38:04.205 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.115
+2023-09-22 15:38:04.205 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.232
+2023-09-22 15:38:04.205 +02:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.101
+2023-09-22 15:38:04.270 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.093
+2023-09-22 15:38:04.278 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.143
+2023-09-22 15:38:04.283 +02:00 [DBG] RerenderEmbed called
+2023-09-22 15:38:04.515 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 36
+Parsing Duration (ms): 1
+
+2023-09-22 15:38:04.515 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 15:38:04.517 +02:00 [DBG] rerender finished
+2023-09-22 15:38:04.950 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:04.950 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:05.078 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:38:05.078 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:38:05.126 +02:00 [DBG] UrlFront: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:05.126 +02:00 [DBG] Url request: https://www.astronomy.com/picture-of-the-day/
+2023-09-22 15:38:06.421 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:38:06.421 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:38:06.533 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:38:06.533 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:38:06.852 +02:00 [DBG] UrlFront: https://github.com
+2023-09-22 15:38:06.852 +02:00 [DBG] Url request: https://github.com
+2023-09-22 15:38:07.058 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=001.251
+2023-09-22 15:38:07.063 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=2782.865
+2023-09-22 15:38:07.065 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=4551.139
+2023-09-22 15:38:07.068 +02:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=000.545

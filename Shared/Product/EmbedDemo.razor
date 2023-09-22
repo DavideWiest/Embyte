@@ -13,6 +13,9 @@
     [Parameter]
     public string Url { get; set; } = EmbyteStorage.DefaultUrl;
     private string UrlFront { get; set; } = EmbyteStorage.DefaultUrl;
+    @* private int currentIndex = 0;
+    private bool CycleIsInitialized = false;
+    private bool CycleHasInteracted = false; *@
 
     private void Rerender()
     {
@@ -26,4 +29,30 @@
             Url = UrlFront;
         }
     }
+
+    protected override void OnInitialized()
+    {
+        @* if (!CycleIsInitialized) {
+            Console.WriteLine("initial call");
+            StartCycling();
+        }
+        CycleIsInitialized = true; *@
+    }
+
+    @* private async Task StartCycling()
+    {
+        while (!CycleHasInteracted)
+        {
+            Console.WriteLine($"Updating title with index {currentIndex}");
+            // Move to the next item or start from the beginning if all items have been shown
+            UrlFront = EmbyteStorage.DefaultUrlList[currentIndex];
+            Url = UrlFront;
+            Rerender();
+
+            // Wait for 4 seconds before cycling to the next item
+            await Task.Delay(4000);
+            currentIndex = (currentIndex + 1) % EmbyteStorage.DefaultUrlList.Count;
+        }
+    } *@
+
 }
