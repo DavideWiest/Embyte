@@ -25,7 +25,7 @@ public class FundamentalStorage
         };
 
         public string SpecialAnnouncement { get; } = "Sepember 2023 - Embyte launched!";
-        public bool SpecialAnnouncementBypass { get; } = false;
+        public bool ShowSpecialAnnouncement { get; } = false;
     }
 
     public class Footer

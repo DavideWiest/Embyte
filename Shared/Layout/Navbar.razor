@@ -7,7 +7,7 @@
 
 
 <nav id="nav" class="sticky top-0 z-10 z-50">
-    @if (c.NavbarData.SpecialAnnouncement != "" || c.NavbarData.SpecialAnnouncementBypass) {
+    @if (c.NavbarData.SpecialAnnouncement != "" && c.NavbarData.ShowSpecialAnnouncement) {
         <div id="special-announcement" class="z-10 z-50 flex justify-center text-center px-1.5 text-sm md:text-base text-white items-center py-3 md:py-1" onload="sizeNav();" style="height: 3rem; background: @(DesignStorage.SpecialAnnouncementBg);">
             @c.NavbarData.SpecialAnnouncement
         </div>
