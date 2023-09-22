@@ -18,6 +18,10 @@ public class LoggingMiddleware : IMiddleware
         var requestUrl = context.Request.Path;
         var requesterIp = context.Connection.RemoteIpAddress;
         var timeTaken = stopwatch.Elapsed.TotalMilliseconds;
+
+        if (requestUrl.ToString().EndsWith("blazor"))
+            return;
+            
         if (requesterIp != null)
         {
             Log.Data("Request Ip={Ip} Url={Url} Time={Time:000.000}", requesterIp, requestUrl, timeTaken);
