@@ -1,0 +1,382 @@
+2023-09-22 14:29:15.977 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:17.330 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 744
+Parsing Duration (ms): 7
+
+2023-09-22 14:29:17.330 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:17.391 +02:00 [DBG] rerender finished
+2023-09-22 14:29:17.462 +02:00 [INF] Request Ip=::1 Url=/ Time=2759.995
+2023-09-22 14:29:17.483 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.907
+2023-09-22 14:29:17.483 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=004.907
+2023-09-22 14:29:17.495 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.316
+2023-09-22 14:29:17.561 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:17.684 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:17.734 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=003.621
+2023-09-22 14:29:17.976 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.830
+2023-09-22 14:29:18.093 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:18.828 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 536
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:18.828 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:18.832 +02:00 [DBG] rerender finished
+2023-09-22 14:29:18.835 +02:00 [INF] Request Ip=::1 Url=/ Time=1173.233
+2023-09-22 14:29:18.866 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1014
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:18.866 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:18.869 +02:00 [DBG] rerender finished
+2023-09-22 14:29:18.869 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1326.392
+2023-09-22 14:29:18.878 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.381
+2023-09-22 14:29:18.880 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.614
+2023-09-22 14:29:18.882 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.250
+2023-09-22 14:29:18.986 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.227
+2023-09-22 14:29:19.003 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.241
+2023-09-22 14:29:19.011 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:19.285 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 76
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:19.285 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:19.287 +02:00 [DBG] rerender finished
+2023-09-22 14:29:20.177 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1277
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:20.177 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:20.250 +02:00 [DBG] rerender finished
+2023-09-22 14:29:20.263 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:20.265 +02:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=010.211
+2023-09-22 14:29:20.266 +02:00 [INF] Request Ip=::1 Url=/_blazor Time=1261.678
+2023-09-22 14:29:21.129 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 675
+Parsing Duration (ms): 2
+
+2023-09-22 14:29:21.129 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:21.335 +02:00 [DBG] rerender finished
+2023-09-22 14:29:21.335 +02:00 [INF] Request Ip=::1 Url=/embed/ Time=1074.132
+2023-09-22 14:29:21.342 +02:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.133
+2023-09-22 14:29:21.342 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.163
+2023-09-22 14:29:21.342 +02:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.325
+2023-09-22 14:29:21.423 +02:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.132
+2023-09-22 14:29:21.433 +02:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.198
+2023-09-22 14:29:21.438 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:21.695 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 56
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:21.695 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:21.696 +02:00 [DBG] rerender finished
+2023-09-22 14:29:46.855 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:47.997 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 558
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:47.997 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:47.997 +02:00 [DBG] rerender finished
+2023-09-22 14:29:48.000 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:49.210 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 534
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:49.210 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:49.210 +02:00 [DBG] rerender finished
+2023-09-22 14:29:49.215 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:50.106 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 623
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:50.106 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:50.106 +02:00 [DBG] rerender finished
+2023-09-22 14:29:50.106 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:51.054 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 737
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:51.054 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:51.054 +02:00 [DBG] rerender finished
+2023-09-22 14:29:52.676 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:53.803 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 509
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:53.803 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:53.803 +02:00 [DBG] rerender finished
+2023-09-22 14:29:53.806 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:54.866 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 516
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:54.866 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:54.866 +02:00 [DBG] rerender finished
+2023-09-22 14:29:54.869 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:55.095 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 45
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:55.095 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:55.095 +02:00 [DBG] rerender finished
+2023-09-22 14:29:55.095 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:55.353 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 43
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:55.354 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:55.354 +02:00 [DBG] rerender finished
+2023-09-22 14:29:55.769 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:56.920 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 516
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:56.920 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:56.920 +02:00 [DBG] rerender finished
+2023-09-22 14:29:56.922 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:58.132 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 643
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:58.132 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:29:58.132 +02:00 [DBG] rerender finished
+2023-09-22 14:29:58.135 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:58.392 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 0
+
+2023-09-22 14:29:58.392 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:58.392 +02:00 [DBG] rerender finished
+2023-09-22 14:29:58.392 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:29:58.640 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-22 14:29:58.640 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:29:58.640 +02:00 [DBG] rerender finished
+2023-09-22 14:30:11.002 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:12.166 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 534
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:12.166 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:12.166 +02:00 [DBG] rerender finished
+2023-09-22 14:30:12.168 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:13.306 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 519
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:13.307 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:13.307 +02:00 [DBG] rerender finished
+2023-09-22 14:30:13.311 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:14.435 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 893
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:14.435 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:14.435 +02:00 [DBG] rerender finished
+2023-09-22 14:30:14.435 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:14.659 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 37
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:14.659 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:14.659 +02:00 [DBG] rerender finished
+2023-09-22 14:30:25.206 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:26.305 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 518
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:26.305 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:26.305 +02:00 [DBG] rerender finished
+2023-09-22 14:30:26.307 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:27.544 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 661
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:27.544 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:27.544 +02:00 [DBG] rerender finished
+2023-09-22 14:30:27.546 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:28.409 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 649
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:28.409 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:28.409 +02:00 [DBG] rerender finished
+2023-09-22 14:30:28.409 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:28.648 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:28.648 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:28.648 +02:00 [DBG] rerender finished
+2023-09-22 14:30:28.702 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:29.843 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 584
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:29.843 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:29.843 +02:00 [DBG] rerender finished
+2023-09-22 14:30:29.844 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:30.966 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 519
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:30.967 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:30.967 +02:00 [DBG] rerender finished
+2023-09-22 14:30:30.969 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:33.413 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 2249
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:33.413 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:33.413 +02:00 [DBG] rerender finished
+2023-09-22 14:30:33.413 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:33.674 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 40
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:33.674 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:33.674 +02:00 [DBG] rerender finished
+2023-09-22 14:30:33.843 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:35.105 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 668
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:35.105 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:35.105 +02:00 [DBG] rerender finished
+2023-09-22 14:30:35.107 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:36.239 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 517
+Parsing Duration (ms): 0
+
+2023-09-22 14:30:36.239 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:30:36.239 +02:00 [DBG] rerender finished
+2023-09-22 14:30:36.241 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:36.491 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:36.492 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:36.492 +02:00 [DBG] rerender finished
+2023-09-22 14:30:36.492 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:30:36.740 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-09-22 14:30:36.740 +02:00 [DBG] Title: DavideWiest - Overview
+2023-09-22 14:30:36.740 +02:00 [DBG] rerender finished
+2023-09-22 14:31:12.879 +02:00 [DBG] RerenderEmbed called
+2023-09-22 14:31:14.020 +02:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 535
+Parsing Duration (ms): 0
+
+2023-09-22 14:31:14.020 +02:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-09-22 14:31:14.020 +02:00 [DBG] rerender finished
+2023-09-22 14:31:14.022 +02:00 [DBG] RerenderEmbed called

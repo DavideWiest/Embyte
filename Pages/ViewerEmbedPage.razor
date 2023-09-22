@@ -43,7 +43,9 @@
 
         foreach (string key in queryParams)
         {
-            queryParameters.Add(key, queryParams[key]);
+            var val = queryParams[key];
+            if (val != null)
+                queryParameters.Add(key, val);
         }
 
         TargetUrl = queryParameters["url"];
