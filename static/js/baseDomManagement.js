@@ -13,12 +13,14 @@ function toggleNavMobile(elem) {
 }
 
 function sizeNav() {
-    if (document.getElementById("special-announcement") != null && screen.width < 767) {
-        var top1 = document.getElementById("special-announcement").offsetHeight;
-        document.getElementById("navbar-links").style.top = String(62 + top1) + "px";
-    } else if (screen.width >= 767) {
-        document.getElementById("navbar-links").style.top = String(0) + "px";
-    }
+    try {
+        if (document.getElementById("special-announcement") != null && screen.width < 767) {
+            var top1 = document.getElementById("special-announcement").offsetHeight;
+            document.getElementById("navbar-links").style.top = String(62 + top1) + "px";
+        } else if (screen.width >= 767) {
+            document.getElementById("navbar-links").style.top = String(0) + "px";
+        }
+    } catch {}
 }
 
 function findElementsWithStyles() {
