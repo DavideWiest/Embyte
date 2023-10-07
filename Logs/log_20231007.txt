@@ -1,0 +1,285 @@
+2023-10-07 19:09:46.936 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:51.335 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1105
+Parsing Duration (ms): 66
+
+2023-10-07 19:09:51.336 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:09:51.514 +00:00 [DBG] rerender finished
+2023-10-07 19:09:51.611 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=6545.125
+2023-10-07 19:09:51.679 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=002.537
+2023-10-07 19:09:51.705 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/css/site.css Time=018.040
+2023-10-07 19:09:51.756 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/logo.png Time=017.822
+2023-10-07 19:09:51.756 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/twConfig.js Time=002.904
+2023-10-07 19:09:51.933 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=004.579
+2023-10-07 19:09:51.943 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.058
+2023-10-07 19:09:51.946 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/baseDomManagement.js Time=001.492
+2023-10-07 19:09:52.036 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:52.140 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:52.332 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=007.774
+2023-10-07 19:09:52.401 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=007.183
+2023-10-07 19:09:52.556 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/twConfig.js Time=000.463
+2023-10-07 19:09:53.678 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.663
+2023-10-07 19:09:54.134 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1548
+Parsing Duration (ms): 2
+
+2023-10-07 19:09:54.135 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:09:54.213 +00:00 [DBG] rerender finished
+2023-10-07 19:09:54.217 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 541
+Parsing Duration (ms): 1
+
+2023-10-07 19:09:54.218 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:09:54.220 +00:00 [DBG] rerender finished
+2023-10-07 19:09:54.221 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=2223.321
+2023-10-07 19:09:54.224 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2177.746
+2023-10-07 19:09:54.232 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:54.265 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.125
+2023-10-07 19:09:54.266 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=001.599
+2023-10-07 19:09:54.316 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.108
+2023-10-07 19:09:54.388 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.487
+2023-10-07 19:09:54.430 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.432
+2023-10-07 19:09:54.586 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.355
+2023-10-07 19:09:54.720 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:54.942 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/favicon.png Time=000.537
+2023-10-07 19:09:55.800 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 194
+Parsing Duration (ms): 2
+
+2023-10-07 19:09:55.800 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:09:55.806 +00:00 [DBG] rerender finished
+2023-10-07 19:09:56.583 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 1144
+Parsing Duration (ms): 1
+
+2023-10-07 19:09:56.583 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:09:56.586 +00:00 [DBG] rerender finished
+2023-10-07 19:09:56.785 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:56.797 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=020.733
+2023-10-07 19:09:57.796 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 127
+Parsing Duration (ms): 1
+
+2023-10-07 19:09:57.797 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:09:57.801 +00:00 [DBG] rerender finished
+2023-10-07 19:09:57.802 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=1020.854
+2023-10-07 19:09:57.843 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.115
+2023-10-07 19:09:57.843 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.595
+2023-10-07 19:09:57.855 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.341
+2023-10-07 19:09:57.933 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.155
+2023-10-07 19:09:57.981 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.356
+2023-10-07 19:09:58.154 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.312
+2023-10-07 19:09:58.291 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:09:59.225 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 133
+Parsing Duration (ms): 2
+
+2023-10-07 19:09:59.225 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:09:59.229 +00:00 [DBG] rerender finished
+2023-10-07 19:10:32.138 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:34.371 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 520
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:34.372 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:34.376 +00:00 [DBG] rerender finished
+2023-10-07 19:10:34.379 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2246.253
+2023-10-07 19:10:34.437 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=007.445
+2023-10-07 19:10:34.485 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.083
+2023-10-07 19:10:34.525 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.323
+2023-10-07 19:10:34.526 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=000.881
+2023-10-07 19:10:34.527 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.061
+2023-10-07 19:10:34.528 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:34.630 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:34.638 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.160
+2023-10-07 19:10:34.813 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.297
+2023-10-07 19:10:34.988 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.258
+2023-10-07 19:10:35.119 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:36.126 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 409
+Parsing Duration (ms): 2
+
+2023-10-07 19:10:36.126 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:36.130 +00:00 [DBG] rerender finished
+2023-10-07 19:10:36.131 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=1605.339
+2023-10-07 19:10:36.179 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.090
+2023-10-07 19:10:36.179 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.479
+2023-10-07 19:10:36.191 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.072
+2023-10-07 19:10:36.290 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.124
+2023-10-07 19:10:36.338 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.268
+2023-10-07 19:10:36.507 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=002.100
+2023-10-07 19:10:36.641 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:37.310 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 192
+Parsing Duration (ms): 2
+
+2023-10-07 19:10:37.312 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:37.316 +00:00 [DBG] rerender finished
+2023-10-07 19:10:37.367 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:38.247 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 519
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:38.248 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:38.251 +00:00 [DBG] rerender finished
+2023-10-07 19:10:38.255 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=3630.383
+2023-10-07 19:10:38.454 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 545
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:38.455 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:38.457 +00:00 [DBG] rerender finished
+2023-10-07 19:10:38.718 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=000.810
+2023-10-07 19:10:38.722 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:39.603 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 148
+Parsing Duration (ms): 3
+
+2023-10-07 19:10:39.603 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:39.613 +00:00 [DBG] rerender finished
+2023-10-07 19:10:39.614 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=895.362
+2023-10-07 19:10:39.660 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.124
+2023-10-07 19:10:39.661 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.241
+2023-10-07 19:10:39.661 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.026
+2023-10-07 19:10:39.750 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.162
+2023-10-07 19:10:39.789 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.225
+2023-10-07 19:10:39.808 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 507
+Parsing Duration (ms): 0
+
+2023-10-07 19:10:39.808 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:39.810 +00:00 [DBG] rerender finished
+2023-10-07 19:10:39.813 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2456.490
+2023-10-07 19:10:39.867 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/css/site.css Time=002.793
+2023-10-07 19:10:39.868 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=003.971
+2023-10-07 19:10:39.877 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.068
+2023-10-07 19:10:39.878 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/twConfig.js Time=000.314
+2023-10-07 19:10:39.904 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/logo.png Time=001.173
+2023-10-07 19:10:39.999 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.052
+2023-10-07 19:10:40.000 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/baseDomManagement.js Time=000.346
+2023-10-07 19:10:40.001 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=003.683
+2023-10-07 19:10:40.011 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:40.098 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:40.359 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.147
+2023-10-07 19:10:40.402 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.216
+2023-10-07 19:10:40.733 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.225
+2023-10-07 19:10:40.832 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 132
+Parsing Duration (ms): 2
+
+2023-10-07 19:10:40.833 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:40.837 +00:00 [DBG] rerender finished
+2023-10-07 19:10:40.839 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=830.571
+2023-10-07 19:10:40.853 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:40.891 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.124
+2023-10-07 19:10:40.893 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/twConfig.js Time=000.226
+2023-10-07 19:10:40.894 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/css/site.css Time=002.710
+2023-10-07 19:10:40.902 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=001.374
+2023-10-07 19:10:40.938 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.032
+2023-10-07 19:10:40.991 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/js/baseDomManagement.js Time=000.294
+2023-10-07 19:10:41.261 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.214
+2023-10-07 19:10:41.295 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.275
+2023-10-07 19:10:41.443 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.479
+2023-10-07 19:10:41.577 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:42.183 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 600
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:42.183 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:42.189 +00:00 [DBG] rerender finished
+2023-10-07 19:10:42.194 +00:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2109.099
+2023-10-07 19:10:42.198 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 158
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:42.199 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:42.202 +00:00 [DBG] rerender finished
+2023-10-07 19:10:42.239 +00:00 [INF] Request Ip=127.0.0.1 Url=/static/assets/favicon.png Time=000.388
+2023-10-07 19:10:43.224 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 712
+Parsing Duration (ms): 0
+
+2023-10-07 19:10:43.225 +00:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-10-07 19:10:43.228 +00:00 [DBG] rerender finished
+2023-10-07 19:10:43.591 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:43.592 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=000.672
+2023-10-07 19:10:44.509 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 131
+Parsing Duration (ms): 1
+
+2023-10-07 19:10:44.510 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:44.513 +00:00 [DBG] rerender finished
+2023-10-07 19:10:44.513 +00:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=924.016
+2023-10-07 19:10:44.623 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.079
+2023-10-07 19:10:44.624 +00:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.025
+2023-10-07 19:10:44.625 +00:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.178
+2023-10-07 19:10:44.729 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.176
+2023-10-07 19:10:44.768 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.279
+2023-10-07 19:10:44.952 +00:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.195
+2023-10-07 19:10:45.084 +00:00 [DBG] RerenderEmbed called
+2023-10-07 19:10:45.645 +00:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 125
+Parsing Duration (ms): 2
+
+2023-10-07 19:10:45.645 +00:00 [DBG] Title: DavideWiest - Overview
+2023-10-07 19:10:45.652 +00:00 [DBG] rerender finished

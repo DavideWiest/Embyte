@@ -1,0 +1,6 @@
+[Sat Oct 07 19:09:26.447067 2023] [proxy:error] [pid 3409] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:09:26.447132 2023] [proxy_http:error] [pid 3409] [client 77.25.0.227:12771] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fembyte.davidewiest.com%2F&show-status=True&show-requestcount=True&show-image=True&minimalversion=False
+[Sat Oct 07 19:09:40.908334 2023] [proxy:error] [pid 3398] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:09:40.908410 2023] [proxy_http:error] [pid 3398] [client 77.25.0.227:12771] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 07 19:09:42.081194 2023] [proxy:error] [pid 3410] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:09:42.081269 2023] [proxy_http:error] [pid 3410] [client 77.25.0.227:12784] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
