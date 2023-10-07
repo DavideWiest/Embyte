@@ -1,0 +1,6 @@
+2023-10-07 19:11:58.128 +00:00 [ERR] WebException occured when requesting url https://www.asaaatronomy.com/picture-of-the-day/, status : "UnknownError" 
+ Traceback: 
+ The SSL connection could not be established, see inner exception.
+2023-10-07 19:12:05.363 +00:00 [ERR] WebException occured when requesting url https://lala.com, status : "UnknownError" 
+ Traceback: 
+ The SSL connection could not be established, see inner exception.

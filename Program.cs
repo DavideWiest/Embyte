@@ -17,6 +17,7 @@ using Embyte.Modules.Middleware;
 using Embyte.Modules.Db;
 using Embyte.Data;
 using Embyte.Data.Storage;
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("config/appsettings.json");
@@ -85,7 +86,7 @@ builder.Services.AddScoped(provider =>
     return new WebsiteUsageManager(new EmbyteDbContext());
 });
 
-
+StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
 
 var app = builder.Build();
 

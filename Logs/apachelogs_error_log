@@ -4,3 +4,43 @@
 [Sat Oct 07 19:09:40.908410 2023] [proxy_http:error] [pid 3398] [client 77.25.0.227:12771] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
 [Sat Oct 07 19:09:42.081194 2023] [proxy:error] [pid 3410] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
 [Sat Oct 07 19:09:42.081269 2023] [proxy_http:error] [pid 3410] [client 77.25.0.227:12784] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 07 19:12:38.350592 2023] [proxy:error] [pid 3398] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:12:38.350592 2023] [proxy:error] [pid 3948] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:12:38.350657 2023] [proxy_http:error] [pid 3398] [client 77.25.0.227:12772] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:12:38.350673 2023] [proxy_http:error] [pid 3948] [client 77.25.0.227:12743] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:12:38.352698 2023] [proxy:error] [pid 3409] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:12:38.352745 2023] [proxy_http:error] [pid 3409] [client 77.25.0.227:12842] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:12:41.407641 2023] [proxy:error] [pid 4170] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:12:41.407700 2023] [proxy_http:error] [pid 4170] [client 77.25.0.227:12806] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:12:42.598042 2023] [proxy:error] [pid 3949] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:12:42.598112 2023] [proxy_http:error] [pid 3949] [client 77.25.0.227:12765] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:24:57.351328 2023] [proxy:error] [pid 3409] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:24:57.351406 2023] [proxy_http:error] [pid 3409] [client 77.25.0.227:12799] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:24:57.363269 2023] [proxy:error] [pid 3948] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:24:57.363320 2023] [proxy_http:error] [pid 3948] [client 77.25.0.227:12806] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:25:01.060834 2023] [proxy:error] [pid 4170] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:01.060905 2023] [proxy_http:error] [pid 4170] [client 77.25.0.227:12742] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:01.061494 2023] [proxy:error] [pid 3949] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:01.061538 2023] [proxy_http:error] [pid 3949] [client 77.25.0.227:12799] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:25:22.003561 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:22.003641 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12790] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:22.660473 2023] [proxy:error] [pid 4822] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:22.660979 2023] [proxy_http:error] [pid 4822] [client 77.25.0.227:12799] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:25:38.290988 2023] [proxy:error] [pid 4822] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:38.291079 2023] [proxy_http:error] [pid 4822] [client 77.25.0.227:12775] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 07 19:25:38.438274 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:38.438340 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12790] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:39.290443 2023] [proxy:error] [pid 4822] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:39.290509 2023] [proxy_http:error] [pid 4822] [client 77.25.0.227:12790] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:39.486728 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:39.486796 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12799] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/embed/?url=https%3A%2F%2Fgithub.com%2FDavideWiest&show-status=False&show-requestcount=False&show-image=True&minimalversion=False
+[Sat Oct 07 19:25:41.255575 2023] [proxy:error] [pid 4822] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:41.255649 2023] [proxy_http:error] [pid 4822] [client 77.25.0.227:12790] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 07 19:25:41.311713 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:41.311775 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12775] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:42.008802 2023] [proxy:error] [pid 4822] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:42.008884 2023] [proxy_http:error] [pid 4822] [client 77.25.0.227:12762] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
+[Sat Oct 07 19:25:42.077891 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:42.077994 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12775] AH01114: HTTP: failed to make connection to backend: 127.0.0.1, referer: https://embyte.davidewiest.com/
+[Sat Oct 07 19:25:42.638380 2023] [proxy:error] [pid 4748] (111)Connection refused: AH00957: HTTP: attempt to connect to 127.0.0.1:5000 (127.0.0.1) failed
+[Sat Oct 07 19:25:42.638456 2023] [proxy_http:error] [pid 4748] [client 77.25.0.227:12775] AH01114: HTTP: failed to make connection to backend: 127.0.0.1
