@@ -12,6 +12,7 @@
 @inject MainStorage mainstorage
 @inject NavigationManager NavigationManager
 
+<div class="flex justify-center items-center">
 @if (!showError)
 {
     <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion"/>
@@ -21,7 +22,7 @@
         Invalid Url
     </p>
 }
-
+</div>
 
 @code {
     public string TargetUrl { get; set; } = EmbyteStorage.DefaultUrl;
