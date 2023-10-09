@@ -147,7 +147,12 @@ function copyIFrame(str) {
 
     // Copy the text inside the text field
     navigator.clipboard.writeText(str);
-    Clipboard.copy(str);
+    try { 
+        Clipboard.copy(str);
+    } catch (e) {
+        alert(e.stack);
+        alert(e.message);
+    }
 }
 
 
