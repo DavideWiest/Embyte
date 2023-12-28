@@ -2,11 +2,13 @@
 
 using Microsoft.EntityFrameworkCore;
 using Embyte.Data.Models;
-
+using Embyte.Data.Product;
 
 public class EmbyteDbContext : DbContext
 {
     public DbSet<WebsiteUsage> WebsiteUsages { get; set; } = default!;
+    public DbSet<ExtractorEntry> ExtractorEntries { get; set; } = default!;
+    public DbSet<WebsiteInfo> WebsiteInfos { get; set; } = default!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

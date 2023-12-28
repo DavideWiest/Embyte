@@ -2,23 +2,12 @@
 using HtmlAgilityPack;
 using Embyte.Data.Product;
 using Microsoft.IdentityModel.Tokens;
-using Microsoft.AspNetCore.Http.HttpResults;
-using Microsoft.AspNetCore.Http;
-using MudBlazor;
-using static System.Net.WebRequestMethods;
 using System.Net;
 using System;
 using Embyte.Modules.Logging;
-using Azure.Core;
-using Humanizer;
-using Microsoft.AspNetCore.Mvc;
-using static MudBlazor.CategoryTypes;
-using static System.Net.Mime.MediaTypeNames;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Numerics;
 using System.Net.Http;
 
-public class WebsiteInfoExtractor
+public static class WebsiteInfoExtractor
 {
     /// <summary>
     /// Uses HtmlAgilityPack to get the meta information from a url

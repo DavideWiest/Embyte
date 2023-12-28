@@ -1,5 +1,7 @@
 ﻿using Humanizer;
 using Microsoft.IdentityModel.Tokens;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Security.Policy;
 using System.Text;
@@ -10,7 +12,11 @@ namespace Embyte.Data.Product;
 public class WebsiteInfo
 {
     public bool HasData { get; set; } = false;
+
+    [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     public string Url { get; set; } = string.Empty;
+
     public string Title { get; set; } = "Unknown";
     public string SiteName { get; set; } = string.Empty;
     public string SiteType { get; set; } = string.Empty;
@@ -21,12 +27,19 @@ public class WebsiteInfo
     public string FavIconUrl { get; set; } = string.Empty;
     public string ThemeColor { get; set; } = "#295c8f";
     public string PersonName { get; set; } = string.Empty;
+    public DateTime Time;
 
+    public WebsiteInfo()
+    {
+        HasData = false;
+        Time = DateTime.Now;
+    }
 
     public WebsiteInfo(string url)
     {
         Url = url;
         HasData = false;
+        Time = DateTime.Now;
     }
 
     public void validateData()
@@ -43,6 +56,24 @@ public class WebsiteInfo
             ImageUrl = httpType + host + ImageUrl;
         if (FavIconUrl.StartsWith("/"))
             FavIconUrl = httpType + host + FavIconUrl;
+    }
+
+    public bool DataEqual(WebsiteInfo? other)
+    {
+        if (other == null)
+            return false;
+
+        return Url == other.Url &&
+               Title == other.Title &&
+               SiteName == other.SiteName &&
+               SiteType == other.SiteType &&
+               Locale == other.Locale &&
+               Description == other.Description &&
+               Keywords.SequenceEqual(other.Keywords ?? Array.Empty<string>()) &&
+               ImageUrl == other.ImageUrl &&
+               FavIconUrl == other.FavIconUrl &&
+               ThemeColor == other.ThemeColor &&
+               PersonName == other.PersonName;
     }
 }
 

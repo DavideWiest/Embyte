@@ -14,7 +14,7 @@
 
 @if (!showError)
 {
-    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion"/>
+    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion" ColorOverwrite="@ColorOverwrite" />
 } else
 {
     <p>
@@ -29,6 +29,7 @@
     public bool ShowRequestCount = false;
     public bool ShowImage = true;
     public bool MinimalVersion = false;
+    public string? ColorOverwrite = null;
 
     private bool showError = false;
 
@@ -63,11 +64,17 @@
 
         if (queryParameters.ContainsKey("minimalversion"))
             MinimalVersion = queryParameters["minimalversion"].ToLower() == "true";
+
+        if (queryParameters.ContainsKey("coloroverwrite"))
+        {
+            if (queryParameters["coloroverwrite"].ToLower() != "null")
+                ColorOverwrite = queryParameters["coloroverwrite"];
+        }
     }
 
     private string GetDecodedSanitizedUrl()
     {
-        if (!WebHelper.CorrectUrlPattern(TargetUrl))
+        if (!UrlHelper.CorrectUrlPattern(TargetUrl))
         {
             showError = true;
         }

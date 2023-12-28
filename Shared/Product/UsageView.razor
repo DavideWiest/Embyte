@@ -18,13 +18,13 @@
 </p>
 
 <div class="md:flex md:flex-col md:items-center my-12">
-    <div class="max-w-32">
+    <div class="max-w-3xl">
         @foreach (var (usage, index) in websiteUsages.Select((usage, index) => (usage, index)))
         {
             <div class="md:flex">
                 <div class="flex">
-                <p class="code text-gray-500 px-2 w-12 text-right">@(index + 1).</p>
-                <div class="w-48 md:w-64 overflow-x-hidden whitespace-nowrap">
+                <p class="code text-gray-500 px-2 w-16 text-right">@(index + 1).</p>
+                <div class="w-64 md:w-80 overflow-x-hidden whitespace-nowrap">
                         <a href="@(EmbyteStorage.absoluteEmbedViewEndpoint + "?url=" + usage.Url)" target="_blank">
                     <MudButton Style="text-transform: none; padding: 0;"><p class="code px-2">@usage.Url</p></MudButton>
                     </a>
@@ -33,7 +33,7 @@
                 <div class="flex">
                     <p class="px-2 w-16 text-right">@usage.RequestCount</p>
                     <div class="flex items-center">
-                        <div style="width: @(getPixelWidth(usage.RequestCount))px; height: 4px;" class="bg-purple-500 rounded-xl"></div>
+                        <div style="width: @(graphWidths[index])px; height: 4px;" class="bg-purple-500 rounded-xl"></div>
                     </div>
                 </div>
             </div>
@@ -54,6 +54,7 @@
     private int currentPage = 1; // Current page number
     private int itemsPerPage = 50; // Items to load per page
     private int availableSpacePx = 400;
+    private List<int> graphWidths = new();
 
     private void LoadMoreItems()
     {
@@ -83,18 +84,40 @@
         var newItems = LoadItems(currentPage, itemsPerPage);
 
         // Append the new items to the existing list
-        websiteUsages.AddRange(newItems);
+        websiteUsages.AddRange(newItems.Where(item => item != null));
+
+        foreach (var wu in websiteUsages)
+        {  
+            graphWidths.Add(getPixelWidth(wu.RequestCount, false));
+        }
     }
 
-    private int getPixelWidth(int requestCount)
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        var l = (int)Math.Round((double)((double)availableSpacePx / websiteUsages[0].RequestCount * requestCount), MidpointRounding.AwayFromZero);
+        if (firstRender)
+            return;
+
+        List<int> graphWidthsNew = new();
+
+        foreach (var wu in websiteUsages)
+        {
+            graphWidthsNew.Add(getPixelWidth(wu.RequestCount, true));
+        }
+        graphWidths = graphWidthsNew;
+    }
+
+    private int getPixelWidth(int requestCount, bool relativeToWindowSize)
+    {
+        relativeToWindowSize = false;
+        int ww = relativeToWindowSize ? GetWindowWidth() : 650;
+        int wwStandard = 1000; // 1000px as standard for this calculation
+        var l = (int)Math.Round((double)((double)availableSpacePx / websiteUsages[0].RequestCount * requestCount * ww / wwStandard), MidpointRounding.AwayFromZero);
         return l;
     }
 
-    private async Task<int> GetWindowWidth()
+    private int GetWindowWidth()
     {
-        var dimension = await JsRuntime.InvokeAsync<WindowDimension>("getWindowDimensions");
+        var dimension = ((IJSInProcessRuntime)JsRuntime).Invoke<WindowDimension>("getWindowDimensions");
         var height = dimension.Height;
         var width = dimension.Width;
         return width;

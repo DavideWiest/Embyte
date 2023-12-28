@@ -53,7 +53,7 @@
 
     private string GetDecodedSanitizedUrl()
     {
-        if (!WebHelper.CorrectUrlPattern(TargetUrl))
+        if (!UrlHelper.CorrectUrlPattern(TargetUrl))
         {
             showError = true;
         }

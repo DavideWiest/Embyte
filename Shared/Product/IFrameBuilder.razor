@@ -9,7 +9,7 @@
 @inject MainStorage mainstorage
 
 <div id="iframe-builder" class="w-screen flex justify-center mb-10">
-    <div class="max-w-7xl md:grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 mx-8 mb-10">
+    <div class="max-w-7xl lg:grid grid-rows-2 lg:grid-rows-1 md:grid-cols-2 gap-2 md:gap-4 mx-8 mb-10">
         <div class="flex items-center justify-center mb-10 md:mb-0 max-w-xl">
             <div class="p-6">
                 <div>
@@ -23,6 +23,7 @@
                     <MudCheckBox T="bool" @bind-Checked="@ShowStatus" Color="Color.Primary" Style="margin: -0.5rem;">Show time-spans and status</MudCheckBox>
                     <MudCheckBox T="bool" @bind-Checked="@ShowRequestCount" Color="Color.Primary" Style="margin: -0.5rem;">Show request count of website</MudCheckBox>
                     <MudCheckBox T="bool" @bind-Checked="@MinimalVersion" Color="Color.Primary" Style="margin: -0.5rem;">Minimal version (no keywords and site-type)</MudCheckBox>
+                    <MudColorPicker @bind-Text="ColorOverride" DisableAlpha="true" DisablePreview="true" DisableModeSwitch="true" ColorPickerMode="ColorPickerMode.RGB" PickerVariant="PickerVariant.Static" />
                 </div>
                 <div>
                     <div class="p-4 m-4 border border-purple-900 rounded-lg bg-neutral-900 inline-block relative shadow-xl">
@@ -42,7 +43,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full md:h-full bg-cover bg-contain bg-no-repeat bg-center md:m-3 rounded-3xl flex justify-center items-center">
+        <div class="w-full lg:h-full bg-cover bg-contain bg-no-repeat bg-center lg:m-3 rounded-3xl flex justify-center items-center">
             <div class="overflow-hidden rounded-lg">
                 <iframe src="@(EmbyteStorage.relativeEmbedEndpoint)?url=@(WebUtility.UrlEncode(Url))&show-status=@($"{ShowStatus}")&show-requestcount=@(ShowRequestCount)&show-image=@(ShowImage)&minimalversion=@(MinimalVersion)" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes"></iframe>
                 @*title="@EmbedTitle" name="@EmbedTitle"*@
@@ -71,15 +72,30 @@
     private bool _showrequestcount = false;
     private bool _showimage = true;
     private bool _minimalversion = false;
+    private string? _coloroverride = null;
 
     private bool ShowStatus { get { return _showstatus; } set { _showstatus = value; buildIFrame(); Rerender(); } }
     private bool ShowRequestCount { get { return _showrequestcount; } set { _showrequestcount = value; buildIFrame(); Rerender(); } }
     private bool ShowImage { get { return _showimage; } set { _showimage = value; buildIFrame(); Rerender(); } }
     private bool MinimalVersion { get { return _minimalversion; } set { _minimalversion = value; buildIFrame(); Rerender(); } }
+    private string? ColorOverride { get { return _coloroverride; } set { _coloroverride = value; buildIFrame(); Rerender(); } }
+
+    private class EmbedDimensions
+    {
+        public int Width { get; set; }
+        public int Height { get; set; }
+    }
 
     protected override void OnInitialized()
     {
         buildIFrame();
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        var dims = await JsRuntime.InvokeAsync<EmbedDimensions>("getiFrameWidth", "iFrameBuilderEmbed");
+        _width = dims.Width;
+        _height = dims.Height;
     }
 
     private async Task CopyIFrame()
@@ -90,16 +106,16 @@
     private void buildIFrame()
     {
         //name=\"{EmbedTitle}\"
-        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
+        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}&coloroverride={ColorOverride}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
 
     private void Rerender()
     {
         Log.Debug("UrlFront: {url}", UrlFront);
 
-        UrlFront = WebHelper.AddHttpsIfNotExists(UrlFront);
+        UrlFront = UrlHelper.AddHttpsIfNotExists(UrlFront);
 
-        if (WebHelper.CorrectUrlPattern(UrlFront))
+        if (UrlHelper.CorrectUrlPattern(UrlFront))
         {
             buildIFrame();
             Log.Debug("Url request: {url}", UrlFront);

@@ -21,9 +21,9 @@
     {
         Log.Debug("UrlFront: {url}", UrlFront);
 
-        UrlFront = WebHelper.AddHttpsIfNotExists(UrlFront);
+        UrlFront = UrlHelper.AddHttpsIfNotExists(UrlFront);
 
-        if (WebHelper.CorrectUrlPattern(UrlFront))
+        if (UrlHelper.CorrectUrlPattern(UrlFront))
         {
             Log.Debug("Url request: {url}", UrlFront);
             Url = UrlFront;

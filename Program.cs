@@ -17,6 +17,7 @@ using Embyte.Modules.Middleware;
 using Embyte.Modules.Db;
 using Embyte.Data;
 using Embyte.Data.Storage;
+using Embyte.Modules.Product;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("config/appsettings.json");
@@ -84,6 +85,10 @@ builder.Services.AddScoped<LoggingMiddleware>();
 builder.Services.AddScoped(provider =>
 {
     return new WebsiteUsageManager(new EmbyteDbContext());
+});
+builder.Services.AddScoped(provider =>
+{
+    return new WebsiteInfoGetter(new EmbyteDbContext());
 });
 
 

@@ -2,6 +2,7 @@
 
 @using MudBlazor
 @using Embyte.Shared
+@using Embyte.Modules
 @using Embyte.Modules.Product
 @using Embyte.Data.Storage
 @using Embyte.Data.Product
@@ -10,6 +11,7 @@
 @inject Constants constants
 @inject MainStorage mainstorage
 @inject WebsiteUsageManager usageManager
+@inject WebsiteInfoGetter websiteInfoGetter
 
 <div class="flex justify-center">
 <div>
@@ -124,10 +126,13 @@
     public bool ShowImage { get; set; } = true;
     [Parameter]
     public bool MinimalVersion { get; set; } = false;
+    [Parameter]
+    public string? ColorOverwrite { get; set; } = null;
 
 
     protected override void OnInitialized()
     {
+
         // RerenderEmbed();
     }
 
@@ -136,7 +141,7 @@
         displayLoading = true;
         Log.Debug("RerenderEmbed called");
 
-        (info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
+        (info, status) = websiteInfoGetter.Get(Url);
         info.validateData();
 
         if (!WebsiteInfoExtractor.IsImage(info.ImageUrl))
@@ -145,13 +150,18 @@
         if (!WebsiteInfoExtractor.IsImage(info.FavIconUrl))
             info.ImageUrl = string.Empty;
 
+        if (ColorOverwrite != null)
+        {
+            info.ThemeColor = ColorOverwrite;
+        }
+
         Log.Debug(status.ToString());
 
         Log.Debug("Title: {info}", info.Title);
 
         if (Url != prevUrl)
         {
-            usageManager.SaveRequest(trimDoubleHttpses(Url));
+            usageManager.SaveRequest(UrlHelper.TrimDoubleHttpses(Url));
         }
         prevUrl = Url;
 
@@ -159,15 +169,6 @@
 
         Log.Debug("rerender finished");
     }   
-
-    private string trimDoubleHttpses(string url)
-    {
-        while (url.StartsWith("https://https://"))
-        {
-            url = url.Substring(8);
-        }
-        return url;
-    }
 
     private int getRequestCount(string url)
     {
