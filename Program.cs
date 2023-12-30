@@ -56,13 +56,14 @@ builder.Services.AddControllersWithViews(options =>
 
 // CONSTR
 
-// #if DEBUG
-// string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
-// // Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
-// #else
-// string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
-// // Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
-// #endif
+#if DEBUG
+string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
+Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
+#else
+string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
+Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
+#endif
+
 
 // DB TESTING 
 
@@ -91,7 +92,6 @@ builder.Services.AddScoped(provider =>
 });
 
 
-StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
 
 var app = builder.Build();
 

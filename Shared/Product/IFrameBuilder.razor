@@ -115,8 +115,8 @@
 
     private void buildIFrame()
     {
-        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}&coloroverwrite={WebUtility.UrlEncode(ColorOverwrite ?? "null")}\" style =\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\" sandbox=\"allow-same-origin allow-scripts allow-forms allow-popups\"></iframe>";
-
+        //name=\"{EmbedTitle}\"
+        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
 
     private void Rerender()
