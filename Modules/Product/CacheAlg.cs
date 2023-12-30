@@ -14,8 +14,7 @@ public static class CacheAlg
 
         if (
             TooFewDataPoints(entriesSpecific)
-            // DEVELOPMENT
-            //|| TooRecent(entriesSpecific)
+            || TooRecent(entriesSpecific)
             || NoRecentChange(entriesSpecific)
         )
             return DateTime.MinValue;

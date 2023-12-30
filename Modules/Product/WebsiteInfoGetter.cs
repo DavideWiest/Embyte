@@ -89,7 +89,6 @@ public class WebsiteInfoGetter
             DbCtx.WebsiteInfos.Add(info);
         } else if (dataChanged)
         {
-            // might not work
             DbCtx.WebsiteInfos.Entry(cachedInfo!).CurrentValues.SetValues(info);
         }
 
