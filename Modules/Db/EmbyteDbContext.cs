@@ -13,7 +13,7 @@ public class EmbyteDbContext : DbContext
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseNpgsql(GetConnectionString());
-        optionsBuilder.UseNpgsql("..."); // for migrations
+        //optionsBuilder.UseNpgsql("..."); // for migrations
     }
 
     private static string GetConnectionString()
