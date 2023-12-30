@@ -75,6 +75,21 @@ public class WebsiteInfo
                ThemeColor == other.ThemeColor &&
                PersonName == other.PersonName;
     }
+
+    public void SetPropertiesTo(WebsiteInfo other)
+    {
+        Url = other.Url;
+        Title = other.Title;
+        SiteName = other.SiteName;
+        SiteType = other.SiteType;
+        Locale = other.Locale;
+        Description = other.Description;
+        Keywords = other.Keywords;
+        ImageUrl = other.ImageUrl;
+        FavIconUrl = other.FavIconUrl;
+        ThemeColor = other.ThemeColor;
+        PersonName = other.PersonName;
+    }
 }
 
 public class WebsiteInfoStatus

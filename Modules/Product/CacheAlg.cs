@@ -1,8 +1,6 @@
 ﻿namespace Embyte.Modules.Product;
 
 using Accord.Math;
-using Accord.Statistics.Models.Regression;
-using Accord.Statistics.Models.Regression.Fitting;
 using Embyte.Modules.Logging;
 using Meta.Numerics.Functions;
 
@@ -12,12 +10,11 @@ public static class CacheAlg
     {
         var entriesSpecific = entriesGeneral.Where(e => e.Url == url);
 
-        if (
-            TooFewDataPoints(entriesSpecific)
-            || TooRecent(entriesSpecific)
-            || NoRecentChange(entriesSpecific)
-        )
+        if (TooFewDataPoints(entriesSpecific))
             return DateTime.MinValue;
+
+        if (TooRecent(entriesSpecific))
+            return DateTime.MaxValue;
 
         double lowerLimitHours = 0.1;
 
@@ -44,16 +41,6 @@ public static class CacheAlg
             .OrderByInDb("Time", true)
             .First().Time > DateTime.Now.AddHours(-12);
         Log.Debug("TooRecent: {cond}", cond);
-        return cond;
-    }
-
-    public static bool NoRecentChange(IQueryable<RequestEntry> entriesSpecificToUrl)
-    {
-        var recentEntries = entriesSpecificToUrl
-            .Where(e => e.DataChanged)
-            .OrderByInDb("Time", true);
-        var cond = recentEntries.FirstOrDefault() != null && !(recentEntries.First().Time < DateTime.Now.AddYears(-1));
-        Log.Debug("NoRecentChange: {cond}", cond);
         return cond;
     }
 

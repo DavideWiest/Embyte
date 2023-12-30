@@ -84,12 +84,14 @@ public class WebsiteInfoGetter
 
         DbCtx.ExtractorEntries.Add(entry);
 
-        if (dataChanged || prevEntry == null)
+        if (cachedInfo == null)
         {
             DbCtx.WebsiteInfos.Add(info);
-        } else if (dataChanged)
+        }
+        if (dataChanged && cachedInfo != null)
         {
-            DbCtx.WebsiteInfos.Entry(cachedInfo!).CurrentValues.SetValues(info);
+            var cachedInfoEntry = DbCtx.WebsiteInfos.Where(i => i.Url == cachedInfo!.Url).First();
+            cachedInfoEntry.SetPropertiesTo(info);
         }
 
         DbCtx.SaveChanges();
