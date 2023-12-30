@@ -6,4 +6,5 @@ public static class DesignStorage
 
     public static string PrimaryColorHex = "5E35B1";
     public static string SpecialAnnouncementBg = "#" + PrimaryColorHex;
+    public static string EmbedDefaultThemeColor = "#0f86f5";
 }

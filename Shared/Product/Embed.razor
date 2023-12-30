@@ -16,7 +16,7 @@
 <div class="flex justify-center">
 <div>
     <MudCard Class="relative max-w-3xl max-h-2xl rounded-lg shadow-xl flex bg-neutral-900 overflow-hidden" Style="width: min(100vw, 34rem)">
-        <div class="absolute h-full" style="@("background: " + info.ThemeColor + "; width: 6px !important; overflow: hidden; white-space: nowrap;")">
+        <div class="absolute h-full" style="@("background: " + (ColorOverwrite ?? info.ThemeColor) + "; width: 6px !important; overflow: hidden; white-space: nowrap;")">
 
         </div>
         <div class="p-3 relative ml-2" style="width: calc(100%-10px);">
@@ -142,6 +142,7 @@
         Log.Debug("RerenderEmbed called");
 
         (info, status) = websiteInfoGetter.Get(Url);
+        //(info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
         info.validateData();
 
         if (!WebsiteInfoExtractor.IsImage(info.ImageUrl))
@@ -149,11 +150,6 @@
 
         if (!WebsiteInfoExtractor.IsImage(info.FavIconUrl))
             info.ImageUrl = string.Empty;
-
-        if (ColorOverwrite != null)
-        {
-            info.ThemeColor = ColorOverwrite;
-        }
 
         Log.Debug(status.ToString());
 

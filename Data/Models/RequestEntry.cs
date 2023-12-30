@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-public class ExtractorEntry
+public class RequestEntry
 {
     [Key]
     [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -13,11 +13,11 @@ public class ExtractorEntry
 
     public string Url { get; set; } = string.Empty;
 
-    public bool DataChanged = false;
+    public bool DataChanged { get; set; } = false;
 
-    public ExtractorEntry() { }
+    public RequestEntry() { }
 
-    public ExtractorEntry(TimeSpan deltaToPrevious, string url, bool dataChanged)
+    public RequestEntry(TimeSpan deltaToPrevious, string url, bool dataChanged)
     {
         Time = DateTime.Now;
         DeltaToPrevious = deltaToPrevious;

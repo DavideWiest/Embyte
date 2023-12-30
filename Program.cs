@@ -18,6 +18,7 @@ using Embyte.Modules.Db;
 using Embyte.Data;
 using Embyte.Data.Storage;
 using Embyte.Modules.Product;
+using Microsoft.AspNetCore.Hosting.StaticWebAssets;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Configuration.AddJsonFile("config/appsettings.json");
@@ -55,20 +56,18 @@ builder.Services.AddControllersWithViews(options =>
 
 // CONSTR
 
-#if DEBUG
-string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
-Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
-#else
-string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
-Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
-#endif
-
+// #if DEBUG
+// string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
+// // Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
+// #else
+// string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
+// // Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
+// #endif
 
 // DB TESTING 
 
 #if DEBUG
 var con = new EmbyteDbContext();
-
 // string TestingTable = "WebsiteUsage";
 //Log.Debug($"Existing Tables: {string.Join(", ", DbHelper.GetExistingTables(con))}");
 //Log.Debug($"Table {TestingTable} exists: {DbHelper.CheckTableExists(con, TestingTable)}");
@@ -92,8 +91,11 @@ builder.Services.AddScoped(provider =>
 });
 
 
+StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
 
 var app = builder.Build();
+
+AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
 // MIDDLEWARE
 

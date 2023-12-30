@@ -8,12 +8,12 @@ function getiFrameWidth(id) {
     var body = doc.body
 
     if (body) {
-        body.style.overflowX = "scroll" // scrollbar-jitter fix
-        body.style.overflowY = "hidden"
+        //body.style.overflowX = "scroll" // scrollbar-jitter fix
+        //body.style.overflowY = "hidden"
     }
     if (html) {
-        html.style.overflowX = "scroll" // scrollbar-jitter fix
-        html.style.overflowY = "hidden"
+        //html.style.overflowX = "scroll" // scrollbar-jitter fix
+        //html.style.overflowY = "hidden"
         var style = win.getComputedStyle(html)
         width = parseInt(style.getPropertyValue("width")) // round value
         height = parseInt(style.getPropertyValue("height"))

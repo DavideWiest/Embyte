@@ -1,5 +1,6 @@
 ﻿using Embyte.Data.Product;
 using Embyte.Modules.Db;
+using System.Linq.Expressions;
 
 namespace Embyte.Modules.Product;
 
@@ -19,18 +20,17 @@ public class WebsiteInfoGetter
     /// <returns></returns>
     public Tuple<WebsiteInfo, WebsiteInfoStatus> Get(string url)
     {
-        var entries = DbCtx.ExtractorEntries.Where(x => x.Url == url);
 
-        ExtractorEntry? prevEntry = null;
+        RequestEntry? prevEntry = null;
 
         prevEntry = DbCtx.ExtractorEntries
             .Where(x => x.Url == url)
             .OrderByDescending(entry => entry.Time)
-            .FirstOrDefault(x => true, null);
+            .FirstOrDefault();
 
         var (cachedInfo, status) = GetFromCache(url, prevEntry);
 
-        if (CacheAlg.TimeToRenew(url, entries) > DateTime.Now)
+        if (CacheAlg.TimeToRenew(url, DbCtx.ExtractorEntries) < DateTime.Now)
         {
             if (cachedInfo != null)
                 return Tuple.Create(cachedInfo, status);
@@ -39,16 +39,17 @@ public class WebsiteInfoGetter
         return GetFromExtractor(url, prevEntry, cachedInfo);
     }
 
-    protected Tuple<WebsiteInfo?, WebsiteInfoStatus> GetFromCache(string url, ExtractorEntry? prevEntry)
+    protected Tuple<WebsiteInfo?, WebsiteInfoStatus> GetFromCache(string url, RequestEntry? prevEntry)
     {
         WebsiteInfoStatus status = new();
+        status.parsingDurationMS = 0;
+        status.statusType = WebsiteInfoStatusType.cacheSuccess;
 
         DateTime startRequestTime = DateTime.Now;
 
         var info = DbCtx.WebsiteInfos
             .Where(x => x != null && x.Url == url)
-            .OrderByDescending(entry => entry.Time)
-            .FirstOrDefault(x => true, null);
+            .FirstOrDefault();
 
         DateTime? cacheTime = null;
 
@@ -58,12 +59,11 @@ public class WebsiteInfoGetter
         status.message = prevEntry != null ? $"From Cache ({cacheTime})" : "From Cache (Time unknown)";
         TimeSpan requestDuration = DateTime.Now - startRequestTime;
         status.requestDurationMS = (int)Math.Round(requestDuration.TotalMilliseconds, MidpointRounding.AwayFromZero);
-        status.parsingDurationMS = 0;
 
         return Tuple.Create(info, status);
     }
 
-    protected Tuple<WebsiteInfo, WebsiteInfoStatus> GetFromExtractor(string url, ExtractorEntry? prevEntry, WebsiteInfo? cachedInfo)
+    protected Tuple<WebsiteInfo, WebsiteInfoStatus> GetFromExtractor(string url, RequestEntry? prevEntry, WebsiteInfo? cachedInfo)
     {
         TimeSpan deltaToPrev;
         bool dataChanged;
@@ -80,7 +80,7 @@ public class WebsiteInfoGetter
             dataChanged = !info.DataEqual(cachedInfo);
         }
 
-        ExtractorEntry entry = new(deltaToPrev, url, dataChanged);
+        RequestEntry entry = new(deltaToPrev, url, dataChanged);
 
         DbCtx.ExtractorEntries.Add(entry);
 

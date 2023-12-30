@@ -7,12 +7,13 @@ using Embyte.Data.Product;
 public class EmbyteDbContext : DbContext
 {
     public DbSet<WebsiteUsage> WebsiteUsages { get; set; } = default!;
-    public DbSet<ExtractorEntry> ExtractorEntries { get; set; } = default!;
+    public DbSet<RequestEntry> ExtractorEntries { get; set; } = default!;
     public DbSet<WebsiteInfo> WebsiteInfos { get; set; } = default!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql(GetConnectionString());
+        //optionsBuilder.UseNpgsql(GetConnectionString());
+        optionsBuilder.UseNpgsql("Host=localhost;Database=embyte;Username=postgres;Password=00069"); // for migrations
     }
 
     private static string GetConnectionString()

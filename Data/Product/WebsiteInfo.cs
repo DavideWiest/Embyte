@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Net;
 using System.Security.Policy;
 using System.Text;
-
+using Embyte.Data.Storage;
 
 namespace Embyte.Data.Product;
 
@@ -25,9 +25,9 @@ public class WebsiteInfo
     public string[] Keywords { get; set; } = {};
     public string ImageUrl { get; set; } = string.Empty;
     public string FavIconUrl { get; set; } = string.Empty;
-    public string ThemeColor { get; set; } = "#295c8f";
+    public string ThemeColor { get; set; } = DesignStorage.EmbedDefaultThemeColor;
     public string PersonName { get; set; } = string.Empty;
-    public DateTime Time;
+    public DateTime Time { get; set; }
 
     public WebsiteInfo()
     {
@@ -51,7 +51,7 @@ public class WebsiteInfo
         if (SiteName.IsNullOrEmpty())
             SiteName = host;
         if (ThemeColor.IsNullOrEmpty())
-            ThemeColor = "#295c8f";
+            ThemeColor = DesignStorage.EmbedDefaultThemeColor;
         if (ImageUrl.StartsWith("/"))
             ImageUrl = httpType + host + ImageUrl;
         if (FavIconUrl.StartsWith("/"))
@@ -128,5 +128,6 @@ public enum WebsiteInfoStatusType
     internalError,
     noResponse,
     requestFailed,
-    noTagsFound
+    noTagsFound,
+    cacheSuccess
 }

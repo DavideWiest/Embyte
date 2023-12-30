@@ -3,6 +3,7 @@ using System;
 using Embyte.Modules.Db;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Embyte.Migrations
 {
     [DbContext(typeof(EmbyteDbContext))]
-    partial class EmbyteDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231228163329_28_12_23_1")]
+    partial class _28_12_23_1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -88,9 +91,6 @@ namespace Embyte.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("Time")
-                        .HasColumnType("timestamp with time zone");
-
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasColumnType("text");
@@ -100,16 +100,13 @@ namespace Embyte.Migrations
                     b.ToTable("WebsiteInfos");
                 });
 
-            modelBuilder.Entity("RequestEntry", b =>
+            modelBuilder.Entity("ExtractorEntry", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("DataChanged")
-                        .HasColumnType("boolean");
 
                     b.Property<TimeSpan>("DeltaToPrevious")
                         .HasColumnType("interval");

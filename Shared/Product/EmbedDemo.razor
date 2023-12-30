@@ -7,7 +7,7 @@
 <div id="embedDemo"></div>
 <Embed Url="@Url" ShowStatus="true"/>
 <div class="h-5"></div>
-<MudTextField Label="Try a Url!" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="Rerender" OnBlur="Rerender" />
+<MudTextField Label="Try a Url" @bind-Value="@UrlFront" DebounceInterval="400" OnDebounceIntervalElapsed="Rerender" OnBlur="Rerender" />
 
 @code {
     [Parameter]
@@ -23,7 +23,7 @@
 
         UrlFront = UrlHelper.AddHttpsIfNotExists(UrlFront);
 
-        if (UrlHelper.CorrectUrlPattern(UrlFront))
+        if (UrlHelper.CorrectUrlPattern(UrlFront) && UrlFront != Url)
         {
             Log.Debug("Url request: {url}", UrlFront);
             Url = UrlFront;

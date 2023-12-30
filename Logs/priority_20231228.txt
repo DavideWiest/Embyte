@@ -1,0 +1,293 @@
+2023-12-28 17:29:01.046 +01:00 [ERR] WebException occured when requesting url https://decadruck.davdi, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (decadruck.davdi:443)
+2023-12-28 17:29:10.975 +01:00 [ERR] WebException occured when requesting url https://decadruck.davidewiest.co, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (decadruck.davidewiest.co:443)
+2023-12-28 17:31:09.598 +01:00 [ERR] WebException occured when requesting url https://davidewiest.co, status : "NameResolutionFailure" 
+ Traceback: 
+ Der angegebene Host ist unbekannt. (davidewiest.co:443)
+2023-12-28 23:13:53.708 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 37
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 11
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:15:29.877 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 37
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 11
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:15:30.040 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 37
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 11
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:22:17.145 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:22:17.145 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:22:36.786 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:22:37.148 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:25:04.040 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-28 23:25:04.042 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+ ---> System.InvalidOperationException: The LINQ expression 'DbSet<ExtractorEntry>()
+    .Where(e => e.Url == __url_0)
+    .MaxBy(e => e.Time)' could not be translated. Either rewrite the query in a form that can be translated, or switch to client evaluation explicitly by inserting a call to 'AsEnumerable', 'AsAsyncEnumerable', 'ToList', or 'ToListAsync'. See https://go.microsoft.com/fwlink/?linkid=2101038 for more information.
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.VisitMethodCall(MethodCallExpression methodCallExpression)
+   at Microsoft.EntityFrameworkCore.Query.Internal.NavigationExpandingExpressionVisitor.Expand(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryTranslationPreprocessor.Process(Expression query)
+   at Microsoft.EntityFrameworkCore.Query.QueryCompilationContext.CreateQueryExecutor[TResult](Expression query)
+   at Microsoft.EntityFrameworkCore.Storage.Database.CompileQuery[TResult](Expression query, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.CompileQueryCore[TResult](IDatabase database, Expression query, IModel model, Boolean async)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.<>c__DisplayClass9_0`1.<Execute>b__0()
+   at Microsoft.EntityFrameworkCore.Query.Internal.CompiledQueryCache.GetOrAddQuery[TResult](Object cacheKey, Func`1 compiler)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.Execute[TResult](Expression query)
+   at System.Linq.Queryable.MaxBy[TSource,TKey](IQueryable`1 source, Expression`1 keySelector)
+   at Embyte.Modules.Db.CacheAlg.TooRecent(IQueryable`1 entriesSpecificToUrl)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)

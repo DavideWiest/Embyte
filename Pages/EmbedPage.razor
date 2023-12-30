@@ -12,16 +12,17 @@
 @inject MainStorage mainstorage
 @inject NavigationManager NavigationManager
 
+<div class="flex justify-center items-center">
 @if (!showError)
 {
-    <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion" ColorOverwrite="@ColorOverwrite" />
+        <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion" ColorOverwrite="@ColorOverwrite" />
 } else
 {
     <p>
         Invalid Url
     </p>
 }
-
+</div>
 
 @code {
     public string TargetUrl { get; set; } = EmbyteStorage.DefaultUrl;
@@ -67,7 +68,7 @@
 
         if (queryParameters.ContainsKey("coloroverwrite"))
         {
-            if (queryParameters["coloroverwrite"].ToLower() != "null")
+            if (queryParameters["coloroverwrite"].ToLower() != "null" && queryParameters["coloroverwrite"].ToLower() != "" && queryParameters["coloroverwrite"].ToLower() != string.Empty)
                 ColorOverwrite = queryParameters["coloroverwrite"];
         }
     }

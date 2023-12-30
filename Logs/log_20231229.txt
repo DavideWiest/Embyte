@@ -1,0 +1,3466 @@
+2023-12-29 00:00:16.911 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:00:17.078 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:00:17.085 +01:00 [DBG] TooRecent: false
+2023-12-29 00:00:17.088 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:00:17.386 +01:00 [DBG] TimeToRenew Coeff a=2.842170943040401E-14
+2023-12-29 00:00:17.386 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:00:18.747 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 851
+Parsing Duration (ms): 7
+
+2023-12-29 00:00:18.747 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:00:18.758 +01:00 [DBG] rerender finished
+2023-12-29 00:00:18.837 +01:00 [INF] Request Ip=127.0.0.1 Url=/ Time=2924.225
+2023-12-29 00:00:18.867 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=017.848
+2023-12-29 00:00:18.870 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/disconnect Time=004.511
+2023-12-29 00:00:18.873 +01:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=007.251
+2023-12-29 00:00:18.891 +01:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.522
+2023-12-29 00:00:18.900 +01:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.356
+2023-12-29 00:00:18.905 +01:00 [INF] Request Ip=127.0.0.1 Url=/static/js/baseDomManagement.js Time=000.252
+2023-12-29 00:00:18.973 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:00:19.027 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:00:19.028 +01:00 [DBG] TooRecent: false
+2023-12-29 00:00:19.030 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:00:19.053 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 92
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 26
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:00:19.067 +01:00 [INF] Request Ip=127.0.0.1 Url=/embed/ Time=110.110
+2023-12-29 00:00:19.119 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=002.066
+2023-12-29 00:00:19.155 +01:00 [INF] Request Ip=127.0.0.1 Url=/_framework/blazor.server.js Time=000.336
+2023-12-29 00:00:19.155 +01:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.336
+2023-12-29 00:00:19.155 +01:00 [INF] Request Ip=127.0.0.1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.248
+2023-12-29 00:00:19.408 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=004.622
+2023-12-29 00:00:19.465 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/initializers Time=000.229
+2023-12-29 00:00:19.542 +01:00 [INF] Request Ip=127.0.0.1 Url=/_blazor/negotiate Time=000.554
+2023-12-29 00:00:19.619 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:00:19.622 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:00:19.623 +01:00 [DBG] TooRecent: false
+2023-12-29 00:00:19.624 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:00:19.628 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 92
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 26
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:00:19.663 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:00:19.667 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:00:19.669 +01:00 [DBG] TooRecent: false
+2023-12-29 00:00:19.670 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:00.449 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:09:00.449 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:09:03.684 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:03.688 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:03.688 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:03.689 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:03.691 +01:00 [DBG] TimeToRenew Coeff a=-2.842170943040401E-14
+2023-12-29 00:09:03.691 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:05.073 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 600
+Parsing Duration (ms): 0
+
+2023-12-29 00:09:05.073 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:09:05.075 +01:00 [DBG] rerender finished
+2023-12-29 00:09:05.082 +01:00 [INF] Request Ip=::1 Url=/ Time=1445.703
+2023-12-29 00:09:05.090 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.825
+2023-12-29 00:09:05.101 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.340
+2023-12-29 00:09:05.124 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.129
+2023-12-29 00:09:05.132 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.217
+2023-12-29 00:09:05.187 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:05.189 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:05.190 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:05.190 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:05.191 +01:00 [DBG] TimeToRenew Coeff a=1.4210854715202004E-13
+2023-12-29 00:09:05.192 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:05.277 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.018
+2023-12-29 00:09:05.334 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.217
+2023-12-29 00:09:05.400 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:05.402 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:05.402 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:05.402 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:05.407 +01:00 [DBG] TimeToRenew Coeff a=1.4210854715202004E-13
+2023-12-29 00:09:05.407 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:06.314 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 859
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:06.314 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:06.316 +01:00 [DBG] rerender finished
+2023-12-29 00:09:06.321 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=1135.385
+2023-12-29 00:09:06.329 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.210
+2023-12-29 00:09:06.330 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.316
+2023-12-29 00:09:06.348 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.182
+2023-12-29 00:09:06.422 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.139
+2023-12-29 00:09:06.439 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.445
+2023-12-29 00:09:06.447 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:06.448 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:06.449 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:06.449 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:06.450 +01:00 [DBG] TimeToRenew Coeff a=8.526512829121202E-14
+2023-12-29 00:09:06.450 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:06.729 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 695
+Parsing Duration (ms): 0
+
+2023-12-29 00:09:06.730 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:09:06.750 +01:00 [DBG] rerender finished
+2023-12-29 00:09:06.769 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:06.771 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:06.772 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:06.772 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:06.774 +01:00 [DBG] TimeToRenew Coeff a=8.526512829121202E-14
+2023-12-29 00:09:06.774 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:07.398 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 723
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:07.398 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:07.400 +01:00 [DBG] rerender finished
+2023-12-29 00:09:07.474 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 480
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:07.474 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:07.476 +01:00 [DBG] rerender finished
+2023-12-29 00:09:07.476 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=708.275
+2023-12-29 00:09:07.482 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.199
+2023-12-29 00:09:07.483 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.078
+2023-12-29 00:09:07.483 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.140
+2023-12-29 00:09:07.594 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.092
+2023-12-29 00:09:07.607 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.144
+2023-12-29 00:09:07.612 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:07.614 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:07.614 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:07.615 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:07.621 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:09:07.621 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:09:07.891 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 61
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:07.891 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:07.892 +01:00 [DBG] rerender finished
+2023-12-29 00:09:15.803 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:15.804 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:15.804 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:15.805 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:15.806 +01:00 [DBG] TimeToRenew Coeff a=4.263256414560601E-14
+2023-12-29 00:09:15.806 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:19.052 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 2678
+Parsing Duration (ms): 0
+
+2023-12-29 00:09:19.052 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:09:19.054 +01:00 [DBG] rerender finished
+2023-12-29 00:09:19.056 +01:00 [INF] Request Ip=::1 Url=/ Time=3256.227
+2023-12-29 00:09:19.063 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.286
+2023-12-29 00:09:19.065 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.606
+2023-12-29 00:09:19.071 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.205
+2023-12-29 00:09:19.071 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.076
+2023-12-29 00:09:19.072 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.208
+2023-12-29 00:09:19.100 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:19.102 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:19.102 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:19.103 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:19.104 +01:00 [DBG] TimeToRenew Coeff a=1.4210854715202004E-14
+2023-12-29 00:09:19.104 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:09:19.171 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.091
+2023-12-29 00:09:19.208 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.171
+2023-12-29 00:09:19.229 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:19.231 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:19.231 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:19.232 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:19.233 +01:00 [DBG] TimeToRenew Coeff a=-4.263256414560601E-14
+2023-12-29 00:09:19.233 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:09:19.362 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 66
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:19.362 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:19.363 +01:00 [DBG] rerender finished
+2023-12-29 00:09:19.364 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=264.504
+2023-12-29 00:09:19.370 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.215
+2023-12-29 00:09:19.370 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.093
+2023-12-29 00:09:19.370 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.103
+2023-12-29 00:09:19.444 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.111
+2023-12-29 00:09:19.459 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.196
+2023-12-29 00:09:19.469 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:19.471 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:19.471 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:19.472 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:19.473 +01:00 [DBG] TimeToRenew Coeff a=-4.263256414560601E-14
+2023-12-29 00:09:19.473 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:09:19.724 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:19.724 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:19.726 +01:00 [DBG] rerender finished
+2023-12-29 00:09:20.479 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 684
+Parsing Duration (ms): 0
+
+2023-12-29 00:09:20.479 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:09:20.481 +01:00 [DBG] rerender finished
+2023-12-29 00:09:20.489 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.443
+2023-12-29 00:09:20.496 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:20.498 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:20.498 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:20.499 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:20.500 +01:00 [DBG] TimeToRenew Coeff a=2.842170943040401E-14
+2023-12-29 00:09:20.500 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:09:20.751 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 54
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:20.751 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:20.753 +01:00 [DBG] rerender finished
+2023-12-29 00:09:20.756 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=260.184
+2023-12-29 00:09:20.774 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.437
+2023-12-29 00:09:20.774 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.139
+2023-12-29 00:09:20.774 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.236
+2023-12-29 00:09:20.857 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.079
+2023-12-29 00:09:20.876 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.199
+2023-12-29 00:09:20.888 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:09:20.890 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:09:20.890 +01:00 [DBG] TooRecent: false
+2023-12-29 00:09:20.890 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:09:20.892 +01:00 [DBG] TimeToRenew Coeff a=5.684341886080802E-14
+2023-12-29 00:09:20.892 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:09:21.132 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-12-29 00:09:21.132 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:09:21.133 +01:00 [DBG] rerender finished
+2023-12-29 00:10:44.678 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:10:44.846 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:10:44.852 +01:00 [DBG] TooRecent: false
+2023-12-29 00:10:44.855 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:10:45.044 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=016.877
+2023-12-29 00:10:45.044 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=013.716
+2023-12-29 00:11:20.044 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:20.047 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:20.048 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:20.048 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:20.051 +01:00 [DBG] TimeToRenew Coeff a=2.3283064365386963E-09
+2023-12-29 00:11:20.051 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:21.599 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 911
+Parsing Duration (ms): 7
+
+2023-12-29 00:11:21.599 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:21.609 +01:00 [DBG] rerender finished
+2023-12-29 00:11:21.672 +01:00 [INF] Request Ip=::1 Url=/ Time=1690.582
+2023-12-29 00:11:21.875 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:21.877 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:21.877 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:21.878 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:21.880 +01:00 [DBG] TimeToRenew Coeff a=1.1175870895385742E-08
+2023-12-29 00:11:21.880 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:23.120 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 702
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:23.120 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:23.122 +01:00 [DBG] rerender finished
+2023-12-29 00:11:23.125 +01:00 [INF] Request Ip=::1 Url=/ Time=1261.457
+2023-12-29 00:11:23.140 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=003.827
+2023-12-29 00:11:23.158 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=002.043
+2023-12-29 00:11:23.159 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.394
+2023-12-29 00:11:23.225 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:23.227 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:23.228 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:23.228 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:23.230 +01:00 [DBG] TimeToRenew Coeff a=-4.6566128730773926E-09
+2023-12-29 00:11:23.230 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:23.324 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=002.064
+2023-12-29 00:11:23.393 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.121
+2023-12-29 00:11:23.470 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:23.472 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:23.472 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:23.473 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:23.475 +01:00 [DBG] TimeToRenew Coeff a=-2.7939677238464355E-09
+2023-12-29 00:11:23.475 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:24.411 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 971
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:24.411 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:24.413 +01:00 [DBG] rerender finished
+2023-12-29 00:11:24.419 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=1201.984
+2023-12-29 00:11:24.427 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.291
+2023-12-29 00:11:24.427 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.205
+2023-12-29 00:11:24.444 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.231
+2023-12-29 00:11:24.523 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.191
+2023-12-29 00:11:24.548 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.838
+2023-12-29 00:11:24.570 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:24.573 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:24.574 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:24.575 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:24.577 +01:00 [DBG] TimeToRenew Coeff a=5.122274160385132E-09
+2023-12-29 00:11:24.577 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:24.718 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 669
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:24.719 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:24.720 +01:00 [DBG] rerender finished
+2023-12-29 00:11:24.741 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:24.744 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:24.744 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:24.745 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:24.747 +01:00 [DBG] TimeToRenew Coeff a=5.122274160385132E-09
+2023-12-29 00:11:24.747 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:25.187 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 243
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:25.187 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:25.189 +01:00 [DBG] rerender finished
+2023-12-29 00:11:25.190 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=450.892
+2023-12-29 00:11:25.200 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.136
+2023-12-29 00:11:25.200 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.179
+2023-12-29 00:11:25.201 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.203
+2023-12-29 00:11:25.324 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.128
+2023-12-29 00:11:25.339 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.410
+2023-12-29 00:11:25.347 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:25.348 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:25.349 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:25.349 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:25.354 +01:00 [DBG] TimeToRenew Coeff a=9.313225746154785E-10
+2023-12-29 00:11:25.354 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:25.378 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 583
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:25.378 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:25.380 +01:00 [DBG] rerender finished
+2023-12-29 00:11:25.623 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 51
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:25.623 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:25.625 +01:00 [DBG] rerender finished
+2023-12-29 00:11:29.061 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:29.062 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:29.063 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:29.063 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:29.064 +01:00 [DBG] TimeToRenew Coeff a=1.862645149230957E-09
+2023-12-29 00:11:29.065 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:30.159 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 544
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:30.159 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:30.160 +01:00 [DBG] rerender finished
+2023-12-29 00:11:30.162 +01:00 [INF] Request Ip=::1 Url=/ Time=1104.622
+2023-12-29 00:11:30.169 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.626
+2023-12-29 00:11:30.171 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=004.331
+2023-12-29 00:11:30.178 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.279
+2023-12-29 00:11:30.180 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.568
+2023-12-29 00:11:30.180 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.458
+2023-12-29 00:11:30.207 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:30.209 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:30.209 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:30.209 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:30.211 +01:00 [DBG] TimeToRenew Coeff a=-3.725290298461914E-09
+2023-12-29 00:11:30.211 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:30.282 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.118
+2023-12-29 00:11:30.440 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 38
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:30.440 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:30.442 +01:00 [DBG] rerender finished
+2023-12-29 00:11:30.442 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=236.696
+2023-12-29 00:11:30.501 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.216
+2023-12-29 00:11:30.501 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.174
+2023-12-29 00:11:30.501 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.116
+2023-12-29 00:11:30.507 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.185
+2023-12-29 00:11:30.592 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.162
+2023-12-29 00:11:30.609 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.178
+2023-12-29 00:11:30.613 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:30.615 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:30.615 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:30.616 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:30.618 +01:00 [DBG] TimeToRenew Coeff a=9.313225746154785E-10
+2023-12-29 00:11:30.618 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:30.621 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:30.623 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:30.623 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:30.624 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:30.626 +01:00 [DBG] TimeToRenew Coeff a=6.51925802230835E-09
+2023-12-29 00:11:30.626 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:31.386 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 592
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:31.386 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:31.388 +01:00 [DBG] rerender finished
+2023-12-29 00:11:31.737 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 517
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:31.737 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:31.739 +01:00 [DBG] rerender finished
+2023-12-29 00:11:31.747 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.461
+2023-12-29 00:11:31.754 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:31.755 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:31.756 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:31.756 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:31.757 +01:00 [DBG] TimeToRenew Coeff a=-4.6566128730773926E-09
+2023-12-29 00:11:31.758 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:32.497 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 542
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:32.497 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:32.498 +01:00 [DBG] rerender finished
+2023-12-29 00:11:32.499 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=746.438
+2023-12-29 00:11:32.506 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.196
+2023-12-29 00:11:32.506 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.101
+2023-12-29 00:11:32.506 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.115
+2023-12-29 00:11:32.615 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.088
+2023-12-29 00:11:32.630 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.135
+2023-12-29 00:11:32.636 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:32.638 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:32.638 +01:00 [DBG] TooRecent: false
+2023-12-29 00:11:32.639 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:32.640 +01:00 [DBG] TimeToRenew Coeff a=3.725290298461914E-09
+2023-12-29 00:11:32.640 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:32.888 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 39
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:32.888 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:32.890 +01:00 [DBG] rerender finished
+2023-12-29 00:11:54.641 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:54.643 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:54.643 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:54.645 +01:00 [DBG] TimeToRenew Coeff a=1.210719347000122E-08
+2023-12-29 00:11:54.645 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:55.537 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 680
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:55.537 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:55.537 +01:00 [DBG] rerender finished
+2023-12-29 00:11:55.538 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:55.539 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:55.540 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:55.541 +01:00 [DBG] TimeToRenew Coeff a=1.862645149230957E-09
+2023-12-29 00:11:55.541 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:55.800 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:55.800 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:55.800 +01:00 [DBG] rerender finished
+2023-12-29 00:11:55.807 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:55.809 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:55.809 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:55.810 +01:00 [DBG] TimeToRenew Coeff a=7.450580596923828E-09
+2023-12-29 00:11:55.810 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:56.887 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 567
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:56.887 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:56.887 +01:00 [DBG] rerender finished
+2023-12-29 00:11:56.891 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:56.892 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:56.892 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:56.894 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:11:56.894 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:57.941 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 536
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:57.941 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:57.941 +01:00 [DBG] rerender finished
+2023-12-29 00:11:57.946 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:57.948 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:57.948 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:57.950 +01:00 [DBG] TimeToRenew Coeff a=3.725290298461914E-09
+2023-12-29 00:11:57.950 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:58.102 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:58.103 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:58.104 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:58.105 +01:00 [DBG] TimeToRenew Coeff a=-1.30385160446167E-08
+2023-12-29 00:11:58.106 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:11:58.199 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 44
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:58.199 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:58.199 +01:00 [DBG] rerender finished
+2023-12-29 00:11:58.200 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:58.201 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:58.202 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:58.203 +01:00 [DBG] TimeToRenew Coeff a=-3.725290298461914E-09
+2023-12-29 00:11:58.203 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:59.218 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 824
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:59.218 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:59.218 +01:00 [DBG] rerender finished
+2023-12-29 00:11:59.458 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 645
+Parsing Duration (ms): 0
+
+2023-12-29 00:11:59.458 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:11:59.459 +01:00 [DBG] rerender finished
+2023-12-29 00:11:59.464 +01:00 [INF] Request Ip=::1 Url=/ Time=1373.271
+2023-12-29 00:11:59.473 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.639
+2023-12-29 00:11:59.474 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.270
+2023-12-29 00:11:59.481 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.319
+2023-12-29 00:11:59.482 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.145
+2023-12-29 00:11:59.482 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.201
+2023-12-29 00:11:59.516 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:11:59.518 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:11:59.518 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:11:59.523 +01:00 [DBG] TimeToRenew Coeff a=2.2351741790771484E-08
+2023-12-29 00:11:59.523 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:11:59.596 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.206
+2023-12-29 00:11:59.767 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 46
+Parsing Duration (ms): 1
+
+2023-12-29 00:11:59.767 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:11:59.769 +01:00 [DBG] rerender finished
+2023-12-29 00:11:59.770 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=256.269
+2023-12-29 00:11:59.821 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.208
+2023-12-29 00:11:59.821 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.045
+2023-12-29 00:11:59.822 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.126
+2023-12-29 00:11:59.830 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.307
+2023-12-29 00:11:59.986 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.289
+2023-12-29 00:12:00.007 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.179
+2023-12-29 00:12:00.014 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:00.017 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:00.018 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:00.021 +01:00 [DBG] TimeToRenew Coeff a=1.210719347000122E-08
+2023-12-29 00:12:00.021 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:12:00.023 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:00.026 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:00.027 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:00.028 +01:00 [DBG] TimeToRenew Coeff a=-4.6566128730773926E-09
+2023-12-29 00:12:00.029 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:00.913 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 682
+Parsing Duration (ms): 1
+
+2023-12-29 00:12:00.913 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:00.914 +01:00 [DBG] rerender finished
+2023-12-29 00:12:01.189 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 646
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:01.189 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:12:01.191 +01:00 [DBG] rerender finished
+2023-12-29 00:12:01.198 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.303
+2023-12-29 00:12:01.209 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:01.211 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:01.212 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:01.214 +01:00 [DBG] TimeToRenew Coeff a=6.51925802230835E-09
+2023-12-29 00:12:01.214 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:01.432 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-12-29 00:12:01.432 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:01.523 +01:00 [DBG] rerender finished
+2023-12-29 00:12:01.524 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=315.322
+2023-12-29 00:12:01.530 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.114
+2023-12-29 00:12:01.530 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.225
+2023-12-29 00:12:01.530 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.144
+2023-12-29 00:12:01.643 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.076
+2023-12-29 00:12:01.656 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.127
+2023-12-29 00:12:01.662 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:01.664 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:01.664 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:01.666 +01:00 [DBG] TimeToRenew Coeff a=1.3969838619232178E-08
+2023-12-29 00:12:01.667 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:01.921 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 47
+Parsing Duration (ms): 1
+
+2023-12-29 00:12:01.921 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:01.922 +01:00 [DBG] rerender finished
+2023-12-29 00:12:19.368 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:19.371 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:19.371 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:19.372 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:19.373 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:19.575 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:19.575 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:19.575 +01:00 [DBG] rerender finished
+2023-12-29 00:12:19.577 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:19.578 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:19.579 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:19.581 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:19.581 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:19.778 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:19.778 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:19.778 +01:00 [DBG] rerender finished
+2023-12-29 00:12:19.786 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:19.787 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:19.787 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:19.789 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:19.789 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:12:20.349 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:20.349 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:12:20.349 +01:00 [DBG] rerender finished
+2023-12-29 00:12:20.351 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:20.352 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:20.353 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:20.354 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:20.354 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:12:20.454 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:20.456 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:20.456 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:20.458 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:20.458 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:12:20.932 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:20.932 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:12:20.932 +01:00 [DBG] rerender finished
+2023-12-29 00:12:20.936 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:20.937 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:20.938 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:20.940 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:20.940 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:21.114 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:21.115 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:21.115 +01:00 [DBG] rerender finished
+2023-12-29 00:12:21.115 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:21.116 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:21.117 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:21.118 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:21.118 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:21.282 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:21.282 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:12:21.283 +01:00 [DBG] rerender finished
+2023-12-29 00:12:21.288 +01:00 [INF] Request Ip=::1 Url=/ Time=842.960
+2023-12-29 00:12:21.295 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.619
+2023-12-29 00:12:21.301 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.568
+2023-12-29 00:12:21.302 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.082
+2023-12-29 00:12:21.302 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.146
+2023-12-29 00:12:21.332 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:21.332 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:21.332 +01:00 [DBG] rerender finished
+2023-12-29 00:12:21.333 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:21.334 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=040.943
+2023-12-29 00:12:21.335 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:21.335 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:21.337 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:21.337 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:21.410 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.234
+2023-12-29 00:12:21.535 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:21.535 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:21.537 +01:00 [DBG] rerender finished
+2023-12-29 00:12:21.537 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=206.502
+2023-12-29 00:12:21.626 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.092
+2023-12-29 00:12:21.626 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.179
+2023-12-29 00:12:21.626 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=001.099
+2023-12-29 00:12:21.632 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.860
+2023-12-29 00:12:21.726 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.074
+2023-12-29 00:12:21.742 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.141
+2023-12-29 00:12:21.751 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:21.753 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:21.754 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:21.755 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:21.757 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:21.757 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:12:21.788 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:21.789 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:21.790 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:21.790 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:21.980 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:21.980 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:21.983 +01:00 [DBG] rerender finished
+2023-12-29 00:12:22.200 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:22.200 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:12:22.201 +01:00 [DBG] rerender finished
+2023-12-29 00:12:22.206 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.263
+2023-12-29 00:12:22.213 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:22.215 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:22.215 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:22.217 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:22.217 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:22.399 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:22.399 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:22.417 +01:00 [DBG] rerender finished
+2023-12-29 00:12:22.418 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=205.931
+2023-12-29 00:12:22.424 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.058
+2023-12-29 00:12:22.424 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.455
+2023-12-29 00:12:22.445 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.146
+2023-12-29 00:12:22.495 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.067
+2023-12-29 00:12:22.509 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.176
+2023-12-29 00:12:22.515 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:12:22.516 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:12:22.517 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:12:22.518 +01:00 [DBG] TimeToRenew Coeff a=1.30385160446167E-08
+2023-12-29 00:12:22.518 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:12:22.723 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:12:22.723 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:12:22.725 +01:00 [DBG] rerender finished
+2023-12-29 00:13:22.541 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=042.330
+2023-12-29 00:13:22.541 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=042.334
+2023-12-29 00:13:23.541 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:23.691 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:23.695 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:23.795 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:13:23.795 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:13:24.381 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 70
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:24.381 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:13:24.435 +01:00 [DBG] rerender finished
+2023-12-29 00:13:24.508 +01:00 [INF] Request Ip=::1 Url=/ Time=2041.609
+2023-12-29 00:13:24.529 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=005.280
+2023-12-29 00:13:24.529 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=012.771
+2023-12-29 00:13:24.530 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=004.832
+2023-12-29 00:13:24.546 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.758
+2023-12-29 00:13:24.550 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.442
+2023-12-29 00:13:24.595 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:24.681 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=017.354
+2023-12-29 00:13:24.702 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:24.703 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:24.707 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:24.707 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:24.731 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.475
+2023-12-29 00:13:24.802 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:24.805 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:24.806 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:24.808 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:13:24.808 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:13:24.951 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 2
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:24.952 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:24.955 +01:00 [DBG] rerender finished
+2023-12-29 00:13:24.960 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=378.960
+2023-12-29 00:13:24.967 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.310
+2023-12-29 00:13:24.967 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.222
+2023-12-29 00:13:25.005 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.201
+2023-12-29 00:13:25.070 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.218
+2023-12-29 00:13:25.090 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.239
+2023-12-29 00:13:25.110 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:25.113 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:25.114 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:25.121 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:25.121 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:25.298 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:25.298 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:25.300 +01:00 [DBG] rerender finished
+2023-12-29 00:13:25.461 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:25.461 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:13:25.463 +01:00 [DBG] rerender finished
+2023-12-29 00:13:25.473 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.257
+2023-12-29 00:13:25.480 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:25.482 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:25.483 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:25.486 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:25.486 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:25.690 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:25.690 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:25.692 +01:00 [DBG] rerender finished
+2023-12-29 00:13:25.693 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=216.103
+2023-12-29 00:13:25.700 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.124
+2023-12-29 00:13:25.700 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.245
+2023-12-29 00:13:25.700 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.202
+2023-12-29 00:13:25.772 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.116
+2023-12-29 00:13:25.785 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.206
+2023-12-29 00:13:25.793 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:25.795 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:25.795 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:25.797 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:25.797 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:25.996 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:25.996 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:25.999 +01:00 [DBG] rerender finished
+2023-12-29 00:13:28.111 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:28.113 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:28.113 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:28.115 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:13:28.115 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:13:29.070 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:29.070 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:13:29.072 +01:00 [DBG] rerender finished
+2023-12-29 00:13:29.074 +01:00 [INF] Request Ip=::1 Url=/ Time=968.757
+2023-12-29 00:13:29.080 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.170
+2023-12-29 00:13:29.082 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.232
+2023-12-29 00:13:29.089 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.270
+2023-12-29 00:13:29.091 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.329
+2023-12-29 00:13:29.091 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.222
+2023-12-29 00:13:29.115 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:29.118 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:29.118 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:29.120 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:29.120 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:29.190 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.124
+2023-12-29 00:13:29.336 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:29.336 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:29.338 +01:00 [DBG] rerender finished
+2023-12-29 00:13:29.339 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=224.730
+2023-12-29 00:13:29.398 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.136
+2023-12-29 00:13:29.398 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.207
+2023-12-29 00:13:29.398 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.208
+2023-12-29 00:13:29.404 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.247
+2023-12-29 00:13:29.493 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.118
+2023-12-29 00:13:29.504 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.158
+2023-12-29 00:13:29.508 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:29.510 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:29.510 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:29.513 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:13:29.513 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:13:29.516 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:29.519 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:29.520 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:29.521 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:29.521 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:29.711 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:29.711 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:29.713 +01:00 [DBG] rerender finished
+2023-12-29 00:13:30.049 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:30.049 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:13:30.051 +01:00 [DBG] rerender finished
+2023-12-29 00:13:30.060 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.345
+2023-12-29 00:13:30.067 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:30.068 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:30.069 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:30.070 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:30.070 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:30.280 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:30.281 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:30.282 +01:00 [DBG] rerender finished
+2023-12-29 00:13:30.283 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=217.431
+2023-12-29 00:13:30.290 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.129
+2023-12-29 00:13:30.290 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.209
+2023-12-29 00:13:30.290 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.120
+2023-12-29 00:13:30.373 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.096
+2023-12-29 00:13:30.386 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.163
+2023-12-29 00:13:30.398 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:13:30.400 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:13:30.401 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:13:30.402 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:13:30.402 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:13:30.621 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:13:30.621 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:13:30.623 +01:00 [DBG] rerender finished
+2023-12-29 00:14:03.950 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:03.952 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:03.952 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:03.957 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:03.957 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:04.880 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:04.881 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:04.881 +01:00 [DBG] rerender finished
+2023-12-29 00:14:04.885 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:04.886 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:04.886 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:04.887 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:04.887 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:05.333 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:05.333 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:05.333 +01:00 [DBG] rerender finished
+2023-12-29 00:14:05.340 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:05.342 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:05.342 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:05.344 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:05.344 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:05.548 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:05.548 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:05.548 +01:00 [DBG] rerender finished
+2023-12-29 00:14:05.549 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:05.550 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:05.551 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:05.557 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:05.557 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:05.783 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:05.783 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:05.783 +01:00 [DBG] rerender finished
+2023-12-29 00:14:07.872 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:07.874 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:07.875 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:07.877 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:07.877 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:08.454 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:08.454 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:08.455 +01:00 [DBG] rerender finished
+2023-12-29 00:14:08.460 +01:00 [INF] Request Ip=::1 Url=/ Time=604.611
+2023-12-29 00:14:08.470 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.373
+2023-12-29 00:14:08.471 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.029
+2023-12-29 00:14:08.484 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.631
+2023-12-29 00:14:08.501 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.112
+2023-12-29 00:14:08.510 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.302
+2023-12-29 00:14:08.540 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:08.542 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:08.543 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:08.545 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:08.545 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:08.625 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.053
+2023-12-29 00:14:08.694 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.191
+2023-12-29 00:14:08.742 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:08.742 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:08.744 +01:00 [DBG] rerender finished
+2023-12-29 00:14:08.745 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=206.396
+2023-12-29 00:14:08.767 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.186
+2023-12-29 00:14:08.767 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.044
+2023-12-29 00:14:08.772 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.173
+2023-12-29 00:14:08.999 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.112
+2023-12-29 00:14:09.010 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:09.012 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:09.013 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:09.015 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:09.015 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:09.027 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.171
+2023-12-29 00:14:09.036 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:09.039 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:09.040 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:09.043 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:09.043 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:09.239 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:09.239 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:09.266 +01:00 [DBG] rerender finished
+2023-12-29 00:14:09.556 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:09.556 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:09.654 +01:00 [DBG] rerender finished
+2023-12-29 00:14:09.662 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.301
+2023-12-29 00:14:09.671 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:09.673 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:09.674 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:09.676 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:09.676 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:09.881 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:09.881 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:09.883 +01:00 [DBG] rerender finished
+2023-12-29 00:14:09.884 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=213.669
+2023-12-29 00:14:09.891 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.216
+2023-12-29 00:14:09.892 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.113
+2023-12-29 00:14:09.892 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.138
+2023-12-29 00:14:09.979 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.088
+2023-12-29 00:14:09.993 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.175
+2023-12-29 00:14:09.999 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:10.001 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:10.002 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:10.003 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:10.004 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:10.204 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:10.204 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:10.206 +01:00 [DBG] rerender finished
+2023-12-29 00:14:15.430 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:15.431 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:15.431 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:15.432 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:15.433 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:15.982 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:15.982 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:15.983 +01:00 [DBG] rerender finished
+2023-12-29 00:14:15.986 +01:00 [INF] Request Ip=::1 Url=/ Time=559.618
+2023-12-29 00:14:15.991 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.165
+2023-12-29 00:14:15.992 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.390
+2023-12-29 00:14:16.000 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.182
+2023-12-29 00:14:16.001 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.107
+2023-12-29 00:14:16.002 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.251
+2023-12-29 00:14:16.033 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:16.035 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:16.035 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:16.037 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:16.037 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:16.106 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.076
+2023-12-29 00:14:16.224 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:16.224 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:16.226 +01:00 [DBG] rerender finished
+2023-12-29 00:14:16.226 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=194.401
+2023-12-29 00:14:16.322 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.189
+2023-12-29 00:14:16.322 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.262
+2023-12-29 00:14:16.322 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.324
+2023-12-29 00:14:16.329 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.145
+2023-12-29 00:14:16.413 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.128
+2023-12-29 00:14:16.430 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.117
+2023-12-29 00:14:16.433 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:16.436 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:16.437 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:16.440 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:14:16.440 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:14:16.445 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:16.447 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:16.447 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:16.449 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:16.449 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:16.643 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:16.643 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:16.644 +01:00 [DBG] rerender finished
+2023-12-29 00:14:17.030 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:17.030 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:14:17.031 +01:00 [DBG] rerender finished
+2023-12-29 00:14:17.040 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.301
+2023-12-29 00:14:17.049 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:17.052 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:17.052 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:17.054 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:17.055 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:17.264 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:17.264 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:17.265 +01:00 [DBG] rerender finished
+2023-12-29 00:14:17.266 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=217.886
+2023-12-29 00:14:17.272 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.191
+2023-12-29 00:14:17.273 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.074
+2023-12-29 00:14:17.274 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.150
+2023-12-29 00:14:17.348 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.064
+2023-12-29 00:14:17.361 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.105
+2023-12-29 00:14:17.367 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:14:17.370 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:14:17.370 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:14:17.372 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:14:17.372 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:14:17.579 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:14:17.579 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:14:17.580 +01:00 [DBG] rerender finished
+2023-12-29 00:26:31.498 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:26:31.526 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:26:31.527 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:26:31.533 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:26:31.533 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:26:32.118 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:26:32.118 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:26:32.118 +01:00 [DBG] rerender finished
+2023-12-29 00:26:32.120 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:26:32.122 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:26:32.122 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:26:32.123 +01:00 [DBG] TimeToRenew Coeff a=-1.1368683772161603E-13
+2023-12-29 00:26:32.124 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:26:32.718 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:26:32.718 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:26:32.718 +01:00 [DBG] rerender finished
+2023-12-29 00:26:32.722 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:26:32.723 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:26:32.724 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:26:32.725 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:26:32.725 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:26:32.977 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:26:32.977 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:26:32.977 +01:00 [DBG] rerender finished
+2023-12-29 00:26:32.979 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:26:32.980 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:26:32.980 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:26:32.982 +01:00 [DBG] TimeToRenew Coeff a=2.2737367544323206E-13
+2023-12-29 00:26:32.982 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:26:33.189 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:26:33.189 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:26:33.189 +01:00 [DBG] rerender finished
+2023-12-29 00:32:03.869 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:32:03.897 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:32:03.897 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:32:03.903 +01:00 [DBG] TimeToRenew Coeff a=-33.97964318963176
+2023-12-29 00:32:03.903 +01:00 [DBG] TimeToRenew t=29.01.2024 13:08:22
+2023-12-29 00:32:04.868 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:32:04.869 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:32:04.869 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:32:04.870 +01:00 [DBG] TimeToRenew Coeff a=11.410935937161003
+2023-12-29 00:32:04.870 +01:00 [DBG] TimeToRenew t=15.12.2023 03:45:58
+2023-12-29 00:32:05.079 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:32:05.079 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:32:05.079 +01:00 [DBG] rerender finished
+2023-12-29 00:32:05.081 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:32:05.082 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:32:05.083 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:32:05.084 +01:00 [DBG] TimeToRenew Coeff a=11.410935937161003
+2023-12-29 00:32:05.084 +01:00 [DBG] TimeToRenew t=15.12.2023 03:45:58
+2023-12-29 00:32:05.303 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:32:05.303 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:32:05.303 +01:00 [DBG] rerender finished
+2023-12-29 00:33:13.067 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:13.243 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:13.249 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:13.328 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:13.328 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:23
+2023-12-29 00:33:13.975 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 71
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:13.976 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:33:14.028 +01:00 [DBG] rerender finished
+2023-12-29 00:33:14.104 +01:00 [INF] Request Ip=::1 Url=/ Time=2072.354
+2023-12-29 00:33:14.132 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=003.827
+2023-12-29 00:33:14.132 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=017.214
+2023-12-29 00:33:14.134 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=006.101
+2023-12-29 00:33:14.157 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.686
+2023-12-29 00:33:14.166 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.334
+2023-12-29 00:33:14.217 +01:00 [INF] Request Ip=::1 Url=/static/js/embedHelper.js Time=000.282
+2023-12-29 00:33:14.241 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:14.297 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:14.298 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:14.300 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:14.300 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:25
+2023-12-29 00:33:14.379 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=003.279
+2023-12-29 00:33:14.390 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=004.830
+2023-12-29 00:33:14.541 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:14.541 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:33:14.545 +01:00 [DBG] rerender finished
+2023-12-29 00:33:14.551 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=330.793
+2023-12-29 00:33:14.559 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.222
+2023-12-29 00:33:14.560 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.253
+2023-12-29 00:33:14.591 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.237
+2023-12-29 00:33:14.591 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:14.595 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:14.596 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:14.597 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:14.597 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:23
+2023-12-29 00:33:14.696 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.217
+2023-12-29 00:33:14.730 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.313
+2023-12-29 00:33:14.740 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:14.743 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:14.743 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:14.745 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:14.745 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:25
+2023-12-29 00:33:14.918 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:14.919 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:33:14.921 +01:00 [DBG] rerender finished
+2023-12-29 00:33:15.844 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:15.844 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:33:15.873 +01:00 [DBG] rerender finished
+2023-12-29 00:33:15.883 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.421
+2023-12-29 00:33:15.890 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:15.893 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:15.894 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:15.895 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:15.895 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:25
+2023-12-29 00:33:16.107 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:16.107 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:33:16.112 +01:00 [DBG] rerender finished
+2023-12-29 00:33:16.113 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=225.091
+2023-12-29 00:33:16.119 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.273
+2023-12-29 00:33:16.120 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.111
+2023-12-29 00:33:16.120 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.466
+2023-12-29 00:33:16.226 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.124
+2023-12-29 00:33:16.245 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.267
+2023-12-29 00:33:16.264 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:33:16.266 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:33:16.267 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:33:16.268 +01:00 [DBG] TimeToRenew Coeff a=-0.11507282898071239
+2023-12-29 00:33:16.268 +01:00 [DBG] TimeToRenew t=26.12.2023 16:23:25
+2023-12-29 00:33:16.468 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:33:16.468 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:33:16.471 +01:00 [DBG] rerender finished
+2023-12-29 00:34:24.895 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:24.897 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:24.897 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:24.900 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:24.900 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:34:25.464 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:25.464 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:34:25.464 +01:00 [DBG] rerender finished
+2023-12-29 00:34:25.469 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:25.470 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:25.471 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:25.472 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:25.472 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:34:25.955 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:25.955 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:34:25.955 +01:00 [DBG] rerender finished
+2023-12-29 00:34:25.962 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:25.963 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:25.963 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:25.964 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:25.964 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:34:26.163 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:26.163 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:34:26.163 +01:00 [DBG] rerender finished
+2023-12-29 00:34:26.164 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:26.166 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:26.166 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:26.167 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:26.167 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:34:26.356 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:26.356 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:34:26.356 +01:00 [DBG] rerender finished
+2023-12-29 00:34:26.378 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:26.379 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:26.380 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:26.380 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:26.380 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:34:27.155 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:27.155 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:34:27.155 +01:00 [DBG] rerender finished
+2023-12-29 00:34:27.157 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:27.159 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:27.159 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:27.159 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:27.159 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:40
+2023-12-29 00:34:27.673 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:27.673 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:34:27.673 +01:00 [DBG] rerender finished
+2023-12-29 00:34:27.676 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:27.677 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:27.678 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:27.678 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:27.678 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:34:27.874 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:27.874 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:34:27.874 +01:00 [DBG] rerender finished
+2023-12-29 00:34:27.875 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:34:27.876 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:34:27.876 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:34:27.877 +01:00 [DBG] TimeToRenew Coeff a=0
+2023-12-29 00:34:27.877 +01:00 [DBG] TimeToRenew t=26.12.2023 13:37:42
+2023-12-29 00:34:28.090 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:01)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:34:28.090 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:34:28.091 +01:00 [DBG] rerender finished
+2023-12-29 00:35:04.803 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:35:04.804 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:35:04.804 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:35:04.806 +01:00 [DBG] TimeToRenew Coeff a=-59.40843601985781
+2023-12-29 00:35:04.807 +01:00 [DBG] TimeToRenew t=23.02.2024 23:25:49
+2023-12-29 00:35:05.713 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:35:05.714 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:35:05.715 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:35:05.719 +01:00 [DBG] TimeToRenew Coeff a=-59.40843601985781
+2023-12-29 00:35:05.719 +01:00 [DBG] TimeToRenew t=23.02.2024 23:25:51
+2023-12-29 00:35:06.903 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 964
+Parsing Duration (ms): 1
+
+2023-12-29 00:35:06.903 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:35:06.903 +01:00 [DBG] rerender finished
+2023-12-29 00:35:06.904 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:35:06.905 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:35:06.905 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:35:06.906 +01:00 [DBG] TimeToRenew Coeff a=-59.40843601985781
+2023-12-29 00:35:06.906 +01:00 [DBG] TimeToRenew t=23.02.2024 23:25:51
+2023-12-29 00:35:07.208 +01:00 [DBG] Status Type: success
+Response Status Code: OK
+Web Status: Success
+Message: 
+Request Duration (ms): 80
+Parsing Duration (ms): 1
+
+2023-12-29 00:35:07.208 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:35:07.208 +01:00 [DBG] rerender finished
+2023-12-29 00:36:24.550 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:24.551 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:24.552 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:24.553 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:24.553 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:24.766 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:24.766 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:24.766 +01:00 [DBG] rerender finished
+2023-12-29 00:36:24.767 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:24.768 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:24.769 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:24.769 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:24.769 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:24.950 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:24.950 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:24.950 +01:00 [DBG] rerender finished
+2023-12-29 00:36:29.166 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:29.168 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:29.169 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:29.170 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:29.170 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:32
+2023-12-29 00:36:31.089 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:31.089 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:36:31.090 +01:00 [DBG] rerender finished
+2023-12-29 00:36:31.095 +01:00 [INF] Request Ip=::1 Url=/ Time=1945.474
+2023-12-29 00:36:31.102 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.693
+2023-12-29 00:36:31.102 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.700
+2023-12-29 00:36:31.116 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=001.813
+2023-12-29 00:36:31.137 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.289
+2023-12-29 00:36:31.141 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.189
+2023-12-29 00:36:31.197 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:31.198 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:31.199 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:31.200 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:31.200 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:31.284 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=001.051
+2023-12-29 00:36:31.351 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.356
+2023-12-29 00:36:31.363 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:31.363 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:31.365 +01:00 [DBG] rerender finished
+2023-12-29 00:36:31.366 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=170.111
+2023-12-29 00:36:31.409 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.275
+2023-12-29 00:36:31.409 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.104
+2023-12-29 00:36:31.414 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.214
+2023-12-29 00:36:31.620 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.102
+2023-12-29 00:36:31.628 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:31.630 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:31.630 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:31.632 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:31.632 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:32
+2023-12-29 00:36:31.643 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.195
+2023-12-29 00:36:31.655 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:31.656 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:31.657 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:31.658 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:31.658 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:31.846 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:31.846 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:31.848 +01:00 [DBG] rerender finished
+2023-12-29 00:36:32.262 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:32.263 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:36:32.264 +01:00 [DBG] rerender finished
+2023-12-29 00:36:32.279 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.404
+2023-12-29 00:36:32.287 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:32.289 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:32.290 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:32.291 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:32.291 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:32.485 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:32.485 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:32.487 +01:00 [DBG] rerender finished
+2023-12-29 00:36:32.488 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=201.518
+2023-12-29 00:36:32.494 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.113
+2023-12-29 00:36:32.494 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.164
+2023-12-29 00:36:32.495 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.211
+2023-12-29 00:36:32.572 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.086
+2023-12-29 00:36:32.585 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.155
+2023-12-29 00:36:32.592 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:36:32.594 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:36:32.595 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:36:32.596 +01:00 [DBG] TimeToRenew Coeff a=59.40843601985781
+2023-12-29 00:36:32.596 +01:00 [DBG] TimeToRenew t=28.10.2023 03:49:34
+2023-12-29 00:36:32.811 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:36:32.811 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:36:32.813 +01:00 [DBG] rerender finished
+2023-12-29 00:38:20.493 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:20.522 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:20.523 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:20.525 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:20.525 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:21.096 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:21.096 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:21.096 +01:00 [DBG] rerender finished
+2023-12-29 00:38:21.099 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:21.100 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:21.100 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:21.101 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:21.101 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:21.663 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:21.663 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:21.663 +01:00 [DBG] rerender finished
+2023-12-29 00:38:21.666 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:21.668 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:21.668 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:21.669 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:21.670 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:21.884 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:21.884 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:21.884 +01:00 [DBG] rerender finished
+2023-12-29 00:38:21.886 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:21.887 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:21.888 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:21.889 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:21.889 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:22.100 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:22.100 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:22.100 +01:00 [DBG] rerender finished
+2023-12-29 00:38:25.866 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:25.867 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:25.868 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:25.869 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:25.869 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:26.446 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:26.446 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:26.448 +01:00 [DBG] rerender finished
+2023-12-29 00:38:26.453 +01:00 [INF] Request Ip=::1 Url=/ Time=601.068
+2023-12-29 00:38:26.463 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.553
+2023-12-29 00:38:26.464 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.116
+2023-12-29 00:38:26.473 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.303
+2023-12-29 00:38:26.492 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.098
+2023-12-29 00:38:26.500 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.185
+2023-12-29 00:38:26.528 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:26.530 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:26.530 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:26.531 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:26.531 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:26.607 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.181
+2023-12-29 00:38:26.669 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.220
+2023-12-29 00:38:26.723 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:26.723 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:26.725 +01:00 [DBG] rerender finished
+2023-12-29 00:38:26.726 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=198.130
+2023-12-29 00:38:26.743 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.205
+2023-12-29 00:38:26.743 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.113
+2023-12-29 00:38:26.748 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.213
+2023-12-29 00:38:26.946 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.074
+2023-12-29 00:38:26.953 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:26.955 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:26.955 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:26.957 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:26.957 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:26.967 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.151
+2023-12-29 00:38:26.973 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:26.975 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:26.975 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:26.976 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:26.976 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:27.162 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:27.162 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:27.164 +01:00 [DBG] rerender finished
+2023-12-29 00:38:27.578 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:27.578 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:27.580 +01:00 [DBG] rerender finished
+2023-12-29 00:38:27.588 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.264
+2023-12-29 00:38:27.594 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:27.596 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:27.596 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:27.597 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:27.597 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:27.789 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:27.789 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:27.791 +01:00 [DBG] rerender finished
+2023-12-29 00:38:27.791 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=198.145
+2023-12-29 00:38:27.800 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.105
+2023-12-29 00:38:27.800 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.132
+2023-12-29 00:38:27.800 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.239
+2023-12-29 00:38:27.889 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.085
+2023-12-29 00:38:27.902 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.165
+2023-12-29 00:38:27.908 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:27.910 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:27.911 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:27.912 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:27.912 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:28.109 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:28.109 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:28.110 +01:00 [DBG] rerender finished
+2023-12-29 00:38:31.981 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:31.982 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:31.983 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:31.984 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:31.984 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:32.536 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:32.536 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:32.537 +01:00 [DBG] rerender finished
+2023-12-29 00:38:32.539 +01:00 [INF] Request Ip=::1 Url=/ Time=561.197
+2023-12-29 00:38:32.544 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.146
+2023-12-29 00:38:32.545 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.118
+2023-12-29 00:38:32.554 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.231
+2023-12-29 00:38:32.556 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.111
+2023-12-29 00:38:32.556 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.139
+2023-12-29 00:38:32.582 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:32.584 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:32.584 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:32.585 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:32.585 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:32.656 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.075
+2023-12-29 00:38:32.778 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:32.778 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:32.780 +01:00 [DBG] rerender finished
+2023-12-29 00:38:32.781 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=199.693
+2023-12-29 00:38:32.868 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.298
+2023-12-29 00:38:32.868 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.045
+2023-12-29 00:38:32.870 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.186
+2023-12-29 00:38:32.874 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.143
+2023-12-29 00:38:32.957 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.127
+2023-12-29 00:38:32.973 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.133
+2023-12-29 00:38:32.977 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:32.979 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:32.980 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:32.981 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:32.981 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:38:32.988 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:32.990 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:32.991 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:32.992 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:32.992 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:33.177 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:33.177 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:33.179 +01:00 [DBG] rerender finished
+2023-12-29 00:38:33.596 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:33.596 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:38:33.597 +01:00 [DBG] rerender finished
+2023-12-29 00:38:33.623 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.269
+2023-12-29 00:38:33.630 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:33.631 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:33.632 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:33.633 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:33.633 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:33.834 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:33.834 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:33.836 +01:00 [DBG] rerender finished
+2023-12-29 00:38:33.836 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=207.458
+2023-12-29 00:38:33.842 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.194
+2023-12-29 00:38:33.842 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.131
+2023-12-29 00:38:33.842 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.087
+2023-12-29 00:38:33.914 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.065
+2023-12-29 00:38:33.929 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.121
+2023-12-29 00:38:33.942 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:38:33.943 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:38:33.944 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:38:33.944 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:38:33.944 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:38:34.149 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:38:34.149 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:38:34.150 +01:00 [DBG] rerender finished
+2023-12-29 00:41:29.969 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:41:29.970 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:41:29.971 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:41:29.973 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:41:29.973 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:41:30.563 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:41:30.563 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:41:30.563 +01:00 [DBG] rerender finished
+2023-12-29 00:41:30.566 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:41:30.568 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:41:30.568 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:41:30.569 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:41:30.569 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:41:31.142 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:41:31.142 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:41:31.142 +01:00 [DBG] rerender finished
+2023-12-29 00:41:31.146 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:41:31.147 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:41:31.148 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:41:31.149 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:41:31.149 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:41:31.358 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:41:31.358 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:41:31.358 +01:00 [DBG] rerender finished
+2023-12-29 00:41:31.359 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:41:31.361 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:41:31.361 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:41:31.362 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:41:31.362 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:41:31.578 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:41:31.578 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:41:31.578 +01:00 [DBG] rerender finished
+2023-12-29 00:44:01.578 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:01.581 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:01.582 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:01.583 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:01.583 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:44:02.195 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:02.195 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:44:02.197 +01:00 [DBG] rerender finished
+2023-12-29 00:44:02.201 +01:00 [INF] Request Ip=::1 Url=/ Time=664.230
+2023-12-29 00:44:02.209 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.339
+2023-12-29 00:44:02.210 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.041
+2023-12-29 00:44:02.218 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.397
+2023-12-29 00:44:02.234 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.066
+2023-12-29 00:44:02.240 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.153
+2023-12-29 00:44:02.264 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:02.266 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:02.266 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:02.267 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:02.267 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:44:02.343 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.164
+2023-12-29 00:44:02.402 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.154
+2023-12-29 00:44:02.469 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:02.471 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:02.471 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:02.472 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:02.472 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:44:02.534 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:02.534 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:44:02.536 +01:00 [DBG] rerender finished
+2023-12-29 00:44:02.537 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=273.317
+2023-12-29 00:44:02.544 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.213
+2023-12-29 00:44:02.546 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.057
+2023-12-29 00:44:02.579 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.249
+2023-12-29 00:44:02.676 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.062
+2023-12-29 00:44:02.688 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.089
+2023-12-29 00:44:02.693 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:02.695 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:02.695 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:02.696 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:02.696 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:44:02.892 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:02.892 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:44:02.899 +01:00 [DBG] rerender finished
+2023-12-29 00:44:03.102 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:03.102 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:44:03.103 +01:00 [DBG] rerender finished
+2023-12-29 00:44:03.109 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.263
+2023-12-29 00:44:03.115 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:03.117 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:03.118 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:03.119 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:03.119 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:44:03.313 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:03.313 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:44:03.321 +01:00 [DBG] rerender finished
+2023-12-29 00:44:03.321 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=206.876
+2023-12-29 00:44:03.328 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.032
+2023-12-29 00:44:03.328 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.216
+2023-12-29 00:44:03.345 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.115
+2023-12-29 00:44:03.405 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.061
+2023-12-29 00:44:03.419 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.119
+2023-12-29 00:44:03.425 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:44:03.427 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:44:03.428 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:44:03.429 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:44:03.429 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:44:03.635 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:44:03.635 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:44:03.642 +01:00 [DBG] rerender finished
+2023-12-29 00:46:10.572 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:10.574 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:10.574 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:10.576 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:10.576 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:10.576 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:11.181 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:11.181 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:11.181 +01:00 [DBG] rerender finished
+2023-12-29 00:46:11.184 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:11.185 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:11.185 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:11.186 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:11.186 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:11.186 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:11.689 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:11.689 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:11.689 +01:00 [DBG] rerender finished
+2023-12-29 00:46:11.692 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:11.694 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:11.694 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:11.695 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:11.695 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:11.695 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:11.925 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:11.927 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:11.928 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:11.929 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:11.929 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:11.929 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:11.933 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:11.933 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:11.933 +01:00 [DBG] rerender finished
+2023-12-29 00:46:11.934 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:11.936 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:11.936 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:11.937 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:11.937 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:11.937 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:12.115 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:12.115 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:12.115 +01:00 [DBG] rerender finished
+2023-12-29 00:46:12.416 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:12.416 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:12.418 +01:00 [DBG] rerender finished
+2023-12-29 00:46:12.422 +01:00 [INF] Request Ip=::1 Url=/ Time=508.107
+2023-12-29 00:46:12.429 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.618
+2023-12-29 00:46:12.431 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.376
+2023-12-29 00:46:12.440 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.161
+2023-12-29 00:46:12.463 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.108
+2023-12-29 00:46:12.467 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.173
+2023-12-29 00:46:12.498 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:12.500 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:12.500 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:12.501 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:12.501 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:12.501 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:12.584 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.177
+2023-12-29 00:46:12.657 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.154
+2023-12-29 00:46:12.670 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:12.670 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:12.672 +01:00 [DBG] rerender finished
+2023-12-29 00:46:12.673 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=176.768
+2023-12-29 00:46:12.681 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.141
+2023-12-29 00:46:12.681 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.048
+2023-12-29 00:46:12.853 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.163
+2023-12-29 00:46:12.886 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:12.888 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:12.888 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:12.889 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:12.889 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:12.889 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:12.955 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.080
+2023-12-29 00:46:12.971 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.142
+2023-12-29 00:46:12.983 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:12.985 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:12.986 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:12.987 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:12.987 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:12.987 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:13.192 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:13.192 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:13.193 +01:00 [DBG] rerender finished
+2023-12-29 00:46:13.529 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:13.530 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:13.531 +01:00 [DBG] rerender finished
+2023-12-29 00:46:13.536 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.267
+2023-12-29 00:46:13.544 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:13.546 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:13.547 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:13.548 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:13.548 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:13.548 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:13.738 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:13.738 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:13.739 +01:00 [DBG] rerender finished
+2023-12-29 00:46:13.740 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=196.941
+2023-12-29 00:46:13.750 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.217
+2023-12-29 00:46:13.750 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.066
+2023-12-29 00:46:13.751 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.175
+2023-12-29 00:46:13.828 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.065
+2023-12-29 00:46:13.836 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.093
+2023-12-29 00:46:13.842 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:13.844 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:13.845 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:13.846 +01:00 [DBG] Intercept 1
+2023-12-29 00:46:13.846 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:13.846 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:14.032 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:14.032 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:14.034 +01:00 [DBG] rerender finished
+2023-12-29 00:46:39.957 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:39.958 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:39.959 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:39.961 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:39.961 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:39.961 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:40.518 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:40.518 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:40.518 +01:00 [DBG] rerender finished
+2023-12-29 00:46:40.521 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:40.522 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:40.522 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:40.523 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:40.523 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:40.523 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:41.077 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:41.077 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:41.077 +01:00 [DBG] rerender finished
+2023-12-29 00:46:41.080 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:41.081 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:41.081 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:41.082 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:41.082 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:41.082 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:41.256 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:41.256 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:41.256 +01:00 [DBG] rerender finished
+2023-12-29 00:46:41.257 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:41.258 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:41.258 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:41.259 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:41.259 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:41.259 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:41.469 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:41.469 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:41.469 +01:00 [DBG] rerender finished
+2023-12-29 00:46:42.166 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:42.167 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:42.168 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:42.168 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:42.169 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:42.169 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:42.704 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:42.704 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:42.705 +01:00 [DBG] rerender finished
+2023-12-29 00:46:42.709 +01:00 [INF] Request Ip=::1 Url=/ Time=553.634
+2023-12-29 00:46:42.718 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.804
+2023-12-29 00:46:42.719 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.626
+2023-12-29 00:46:42.724 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.135
+2023-12-29 00:46:42.726 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.096
+2023-12-29 00:46:42.726 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.243
+2023-12-29 00:46:42.761 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:42.763 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:42.764 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:42.765 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:42.765 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:42.765 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:42.852 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.158
+2023-12-29 00:46:42.895 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.173
+2023-12-29 00:46:42.922 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:42.923 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:42.924 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:42.925 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:42.925 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:42.925 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 00:46:42.944 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:42.944 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:42.946 +01:00 [DBG] rerender finished
+2023-12-29 00:46:42.947 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=186.432
+2023-12-29 00:46:42.953 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.074
+2023-12-29 00:46:42.954 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.106
+2023-12-29 00:46:42.954 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.171
+2023-12-29 00:46:43.036 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.067
+2023-12-29 00:46:43.051 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.214
+2023-12-29 00:46:43.061 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:43.064 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:43.065 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:43.066 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:43.066 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:43.066 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:43.254 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:43.254 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:43.256 +01:00 [DBG] rerender finished
+2023-12-29 00:46:43.532 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:43.532 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 00:46:43.533 +01:00 [DBG] rerender finished
+2023-12-29 00:46:43.538 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.218
+2023-12-29 00:46:43.548 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:43.549 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:43.550 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:43.551 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:43.551 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:43.551 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:43.761 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:43.761 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:43.762 +01:00 [DBG] rerender finished
+2023-12-29 00:46:43.763 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=215.974
+2023-12-29 00:46:43.769 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.140
+2023-12-29 00:46:43.769 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.042
+2023-12-29 00:46:43.791 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.115
+2023-12-29 00:46:43.842 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.065
+2023-12-29 00:46:43.856 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.099
+2023-12-29 00:46:43.863 +01:00 [DBG] RerenderEmbed called
+2023-12-29 00:46:43.865 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 00:46:43.865 +01:00 [DBG] NoRecentChange: false
+2023-12-29 00:46:43.866 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 00:46:43.866 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 00:46:43.866 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 00:46:44.062 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 00:46:44.062 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 00:46:44.084 +01:00 [DBG] rerender finished
+2023-12-29 01:00:46.529 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:46.559 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:46.559 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:46.562 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:46.575 +01:00 [DBG] Decision false
+2023-12-29 01:00:46.575 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:46.575 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:00:47.252 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:47.252 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:00:47.252 +01:00 [DBG] rerender finished
+2023-12-29 01:00:47.254 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:47.256 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:47.256 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:47.257 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:47.257 +01:00 [DBG] Decision false
+2023-12-29 01:00:47.257 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:47.257 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:00:47.838 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:47.838 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:00:47.838 +01:00 [DBG] rerender finished
+2023-12-29 01:00:47.841 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:47.843 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:47.843 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:47.844 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:47.844 +01:00 [DBG] Decision false
+2023-12-29 01:00:47.844 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:47.844 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:48.057 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:48.057 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:48.057 +01:00 [DBG] rerender finished
+2023-12-29 01:00:48.059 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:48.060 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:48.061 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:48.062 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:48.062 +01:00 [DBG] Decision false
+2023-12-29 01:00:48.062 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:48.062 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:48.303 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:48.304 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:48.304 +01:00 [DBG] rerender finished
+2023-12-29 01:00:50.956 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:50.958 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:50.959 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:50.960 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:50.960 +01:00 [DBG] Decision false
+2023-12-29 01:00:50.960 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:50.960 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:00:51.600 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:51.600 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:00:51.602 +01:00 [DBG] rerender finished
+2023-12-29 01:00:51.606 +01:00 [INF] Request Ip=::1 Url=/ Time=662.171
+2023-12-29 01:00:51.615 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.364
+2023-12-29 01:00:51.616 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.433
+2023-12-29 01:00:51.625 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.194
+2023-12-29 01:00:51.645 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.060
+2023-12-29 01:00:51.653 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.151
+2023-12-29 01:00:51.657 +01:00 [INF] Request Ip=::1 Url=/static/js/baseDomManagement.js Time=000.127
+2023-12-29 01:00:51.680 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:51.682 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:51.683 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:51.683 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:51.684 +01:00 [DBG] Decision false
+2023-12-29 01:00:51.684 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:51.684 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:51.762 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.158
+2023-12-29 01:00:51.892 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:51.892 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:51.893 +01:00 [DBG] rerender finished
+2023-12-29 01:00:51.894 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=214.352
+2023-12-29 01:00:51.983 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.157
+2023-12-29 01:00:51.983 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.077
+2023-12-29 01:00:51.987 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.152
+2023-12-29 01:00:51.991 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.130
+2023-12-29 01:00:52.143 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.061
+2023-12-29 01:00:52.165 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.121
+2023-12-29 01:00:52.170 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:52.171 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:52.172 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:52.173 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:52.174 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:52.174 +01:00 [DBG] Decision false
+2023-12-29 01:00:52.174 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:52.174 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:00:52.201 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:52.202 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:52.203 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:52.203 +01:00 [DBG] Decision false
+2023-12-29 01:00:52.203 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:52.203 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:52.381 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:52.381 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:52.383 +01:00 [DBG] rerender finished
+2023-12-29 01:00:52.708 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:52.708 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:00:52.710 +01:00 [DBG] rerender finished
+2023-12-29 01:00:52.726 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.262
+2023-12-29 01:00:52.734 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:52.737 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:52.738 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:52.739 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:52.739 +01:00 [DBG] Decision false
+2023-12-29 01:00:52.739 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:52.739 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:52.956 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 2
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:52.956 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:52.957 +01:00 [DBG] rerender finished
+2023-12-29 01:00:52.958 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=225.155
+2023-12-29 01:00:52.964 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.135
+2023-12-29 01:00:52.964 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.059
+2023-12-29 01:00:52.965 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.095
+2023-12-29 01:00:53.035 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.062
+2023-12-29 01:00:53.047 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.105
+2023-12-29 01:00:53.054 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:00:53.055 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:00:53.056 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:00:53.057 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:00:53.057 +01:00 [DBG] Decision false
+2023-12-29 01:00:53.057 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:00:53.057 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:00:53.278 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:00:53.278 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:00:53.280 +01:00 [DBG] rerender finished
+2023-12-29 01:01:21.452 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:21.454 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:21.454 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:21.456 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:21.456 +01:00 [DBG] Decision false
+2023-12-29 01:01:21.456 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:21.456 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:01:22.079 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:22.079 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:01:22.079 +01:00 [DBG] rerender finished
+2023-12-29 01:01:22.082 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:22.083 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:22.083 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:22.084 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:22.084 +01:00 [DBG] Decision false
+2023-12-29 01:01:22.084 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:22.084 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:01:22.713 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:22.713 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:01:22.713 +01:00 [DBG] rerender finished
+2023-12-29 01:01:22.718 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:22.719 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:22.720 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:22.721 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:22.721 +01:00 [DBG] Decision false
+2023-12-29 01:01:22.721 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:22.721 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:22.910 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:22.910 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:22.910 +01:00 [DBG] rerender finished
+2023-12-29 01:01:22.911 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:22.912 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:22.913 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:22.913 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:22.913 +01:00 [DBG] Decision false
+2023-12-29 01:01:22.913 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:22.913 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:23.132 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:23.132 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:23.132 +01:00 [DBG] rerender finished
+2023-12-29 01:01:33.110 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:33.111 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:33.112 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:33.113 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:33.113 +01:00 [DBG] Decision false
+2023-12-29 01:01:33.113 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:33.113 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:01:33.679 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:33.679 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:01:33.680 +01:00 [DBG] rerender finished
+2023-12-29 01:01:33.685 +01:00 [INF] Request Ip=::1 Url=/ Time=587.379
+2023-12-29 01:01:33.691 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.416
+2023-12-29 01:01:33.693 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.436
+2023-12-29 01:01:33.701 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.155
+2023-12-29 01:01:33.721 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.084
+2023-12-29 01:01:33.724 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.127
+2023-12-29 01:01:33.754 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:33.756 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:33.756 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:33.757 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:33.757 +01:00 [DBG] Decision false
+2023-12-29 01:01:33.757 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:33.757 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:33.832 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.163
+2023-12-29 01:01:33.897 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.147
+2023-12-29 01:01:33.924 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:33.925 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:33.926 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:33.927 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:33.927 +01:00 [DBG] Decision false
+2023-12-29 01:01:33.927 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:33.927 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:01:33.976 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:33.976 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:33.978 +01:00 [DBG] rerender finished
+2023-12-29 01:01:33.979 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=225.573
+2023-12-29 01:01:33.986 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.130
+2023-12-29 01:01:33.987 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.042
+2023-12-29 01:01:34.084 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.156
+2023-12-29 01:01:34.178 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.068
+2023-12-29 01:01:34.195 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.103
+2023-12-29 01:01:34.206 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:34.208 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:34.208 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:34.209 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:34.209 +01:00 [DBG] Decision false
+2023-12-29 01:01:34.209 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:34.209 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:34.404 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:34.404 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:34.406 +01:00 [DBG] rerender finished
+2023-12-29 01:01:34.605 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:34.605 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:01:34.607 +01:00 [DBG] rerender finished
+2023-12-29 01:01:34.612 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.242
+2023-12-29 01:01:34.621 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:34.623 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:34.623 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:34.624 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:34.624 +01:00 [DBG] Decision false
+2023-12-29 01:01:34.624 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:34.624 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:34.824 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:34.824 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:34.825 +01:00 [DBG] rerender finished
+2023-12-29 01:01:34.826 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=205.418
+2023-12-29 01:01:34.833 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.158
+2023-12-29 01:01:34.833 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.069
+2023-12-29 01:01:34.851 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.137
+2023-12-29 01:01:34.911 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.060
+2023-12-29 01:01:34.925 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.101
+2023-12-29 01:01:34.930 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:01:34.932 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:01:34.932 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:01:34.933 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:01:34.933 +01:00 [DBG] Decision false
+2023-12-29 01:01:34.933 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:01:34.933 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:01:35.139 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:01:35.139 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:01:35.141 +01:00 [DBG] rerender finished
+2023-12-29 01:02:30.984 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:30.985 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:30.986 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:30.988 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:30.993 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:30.994 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:30.995 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:30.996 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:30.998 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Index was outside the bounds of the array.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Index was outside the bounds of the array.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Embyte.Modules.Db.CacheAlg.GetPolyfittedSecondCoefficient(IQueryable`1 entries, Double timeStart)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 01:02:35.121 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:35.123 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:35.124 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:35.125 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:35.157 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.315
+2023-12-29 01:02:35.160 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=002.635
+2023-12-29 01:02:41.736 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:41.738 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:41.738 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:41.740 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:41.740 +01:00 [DBG] Decision true
+2023-12-29 01:02:41.741 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:41.741 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:02:42.316 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:42.316 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:42.317 +01:00 [DBG] rerender finished
+2023-12-29 01:02:42.322 +01:00 [INF] Request Ip=::1 Url=/ Time=592.053
+2023-12-29 01:02:42.335 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.243
+2023-12-29 01:02:42.353 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.037
+2023-12-29 01:02:42.356 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.134
+2023-12-29 01:02:42.387 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:42.388 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:42.389 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:42.390 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:42.390 +01:00 [DBG] Decision true
+2023-12-29 01:02:42.390 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:42.390 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:42.466 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.175
+2023-12-29 01:02:42.538 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=001.198
+2023-12-29 01:02:42.561 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:42.562 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:42.563 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:42.563 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:42.563 +01:00 [DBG] Decision true
+2023-12-29 01:02:42.563 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:42.563 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:02:42.583 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:42.583 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:42.653 +01:00 [DBG] rerender finished
+2023-12-29 01:02:42.654 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=268.217
+2023-12-29 01:02:42.664 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.156
+2023-12-29 01:02:42.664 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.071
+2023-12-29 01:02:42.722 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.147
+2023-12-29 01:02:42.815 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.070
+2023-12-29 01:02:42.833 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.118
+2023-12-29 01:02:42.843 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:42.845 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:42.846 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:42.847 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:42.847 +01:00 [DBG] Decision true
+2023-12-29 01:02:42.847 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:42.847 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:43.043 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:43.043 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:43.045 +01:00 [DBG] rerender finished
+2023-12-29 01:02:43.155 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:43.155 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:43.156 +01:00 [DBG] rerender finished
+2023-12-29 01:02:43.161 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.194
+2023-12-29 01:02:43.168 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:43.170 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:43.170 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:43.171 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:43.171 +01:00 [DBG] Decision true
+2023-12-29 01:02:43.171 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:43.171 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:43.400 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:43.400 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:43.402 +01:00 [DBG] rerender finished
+2023-12-29 01:02:43.402 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=235.005
+2023-12-29 01:02:43.409 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.149
+2023-12-29 01:02:43.409 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.070
+2023-12-29 01:02:43.425 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.108
+2023-12-29 01:02:43.494 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.061
+2023-12-29 01:02:43.505 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.112
+2023-12-29 01:02:43.511 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:43.512 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:43.513 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:43.513 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:43.513 +01:00 [DBG] Decision true
+2023-12-29 01:02:43.513 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:43.513 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:43.717 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:43.717 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:43.719 +01:00 [DBG] rerender finished
+2023-12-29 01:02:43.948 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:43.950 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:43.950 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:43.951 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:43.951 +01:00 [DBG] Decision true
+2023-12-29 01:02:43.951 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:43.951 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:02:44.516 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:44.516 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:44.517 +01:00 [DBG] rerender finished
+2023-12-29 01:02:44.519 +01:00 [INF] Request Ip=::1 Url=/ Time=573.718
+2023-12-29 01:02:44.525 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.085
+2023-12-29 01:02:44.525 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.368
+2023-12-29 01:02:44.533 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.234
+2023-12-29 01:02:44.534 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.099
+2023-12-29 01:02:44.534 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.100
+2023-12-29 01:02:44.567 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:44.569 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:44.569 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:44.571 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:44.571 +01:00 [DBG] Decision true
+2023-12-29 01:02:44.571 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:44.571 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:44.639 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.068
+2023-12-29 01:02:44.761 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:44.761 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:44.762 +01:00 [DBG] rerender finished
+2023-12-29 01:02:44.763 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=196.861
+2023-12-29 01:02:44.863 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.143
+2023-12-29 01:02:44.863 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.098
+2023-12-29 01:02:44.863 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.115
+2023-12-29 01:02:44.870 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.131
+2023-12-29 01:02:44.957 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.121
+2023-12-29 01:02:44.975 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:44.976 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:44.976 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:44.978 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:44.978 +01:00 [DBG] Decision true
+2023-12-29 01:02:44.978 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:44.978 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:42
+2023-12-29 01:02:44.982 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.131
+2023-12-29 01:02:44.992 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:44.994 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:44.995 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:44.996 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:44.996 +01:00 [DBG] Decision true
+2023-12-29 01:02:44.996 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:44.996 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:45.192 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:45.192 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:45.255 +01:00 [DBG] rerender finished
+2023-12-29 01:02:46.346 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:46.347 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:46.348 +01:00 [DBG] rerender finished
+2023-12-29 01:02:46.354 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.200
+2023-12-29 01:02:46.360 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:46.363 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:46.363 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:46.364 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:46.364 +01:00 [DBG] Decision true
+2023-12-29 01:02:46.364 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:46.364 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:46.559 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:46.559 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:46.560 +01:00 [DBG] rerender finished
+2023-12-29 01:02:46.561 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=201.762
+2023-12-29 01:02:46.568 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.141
+2023-12-29 01:02:46.568 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.096
+2023-12-29 01:02:46.568 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.121
+2023-12-29 01:02:46.648 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.085
+2023-12-29 01:02:46.666 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.121
+2023-12-29 01:02:46.679 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:46.680 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:46.681 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:46.682 +01:00 [DBG] Intercept -2.83888333930935
+2023-12-29 01:02:46.682 +01:00 [DBG] Decision true
+2023-12-29 01:02:46.682 +01:00 [DBG] TimeToRenew Coeff a=6.393730410269782
+2023-12-29 01:02:46.682 +01:00 [DBG] TimeToRenew t=20.12.2023 04:10:44
+2023-12-29 01:02:46.895 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:46.895 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:46.897 +01:00 [DBG] rerender finished
+2023-12-29 01:02:56.857 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:56.858 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:56.859 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:56.861 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:56.861 +01:00 [DBG] Decision true
+2023-12-29 01:02:56.861 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:56.861 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:02:57.452 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:57.453 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:57.453 +01:00 [DBG] rerender finished
+2023-12-29 01:02:57.455 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:57.456 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:57.456 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:57.457 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:57.457 +01:00 [DBG] Decision true
+2023-12-29 01:02:57.457 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:57.457 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:02:57.509 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:57.511 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:57.511 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:57.512 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:57.512 +01:00 [DBG] Decision true
+2023-12-29 01:02:57.512 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:57.512 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:02:58.087 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.087 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:58.087 +01:00 [DBG] rerender finished
+2023-12-29 01:02:58.090 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:58.091 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:58.091 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:58.092 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:58.092 +01:00 [DBG] Decision true
+2023-12-29 01:02:58.092 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:58.092 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:58.153 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.153 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:58.154 +01:00 [DBG] rerender finished
+2023-12-29 01:02:58.159 +01:00 [INF] Request Ip=::1 Url=/ Time=656.236
+2023-12-29 01:02:58.165 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=001.365
+2023-12-29 01:02:58.173 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.158
+2023-12-29 01:02:58.174 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.131
+2023-12-29 01:02:58.174 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.167
+2023-12-29 01:02:58.201 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:58.203 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:58.204 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:58.205 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:58.205 +01:00 [DBG] Decision true
+2023-12-29 01:02:58.205 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:58.205 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:58.279 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.279 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.126
+2023-12-29 01:02:58.279 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:58.279 +01:00 [DBG] rerender finished
+2023-12-29 01:02:58.280 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:58.282 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:58.282 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:58.283 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:58.283 +01:00 [DBG] Decision true
+2023-12-29 01:02:58.283 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:58.283 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:58.410 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.410 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:58.412 +01:00 [DBG] rerender finished
+2023-12-29 01:02:58.412 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=212.297
+2023-12-29 01:02:58.475 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 0
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.475 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:58.475 +01:00 [DBG] rerender finished
+2023-12-29 01:02:58.477 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=312.981
+2023-12-29 01:02:58.496 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.137
+2023-12-29 01:02:58.498 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=001.482
+2023-12-29 01:02:58.498 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.850
+2023-12-29 01:02:58.503 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.102
+2023-12-29 01:02:58.596 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.888
+2023-12-29 01:02:58.606 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.102
+2023-12-29 01:02:58.616 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:58.617 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:58.618 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:58.619 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:58.619 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:58.619 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:58.620 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:58.620 +01:00 [DBG] Decision true
+2023-12-29 01:02:58.620 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:58.620 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:52
+2023-12-29 01:02:58.621 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:58.621 +01:00 [DBG] Decision true
+2023-12-29 01:02:58.621 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:58.621 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:58.844 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:58.844 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:58.846 +01:00 [DBG] rerender finished
+2023-12-29 01:02:59.205 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:12:00)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:59.205 +01:00 [DBG] Title: Picture of the Day | Astronomy.com
+2023-12-29 01:02:59.206 +01:00 [DBG] rerender finished
+2023-12-29 01:02:59.221 +01:00 [INF] Request Ip=::1 Url=/_blazor/disconnect Time=000.243
+2023-12-29 01:02:59.228 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:59.231 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:59.231 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:59.232 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:59.232 +01:00 [DBG] Decision true
+2023-12-29 01:02:59.232 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:59.232 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:59.422 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:59.422 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:59.423 +01:00 [DBG] rerender finished
+2023-12-29 01:02:59.424 +01:00 [INF] Request Ip=::1 Url=/embed/ Time=197.293
+2023-12-29 01:02:59.431 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.css Time=000.169
+2023-12-29 01:02:59.432 +01:00 [INF] Request Ip=::1 Url=/_framework/blazor.server.js Time=000.041
+2023-12-29 01:02:59.432 +01:00 [INF] Request Ip=::1 Url=/_content/MudBlazor/MudBlazor.min.js Time=000.133
+2023-12-29 01:02:59.510 +01:00 [INF] Request Ip=::1 Url=/_blazor/initializers Time=000.053
+2023-12-29 01:02:59.528 +01:00 [INF] Request Ip=::1 Url=/_blazor/negotiate Time=000.099
+2023-12-29 01:02:59.541 +01:00 [DBG] RerenderEmbed called
+2023-12-29 01:02:59.542 +01:00 [DBG] TooFewDataPoints: false
+2023-12-29 01:02:59.543 +01:00 [DBG] NoRecentChange: false
+2023-12-29 01:02:59.544 +01:00 [DBG] Intercept -2.673379620893601
+2023-12-29 01:02:59.544 +01:00 [DBG] Decision true
+2023-12-29 01:02:59.544 +01:00 [DBG] TimeToRenew Coeff a=5.940843601985781
+2023-12-29 01:02:59.544 +01:00 [DBG] TimeToRenew t=20.12.2023 15:02:54
+2023-12-29 01:02:59.744 +01:00 [DBG] Status Type: cacheSuccess
+Response Status Code: OK
+Web Status: Success
+Message: From Cache (29.12.2023 00:35:06)
+Request Duration (ms): 1
+Parsing Duration (ms): 0
+
+2023-12-29 01:02:59.744 +01:00 [DBG] Title: DavideWiest - Overview
+2023-12-29 01:02:59.746 +01:00 [DBG] rerender finished

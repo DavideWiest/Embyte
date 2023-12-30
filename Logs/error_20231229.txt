@@ -1,0 +1,75 @@
+2023-12-29 00:00:19.053 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 92
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 26
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:00:19.628 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 92
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Db\CacheAlg.cs:line 26
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Modules\Product\WebsiteInfoGetter.cs:line 33
+   at Embyte.Shared.Product.Embed.RerenderEmbed() in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 144
+   at Embyte.Shared.Product.Embed.set_Url(String value) in C:\Users\DavWi\OneDrive\Desktop\ProjektArchiv\Embyte\Shared\Product\Embed.razor:line 113
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:09:00.449 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 00:09:00.449 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: polyfittedSecondCoefficient must be positive
+ ---> System.ArgumentException: polyfittedSecondCoefficient must be positive
+   at Embyte.Modules.Db.CacheAlg.CalculateTimeToRenewFromPolyfittedArguments(Double ratioImportanceHitMiss, Double polyfittedSecondCoefficient)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-29 01:02:30.998 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Index was outside the bounds of the array.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Index was outside the bounds of the array.
+ ---> System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at Embyte.Modules.Db.CacheAlg.GetPolyfittedSecondCoefficient(IQueryable`1 entries, Double timeStart)
+   at Embyte.Modules.Db.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
