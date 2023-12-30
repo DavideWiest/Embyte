@@ -1,0 +1,16 @@
+2023-12-30 15:18:33.102 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Not a legal OleAut date.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Not a legal OleAut date.
+ ---> System.ArgumentException: Not a legal OleAut date.
+   at System.DateTime.DoubleDateToTicks(Double value)
+   at System.DateTime.FromOADate(Double d)
+   at Embyte.Modules.Product.CacheAlg.TimeToRenew(String url, IQueryable`1 entriesGeneral)
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)

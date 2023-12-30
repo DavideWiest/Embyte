@@ -1,4 +1,6 @@
 ﻿namespace Embyte.Modules.Product;
+
+using Accord.Math;
 using Accord.Statistics.Models.Regression;
 using Accord.Statistics.Models.Regression.Fitting;
 using Embyte.Modules.Logging;
@@ -18,13 +20,11 @@ public static class CacheAlg
         )
             return DateTime.MinValue;
 
-        var entriesForPolyfitting = entriesSpecific.Count() > 10 ? entriesSpecific : entriesGeneral;
+        double lowerLimitHours = 0.1;
 
-        var timeStart = entriesForPolyfitting
-            .OrderByInDb("Time", false)
-            .First().Time.ToOADate();
-        var coeff = GetPolyfittedSecondCoefficient(entriesForPolyfitting, timeStart);
-        var t = DateTime.FromOADate(timeStart + CalculateTimeToRenewFromPolyfittedArguments(0.1, coeff));
+        var (timeStart, entriesForFitting) = ChooseEntries(entriesGeneral, entriesSpecific, lowerLimitHours);
+        double coeff = GetPolyfittedSecondCoefficient(entriesForFitting, timeStart, lowerLimitHours);
+        var t = timeStart.Add(TimeSpan.FromHours(CalculateTimeToRenewFromPolyfittedArguments(0.1, coeff)));
 
         Log.Debug("TimeToRenew Coeff a={coeff}", coeff);
         Log.Debug("TimeToRenew t={t}", t.ToString());
@@ -58,17 +58,39 @@ public static class CacheAlg
         return cond;
     }
 
-    public static double GetPolyfittedSecondCoefficient(IQueryable<RequestEntry> entries, double timeStart)
+    public static double GetPolyfittedSecondCoefficient(IQueryable<RequestEntry> entries, DateTime timeStart, double lowerLimitHours)
     {
-        double[] time = entries.Select(e => e.Time.ToOADate() - timeStart).ToArray();
-        bool[] booleanData = entries.Select(e => e.DataChanged).ToArray();
-        
-        Log.Debug(string.Join(", ", time.ToList()));
-        Log.Debug(string.Join(", ", booleanData));
+        double[] time = entries.Select(e => e.Time.Subtract(timeStart).TotalHours).ToArray();
+        // The exponential function will be fitted to the probability of data not having changed over time, because
+        // it is the one declining over time. Hence the negation
+        bool[] booleanData = entries.Select(e => !e.DataChanged).ToArray();
+        double[] timeDeltas = timeDeltasOfEntries(entries);
 
-        double a = new ExponentialFitter(100, 0.1).GetCoefficientForCacheData(booleanData, time);
+        booleanData = booleanData.Skip(1).ToArray();
+        booleanData = booleanData.Where((b, i) => timeDeltas[i] > lowerLimitHours).ToArray();
+        timeDeltas = timeDeltas.Where(t => t > lowerLimitHours).ToArray();
+        double a = new ExponentialFitter(100, 0.5).GetCoefficientForCacheData(booleanData, timeDeltas, out double mse, 0.00001);
 
         return a;
+    }
+
+    public static Tuple<DateTime, IQueryable<RequestEntry>> ChooseEntries(IQueryable<RequestEntry> entriesSpecific, IQueryable<RequestEntry> entriesGeneral, double lowerLimitHours)
+    {
+        double[] timeDeltasSpecific = timeDeltasOfEntries(entriesSpecific);
+        double[] timeDeltasGeneral = timeDeltasOfEntries(entriesGeneral);
+
+        IQueryable<RequestEntry> entries = timeDeltasSpecific.Where(t => t > lowerLimitHours).Count() >= 8 ? entriesSpecific : entriesGeneral;
+        DateTime timeStart = entries
+            .OrderByInDb("Time", false)
+            .First().Time;
+
+        return Tuple.Create(timeStart, entries);
+    }
+
+    public static double[] timeDeltasOfEntries(IQueryable<RequestEntry> entries)
+    {
+        DateTime[] time = entries.Select(e => e.Time).ToArray();
+        return time.Skip(1).Select((t, i) => t.Subtract(time[i]).TotalHours).ToArray();
     }
 
     public static double CalculateTimeToRenewFromPolyfittedArguments(double ratioImportanceHitMiss, double fittedSecondCoefficient)

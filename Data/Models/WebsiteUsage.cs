@@ -12,7 +12,7 @@ public class WebsiteUsage
 
     [Required]
     [StringLength(450)]
-    public string Url { get; set; }
+    public string Url { get; set; } = default!;
 
     [Required]
     public int RequestCount { get; set; }

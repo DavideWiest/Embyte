@@ -30,7 +30,7 @@ public class WebsiteInfoGetter
 
         var (cachedInfo, status) = GetFromCache(url, prevEntry);
 
-        if (CacheAlg.TimeToRenew(url, DbCtx.ExtractorEntries) < DateTime.Now)
+        if (CacheAlg.TimeToRenew(url, DbCtx.ExtractorEntries) > DateTime.Now)
         {
             if (cachedInfo != null)
                 return Tuple.Create(cachedInfo, status);
