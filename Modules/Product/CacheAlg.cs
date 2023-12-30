@@ -16,11 +16,12 @@ public static class CacheAlg
         if (TooRecent(entriesSpecific))
             return DateTime.MaxValue;
 
+        double ratioImportanceHitMiss = 0.1;
         double lowerLimitHours = 0.1;
 
         var (timeStart, entriesForFitting) = ChooseEntries(entriesGeneral, entriesSpecific, lowerLimitHours);
         double coeff = GetPolyfittedSecondCoefficient(entriesForFitting, timeStart, lowerLimitHours);
-        var t = timeStart.Add(TimeSpan.FromHours(CalculateTimeToRenewFromPolyfittedArguments(0.1, coeff)));
+        var t = timeStart.Add(TimeSpan.FromHours(CalculateTimeToRenewFromPolyfittedArguments(ratioImportanceHitMiss, coeff)));
 
         Log.Debug("TimeToRenew Coeff a={coeff}", coeff);
         Log.Debug("TimeToRenew t={t}", t.ToString());
