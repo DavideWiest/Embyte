@@ -10,4 +10,5 @@ public static class EmbyteStorage
     public static string DefaultUrl { get; } = "https://www.astronomy.com/picture-of-the-day/";
     public static List<string> DefaultUrlList { get; } = new List<string> { "https://www.astronomy.com/picture-of-the-day/", "https://github.com", "https://embyte.davidewiest.com", "https://wikipedia.com", "https://nav.al" };
     public static string DefaultUrl2 { get; } = "https://github.com/DavideWiest";
+    public static int upperLimitCacheAgeMonths = 2;
 }

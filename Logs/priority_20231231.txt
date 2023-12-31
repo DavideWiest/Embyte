@@ -1,0 +1,93 @@
+2023-12-31 16:15:41.274 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:21:33.472 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:21:33.472 +01:00 [ERR] Error message: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ Traceback: System.InvalidOperationException: Unable to set property 'Url' on object of type 'Embyte.Shared.Product.Embed'. The error was: Attempted to access a missing method.
+ ---> System.MissingMethodException: Attempted to access a missing method.
+   at Embyte.Modules.Product.WebsiteInfoGetter.Get(String url)
+   at Embyte.Shared.Product.Embed.RerenderEmbed()
+   at Embyte.Shared.Product.Embed.set_Url(String value)
+   at Microsoft.AspNetCore.Components.Reflection.PropertySetter.CallPropertySetter[TTarget,TValue](Action`2 setter, Object target, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.<SetProperties>g__SetProperty|3_0(Object target, PropertySetter writer, String parameterName, Object value)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:29:47.527 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' does not have a property matching the name 'DisableCache2'.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' does not have a property matching the name 'DisableCache2'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:29:48.493 +01:00 [ERR] Error message: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+ Traceback: System.InvalidOperationException: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:29:48.494 +01:00 [ERR] Error message: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+ Traceback: System.InvalidOperationException: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:29:48.494 +01:00 [ERR] Error message: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+ Traceback: System.InvalidOperationException: No writer was cached for the property 'DisableCache2' on type 'Embyte.Shared.Product.Embed'.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:33:55.826 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:33:56.913 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:33:57.272 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:33:57.918 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 16:33:58.323 +01:00 [ERR] Error message: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+ Traceback: System.InvalidOperationException: Object of type 'Embyte.Shared.Product.Embed' has a property matching the name 'DisableCache', but it does not have [ParameterAttribute] or [CascadingParameterAttribute] applied.
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.ThrowForUnknownIncomingParameterName(Type targetType, String parameterName)
+   at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
+   at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
+   at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)

@@ -99,6 +99,7 @@ public class WebsiteInfoStatus
     public WebExceptionStatus webStatus { get; set; } = WebExceptionStatus.Success;
     public string message { get; set; } = string.Empty;
     public Exception? exception { get; set; } = null;
+    public Tuple<DateTime, DateTime>? CacheDateInfo { get; set; }
 
     public int requestDurationMS;
     public int parsingDurationMS;

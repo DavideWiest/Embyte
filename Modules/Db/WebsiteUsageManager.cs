@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 public class WebsiteUsageManager
 {
 
-    private EmbyteDbContext db = default!;
+    private EmbyteDbContext db;
 
     public WebsiteUsageManager(EmbyteDbContext db)
     {
@@ -61,8 +61,19 @@ public class WebsiteUsageManager
 
     public List<WebsiteUsage> ReadEntries(int limit = 100, int offset = 0)
     {
+        int entryCount = db.WebsiteUsages.Count();
+        if (offset > entryCount)
+        {
+            return new();
+        }
+        limit = Math.Min(limit, entryCount-offset-1);
+
+        Console.WriteLine(limit);
+        Console.WriteLine(offset);
+        Console.WriteLine(entryCount);
+
         return db.WebsiteUsages
-            .OrderByDescending(u => u.RequestCount)  // Order by a unique column, e.g., Id
+            .OrderByDescending(u => u.RequestCount)
             .Skip(offset)
             .Take(limit)
             .ToList();
@@ -76,5 +87,18 @@ public class WebsiteUsageManager
             requestCount = entry.RequestCount;
         }
         return requestCount;
+    }
+
+    public int CountUsageEntries()
+    {
+        return db.WebsiteUsages.Count();
+    }
+
+    public Tuple<int, int> CountTotalStats()
+    {
+        int websitesTotal = db.WebsiteUsages.Count();
+        int requestsTotal = db.WebsiteUsages.Select(u => u.RequestCount).Sum();
+
+        return Tuple.Create(websitesTotal, requestsTotal);
     }
 }

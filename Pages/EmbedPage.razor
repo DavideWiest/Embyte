@@ -15,7 +15,7 @@
 <div class="flex justify-center items-center">
 @if (!showError)
 {
-        <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion" ColorOverwrite="@ColorOverwrite" />
+        <Embed Url="@TargetUrl" ShowStatus="@ShowStatus" ShowRequestCount="@ShowRequestCount" ShowImage="@ShowImage" MinimalVersion="@MinimalVersion" DisableCache="@DisableCache" ColorOverwrite="@ColorOverwrite" />
 } else
 {
     <p>
@@ -30,6 +30,7 @@
     public bool ShowRequestCount = false;
     public bool ShowImage = true;
     public bool MinimalVersion = false;
+    public bool DisableCache = false;
     public string? ColorOverwrite = null;
 
     private bool showError = false;
@@ -66,11 +67,16 @@
         if (queryParameters.ContainsKey("minimalversion"))
             MinimalVersion = queryParameters["minimalversion"].ToLower() == "true";
 
+        if (queryParameters.ContainsKey("disable-cache"))
+            DisableCache = queryParameters["disable-cache"].ToLower() == "true";
+
         if (queryParameters.ContainsKey("coloroverwrite"))
         {
             if (queryParameters["coloroverwrite"].ToLower() != "null" && queryParameters["coloroverwrite"].ToLower() != "" && queryParameters["coloroverwrite"].ToLower() != string.Empty)
                 ColorOverwrite = queryParameters["coloroverwrite"];
         }
+
+        Console.WriteLine($"1 Disable cache: {DisableCache}");
     }
 
     private string GetDecodedSanitizedUrl()

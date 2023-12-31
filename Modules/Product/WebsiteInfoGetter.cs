@@ -1,6 +1,6 @@
 ﻿using Embyte.Data.Product;
 using Embyte.Modules.Db;
-using System.Linq.Expressions;
+using Embyte.Data.Storage;
 
 namespace Embyte.Modules.Product;
 
@@ -18,7 +18,7 @@ public class WebsiteInfoGetter
     /// Runs the cache algorithm and then determines whether or not to use the cache
     /// </summary>
     /// <returns></returns>
-    public Tuple<WebsiteInfo, WebsiteInfoStatus> Get(string url)
+    public Tuple<WebsiteInfo, WebsiteInfoStatus> Get(string url, bool allowCache=true)
     {
 
         RequestEntry? prevEntry = null;
@@ -28,9 +28,10 @@ public class WebsiteInfoGetter
             .OrderByDescending(entry => entry.Time)
             .FirstOrDefault();
 
-        var (cachedInfo, status) = GetFromCache(url, prevEntry);
+        var ttRenew = CacheAlg.TimeToRenew(url, DbCtx.ExtractorEntries);
+        var (cachedInfo, status) = GetFromCache(url, prevEntry, ttRenew);
 
-        if (CacheAlg.TimeToRenew(url, DbCtx.ExtractorEntries) > DateTime.Now)
+        if (ttRenew > DateTime.Now && allowCache)
         {
             if (cachedInfo != null)
                 return Tuple.Create(cachedInfo, status);
@@ -39,7 +40,7 @@ public class WebsiteInfoGetter
         return GetFromExtractor(url, prevEntry, cachedInfo);
     }
 
-    protected Tuple<WebsiteInfo?, WebsiteInfoStatus> GetFromCache(string url, RequestEntry? prevEntry)
+    protected Tuple<WebsiteInfo?, WebsiteInfoStatus> GetFromCache(string url, RequestEntry? prevEntry, DateTime ttRenew)
     {
         WebsiteInfoStatus status = new();
         status.parsingDurationMS = 0;
@@ -57,6 +58,12 @@ public class WebsiteInfoGetter
             cacheTime = prevEntry.Time;
         
         status.message = prevEntry != null ? $"From Cache ({cacheTime})" : "From Cache (Time unknown)";
+        if (cacheTime != null)
+        {
+            DateTime upperRenewLimit = DateTime.Now.AddMonths(EmbyteStorage.upperLimitCacheAgeMonths);
+            status.CacheDateInfo = Tuple.Create(cacheTime ?? DateTime.Now, ttRenew < upperRenewLimit ? ttRenew : upperRenewLimit);
+        }
+
         TimeSpan requestDuration = DateTime.Now - startRequestTime;
         status.requestDurationMS = (int)Math.Round(requestDuration.TotalMilliseconds, MidpointRounding.AwayFromZero);
 

@@ -26,4 +26,13 @@ public static class UrlHelper
         }
         return url;
     }
+
+    public static string RemoveProtocol(string url)
+    {
+        url = url.Substring(7);
+        if (url.StartsWith("/"))
+            url = url.Substring(1);
+
+        return url;
+    }
 }

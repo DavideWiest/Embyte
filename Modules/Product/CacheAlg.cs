@@ -1,6 +1,7 @@
 ﻿namespace Embyte.Modules.Product;
 
 using Accord.Math;
+using Embyte.Data.Storage;
 using Embyte.Modules.Logging;
 using Meta.Numerics.Functions;
 
@@ -10,7 +11,7 @@ public static class CacheAlg
     {
         var entriesSpecific = entriesGeneral.Where(e => e.Url == url);
 
-        if (TooFewDataPoints(entriesSpecific))
+        if (TooFewDataPoints(entriesSpecific) || TooOldDataPoints(entriesSpecific))
             return DateTime.MinValue;
 
         if (TooRecent(entriesSpecific))
@@ -33,6 +34,18 @@ public static class CacheAlg
     {
         var cond = entriesSpecificToUrl.Count() < 5;
         Log.Debug("TooFewDataPoints: {cond}", cond);
+        return cond;
+    }
+
+    public static bool TooOldDataPoints(IQueryable<RequestEntry> entriesSpecificToUrl)
+    {
+        var mostRecentEntry = entriesSpecificToUrl
+            .OrderByInDb("Time", true)
+            .FirstOrDefault();
+
+        var cond = mostRecentEntry != null && mostRecentEntry.Time < DateTime.Now.AddMonths(-EmbyteStorage.upperLimitCacheAgeMonths);
+
+        Log.Debug("TooOldDataPoints: {cond}", cond);
         return cond;
     }
 

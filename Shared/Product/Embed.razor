@@ -87,7 +87,7 @@
 @if (ShowStatus || ShowRequestCount)
 {
     <div class="mt-4">
-        <p class="text-sm" style="color: rgb(112 118 134)">
+        <p class="text-xs" style="color: rgb(112 118 134)">
             @if (ShowRequestCount) {
                 @($"Request count: {getRequestCount(Url)}") 
             }
@@ -97,7 +97,11 @@
             }
             @if (ShowStatus)
             {
-                @($"Request: {status.requestDurationMS}ms • Parsing: {status.parsingDurationMS}ms • Status: {status.statusType}")
+                    @($"Request: {status.requestDurationMS}ms • Status: {status.statusType}")
+                        if (status.statusType == WebsiteInfoStatusType.cacheSuccess && status.CacheDateInfo != null)
+                    {
+                            @($" ({status.CacheDateInfo.Item1.ToString("yy-MM-dd")} - {status.CacheDateInfo.Item2.ToString("yy-MM-dd")})")
+                    }
             }
             
         </p>
@@ -126,9 +130,12 @@
     public bool ShowImage { get; set; } = true;
     [Parameter]
     public bool MinimalVersion { get; set; } = false;
+
+    private bool _disableCache = false;
+    [Parameter]
+    public bool DisableCache { get { return _disableCache; } set { _disableCache = value; RerenderEmbed(); } }
     [Parameter]
     public string? ColorOverwrite { get; set; } = null;
-
 
     protected override void OnInitialized()
     {
@@ -141,7 +148,9 @@
         displayLoading = true;
         Log.Debug("RerenderEmbed called");
 
-        (info, status) = websiteInfoGetter.Get(Url);
+        Console.WriteLine($"2 Disable cache: {DisableCache}");
+
+        (info, status) = websiteInfoGetter.Get(Url, !DisableCache);
         //(info, status) = WebsiteInfoExtractor.GetMetaDataFromUrl(Url);
         info.validateData();
 

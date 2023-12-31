@@ -7,8 +7,30 @@
 @using Embyte.Data.Storage
 @using Embyte.Modules.Db
 @using Embyte.Data.Models
+@using System.Net
 @inject WebsiteUsageManager wum
 @inject IJSRuntime JsRuntime
+
+<div class="flex justify-center mb-16">
+    <div class="md:grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 gap-8 md:gap-16 lg:gap-24 m-6 md:m-16 lg:m-24">
+        <div>
+            <h1 class="text-3xl md:text-5xl text-b700 m-3 mb-3">
+                @RequestsTotal
+            </h1>
+            <p class="m-3">
+                Requests in total
+            </p>
+        </div>
+        <div>
+            <h1 class="text-3xl md:text-5xl text-b700 m-3 mb-3">
+                @WebsitesTotal
+            </h1>
+            <p class="m-3">
+                Unique webpages
+            </p>
+        </div>
+    </div>
+</div>
 
 <h1 class="text-2xl md:text-4xl text-b600 m-3 mb-1 text-center">
     Most popular embeds
@@ -25,8 +47,8 @@
                 <div class="flex">
                 <p class="code text-gray-500 px-2 w-16 text-right">@(index + 1).</p>
                 <div class="w-64 md:w-80 overflow-x-hidden whitespace-nowrap">
-                        <a href="@(EmbyteStorage.absoluteEmbedViewEndpoint + "?url=" + usage.Url)" target="_blank">
-                    <MudButton Style="text-transform: none; padding: 0;"><p class="code px-2">@usage.Url</p></MudButton>
+                        <a href="@(EmbyteStorage.absoluteEmbedViewEndpoint + "?url=" + WebUtility.UrlEncode(usage.Url))" target="_blank">
+                    <MudButton Style="text-transform: none; padding: 0;"><p class="code px-2">@(UrlHelper.RemoveProtocol(usage.Url))</p></MudButton>
                     </a>
                 </div>
                 </div>
@@ -55,6 +77,8 @@
     private int itemsPerPage = 50; // Items to load per page
     private int availableSpacePx = 400;
     private List<int> graphWidths = new();
+    private int RequestsTotal;
+    private int WebsitesTotal;
 
     private void LoadMoreItems()
     {
@@ -65,7 +89,12 @@
         var newItems = LoadItems(currentPage, itemsPerPage);
 
         // Append the new items to the existing list
-        websiteUsages.AddRange(newItems);
+        websiteUsages.AddRange(newItems.Where(item => item != null));
+
+        foreach (var wu in newItems)
+        {
+            graphWidths.Add(getPixelWidth(wu.RequestCount, false));
+        }
     }
 
     private List<WebsiteUsage> LoadItems(int page, int limit)
@@ -90,9 +119,11 @@
         {  
             graphWidths.Add(getPixelWidth(wu.RequestCount, false));
         }
+
+        (WebsitesTotal, RequestsTotal) = wum.CountTotalStats();
     }
 
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    protected override void OnAfterRender(bool firstRender)
     {
         if (firstRender)
             return;

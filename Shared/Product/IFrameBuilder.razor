@@ -23,8 +23,9 @@
                     <MudCheckBox T="bool" @bind-Checked="@ShowStatus" Color="Color.Primary" Style="margin: -0.5rem;">Show time-spans and status</MudCheckBox>
                     <MudCheckBox T="bool" @bind-Checked="@ShowRequestCount" Color="Color.Primary" Style="margin: -0.5rem;">Show request count of website</MudCheckBox>
                     <MudCheckBox T="bool" @bind-Checked="@MinimalVersion" Color="Color.Primary" Style="margin: -0.5rem;">Minimal version (no keywords and site-type)</MudCheckBox>
+                    <MudCheckBox T="bool" @bind-Checked="@DisableCache" Color="Color.Primary" Style="margin: -0.5rem;">Don't use cache</MudCheckBox>
                     <div class="block rounded-xl padding-2 shadow-xl">
-                        <MudColorPicker @bind-Text="ColorOverwriteFront" DisableAlpha="true" DisablePreview="true" DisableModeSwitch="true" ColorPickerMode="ColorPickerMode.RGB" Label="Custom color"/>
+                        <MudColorPicker @bind-Text="ColorOverwriteFront" DisableAlpha="true" DisablePreview="true" ColorPickerMode="ColorPickerMode.RGB" Label="Custom color"/>
                         <br />
                         <MudButton OnClick="ApplyColorOverride" Variant="Variant.Filled" Color="Color.Primary">Apply</MudButton>
                         <MudButton OnClick="ResetColorOverride">Reset</MudButton>
@@ -50,8 +51,8 @@
         </div>
         <div class="w-full lg:h-full bg-cover bg-contain bg-no-repeat bg-center lg:m-3 rounded-3xl flex justify-center items-center">
             <div class="overflow-hidden rounded-lg">
-                <iframe id="iFrameBuilderEmbed" src="@(EmbyteStorage.relativeEmbedEndpoint)?url=@(WebUtility.UrlEncode(Url))&show-status=@($"{ShowStatus}")&show-requestcount=@(ShowRequestCount)&show-image=@(ShowImage)&minimalversion=@(MinimalVersion)&coloroverwrite=@(WebUtility.UrlEncode(ColorOverwrite))" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe>
-                @*title="@EmbedTitle" name="@EmbedTitle"*@
+                <iframe id="iFrameBuilderEmbed" src="@(EmbyteStorage.relativeEmbedEndpoint)?url=@(WebUtility.UrlEncode(Url))&show-status=@($"{ShowStatus}")&show-requestcount=@(ShowRequestCount)&show-image=@(ShowImage)&minimalversion=@(MinimalVersion)&disable-cache=@(DisableCache)&coloroverwrite=@(WebUtility.UrlEncode(ColorOverwrite))" style="width: @($"{Width}{WidthUnit}"); height: @($"{Height}{HeightUnit}");" scrolling="yes" sandbox="allow-same-origin allow-scripts allow-forms allow-popups"></iframe>
+                
             </div>
         </div>
     </div>
@@ -77,12 +78,14 @@
     private bool _showrequestcount = true;
     private bool _showimage = true;
     private bool _minimalversion = false;
+    private bool _disablecache = false;
     private string? _coloroverwrite = null;
 
     private bool ShowStatus { get { return _showstatus; } set { _showstatus = value; buildIFrame(); Rerender(); } }
     private bool ShowRequestCount { get { return _showrequestcount; } set { _showrequestcount = value; buildIFrame(); Rerender(); } }
     private bool ShowImage { get { return _showimage; } set { _showimage = value; buildIFrame(); Rerender(); } }
     private bool MinimalVersion { get { return _minimalversion; } set { _minimalversion = value; buildIFrame(); Rerender(); } }
+    private bool DisableCache { get { return _disablecache; } set { _disablecache = value; buildIFrame(); Rerender(); } }
     private string? ColorOverwrite { get { return _coloroverwrite; } set { _coloroverwrite = value; buildIFrame(); Rerender(); } }
     private string? ColorOverwriteFront = null;
 
@@ -115,8 +118,7 @@
 
     private void buildIFrame()
     {
-        //name=\"{EmbedTitle}\"
-        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
+        IFrameString = $"<iframe src=\"{EmbyteStorage.absoluteEmbedEndpoint}?url={WebUtility.UrlEncode(Url)}&show-status={ShowStatus}&show-requestcount={ShowRequestCount}&show-image={ShowImage}&minimalversion={MinimalVersion}&disable-cache={DisableCache}&coloroverwrite={ColorOverwrite}\" style=\"width: {Width}{WidthUnit}; height: {Height}{HeightUnit}\" scrolling=\"yes\"></iframe>";
     }
 
     private void Rerender()
@@ -127,9 +129,9 @@
 
         if (UrlHelper.CorrectUrlPattern(UrlFront) && UrlFront != Url)
         {
+            Url = UrlFront;
             buildIFrame();
             Log.Debug("Url request: {url}", UrlFront);
-            Url = UrlFront;
         }
     }
 

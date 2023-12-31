@@ -7,6 +7,11 @@
     <UserSecretsId>26e1d544-e9c3-4a1c-9c19-73a58fb25d7f</UserSecretsId>
   </PropertyGroup>
 
+    <PropertyGroup>
+	    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+    </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Accord" Version="3.8.0" />
     <PackageReference Include="Accord.Statistics" Version="3.8.0" />
