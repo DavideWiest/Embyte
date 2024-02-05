@@ -12,7 +12,7 @@ public class EmbyteDbContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql(GetConnectionString());
+        optionsBuilder.UseNpgsql("Host=localhost;Database=embyte;Username=postgres;Password=osas69666postgres");
         //optionsBuilder.UseNpgsql("..."); // for migrations
     }
 
@@ -21,7 +21,7 @@ public class EmbyteDbContext : DbContext
 #if DEBUG
         return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", EnvironmentVariableTarget.User)!;
 #else
-        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction")!;
+        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", EnvironmentVariableTarget.Machine)!;
 #endif
     }
 
