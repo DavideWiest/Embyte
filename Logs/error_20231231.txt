@@ -91,3 +91,9 @@
    at Microsoft.AspNetCore.Components.Reflection.ComponentProperties.SetProperties(ParameterView& parameters, Object target)
    at Microsoft.AspNetCore.Components.ComponentBase.SetParametersAsync(ParameterView parameters)
    at Microsoft.AspNetCore.Components.Rendering.ComponentState.SupplyCombinedParameters(ParameterView directAndCascadingParameters)
+2023-12-31 18:59:54.153 +00:00 [ERR] WebException occured when requesting url https://git.com, status : "UnknownError" 
+ Traceback: 
+ The SSL connection could not be established, see inner exception.
+2023-12-31 18:59:55.278 +00:00 [ERR] WebException occured when requesting url https://git.com, status : "UnknownError" 
+ Traceback: 
+ The SSL connection could not be established, see inner exception.

@@ -91,11 +91,7 @@ builder.Services.AddScoped(provider =>
     return new WebsiteInfoGetter(new EmbyteDbContext());
 });
 
-#if DEBUG
-
-#else
 StaticWebAssetsLoader.UseStaticWebAssets(builder.Environment, builder.Configuration);
-#endif
 
 var app = builder.Build();
 
