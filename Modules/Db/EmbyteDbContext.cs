@@ -21,7 +21,6 @@ public class EmbyteDbContext : DbContext
 #if DEBUG
         return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", EnvironmentVariableTarget.User)!;
 #else
-    Console.WriteLine("B");
         return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction")!;
 #endif
     }
