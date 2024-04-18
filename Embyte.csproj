@@ -10,6 +10,8 @@
     <PropertyGroup>
 	    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
 	    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+	    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+	    <DockerfileContext>.</DockerfileContext>
     </PropertyGroup>
 
   <ItemGroup>
@@ -24,6 +26,7 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5" />
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="7.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="7.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.19.6" />
     <PackageReference Include="MudBlazor" Version="6.3.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="7.0.11" />

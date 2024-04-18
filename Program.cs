@@ -57,11 +57,9 @@ builder.Services.AddControllersWithViews(options =>
 // CONSTR
 
 #if DEBUG
-string ConnectionString = builder.Configuration["Database:ConnectionStringTesting"]!;
-Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", ConnectionString);
+string ConnectionString = Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment");
 #else
-string ConnectionString  = builder.Configuration["Database:ConnectionStringProduction"]!;
-Environment.SetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", ConnectionString);
+string ConnectionString = Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction");
 #endif
 
 
