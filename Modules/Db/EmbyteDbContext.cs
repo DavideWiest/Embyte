@@ -10,18 +10,26 @@ public class EmbyteDbContext : DbContext
     public DbSet<RequestEntry> ExtractorEntries { get; set; } = default!;
     public DbSet<WebsiteInfo> WebsiteInfos { get; set; } = default!;
 
+    public string ConnectionString { get; set; } = default!;
+
+    public EmbyteDbContext()
+    {
+        ConnectionString = GetConnectionString();
+    }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         optionsBuilder.UseNpgsql(GetConnectionString());
+        Console.WriteLine($"Using connection string: {ConnectionString}");
         //optionsBuilder.UseNpgsql("..."); // for migrations
     }
 
     private static string GetConnectionString()
     {
 #if DEBUG
-        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", EnvironmentVariableTarget.User)!;
+        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringDevelopment", EnvironmentVariableTarget.Process)!;
 #else
-        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", EnvironmentVariableTarget.Machine)!;
+        return Environment.GetEnvironmentVariable("Embyte_Database_ConnectionStringProduction", EnvironmentVariableTarget.Process)!;
 #endif
     }
 
